@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152465854">
+    <file name="Get.java">
+      <node id="8423122693118119351" at="10,38,11,19" concept="13" />
+      <node id="8423122693117680630" at="11,19,12,23" concept="3" />
+      <node id="8423122693117680639" at="15,37,16,17" concept="10" />
+      <node id="8423122693117680646" at="19,35,20,21" concept="10" />
+      <node id="8423122693117680600" at="29,45,30,24" concept="3" />
+      <node id="8423122693117680605" at="30,24,31,18" concept="3" />
+      <node id="8423122693117680610" at="31,18,32,24" concept="3" />
+      <node id="8423122693117680619" at="34,24,35,27" concept="10" />
+      <node id="8423122693117680617" at="34,0,37,0" concept="8" trace="build#()Lio/searchbox/core/Get;" />
+      <node id="8423122693117680625" at="10,0,14,0" concept="2" trace="Get#(Lio/searchbox/core/Get/Builder;)V" />
+      <node id="8423122693117680636" at="14,0,18,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117680643" at="18,0,22,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117680593" at="29,0,34,0" concept="2" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="8423122693117680638" at="15,37,16,17" />
+      <scope id="8423122693117680645" at="19,35,20,21" />
+      <scope id="1535634584395012795" at="34,24,35,27" />
+      <scope id="8423122693117680629" at="10,38,12,23" />
+      <scope id="1535634584395015923" at="29,45,32,24" />
+      <scope id="8423122693117680617" at="34,0,37,0" />
+      <scope id="8423122693117680625" at="10,0,14,0">
+        <var name="builder" id="8423122693117680627" />
+      </scope>
+      <scope id="8423122693117680636" at="14,0,18,0" />
+      <scope id="8423122693117680643" at="18,0,22,0" />
+      <scope id="8423122693117680593" at="29,0,34,0">
+        <var name="id" id="8423122693117680597" />
+        <var name="index" id="8423122693117680595" />
+      </scope>
+      <unit id="8423122693117680588" at="22,0,38,0" name="io.searchbox.core.Get$Builder" />
+      <unit id="8496368874152465854" at="8,0,39,0" name="io.searchbox.core.Get" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152465891">
+    <file name="MultiGet.java">
+      <node id="8423122693118119629" at="19,54,20,19" concept="13" />
+      <node id="8423122693117711420" at="20,19,21,23" concept="3" />
+      <node id="4518842825320281737" at="23,54,24,45" concept="14" />
+      <node id="990910864843629502" at="24,45,25,69" concept="3" />
+      <node id="990910864843647279" at="27,53,28,43" concept="14" />
+      <node id="990910864843640066" at="28,43,29,55" concept="3" />
+      <node id="990910864843716708" at="33,36,34,27" concept="10" />
+      <node id="8423122693117711490" at="39,31,40,39" concept="10" />
+      <node id="8423122693117711499" at="43,37,44,17" concept="10" />
+      <node id="8423122693117711506" at="47,35,48,26" concept="10" />
+      <node id="8423122693117711513" at="51,25,52,76" concept="10" />
+      <node id="8423122693117711533" at="56,22,57,19" concept="10" />
+      <node id="8423122693117711541" at="59,22,60,18" concept="10" />
+      <node id="8423122693117711549" at="62,39,63,19" concept="10" />
+      <node id="8423122693117711551" at="64,5,65,73" concept="10" />
+      <node id="8423122693117711279" at="71,0,72,0" concept="4" trace="ids" />
+      <node id="8423122693117711293" at="77,46,78,24" concept="3" />
+      <node id="8423122693117711296" at="78,24,79,22" concept="3" />
+      <node id="8423122693117711307" at="81,76,82,29" concept="3" />
+      <node id="8423122693117711314" at="82,29,83,20" concept="10" />
+      <node id="8423122693117711322" at="85,53,86,20" concept="3" />
+      <node id="8423122693117711325" at="86,20,87,20" concept="10" />
+      <node id="8423122693117711332" at="90,31,91,34" concept="10" />
+      <node id="8423122693117711342" at="95,0,96,0" concept="4" trace="docs" />
+      <node id="8423122693117711356" at="101,52,102,31" concept="3" />
+      <node id="8423122693117711370" at="104,29,105,22" concept="3" />
+      <node id="8423122693117711380" at="107,76,108,31" concept="3" />
+      <node id="8423122693117711387" at="108,31,109,20" concept="10" />
+      <node id="8423122693117711395" at="111,53,112,22" concept="3" />
+      <node id="8423122693117711398" at="112,22,113,20" concept="10" />
+      <node id="8423122693117711405" at="116,31,117,34" concept="10" />
+      <node id="8423122693117711410" at="68,0,70,0" concept="2" trace="Builder#()V" />
+      <node id="990910864843688410" at="33,0,36,0" concept="8" trace="apply#(Lio/searchbox/core/Doc;)Ljava/lang/Object;" />
+      <node id="8423122693117711527" at="55,37,58,5" concept="7" />
+      <node id="8423122693117711535" at="58,5,61,5" concept="7" />
+      <node id="8423122693117711543" at="61,5,64,5" concept="7" />
+      <node id="8423122693117711349" at="101,0,104,0" concept="2" trace="ByDoc#(Ljava/util/Collection;)V" />
+      <node id="8423122693117711365" at="104,0,107,0" concept="2" trace="ByDoc#(Lio/searchbox/core/Doc;)V" />
+      <node id="8423122693117711415" at="19,0,23,0" concept="2" trace="MultiGet#(Lio/searchbox/action/AbstractAction/Builder;)V" />
+      <node id="8423122693117711426" at="23,0,27,0" concept="2" trace="MultiGet#(Lio/searchbox/core/MultiGet/Builder/ByDoc;)V" />
+      <node id="8423122693117711445" at="27,0,31,0" concept="2" trace="MultiGet#(Lio/searchbox/core/MultiGet/Builder/ById;)V" />
+      <node id="8423122693117711487" at="38,0,42,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117711496" at="42,0,46,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117711503" at="46,0,50,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117711510" at="50,0,54,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117711286" at="77,0,81,0" concept="2" trace="ById#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117711301" at="81,0,85,0" concept="8" trace="addId#(Ljava/util/Collection;)Lio/searchbox/core/MultiGet/Builder/ById;" />
+      <node id="8423122693117711318" at="85,0,89,0" concept="8" trace="addId#(Ljava/lang/String;)Lio/searchbox/core/MultiGet/Builder/ById;" />
+      <node id="8423122693117711329" at="89,0,93,0" concept="8" trace="build#()Lio/searchbox/core/MultiGet;" />
+      <node id="8423122693117711374" at="107,0,111,0" concept="8" trace="addDoc#(Ljava/util/Collection;)Lio/searchbox/core/MultiGet/Builder/ByDoc;" />
+      <node id="8423122693117711391" at="111,0,115,0" concept="8" trace="addDoc#(Lio/searchbox/core/Doc;)Lio/searchbox/core/MultiGet/Builder/ByDoc;" />
+      <node id="8423122693117711402" at="115,0,119,0" concept="8" trace="build#()Lio/searchbox/core/MultiGet;" />
+      <node id="990910864843653692" at="31,47,36,7" concept="10" />
+      <node id="8423122693117711463" at="31,0,38,0" concept="8" trace="docsToMaps#(Ljava/util/List;)Ljava/lang/Object;" />
+      <node id="8423122693117711522" at="54,0,67,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="1535634584395043723" at="68,23,68,23" />
+      <scope id="990910864843688417" at="33,36,34,27" />
+      <scope id="8423122693117711489" at="39,31,40,39" />
+      <scope id="8423122693117711498" at="43,37,44,17" />
+      <scope id="8423122693117711505" at="47,35,48,26" />
+      <scope id="8423122693117711512" at="51,25,52,76" />
+      <scope id="8423122693117711532" at="56,22,57,19" />
+      <scope id="8423122693117711540" at="59,22,60,18" />
+      <scope id="8423122693117711548" at="62,39,63,19" />
+      <scope id="1535634584395059508" at="90,31,91,34" />
+      <scope id="1535634584395056343" at="101,52,102,31" />
+      <scope id="1535634584395065845" at="104,29,105,22" />
+      <scope id="1535634584395072247" at="116,31,117,34" />
+      <scope id="8423122693117711419" at="19,54,21,23" />
+      <scope id="8423122693117711430" at="23,54,25,69" />
+      <scope id="8423122693117711449" at="27,53,29,55" />
+      <scope id="8423122693117711410" at="68,0,70,0" />
+      <scope id="1535634584395069062" at="77,46,79,22" />
+      <scope id="1535634584395050014" at="81,76,83,20" />
+      <scope id="1535634584395062672" at="85,53,87,20" />
+      <scope id="1535634584395046861" at="107,76,109,20" />
+      <scope id="1535634584395053180" at="111,53,113,20" />
+      <scope id="990910864843688410" at="33,0,36,0">
+        <var name="doc" id="990910864843709850" />
+      </scope>
+      <scope id="8423122693117711349" at="101,0,104,0">
+        <var name="docs" id="8423122693117711351" />
+      </scope>
+      <scope id="8423122693117711365" at="104,0,107,0">
+        <var name="doc" id="8423122693117711367" />
+      </scope>
+      <scope id="8423122693117711415" at="19,0,23,0">
+        <var name="builder" id="8423122693117711417" />
+      </scope>
+      <scope id="8423122693117711426" at="23,0,27,0">
+        <var name="builder" id="8423122693117711428" />
+      </scope>
+      <scope id="8423122693117711445" at="27,0,31,0">
+        <var name="builder" id="8423122693117711447" />
+      </scope>
+      <scope id="8423122693117711487" at="38,0,42,0" />
+      <scope id="8423122693117711496" at="42,0,46,0" />
+      <scope id="8423122693117711503" at="46,0,50,0" />
+      <scope id="8423122693117711510" at="50,0,54,0" />
+      <scope id="8423122693117711286" at="77,0,81,0">
+        <var name="index" id="8423122693117711288" />
+        <var name="type" id="8423122693117711290" />
+      </scope>
+      <scope id="8423122693117711301" at="81,0,85,0">
+        <var name="ids" id="8423122693117711302" />
+      </scope>
+      <scope id="8423122693117711318" at="85,0,89,0">
+        <var name="id" id="8423122693117711319" />
+      </scope>
+      <scope id="8423122693117711329" at="89,0,93,0" />
+      <scope id="8423122693117711374" at="107,0,111,0">
+        <var name="docs" id="8423122693117711375" />
+      </scope>
+      <scope id="8423122693117711391" at="111,0,115,0">
+        <var name="doc" id="8423122693117711392" />
+      </scope>
+      <scope id="8423122693117711402" at="115,0,119,0" />
+      <scope id="8423122693117711467" at="31,47,36,7" />
+      <scope id="8423122693117711463" at="31,0,38,0">
+        <var name="docs" id="8423122693117711464" />
+      </scope>
+      <scope id="8423122693117711526" at="55,37,65,73" />
+      <scope id="8423122693117711522" at="54,0,67,0">
+        <var name="obj" id="8423122693117711524" />
+      </scope>
+      <unit id="990910864843688408" at="32,37,36,5" name="io.searchbox.core.MultiGet$1" />
+      <unit id="8423122693117711274" at="70,0,94,0" name="io.searchbox.core.MultiGet$Builder$ById" />
+      <unit id="8423122693117711337" at="94,0,120,0" name="io.searchbox.core.MultiGet$Builder$ByDoc" />
+      <unit id="8423122693117711272" at="67,0,121,0" name="io.searchbox.core.MultiGet$Builder" />
+      <unit id="8496368874152465891" at="17,0,122,0" name="io.searchbox.core.MultiGet" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152516839">
+    <file name="SearchShards.java">
+      <node id="8423122693118132917" at="10,56,11,19" concept="13" />
+      <node id="8423122693117727464" at="11,19,12,23" concept="3" />
+      <node id="8423122693117727473" at="15,31,16,48" concept="10" />
+      <node id="8423122693117727482" at="19,37,20,17" concept="10" />
+      <node id="8423122693117727415" at="28,57,29,39" concept="3" />
+      <node id="8423122693117727419" at="29,39,30,18" concept="10" />
+      <node id="8423122693117727428" at="39,63,40,45" concept="3" />
+      <node id="8423122693117727432" at="40,45,41,18" concept="10" />
+      <node id="8423122693117727441" at="48,54,49,35" concept="3" />
+      <node id="8423122693117727445" at="49,35,50,18" concept="10" />
+      <node id="8423122693117727453" at="53,33,54,36" concept="10" />
+      <node id="8423122693117727459" at="10,0,14,0" concept="2" trace="SearchShards#(Lio/searchbox/core/SearchShards/Builder;)V" />
+      <node id="8423122693117727470" at="14,0,18,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117727479" at="18,0,22,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117727411" at="28,0,32,0" concept="8" trace="routing#(Ljava/lang/String;)Lio/searchbox/core/SearchShards/Builder;" />
+      <node id="8423122693117727424" at="39,0,43,0" concept="8" trace="preference#(Ljava/lang/String;)Lio/searchbox/core/SearchShards/Builder;" />
+      <node id="8423122693117727437" at="48,0,52,0" concept="8" trace="local#(Ljava/lang/Boolean;)Lio/searchbox/core/SearchShards/Builder;" />
+      <node id="8423122693117727450" at="52,0,56,0" concept="8" trace="build#()Lio/searchbox/core/SearchShards;" />
+      <scope id="8423122693117727472" at="15,31,16,48" />
+      <scope id="8423122693117727481" at="19,37,20,17" />
+      <scope id="1535634584395305477" at="53,33,54,36" />
+      <scope id="8423122693117727463" at="10,56,12,23" />
+      <scope id="1535634584395308750" at="28,57,30,18" />
+      <scope id="1535634584395302134" at="39,63,41,18" />
+      <scope id="1535634584395298853" at="48,54,50,18" />
+      <scope id="8423122693117727459" at="10,0,14,0">
+        <var name="builder" id="8423122693117727461" />
+      </scope>
+      <scope id="8423122693117727470" at="14,0,18,0" />
+      <scope id="8423122693117727479" at="18,0,22,0" />
+      <scope id="8423122693117727411" at="28,0,32,0">
+        <var name="routing" id="8423122693117727412" />
+      </scope>
+      <scope id="8423122693117727424" at="39,0,43,0">
+        <var name="preference" id="8423122693117727425" />
+      </scope>
+      <scope id="8423122693117727437" at="48,0,52,0">
+        <var name="local" id="8423122693117727438" />
+      </scope>
+      <scope id="8423122693117727450" at="52,0,56,0" />
+      <unit id="8423122693117727406" at="22,0,57,0" name="io.searchbox.core.SearchShards$Builder" />
+      <unit id="8496368874152516839" at="8,0,58,0" name="io.searchbox.core.SearchShards" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152516876">
+    <file name="Count.java">
+      <node id="8423122693118132920" at="13,42,14,19" concept="13" />
+      <node id="8423122693117706882" at="14,19,15,33" concept="3" />
+      <node id="8423122693117706888" at="15,33,16,23" concept="3" />
+      <node id="8423122693117706897" at="19,31,20,40" concept="10" />
+      <node id="8423122693117706906" at="23,35,24,19" concept="10" />
+      <node id="8423122693117706921" at="27,120,28,109" concept="10" />
+      <node id="8423122693117706934" at="31,37,32,18" concept="10" />
+      <node id="8423122693117706941" at="35,25,36,76" concept="10" />
+      <node id="8423122693117706961" at="40,22,41,19" concept="10" />
+      <node id="8423122693117706969" at="43,22,44,18" concept="10" />
+      <node id="8423122693117706977" at="46,39,47,19" concept="10" />
+      <node id="8423122693117706979" at="48,5,49,73" concept="10" />
+      <node id="8423122693117706849" at="52,0,53,0" concept="4" trace="query" />
+      <node id="8423122693117706857" at="53,46,54,25" concept="3" />
+      <node id="8423122693117706863" at="54,25,55,18" concept="10" />
+      <node id="8423122693117706870" at="58,26,59,29" concept="10" />
+      <node id="8423122693117706955" at="39,37,42,5" concept="7" />
+      <node id="8423122693117706963" at="42,5,45,5" concept="7" />
+      <node id="8423122693117706971" at="45,5,48,5" concept="7" />
+      <node id="8423122693117706894" at="18,0,22,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117706903" at="22,0,26,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117706910" at="26,0,30,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/CountResult;" />
+      <node id="8423122693117706931" at="30,0,34,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117706938" at="34,0,38,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117706853" at="53,0,57,0" concept="8" trace="query#(Ljava/lang/String;)Lio/searchbox/core/Count/Builder;" />
+      <node id="8423122693117706867" at="57,0,61,0" concept="8" trace="build#()Lio/searchbox/core/Count;" />
+      <node id="8423122693117706877" at="13,0,18,0" concept="2" trace="Count#(Lio/searchbox/core/Count/Builder;)V" />
+      <node id="8423122693117706950" at="38,0,51,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117706896" at="19,31,20,40" />
+      <scope id="8423122693117706905" at="23,35,24,19" />
+      <scope id="8423122693117706920" at="27,120,28,109" />
+      <scope id="8423122693117706933" at="31,37,32,18" />
+      <scope id="8423122693117706940" at="35,25,36,76" />
+      <scope id="8423122693117706960" at="40,22,41,19" />
+      <scope id="8423122693117706968" at="43,22,44,18" />
+      <scope id="8423122693117706976" at="46,39,47,19" />
+      <scope id="8496368874153803412" at="58,26,59,29" />
+      <scope id="8496368874153806456" at="53,46,55,18" />
+      <scope id="8423122693117706881" at="13,42,16,23" />
+      <scope id="8423122693117706894" at="18,0,22,0" />
+      <scope id="8423122693117706903" at="22,0,26,0" />
+      <scope id="8423122693117706910" at="26,0,30,0">
+        <var name="gson" id="8423122693117706918" />
+        <var name="reasonPhrase" id="8423122693117706916" />
+        <var name="responseBody" id="8423122693117706912" />
+        <var name="statusCode" id="8423122693117706914" />
+      </scope>
+      <scope id="8423122693117706931" at="30,0,34,0" />
+      <scope id="8423122693117706938" at="34,0,38,0" />
+      <scope id="8423122693117706853" at="53,0,57,0">
+        <var name="query" id="8423122693117706854" />
+      </scope>
+      <scope id="8423122693117706867" at="57,0,61,0" />
+      <scope id="8423122693117706877" at="13,0,18,0">
+        <var name="builder" id="8423122693117706879" />
+      </scope>
+      <scope id="8423122693117706954" at="39,37,49,73" />
+      <scope id="8423122693117706950" at="38,0,51,0">
+        <var name="obj" id="8423122693117706952" />
+      </scope>
+      <unit id="8423122693117706844" at="51,0,62,0" name="io.searchbox.core.Count$Builder" />
+      <unit id="8496368874152516876" at="11,0,63,0" name="io.searchbox.core.Count" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152516945">
+    <file name="DeleteByQuery.java">
+      <node id="8423122693118134050" at="12,58,13,19" concept="13" />
+      <node id="8423122693117680924" at="13,19,14,33" concept="3" />
+      <node id="8423122693117680930" at="14,33,15,23" concept="3" />
+      <node id="8423122693117680939" at="18,31,19,40" concept="10" />
+      <node id="8423122693117680948" at="22,35,23,16" concept="10" />
+      <node id="8423122693117680955" at="26,37,27,20" concept="10" />
+      <node id="8423122693117680962" at="30,25,31,76" concept="10" />
+      <node id="8423122693117680982" at="35,22,36,19" concept="10" />
+      <node id="8423122693117680990" at="38,22,39,18" concept="10" />
+      <node id="8423122693117680998" at="41,39,42,19" concept="10" />
+      <node id="8423122693117681000" at="43,5,44,73" concept="10" />
+      <node id="8423122693117680894" at="47,0,48,0" concept="4" trace="query" />
+      <node id="8423122693117680903" at="48,34,49,25" concept="3" />
+      <node id="8423122693117680913" at="52,34,53,37" concept="10" />
+      <node id="8423122693117680976" at="34,37,37,5" concept="7" />
+      <node id="8423122693117680984" at="37,5,40,5" concept="7" />
+      <node id="8423122693117680992" at="40,5,43,5" concept="7" />
+      <node id="8423122693117680898" at="48,0,51,0" concept="2" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117680936" at="17,0,21,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117680945" at="21,0,25,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117680952" at="25,0,29,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117680959" at="29,0,33,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117680910" at="51,0,55,0" concept="8" trace="build#()Lio/searchbox/core/DeleteByQuery;" />
+      <node id="8423122693117680919" at="12,0,17,0" concept="2" trace="DeleteByQuery#(Lio/searchbox/core/DeleteByQuery/Builder;)V" />
+      <node id="8423122693117680971" at="33,0,46,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117680938" at="18,31,19,40" />
+      <scope id="8423122693117680947" at="22,35,23,16" />
+      <scope id="8423122693117680954" at="26,37,27,20" />
+      <scope id="8423122693117680961" at="30,25,31,76" />
+      <scope id="8423122693117680981" at="35,22,36,19" />
+      <scope id="8423122693117680989" at="38,22,39,18" />
+      <scope id="8423122693117680997" at="41,39,42,19" />
+      <scope id="8496368874153851361" at="48,34,49,25" />
+      <scope id="8496368874153854421" at="52,34,53,37" />
+      <scope id="8423122693117680923" at="12,58,15,23" />
+      <scope id="8423122693117680898" at="48,0,51,0">
+        <var name="query" id="8423122693117680900" />
+      </scope>
+      <scope id="8423122693117680936" at="17,0,21,0" />
+      <scope id="8423122693117680945" at="21,0,25,0" />
+      <scope id="8423122693117680952" at="25,0,29,0" />
+      <scope id="8423122693117680959" at="29,0,33,0" />
+      <scope id="8423122693117680910" at="51,0,55,0" />
+      <scope id="8423122693117680919" at="12,0,17,0">
+        <var name="builder" id="8423122693117680921" />
+      </scope>
+      <scope id="8423122693117680975" at="34,37,44,73" />
+      <scope id="8423122693117680971" at="33,0,46,0">
+        <var name="obj" id="8423122693117680973" />
+      </scope>
+      <unit id="8423122693117680889" at="46,0,56,0" name="io.searchbox.core.DeleteByQuery$Builder" />
+      <unit id="8496368874152516945" at="10,0,57,0" name="io.searchbox.core.DeleteByQuery" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152518045">
+    <file name="DocumentResult.java">
+      <node id="8423122693118134449" at="11,36,12,16" concept="13" />
+      <node id="8423122693117693194" at="14,28,15,49" concept="10" />
+      <node id="8423122693117693202" at="17,27,18,48" concept="10" />
+      <node id="8423122693117693210" at="20,25,21,46" concept="10" />
+      <node id="8423122693117693218" at="23,28,24,49" concept="10" />
+      <node id="8423122693117693234" at="27,30,28,18" concept="10" />
+      <node id="8423122693117693238" at="29,12,30,39" concept="10" />
+      <node id="8423122693117693252" at="34,30,35,18" concept="10" />
+      <node id="8423122693117693256" at="36,12,37,37" concept="10" />
+      <node id="8423122693117693236" at="29,10,31,5" concept="0" />
+      <node id="8423122693117693254" at="36,10,38,5" concept="0" />
+      <node id="8423122693117693184" at="11,0,14,0" concept="2" trace="DocumentResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117693192" at="14,0,17,0" concept="8" trace="getIndex#()Ljava/lang/String;" />
+      <node id="8423122693117693200" at="17,0,20,0" concept="8" trace="getType#()Ljava/lang/String;" />
+      <node id="8423122693117693208" at="20,0,23,0" concept="8" trace="getId#()Ljava/lang/String;" />
+      <node id="8423122693117693216" at="23,0,26,0" concept="8" trace="getVersion#()Ljava/lang/Long;" />
+      <node id="8423122693117693228" at="26,55,31,5" concept="7" />
+      <node id="8423122693117693246" at="33,51,38,5" concept="7" />
+      <node id="8423122693117693224" at="26,0,33,0" concept="8" trace="getAsString#(Lcom/google/gson/JsonElement;)Ljava/lang/String;" />
+      <node id="8423122693117693242" at="33,0,40,0" concept="8" trace="getAsLong#(Lcom/google/gson/JsonElement;)Ljava/lang/Long;" />
+      <scope id="8423122693117693188" at="11,36,12,16" />
+      <scope id="8423122693117693193" at="14,28,15,49" />
+      <scope id="8423122693117693201" at="17,27,18,48" />
+      <scope id="8423122693117693209" at="20,25,21,46" />
+      <scope id="8423122693117693217" at="23,28,24,49" />
+      <scope id="8423122693117693233" at="27,30,28,18" />
+      <scope id="8423122693117693237" at="29,12,30,39" />
+      <scope id="8423122693117693251" at="34,30,35,18" />
+      <scope id="8423122693117693255" at="36,12,37,37" />
+      <scope id="8423122693117693184" at="11,0,14,0">
+        <var name="gson" id="8423122693117693186" />
+      </scope>
+      <scope id="8423122693117693192" at="14,0,17,0" />
+      <scope id="8423122693117693200" at="17,0,20,0" />
+      <scope id="8423122693117693208" at="20,0,23,0" />
+      <scope id="8423122693117693216" at="23,0,26,0" />
+      <scope id="8423122693117693227" at="26,55,31,5" />
+      <scope id="8423122693117693245" at="33,51,38,5" />
+      <scope id="8423122693117693224" at="26,0,33,0">
+        <var name="jsonElement" id="8423122693117693225" />
+      </scope>
+      <scope id="8423122693117693242" at="33,0,40,0">
+        <var name="jsonElement" id="8423122693117693243" />
+      </scope>
+      <unit id="8496368874152518045" at="9,0,41,0" name="io.searchbox.core.DocumentResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152519742">
+    <file name="Cat.java">
+      <node id="8423122693117701305" at="15,0,16,0" concept="12" trace="PATH_TO_RESULT" />
+      <node id="8423122693117701309" at="16,0,17,0" concept="4" trace="operationPath" />
+      <node id="8423122693118134539" at="17,119,18,19" concept="13" />
+      <node id="8423122693117701324" at="18,19,19,68" concept="3" />
+      <node id="8423122693117701330" at="19,68,20,23" concept="3" />
+      <node id="8423122693117701340" at="24,31,25,40" concept="9" />
+      <node id="8423122693117701343" at="25,40,26,89" concept="10" />
+      <node id="8423122693117701362" at="29,37,30,17" concept="10" />
+      <node id="8423122693117701369" at="33,35,34,26" concept="10" />
+      <node id="8423122693117701384" at="37,118,38,107" concept="10" />
+      <node id="8423122693117701400" at="41,63,42,41" concept="9" />
+      <node id="8423122693117701414" at="43,67,44,88" concept="3" />
+      <node id="8423122693117701423" at="45,5,46,18" concept="10" />
+      <node id="8423122693117701430" at="49,25,50,71" concept="10" />
+      <node id="8423122693117701237" at="53,0,54,0" concept="12" trace="operationPath" />
+      <node id="8423122693117701244" at="54,29,55,52" concept="3" />
+      <node id="8423122693117701252" at="58,24,59,27" concept="10" />
+      <node id="8423122693117701260" at="62,35,63,27" concept="10" />
+      <node id="8423122693117701270" at="67,0,68,0" concept="12" trace="operationPath" />
+      <node id="8423122693117701277" at="68,29,69,52" concept="3" />
+      <node id="8423122693117701285" at="72,24,73,27" concept="10" />
+      <node id="8423122693117701293" at="76,35,77,27" concept="10" />
+      <node id="8423122693117701299" at="81,0,82,0" concept="8" trace="operationPath#()Ljava/lang/String;" />
+      <node id="8423122693117701403" at="42,41,45,5" concept="7" />
+      <node id="8423122693117701241" at="54,0,57,0" concept="2" trace="IndicesBuilder#()V" />
+      <node id="8423122693117701274" at="68,0,71,0" concept="2" trace="AliasesBuilder#()V" />
+      <node id="8423122693117701359" at="28,0,32,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117701366" at="32,0,36,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117701373" at="36,0,40,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/CatResult;" />
+      <node id="8423122693117701427" at="48,0,52,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117701249" at="57,0,61,0" concept="8" trace="build#()Lio/searchbox/core/Cat;" />
+      <node id="8423122693117701257" at="61,0,65,0" concept="8" trace="operationPath#()Ljava/lang/String;" />
+      <node id="8423122693117701282" at="71,0,75,0" concept="8" trace="build#()Lio/searchbox/core/Cat;" />
+      <node id="8423122693117701290" at="75,0,79,0" concept="8" trace="operationPath#()Ljava/lang/String;" />
+      <node id="8423122693117701313" at="17,0,22,0" concept="2" trace="Cat#(null)V" />
+      <node id="8423122693117701336" at="23,0,28,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117701394" at="40,0,48,0" concept="8" trace="parseResponseBody#(Ljava/lang/String;)Lcom/google/gson/JsonObject;" />
+      <scope id="8423122693117701361" at="29,37,30,17" />
+      <scope id="8423122693117701368" at="33,35,34,26" />
+      <scope id="8423122693117701383" at="37,118,38,107" />
+      <scope id="8423122693117701413" at="43,67,44,88" />
+      <scope id="8423122693117701429" at="49,25,50,71" />
+      <scope id="8496368874153764162" at="54,29,55,52" />
+      <scope id="8496368874153754964" at="58,24,59,27" />
+      <scope id="8496368874153761137" at="62,35,63,27" />
+      <scope id="8496368874153758058" at="68,29,69,52" />
+      <scope id="8496368874153751924" at="72,24,73,27" />
+      <scope id="8496368874153748913" at="76,35,77,27" />
+      <scope id="8423122693117701299" at="81,0,82,0" />
+      <scope id="8423122693117701338" at="24,31,26,89">
+        <var name="uriSuffix" id="8423122693117701339" />
+      </scope>
+      <scope id="8423122693117701323" at="17,119,20,23" />
+      <scope id="8423122693117701241" at="54,0,57,0" />
+      <scope id="8423122693117701274" at="68,0,71,0" />
+      <scope id="8423122693117701359" at="28,0,32,0" />
+      <scope id="8423122693117701366" at="32,0,36,0" />
+      <scope id="8423122693117701373" at="36,0,40,0">
+        <var name="gson" id="8423122693117701381" />
+        <var name="reasonPhrase" id="8423122693117701379" />
+        <var name="responseBody" id="8423122693117701375" />
+        <var name="statusCode" id="8423122693117701377" />
+      </scope>
+      <scope id="8423122693117701427" at="48,0,52,0" />
+      <scope id="8423122693117701249" at="57,0,61,0" />
+      <scope id="8423122693117701257" at="61,0,65,0" />
+      <scope id="8423122693117701282" at="71,0,75,0" />
+      <scope id="8423122693117701290" at="75,0,79,0" />
+      <scope id="8423122693117701313" at="17,0,22,0">
+        <var name="builder" id="8423122693117701321" />
+      </scope>
+      <scope id="8423122693117701336" at="23,0,28,0" />
+      <scope id="8423122693117701398" at="41,63,46,18">
+        <var name="result" id="8423122693117701399" />
+      </scope>
+      <scope id="8423122693117701394" at="40,0,48,0">
+        <var name="responseBody" id="8423122693117701396" />
+      </scope>
+      <unit id="8423122693117701297" at="80,0,83,0" name="io.searchbox.core.Cat$CatBuilder" />
+      <unit id="8423122693117701231" at="52,0,66,0" name="io.searchbox.core.Cat$IndicesBuilder" />
+      <unit id="8423122693117701264" at="66,0,80,0" name="io.searchbox.core.Cat$AliasesBuilder" />
+      <unit id="8496368874152519742" at="13,0,85,0" name="io.searchbox.core.Cat" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152519811">
+    <file name="Search.java">
+      <node id="8423122693117704212" at="21,0,22,0" concept="4" trace="query" />
+      <node id="8423122693117704216" at="22,0,23,0" concept="4" trace="sortList" />
+      <node id="8423122693118135858" at="23,44,24,19" concept="13" />
+      <node id="8423122693117704228" at="24,19,25,31" concept="3" />
+      <node id="8423122693117704234" at="25,31,26,37" concept="3" />
+      <node id="8423122693117704240" at="26,37,27,23" concept="3" />
+      <node id="8423122693118135897" at="29,61,30,28" concept="13" />
+      <node id="8423122693117704496" at="30,28,31,61" concept="11" />
+      <node id="8423122693117704251" at="31,61,32,40" concept="3" />
+      <node id="8423122693117704257" at="32,40,33,46" concept="3" />
+      <node id="8423122693117704263" at="33,46,34,37" concept="3" />
+      <node id="8423122693117704282" at="37,121,38,110" concept="10" />
+      <node id="8423122693117704294" at="40,28,41,26" concept="10" />
+      <node id="8423122693117704302" at="43,27,44,25" concept="10" />
+      <node id="8423122693117704311" at="47,31,48,41" concept="10" />
+      <node id="8423122693117704320" at="51,35,52,31" concept="10" />
+      <node id="8423122693117704327" at="55,37,56,18" concept="10" />
+      <node id="8423122693117704340" at="60,36,61,16" concept="9" />
+      <node id="8423122693117704346" at="62,29,63,19" concept="3" />
+      <node id="8423122693117704353" at="64,12,65,69" concept="9" />
+      <node id="8423122693117704362" at="65,69,66,92" concept="9" />
+      <node id="8423122693117704380" at="67,29,68,71" concept="3" />
+      <node id="8423122693117704388" at="68,71,69,39" concept="3" />
+      <node id="6388940854089338764" at="71,34,72,35" concept="3" />
+      <node id="8423122693117704402" at="73,7,74,35" concept="3" />
+      <node id="8423122693117704407" at="75,5,76,16" concept="10" />
+      <node id="8423122693117704414" at="79,25,80,90" concept="10" />
+      <node id="8423122693117704437" at="84,22,85,19" concept="10" />
+      <node id="8423122693117704445" at="87,22,88,18" concept="10" />
+      <node id="8423122693117704453" at="90,39,91,19" concept="10" />
+      <node id="8423122693117704456" at="92,5,93,30" concept="9" />
+      <node id="8423122693117704461" at="93,30,94,129" concept="10" />
+      <node id="8423122693117704110" at="97,0,98,0" concept="4" trace="query" />
+      <node id="8423122693117704114" at="98,0,99,0" concept="4" trace="sortList" />
+      <node id="8423122693117704126" at="99,34,100,25" concept="3" />
+      <node id="8423122693117704137" at="102,64,103,62" concept="10" />
+      <node id="8423122693117704147" at="105,46,106,25" concept="3" />
+      <node id="8423122693117704150" at="106,25,107,18" concept="10" />
+      <node id="8423122693117704159" at="109,59,110,29" concept="3" />
+      <node id="8423122693117704162" at="110,29,111,18" concept="10" />
+      <node id="8423122693117704169" at="114,27,115,30" concept="10" />
+      <node id="8423122693118136305" at="119,41,120,19" concept="13" />
+      <node id="8423122693117704182" at="120,19,121,52" concept="3" />
+      <node id="8423122693118136346" at="125,51,126,28" concept="13" />
+      <node id="8423122693117704205" at="129,27,130,30" concept="10" />
+      <node id="8423122693117704292" at="40,0,43,0" concept="8" trace="getIndex#()Ljava/lang/String;" />
+      <node id="8423122693117704300" at="43,0,46,0" concept="8" trace="getType#()Ljava/lang/String;" />
+      <node id="6388940854089334535" at="70,7,73,7" concept="6" />
+      <node id="8423122693117704431" at="83,37,86,5" concept="7" />
+      <node id="8423122693117704439" at="86,5,89,5" concept="7" />
+      <node id="8423122693117704447" at="89,5,92,5" concept="7" />
+      <node id="8423122693117704121" at="99,0,102,0" concept="2" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117704133" at="102,0,105,0" concept="8" trace="setSearchType#(Lio/searchbox/params/SearchType;)Lio/searchbox/core/Search/Builder;" />
+      <node id="8423122693117704194" at="125,0,128,0" concept="2" trace="TemplateBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117704271" at="36,0,40,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/SearchResult;" />
+      <node id="8423122693117704308" at="46,0,50,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117704317" at="50,0,54,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117704324" at="54,0,58,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117704374" at="66,92,70,7" concept="7" />
+      <node id="8423122693117704411" at="78,0,82,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117704143" at="105,0,109,0" concept="8" trace="addSort#(Lio/searchbox/core/search/sort/Sort;)Lio/searchbox/core/Search/Builder;" />
+      <node id="8423122693117704154" at="109,0,113,0" concept="8" trace="addSort#(Ljava/util/Collection;)Lio/searchbox/core/Search/Builder;" />
+      <node id="8423122693117704166" at="113,0,117,0" concept="8" trace="build#()Lio/searchbox/core/Search;" />
+      <node id="8423122693117704177" at="119,0,123,0" concept="2" trace="VersionBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117704202" at="128,0,132,0" concept="8" trace="build#()Lio/searchbox/core/Search;" />
+      <node id="8423122693117704223" at="23,0,29,0" concept="2" trace="Search#(Lio/searchbox/core/Search/Builder;)V" />
+      <node id="8423122693117704246" at="29,0,36,0" concept="2" trace="Search#(Lio/searchbox/core/Search/TemplateBuilder;)V" />
+      <node id="8423122693117704350" at="64,10,75,5" concept="0" />
+      <node id="8423122693117704342" at="61,16,75,5" concept="7" />
+      <node id="8423122693117704426" at="82,0,96,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="8423122693117704331" at="58,0,78,0" concept="8" trace="getData#(Lcom/google/gson/Gson;)Ljava/lang/String;" />
+      <scope id="8423122693117704281" at="37,121,38,110" />
+      <scope id="8423122693117704293" at="40,28,41,26" />
+      <scope id="8423122693117704301" at="43,27,44,25" />
+      <scope id="8423122693117704310" at="47,31,48,41" />
+      <scope id="8423122693117704319" at="51,35,52,31" />
+      <scope id="8423122693117704326" at="55,37,56,18" />
+      <scope id="8423122693117704345" at="62,29,63,19" />
+      <scope id="6388940854089334537" at="71,34,72,35" />
+      <scope id="8423122693117704413" at="79,25,80,90" />
+      <scope id="8423122693117704436" at="84,22,85,19" />
+      <scope id="8423122693117704444" at="87,22,88,18" />
+      <scope id="8423122693117704452" at="90,39,91,19" />
+      <scope id="1535634584395181030" at="99,34,100,25" />
+      <scope id="1535634584395158551" at="102,64,103,62" />
+      <scope id="1535634584395161751" at="114,27,115,30" />
+      <scope id="1535634584395171383" at="125,51,126,28" />
+      <scope id="1535634584395177812" at="129,27,130,30" />
+      <scope id="8423122693117704379" at="67,29,69,39" />
+      <scope id="1535634584395164954" at="105,46,107,18" />
+      <scope id="1535634584395174585" at="109,59,111,18" />
+      <scope id="1535634584395168160" at="119,41,121,52" />
+      <scope id="8423122693117704292" at="40,0,43,0" />
+      <scope id="8423122693117704300" at="43,0,46,0" />
+      <scope id="6388940854089334535" at="70,7,73,7">
+        <var name="sort" id="6388940854089334538" />
+      </scope>
+      <scope id="8423122693117704121" at="99,0,102,0">
+        <var name="query" id="8423122693117704123" />
+      </scope>
+      <scope id="8423122693117704133" at="102,0,105,0">
+        <var name="searchType" id="8423122693117704134" />
+      </scope>
+      <scope id="8423122693117704194" at="125,0,128,0">
+        <var name="templatedQuery" id="8423122693117704196" />
+      </scope>
+      <scope id="8423122693117704227" at="23,44,27,23" />
+      <scope id="8423122693117704271" at="36,0,40,0">
+        <var name="gson" id="8423122693117704279" />
+        <var name="reasonPhrase" id="8423122693117704277" />
+        <var name="responseBody" id="8423122693117704273" />
+        <var name="statusCode" id="8423122693117704275" />
+      </scope>
+      <scope id="8423122693117704308" at="46,0,50,0" />
+      <scope id="8423122693117704317" at="50,0,54,0" />
+      <scope id="8423122693117704324" at="54,0,58,0" />
+      <scope id="8423122693117704411" at="78,0,82,0" />
+      <scope id="8423122693117704143" at="105,0,109,0">
+        <var name="sort" id="8423122693117704144" />
+      </scope>
+      <scope id="8423122693117704154" at="109,0,113,0">
+        <var name="sorts" id="8423122693117704155" />
+      </scope>
+      <scope id="8423122693117704166" at="113,0,117,0" />
+      <scope id="8423122693117704177" at="119,0,123,0">
+        <var name="query" id="8423122693117704179" />
+      </scope>
+      <scope id="8423122693117704202" at="128,0,132,0" />
+      <scope id="8423122693117704250" at="29,61,34,37" />
+      <scope id="8423122693117704223" at="23,0,29,0">
+        <var name="builder" id="8423122693117704225" />
+      </scope>
+      <scope id="8423122693117704246" at="29,0,36,0">
+        <var name="templatedBuilder" id="8423122693117704248" />
+      </scope>
+      <scope id="8423122693117704351" at="64,12,74,35">
+        <var name="rootJson" id="8423122693117704352" />
+        <var name="sortMaps" id="8423122693117704361" />
+      </scope>
+      <scope id="8423122693117704430" at="83,37,94,129">
+        <var name="rhs" id="8423122693117704455" />
+      </scope>
+      <scope id="8423122693117704426" at="82,0,96,0">
+        <var name="obj" id="8423122693117704428" />
+      </scope>
+      <scope id="8423122693117704338" at="60,36,76,16">
+        <var name="data" id="8423122693117704339" />
+      </scope>
+      <scope id="8423122693117704331" at="58,0,78,0">
+        <var name="gson" id="8423122693117704336" />
+      </scope>
+      <unit id="8423122693117704174" at="118,0,124,0" name="io.searchbox.core.Search$VersionBuilder" />
+      <unit id="8423122693117704191" at="124,0,133,0" name="io.searchbox.core.Search$TemplateBuilder" />
+      <unit id="8423122693117704105" at="96,0,118,0" name="io.searchbox.core.Search$Builder" />
+      <unit id="8496368874152519811" at="19,0,134,0" name="io.searchbox.core.Search" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152519912">
+    <file name="ClearScroll.java">
+      <node id="8423122693117703725" at="14,0,15,0" concept="4" trace="uri" />
+      <node id="8423122693117703742" at="16,45,17,35" concept="3" />
+      <node id="8423122693117703746" at="17,35,18,26" concept="3" />
+      <node id="8423122693117703754" at="19,12,20,30" concept="3" />
+      <node id="990910864843514023" at="20,30,21,74" concept="3" />
+      <node id="8423122693117703766" at="22,5,23,23" concept="3" />
+      <node id="8423122693117703773" at="26,37,27,20" concept="10" />
+      <node id="8423122693117703780" at="30,31,31,34" concept="10" />
+      <node id="8423122693117703671" at="34,0,35,0" concept="4" trace="scrollIds" />
+      <node id="8423122693117703682" at="35,61,36,35" concept="3" />
+      <node id="8423122693117703689" at="36,35,37,18" concept="10" />
+      <node id="8423122693117703698" at="39,68,40,39" concept="3" />
+      <node id="8423122693117703705" at="40,39,41,18" concept="10" />
+      <node id="8423122693117703712" at="44,32,45,35" concept="10" />
+      <node id="8423122693117703719" at="47,46,48,23" concept="10" />
+      <node id="8423122693117703752" at="19,10,22,5" concept="0" />
+      <node id="8423122693117703717" at="47,0,50,0" concept="8" trace="getScrollIds#()Ljava/util/Collection;" />
+      <node id="8423122693117703770" at="25,0,29,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117703777" at="29,0,33,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117703678" at="35,0,39,0" concept="8" trace="addScrollId#(Ljava/lang/String;)Lio/searchbox/core/ClearScroll/Builder;" />
+      <node id="8423122693117703693" at="39,0,43,0" concept="8" trace="addScrollIds#(Ljava/util/Set;)Lio/searchbox/core/ClearScroll/Builder;" />
+      <node id="8423122693117703709" at="43,0,47,0" concept="8" trace="build#()Lio/searchbox/core/ClearScroll;" />
+      <node id="8423122693117703734" at="15,51,22,5" concept="7" />
+      <node id="8423122693117703729" at="15,0,25,0" concept="2" trace="ClearScroll#(Lio/searchbox/core/ClearScroll/Builder;)V" />
+      <scope id="8423122693117703772" at="26,37,27,20" />
+      <scope id="8423122693117703779" at="30,31,31,34" />
+      <scope id="8496368874153791550" at="44,32,45,35" />
+      <scope id="8496368874153785483" at="47,46,48,23" />
+      <scope id="8423122693117703741" at="16,45,18,26" />
+      <scope id="8423122693117703753" at="19,12,21,74" />
+      <scope id="8496368874153788511" at="35,61,37,18" />
+      <scope id="8496368874153794594" at="39,68,41,18" />
+      <scope id="8423122693117703717" at="47,0,50,0" />
+      <scope id="8423122693117703770" at="25,0,29,0" />
+      <scope id="8423122693117703777" at="29,0,33,0" />
+      <scope id="8423122693117703678" at="35,0,39,0">
+        <var name="scrollId" id="8423122693117703679" />
+      </scope>
+      <scope id="8423122693117703693" at="39,0,43,0">
+        <var name="scrollIds" id="8423122693117703694" />
+      </scope>
+      <scope id="8423122693117703709" at="43,0,47,0" />
+      <scope id="8423122693117703733" at="15,51,23,23" />
+      <scope id="8423122693117703729" at="15,0,25,0">
+        <var name="builder" id="8423122693117703731" />
+      </scope>
+      <unit id="8423122693117703666" at="33,0,51,0" name="io.searchbox.core.ClearScroll$Builder" />
+      <unit id="8496368874152519912" at="12,0,52,0" name="io.searchbox.core.ClearScroll" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152519949">
+    <file name="Suggest.java">
+      <node id="8423122693118136644" at="13,52,14,19" concept="13" />
+      <node id="8423122693117690090" at="14,19,15,38" concept="3" />
+      <node id="8423122693117690096" at="15,38,16,33" concept="3" />
+      <node id="8423122693117690117" at="19,138,20,108" concept="10" />
+      <node id="8423122693117690132" at="23,37,24,18" concept="10" />
+      <node id="8423122693117690138" at="26,28,27,26" concept="10" />
+      <node id="8423122693117690146" at="29,27,30,25" concept="10" />
+      <node id="8423122693117690155" at="33,31,34,42" concept="10" />
+      <node id="8423122693117690164" at="37,25,38,76" concept="10" />
+      <node id="8423122693117690184" at="42,22,43,19" concept="10" />
+      <node id="8423122693117690192" at="45,22,46,18" concept="10" />
+      <node id="8423122693117690200" at="48,39,49,19" concept="10" />
+      <node id="8423122693117690202" at="50,5,51,73" concept="10" />
+      <node id="8423122693117690050" at="54,0,55,0" concept="4" trace="query" />
+      <node id="8423122693117690059" at="59,40,60,25" concept="3" />
+      <node id="8423122693117690069" at="62,36,63,24" concept="10" />
+      <node id="8423122693117690078" at="66,28,67,31" concept="10" />
+      <node id="8423122693117690136" at="26,0,29,0" concept="8" trace="getIndex#()Ljava/lang/String;" />
+      <node id="8423122693117690144" at="29,0,32,0" concept="8" trace="getType#()Ljava/lang/String;" />
+      <node id="8423122693117690178" at="41,37,44,5" concept="7" />
+      <node id="8423122693117690186" at="44,5,47,5" concept="7" />
+      <node id="8423122693117690194" at="47,5,50,5" concept="7" />
+      <node id="8423122693117690054" at="59,0,62,0" concept="2" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117690067" at="62,0,65,0" concept="8" trace="getQuery#()Ljava/lang/String;" />
+      <node id="8423122693117690106" at="18,0,22,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/SuggestResult;" />
+      <node id="8423122693117690129" at="22,0,26,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117690152" at="32,0,36,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117690161" at="36,0,40,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117690075" at="65,0,69,0" concept="8" trace="build#()Lio/searchbox/core/Suggest;" />
+      <node id="8423122693117690085" at="13,0,18,0" concept="2" trace="Suggest#(Lio/searchbox/core/Suggest/Builder;)V" />
+      <node id="8423122693117690173" at="40,0,53,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117690116" at="19,138,20,108" />
+      <scope id="8423122693117690131" at="23,37,24,18" />
+      <scope id="8423122693117690137" at="26,28,27,26" />
+      <scope id="8423122693117690145" at="29,27,30,25" />
+      <scope id="8423122693117690154" at="33,31,34,42" />
+      <scope id="8423122693117690163" at="37,25,38,76" />
+      <scope id="8423122693117690183" at="42,22,43,19" />
+      <scope id="8423122693117690191" at="45,22,46,18" />
+      <scope id="8423122693117690199" at="48,39,49,19" />
+      <scope id="1535634584395322159" at="59,40,60,25" />
+      <scope id="1535634584395318872" at="62,36,63,24" />
+      <scope id="1535634584395315600" at="66,28,67,31" />
+      <scope id="8423122693117690089" at="13,52,16,33" />
+      <scope id="8423122693117690136" at="26,0,29,0" />
+      <scope id="8423122693117690144" at="29,0,32,0" />
+      <scope id="8423122693117690054" at="59,0,62,0">
+        <var name="query" id="8423122693117690056" />
+      </scope>
+      <scope id="8423122693117690067" at="62,0,65,0" />
+      <scope id="8423122693117690106" at="18,0,22,0">
+        <var name="gson" id="8423122693117690114" />
+        <var name="json" id="8423122693117690108" />
+        <var name="reasonPhrase" id="8423122693117690112" />
+        <var name="statusCode" id="8423122693117690110" />
+      </scope>
+      <scope id="8423122693117690129" at="22,0,26,0" />
+      <scope id="8423122693117690152" at="32,0,36,0" />
+      <scope id="8423122693117690161" at="36,0,40,0" />
+      <scope id="8423122693117690075" at="65,0,69,0" />
+      <scope id="8423122693117690085" at="13,0,18,0">
+        <var name="builder" id="8423122693117690087" />
+      </scope>
+      <scope id="8423122693117690177" at="41,37,51,73" />
+      <scope id="8423122693117690173" at="40,0,53,0">
+        <var name="obj" id="8423122693117690175" />
+      </scope>
+      <unit id="8423122693117690045" at="53,0,70,0" name="io.searchbox.core.Suggest$Builder" />
+      <unit id="8496368874152519949" at="11,0,71,0" name="io.searchbox.core.Suggest" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152520026">
+    <file name="Index.java">
+      <node id="8423122693118136697" at="16,42,17,19" concept="13" />
+      <node id="8423122693117721443" at="17,19,18,34" concept="3" />
+      <node id="8423122693117721449" at="18,34,19,23" concept="3" />
+      <node id="8423122693117721458" at="22,35,23,16" concept="10" />
+      <node id="8423122693117721465" at="26,37,27,43" concept="10" />
+      <node id="8423122693117721479" at="30,37,31,65" concept="9" />
+      <node id="8423122693117721500" at="33,30,34,125" concept="15" />
+      <node id="8423122693117721501" at="35,7,36,127" concept="10" />
+      <node id="8423122693117721522" at="37,12,38,21" concept="10" />
+      <node id="8423122693117721529" at="42,25,43,76" concept="10" />
+      <node id="8423122693117721549" at="47,22,48,19" concept="10" />
+      <node id="8423122693117721557" at="50,22,51,18" concept="10" />
+      <node id="8423122693117721565" at="53,39,54,19" concept="10" />
+      <node id="8423122693117721567" at="55,5,56,73" concept="10" />
+      <node id="8423122693117721406" at="59,0,60,0" concept="4" trace="source" />
+      <node id="8423122693117721415" at="60,35,61,27" concept="3" />
+      <node id="8423122693117721421" at="61,27,62,54" concept="3" />
+      <node id="8423122693117721591" at="62,54,63,55" concept="11" />
+      <node id="8423122693117721430" at="65,26,66,29" concept="10" />
+      <node id="8423122693117721520" at="37,10,39,5" concept="0" />
+      <node id="8423122693117721490" at="32,25,35,7" concept="7" />
+      <node id="8423122693117721543" at="46,37,49,5" concept="7" />
+      <node id="8423122693117721551" at="49,5,52,5" concept="7" />
+      <node id="8423122693117721559" at="52,5,55,5" concept="7" />
+      <node id="8423122693117721428" at="65,0,68,0" concept="8" trace="build#()Lio/searchbox/core/Index;" />
+      <node id="8423122693117721455" at="21,0,25,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117721462" at="25,0,29,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117721526" at="41,0,45,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117721438" at="16,0,21,0" concept="2" trace="Index#(Lio/searchbox/core/Index/Builder;)V" />
+      <node id="8423122693117721410" at="60,0,65,0" concept="2" trace="Builder#(Ljava/lang/Object;)V" />
+      <node id="8423122693117721484" at="31,65,39,5" concept="7" />
+      <node id="8423122693117721475" at="29,0,41,0" concept="8" trace="getBulkMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117721538" at="45,0,58,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117721457" at="22,35,23,16" />
+      <scope id="8423122693117721464" at="26,37,27,43" />
+      <scope id="8423122693117721495" at="33,30,34,125" />
+      <scope id="8423122693117721521" at="37,12,38,21" />
+      <scope id="8423122693117721528" at="42,25,43,76" />
+      <scope id="8423122693117721548" at="47,22,48,19" />
+      <scope id="8423122693117721556" at="50,22,51,18" />
+      <scope id="8423122693117721564" at="53,39,54,19" />
+      <scope id="1535634584395028981" at="65,26,66,29" />
+      <scope id="8423122693117721442" at="16,42,19,23" />
+      <scope id="1535634584395025821" at="60,35,63,55" />
+      <scope id="8423122693117721428" at="65,0,68,0" />
+      <scope id="8423122693117721455" at="21,0,25,0" />
+      <scope id="8423122693117721462" at="25,0,29,0" />
+      <scope id="8423122693117721489" at="32,25,36,127" />
+      <scope id="8423122693117721526" at="41,0,45,0" />
+      <scope id="8423122693117721438" at="16,0,21,0">
+        <var name="builder" id="8423122693117721440" />
+      </scope>
+      <scope id="8423122693117721410" at="60,0,65,0">
+        <var name="source" id="8423122693117721412" />
+      </scope>
+      <scope id="8423122693117721477" at="30,37,39,5">
+        <var name="opType" id="8423122693117721478" />
+      </scope>
+      <scope id="8423122693117721542" at="46,37,56,73" />
+      <scope id="8423122693117721475" at="29,0,41,0" />
+      <scope id="8423122693117721538" at="45,0,58,0">
+        <var name="obj" id="8423122693117721540" />
+      </scope>
+      <unit id="8423122693117721401" at="58,0,69,0" name="io.searchbox.core.Index$Builder" />
+      <unit id="8496368874152520026" at="14,0,70,0" name="io.searchbox.core.Index" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152520087">
+    <file name="BulkResult.java">
+      <node id="8423122693118136959" at="17,40,18,18" concept="13" />
+      <node id="8423122693118136960" at="20,32,21,16" concept="13" />
+      <node id="8423122693117677445" at="27,53,28,88" concept="9" />
+      <node id="8423122693117677465" at="31,95,32,103" concept="3" />
+      <node id="8423122693117677485" at="35,5,36,17" concept="10" />
+      <node id="8423122693117677494" at="42,59,43,88" concept="9" />
+      <node id="8423122693117677515" at="46,95,47,65" concept="9" />
+      <node id="8423122693117677525" at="48,36,49,77" concept="3" />
+      <node id="8423122693117677543" at="53,5,54,17" concept="10" />
+      <node id="8423122693117677057" at="57,0,58,0" concept="4" trace="operation" />
+      <node id="8423122693117677061" at="58,0,59,0" concept="4" trace="index" />
+      <node id="8423122693117677065" at="59,0,60,0" concept="4" trace="type" />
+      <node id="8423122693117677069" at="60,0,61,0" concept="4" trace="id" />
+      <node id="8423122693117677073" at="61,0,62,0" concept="4" trace="status" />
+      <node id="8423122693117677077" at="65,0,66,0" concept="4" trace="error" />
+      <node id="8423122693117677082" at="69,0,70,0" concept="4" trace="errorType" />
+      <node id="8423122693117677087" at="73,0,74,0" concept="4" trace="errorReason" />
+      <node id="8423122693117677092" at="77,0,78,0" concept="4" trace="version" />
+      <node id="8423122693117677118" at="78,164,79,33" concept="3" />
+      <node id="8423122693117677124" at="79,33,80,25" concept="3" />
+      <node id="8423122693117677130" at="80,25,81,23" concept="3" />
+      <node id="8423122693117677136" at="81,23,82,19" concept="3" />
+      <node id="8423122693117677142" at="82,19,83,27" concept="3" />
+      <node id="8423122693117677148" at="83,27,84,25" concept="3" />
+      <node id="8423122693117677154" at="84,25,85,33" concept="3" />
+      <node id="8423122693117677160" at="85,33,86,37" concept="3" />
+      <node id="8423122693117677166" at="86,37,87,29" concept="3" />
+      <node id="8423122693117677180" at="89,64,90,33" concept="3" />
+      <node id="8423122693117677186" at="90,33,91,54" concept="3" />
+      <node id="8423122693117677195" at="91,54,92,52" concept="3" />
+      <node id="8423122693117677204" at="92,52,93,114" concept="3" />
+      <node id="8423122693117677223" at="93,114,94,52" concept="3" />
+      <node id="8423122693117677232" at="94,52,95,81" concept="3" />
+      <node id="8423122693117677256" at="96,70,97,77" concept="9" />
+      <node id="8423122693117677262" at="97,77,98,98" concept="3" />
+      <node id="8423122693117677275" at="98,98,99,104" concept="3" />
+      <node id="8423122693117677290" at="100,14,101,30" concept="3" />
+      <node id="8423122693117677296" at="101,30,102,32" concept="3" />
+      <node id="8423122693117677302" at="103,7,104,89" concept="3" />
+      <node id="8423122693117677325" at="108,22,109,20" concept="10" />
+      <node id="8423122693117677336" at="111,52,112,21" concept="10" />
+      <node id="8423122693117677340" at="113,7,114,69" concept="9" />
+      <node id="8423122693117677345" at="114,69,115,304" concept="10" />
+      <node id="8423122693117677390" at="118,27,119,193" concept="10" />
+      <node id="8423122693117677426" at="17,0,20,0" concept="2" trace="BulkResult#(Lio/searchbox/client/JestResult;)V" />
+      <node id="8423122693117677434" at="20,0,23,0" concept="2" trace="BulkResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117677462" at="30,74,33,9" concept="6" />
+      <node id="8423122693117677520" at="47,65,50,11" concept="7" />
+      <node id="8423122693117677288" at="100,12,103,7" concept="0" />
+      <node id="8423122693117677321" at="107,37,110,7" concept="7" />
+      <node id="8423122693117677328" at="110,7,113,7" concept="7" />
+      <node id="8423122693117677387" at="117,0,121,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117677459" at="29,56,34,7" concept="6" />
+      <node id="8423122693117677511" at="45,74,51,9" concept="6" />
+      <node id="8423122693117677450" at="28,88,35,5" concept="7" />
+      <node id="8423122693117677508" at="44,56,52,7" concept="6" />
+      <node id="8423122693117677245" at="95,81,103,7" concept="7" />
+      <node id="8423122693117677499" at="43,88,53,5" concept="7" />
+      <node id="8423122693117677442" at="27,0,38,0" concept="8" trace="getItems#()Ljava/util/List;" />
+      <node id="8423122693117677097" at="78,0,89,0" concept="2" trace="BulkResultItem#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117677316" at="106,0,117,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="8423122693117677491" at="42,0,56,0" concept="8" trace="getFailedItems#()Ljava/util/List;" />
+      <node id="8423122693117677173" at="89,0,106,0" concept="2" trace="BulkResultItem#(Ljava/lang/String;Lcom/google/gson/JsonObject;)V" />
+      <scope id="8423122693117677430" at="17,40,18,18" />
+      <scope id="8423122693117677438" at="20,32,21,16" />
+      <scope id="8423122693117677464" at="31,95,32,103" />
+      <scope id="8423122693117677524" at="48,36,49,77" />
+      <scope id="8423122693117677327" at="108,22,109,20" />
+      <scope id="8423122693117677338" at="111,52,112,21" />
+      <scope id="8496368874153728009" at="118,27,119,193" />
+      <scope id="8423122693117677289" at="100,14,102,32" />
+      <scope id="8423122693117677426" at="17,0,20,0">
+        <var name="source" id="8423122693117677428" />
+      </scope>
+      <scope id="8423122693117677434" at="20,0,23,0">
+        <var name="gson" id="8423122693117677436" />
+      </scope>
+      <scope id="8423122693117677461" at="30,74,33,9" />
+      <scope id="8423122693117677462" at="30,74,33,9">
+        <var name="entry" id="8423122693117677472" />
+      </scope>
+      <scope id="8423122693117677254" at="96,70,99,104">
+        <var name="errorObject" id="8423122693117677255" />
+      </scope>
+      <scope id="8423122693117677513" at="46,95,50,11">
+        <var name="values" id="8423122693117677514" />
+      </scope>
+      <scope id="8423122693117677387" at="117,0,121,0" />
+      <scope id="8423122693117677458" at="29,56,34,7" />
+      <scope id="8423122693117677459" at="29,56,34,7">
+        <var name="jsonElement" id="8423122693117677480" />
+      </scope>
+      <scope id="8423122693117677510" at="45,74,51,9" />
+      <scope id="8423122693117677511" at="45,74,51,9">
+        <var name="entry" id="8423122693117677530" />
+      </scope>
+      <scope id="8423122693117677507" at="44,56,52,7" />
+      <scope id="8423122693117677508" at="44,56,52,7">
+        <var name="jsonElement" id="8423122693117677538" />
+      </scope>
+      <scope id="8496368874153724848" at="107,37,115,304">
+        <var name="that" id="8423122693117677339" />
+      </scope>
+      <scope id="8423122693117677443" at="27,53,36,17">
+        <var name="items" id="8423122693117677444" />
+      </scope>
+      <scope id="8496368874153734404" at="78,164,87,29" />
+      <scope id="8423122693117677442" at="27,0,38,0" />
+      <scope id="8423122693117677097" at="78,0,89,0">
+        <var name="error" id="8423122693117677109" />
+        <var name="errorReason" id="8423122693117677115" />
+        <var name="errorType" id="8423122693117677113" />
+        <var name="id" id="8423122693117677105" />
+        <var name="index" id="8423122693117677101" />
+        <var name="operation" id="8423122693117677099" />
+        <var name="status" id="8423122693117677107" />
+        <var name="type" id="8423122693117677103" />
+        <var name="version" id="8423122693117677111" />
+      </scope>
+      <scope id="8423122693117677316" at="106,0,117,0">
+        <var name="o" id="8423122693117677318" />
+      </scope>
+      <scope id="8423122693117677492" at="42,59,54,17">
+        <var name="items" id="8423122693117677493" />
+      </scope>
+      <scope id="8423122693117677491" at="42,0,56,0" />
+      <scope id="8496368874153731065" at="89,64,104,89" />
+      <scope id="8423122693117677173" at="89,0,106,0">
+        <var name="operation" id="8423122693117677175" />
+        <var name="values" id="8423122693117677177" />
+      </scope>
+      <unit id="8423122693117677055" at="56,0,122,0" name="io.searchbox.core.BulkResult$BulkResultItem" />
+      <unit id="8496368874152520087" at="15,0,123,0" name="io.searchbox.core.BulkResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152520132">
+    <file name="SuggestResult.java">
+      <node id="8423122693118137223" at="16,53,17,25" concept="13" />
+      <node id="8423122693118137224" at="19,35,20,16" concept="13" />
+      <node id="8423122693117689279" at="22,79,23,91" concept="9" />
+      <node id="8423122693117689296" at="25,87,26,90" concept="3" />
+      <node id="8423122693117689307" at="28,5,29,23" concept="10" />
+      <node id="8423122693117689121" at="32,0,33,0" concept="4" trace="text" />
+      <node id="8423122693117689125" at="33,0,34,0" concept="4" trace="offset" />
+      <node id="8423122693117689129" at="34,0,35,0" concept="4" trace="length" />
+      <node id="8423122693117689133" at="35,0,36,0" concept="4" trace="options" />
+      <node id="8423122693117689154" at="36,103,37,23" concept="3" />
+      <node id="8423122693117689160" at="37,23,38,27" concept="3" />
+      <node id="8423122693117689166" at="38,27,39,27" concept="3" />
+      <node id="8423122693117689172" at="39,27,40,29" concept="3" />
+      <node id="8423122693117689182" at="43,27,44,107" concept="10" />
+      <node id="8423122693117689211" at="48,24,49,21" concept="10" />
+      <node id="8423122693117689219" at="51,24,52,20" concept="10" />
+      <node id="8423122693117689227" at="54,41,55,21" concept="10" />
+      <node id="8423122693117689230" at="56,7,57,68" concept="9" />
+      <node id="8423122693117689235" at="57,68,58,150" concept="10" />
+      <node id="8423122693117689258" at="16,0,19,0" concept="2" trace="SuggestResult#(Lio/searchbox/core/SuggestResult;)V" />
+      <node id="8423122693117689266" at="19,0,22,0" concept="2" trace="SuggestResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117689293" at="24,63,27,7" concept="6" />
+      <node id="8423122693117689205" at="47,39,50,7" concept="7" />
+      <node id="8423122693117689213" at="50,7,53,7" concept="7" />
+      <node id="8423122693117689221" at="53,7,56,7" concept="7" />
+      <node id="8423122693117689179" at="42,0,46,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117689284" at="23,91,28,5" concept="7" />
+      <node id="8423122693117689140" at="36,0,42,0" concept="2" trace="Suggestion#(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;)V" />
+      <node id="8423122693117689274" at="22,0,31,0" concept="8" trace="getSuggestions#(Ljava/lang/String;)Ljava/util/List;" />
+      <node id="8423122693117689200" at="46,0,60,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117689262" at="16,53,17,25" />
+      <scope id="8423122693117689270" at="19,35,20,16" />
+      <scope id="8423122693117689295" at="25,87,26,90" />
+      <scope id="1535634584395344143" at="43,27,44,107" />
+      <scope id="8423122693117689210" at="48,24,49,21" />
+      <scope id="8423122693117689218" at="51,24,52,20" />
+      <scope id="8423122693117689226" at="54,41,55,21" />
+      <scope id="8423122693117689258" at="16,0,19,0">
+        <var name="suggestResult" id="8423122693117689260" />
+      </scope>
+      <scope id="8423122693117689266" at="19,0,22,0">
+        <var name="gson" id="8423122693117689268" />
+      </scope>
+      <scope id="8423122693117689292" at="24,63,27,7" />
+      <scope id="8423122693117689293" at="24,63,27,7">
+        <var name="suggestionElement" id="8423122693117689302" />
+      </scope>
+      <scope id="1535634584395335579" at="36,103,40,29" />
+      <scope id="8423122693117689179" at="42,0,46,0" />
+      <scope id="8423122693117689140" at="36,0,42,0">
+        <var name="length" id="8423122693117689146" />
+        <var name="offset" id="8423122693117689144" />
+        <var name="options" id="8423122693117689148" />
+        <var name="text" id="8423122693117689142" />
+      </scope>
+      <scope id="8423122693117689277" at="22,79,29,23">
+        <var name="suggestions" id="8423122693117689278" />
+      </scope>
+      <scope id="8423122693117689274" at="22,0,31,0">
+        <var name="suggestionName" id="8423122693117689275" />
+      </scope>
+      <scope id="1535634584395338900" at="47,39,58,150">
+        <var name="rhs" id="8423122693117689229" />
+      </scope>
+      <scope id="8423122693117689200" at="46,0,60,0">
+        <var name="obj" id="8423122693117689202" />
+      </scope>
+      <unit id="8423122693117689119" at="31,0,61,0" name="io.searchbox.core.SuggestResult$Suggestion" />
+      <unit id="8496368874152520132" at="14,0,62,0" name="io.searchbox.core.SuggestResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152520169">
+    <file name="Validate.java">
+      <node id="8423122693118138541" at="12,48,13,19" concept="13" />
+      <node id="8423122693117682908" at="13,19,14,35" concept="3" />
+      <node id="8423122693117682914" at="14,35,15,33" concept="3" />
+      <node id="8423122693117682920" at="15,33,16,33" concept="3" />
+      <node id="8423122693117682926" at="16,33,17,23" concept="3" />
+      <node id="8423122693117682935" at="20,31,21,49" concept="10" />
+      <node id="8423122693117682944" at="24,37,25,18" concept="10" />
+      <node id="8423122693117682951" at="28,35,29,19" concept="10" />
+      <node id="8423122693117682958" at="32,25,33,76" concept="10" />
+      <node id="8423122693117682978" at="37,22,38,19" concept="10" />
+      <node id="8423122693117682986" at="40,22,41,18" concept="10" />
+      <node id="8423122693117682994" at="43,39,44,19" concept="10" />
+      <node id="8423122693117682996" at="45,5,46,73" concept="10" />
+      <node id="8423122693117682847" at="49,0,50,0" concept="4" trace="query" />
+      <node id="8423122693117682851" at="50,0,51,0" concept="4" trace="index" />
+      <node id="8423122693117682855" at="51,0,52,0" concept="4" trace="type" />
+      <node id="8423122693117682864" at="52,34,53,25" concept="3" />
+      <node id="8423122693117682875" at="55,47,56,18" concept="3" />
+      <node id="8423122693117682879" at="56,18,57,18" concept="10" />
+      <node id="8423122693117682887" at="59,46,60,17" concept="3" />
+      <node id="8423122693117682891" at="60,17,61,18" concept="10" />
+      <node id="8423122693117682897" at="63,29,64,32" concept="10" />
+      <node id="8423122693117682972" at="36,37,39,5" concept="7" />
+      <node id="8423122693117682980" at="39,5,42,5" concept="7" />
+      <node id="8423122693117682988" at="42,5,45,5" concept="7" />
+      <node id="8423122693117682859" at="52,0,55,0" concept="2" trace="Builder#(Ljava/lang/Object;)V" />
+      <node id="8423122693117682895" at="63,0,66,0" concept="8" trace="build#()Lio/searchbox/core/Validate;" />
+      <node id="8423122693117682932" at="19,0,23,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117682941" at="23,0,27,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117682948" at="27,0,31,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117682955" at="31,0,35,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117682871" at="55,0,59,0" concept="8" trace="index#(Ljava/lang/String;)Lio/searchbox/core/Validate/Builder;" />
+      <node id="8423122693117682883" at="59,0,63,0" concept="8" trace="type#(Ljava/lang/String;)Lio/searchbox/core/Validate/Builder;" />
+      <node id="8423122693117682903" at="12,0,19,0" concept="2" trace="Validate#(Lio/searchbox/core/Validate/Builder;)V" />
+      <node id="8423122693117682967" at="35,0,48,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117682934" at="20,31,21,49" />
+      <scope id="8423122693117682943" at="24,37,25,18" />
+      <scope id="8423122693117682950" at="28,35,29,19" />
+      <scope id="8423122693117682957" at="32,25,33,76" />
+      <scope id="8423122693117682977" at="37,22,38,19" />
+      <scope id="8423122693117682985" at="40,22,41,18" />
+      <scope id="8423122693117682993" at="43,39,44,19" />
+      <scope id="1535634584395388109" at="52,34,53,25" />
+      <scope id="1535634584395381009" at="63,29,64,32" />
+      <scope id="1535634584395384569" at="55,47,57,18" />
+      <scope id="1535634584395391464" at="59,46,61,18" />
+      <scope id="8423122693117682859" at="52,0,55,0">
+        <var name="query" id="8423122693117682861" />
+      </scope>
+      <scope id="8423122693117682895" at="63,0,66,0" />
+      <scope id="8423122693117682932" at="19,0,23,0" />
+      <scope id="8423122693117682941" at="23,0,27,0" />
+      <scope id="8423122693117682948" at="27,0,31,0" />
+      <scope id="8423122693117682955" at="31,0,35,0" />
+      <scope id="8423122693117682871" at="55,0,59,0">
+        <var name="val" id="8423122693117682872" />
+      </scope>
+      <scope id="8423122693117682883" at="59,0,63,0">
+        <var name="val" id="8423122693117682884" />
+      </scope>
+      <scope id="8423122693117682907" at="12,48,17,23" />
+      <scope id="8423122693117682903" at="12,0,19,0">
+        <var name="builder" id="8423122693117682905" />
+      </scope>
+      <scope id="8423122693117682971" at="36,37,46,73" />
+      <scope id="8423122693117682967" at="35,0,48,0">
+        <var name="obj" id="8423122693117682969" />
+      </scope>
+      <unit id="8423122693117682842" at="48,0,67,0" name="io.searchbox.core.Validate$Builder" />
+      <unit id="8496368874152520169" at="10,0,68,0" name="io.searchbox.core.Validate" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152520230">
+    <file name="SearchScroll.java">
+      <node id="8423122693117704745" at="17,0,18,0" concept="4" trace="restMethodName" />
+      <node id="8423122693118140021" at="18,56,19,19" concept="13" />
+      <node id="8423122693117704762" at="20,64,21,35" concept="3" />
+      <node id="8423122693117704768" at="21,35,22,43" concept="3" />
+      <node id="8423122693117704776" at="23,12,24,34" concept="3" />
+      <node id="8423122693117704782" at="25,5,26,23" concept="3" />
+      <node id="8423122693117704791" at="29,31,30,48" concept="10" />
+      <node id="8423122693117704800" at="33,37,34,31" concept="10" />
+      <node id="8423122693117704809" at="37,35,38,31" concept="10" />
+      <node id="8423122693117704816" at="41,25,42,76" concept="10" />
+      <node id="8423122693117704836" at="46,22,47,19" concept="10" />
+      <node id="8423122693117704844" at="49,22,50,18" concept="10" />
+      <node id="8423122693117704852" at="52,39,53,19" concept="10" />
+      <node id="8423122693117704854" at="54,5,55,73" concept="10" />
+      <node id="8423122693117704675" at="58,0,59,0" concept="4" trace="scrollId" />
+      <node id="8423122693117704686" at="59,52,60,31" concept="3" />
+      <node id="8423122693117704698" at="61,67,62,53" concept="3" />
+      <node id="8423122693117704702" at="63,7,64,46" concept="3" />
+      <node id="8423122693117704716" at="68,34,69,49" concept="10" />
+      <node id="8423122693117704722" at="70,14,71,20" concept="10" />
+      <node id="8423122693117704729" at="75,33,76,36" concept="10" />
+      <node id="8423122693117704736" at="78,33,79,22" concept="10" />
+      <node id="8423122693117704741" at="15,0,17,0" concept="12" trace="MAX_SCROLL_ID_LENGTH" />
+      <node id="8423122693117704774" at="23,10,25,5" concept="0" />
+      <node id="8423122693117704720" at="70,12,72,7" concept="0" />
+      <node id="8423122693117704830" at="45,37,48,5" concept="7" />
+      <node id="8423122693117704838" at="48,5,51,5" concept="7" />
+      <node id="8423122693117704846" at="51,5,54,5" concept="7" />
+      <node id="8423122693117704692" at="60,31,63,7" concept="7" />
+      <node id="8423122693117704734" at="78,0,81,0" concept="8" trace="getScrollId#()Ljava/lang/String;" />
+      <node id="8423122693117704788" at="28,0,32,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117704797" at="32,0,36,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117704806" at="36,0,40,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117704813" at="40,0,44,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117704726" at="74,0,78,0" concept="8" trace="build#()Lio/searchbox/core/SearchScroll;" />
+      <node id="8423122693117704710" at="67,38,72,7" concept="7" />
+      <node id="8423122693117704754" at="19,19,25,5" concept="7" />
+      <node id="8423122693117704679" at="59,0,66,0" concept="2" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117704707" at="66,0,74,0" concept="8" trace="getJoinedIndices#()Ljava/lang/String;" />
+      <node id="8423122693117704749" at="18,0,28,0" concept="2" trace="SearchScroll#(Lio/searchbox/core/SearchScroll/Builder;)V" />
+      <node id="8423122693117704825" at="44,0,57,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117704775" at="23,12,24,34" />
+      <scope id="8423122693117704790" at="29,31,30,48" />
+      <scope id="8423122693117704799" at="33,37,34,31" />
+      <scope id="8423122693117704808" at="37,35,38,31" />
+      <scope id="8423122693117704815" at="41,25,42,76" />
+      <scope id="8423122693117704835" at="46,22,47,19" />
+      <scope id="8423122693117704843" at="49,22,50,18" />
+      <scope id="8423122693117704851" at="52,39,53,19" />
+      <scope id="8423122693117704697" at="61,67,62,53" />
+      <scope id="8423122693117704715" at="68,34,69,49" />
+      <scope id="8423122693117704721" at="70,14,71,20" />
+      <scope id="1535634584395282420" at="75,33,76,36" />
+      <scope id="1535634584395285668" at="78,33,79,22" />
+      <scope id="8423122693117704761" at="20,64,22,43" />
+      <scope id="8423122693117704734" at="78,0,81,0" />
+      <scope id="8423122693117704788" at="28,0,32,0" />
+      <scope id="8423122693117704797" at="32,0,36,0" />
+      <scope id="8423122693117704806" at="36,0,40,0" />
+      <scope id="8423122693117704813" at="40,0,44,0" />
+      <scope id="8423122693117704726" at="74,0,78,0" />
+      <scope id="1535634584395288926" at="59,52,64,46" />
+      <scope id="1535634584395292221" at="67,38,72,7" />
+      <scope id="8423122693117704679" at="59,0,66,0">
+        <var name="scroll" id="8423122693117704683" />
+        <var name="scrollId" id="8423122693117704681" />
+      </scope>
+      <scope id="8423122693117704753" at="18,56,26,23" />
+      <scope id="8423122693117704707" at="66,0,74,0" />
+      <scope id="8423122693117704749" at="18,0,28,0">
+        <var name="builder" id="8423122693117704751" />
+      </scope>
+      <scope id="8423122693117704829" at="45,37,55,73" />
+      <scope id="8423122693117704825" at="44,0,57,0">
+        <var name="obj" id="8423122693117704827" />
+      </scope>
+      <unit id="8423122693117704670" at="57,0,82,0" name="io.searchbox.core.SearchScroll$Builder" />
+      <unit id="8496368874152520230" at="13,0,83,0" name="io.searchbox.core.SearchScroll" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152528665">
+    <file name="MultiSearch.java">
+      <node id="8423122693117697682" at="16,0,17,0" concept="4" trace="searches" />
+      <node id="8423122693118140341" at="17,54,18,19" concept="13" />
+      <node id="8423122693117697692" at="18,19,19,39" concept="3" />
+      <node id="8423122693117697698" at="19,39,20,23" concept="3" />
+      <node id="8423122693117697715" at="23,126,24,115" concept="10" />
+      <node id="8423122693117697728" at="27,37,28,18" concept="10" />
+      <node id="8423122693117697942" at="31,36,32,26" concept="11" />
+      <node id="8423122693117697944" at="32,26,33,63" concept="11" />
+      <node id="8423122693117697946" at="33,63,34,51" concept="11" />
+      <node id="8423122693117697948" at="34,51,35,38" concept="11" />
+      <node id="8423122693117697950" at="35,38,36,10" concept="11" />
+      <node id="8423122693117697952" at="36,10,37,38" concept="11" />
+      <node id="8423122693117697738" at="37,38,38,43" concept="9" />
+      <node id="8423122693117697744" at="39,36,40,61" concept="3" />
+      <node id="8423122693117697755" at="41,53,42,64" concept="3" />
+      <node id="8423122693117697761" at="43,7,44,60" concept="3" />
+      <node id="8423122693117697766" at="44,60,45,58" concept="3" />
+      <node id="8423122693117697771" at="45,58,46,58" concept="3" />
+      <node id="8423122693117697776" at="46,58,47,67" concept="3" />
+      <node id="8423122693117697790" at="48,5,49,25" concept="10" />
+      <node id="8423122693117697801" at="51,64,52,72" concept="9" />
+      <node id="8423122693117697822" at="55,42,56,86" concept="10" />
+      <node id="8423122693117697846" at="58,41,59,148" concept="15" />
+      <node id="8423122693117697848" at="62,5,63,14" concept="10" />
+      <node id="8423122693117697855" at="66,31,67,42" concept="10" />
+      <node id="8423122693117697864" at="70,25,71,93" concept="10" />
+      <node id="8423122693117697887" at="75,22,76,19" concept="10" />
+      <node id="8423122693117697895" at="78,22,79,18" concept="10" />
+      <node id="8423122693117697903" at="81,39,82,19" concept="10" />
+      <node id="8423122693117697906" at="83,5,84,40" concept="9" />
+      <node id="8423122693117697911" at="84,40,85,104" concept="10" />
+      <node id="8423122693117697621" at="88,0,89,0" concept="4" trace="searchList" />
+      <node id="8423122693117697633" at="89,35,90,29" concept="3" />
+      <node id="8423122693117697644" at="92,59,93,34" concept="3" />
+      <node id="8423122693117697652" at="95,57,96,29" concept="3" />
+      <node id="8423122693117697655" at="96,29,97,18" concept="10" />
+      <node id="8423122693117697665" at="99,81,100,34" concept="3" />
+      <node id="8423122693117697668" at="100,34,101,18" concept="10" />
+      <node id="8423122693117697675" at="104,32,105,35" concept="10" />
+      <node id="8423122693117697750" at="40,61,43,7" concept="7" />
+      <node id="8423122693117697832" at="57,14,60,9" concept="7" />
+      <node id="8423122693117697881" at="74,37,77,5" concept="7" />
+      <node id="8423122693117697889" at="77,5,80,5" concept="7" />
+      <node id="8423122693117697897" at="80,5,83,5" concept="7" />
+      <node id="8423122693117697628" at="89,0,92,0" concept="2" trace="Builder#(Lio/searchbox/core/Search;)V" />
+      <node id="8423122693117697637" at="92,0,95,0" concept="2" trace="Builder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117697704" at="22,0,26,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/MultiSearchResult;" />
+      <node id="8423122693117697725" at="26,0,30,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117697852" at="65,0,69,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117697861" at="69,0,73,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117697648" at="95,0,99,0" concept="8" trace="addSearch#(Lio/searchbox/core/Search;)Lio/searchbox/core/MultiSearch/Builder;" />
+      <node id="8423122693117697659" at="99,0,103,0" concept="8" trace="addSearch#(Ljava/util/Collection;)Lio/searchbox/core/MultiSearch/Builder;" />
+      <node id="8423122693117697672" at="103,0,107,0" concept="8" trace="build#()Lio/searchbox/core/MultiSearch;" />
+      <node id="8423122693117697687" at="17,0,22,0" concept="2" trace="MultiSearch#(Lio/searchbox/core/MultiSearch/Builder;)V" />
+      <node id="8423122693117697816" at="54,36,60,9" concept="7" />
+      <node id="8423122693117697810" at="53,34,61,7" concept="7" />
+      <node id="8423122693117697741" at="38,43,48,5" concept="6" />
+      <node id="8423122693117697806" at="52,72,62,5" concept="7" />
+      <node id="8423122693117697794" at="51,0,65,0" concept="8" trace="getParameter#(Lio/searchbox/core/Search;Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="8423122693117697876" at="73,0,87,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="8423122693117697732" at="30,0,51,0" concept="8" trace="getData#(Lcom/google/gson/Gson;)Ljava/lang/String;" />
+      <scope id="8423122693117697714" at="23,126,24,115" />
+      <scope id="8423122693117697727" at="27,37,28,18" />
+      <scope id="8423122693117697754" at="41,53,42,64" />
+      <scope id="8423122693117697821" at="55,42,56,86" />
+      <scope id="8423122693117697837" at="58,41,59,148" />
+      <scope id="8423122693117697854" at="66,31,67,42" />
+      <scope id="8423122693117697863" at="70,25,71,93" />
+      <scope id="8423122693117697886" at="75,22,76,19" />
+      <scope id="8423122693117697894" at="78,22,79,18" />
+      <scope id="8423122693117697902" at="81,39,82,19" />
+      <scope id="1535634584395106043" at="89,35,90,29" />
+      <scope id="1535634584395112629" at="92,59,93,34" />
+      <scope id="1535634584395101835" at="104,32,105,35" />
+      <scope id="1535634584395098659" at="95,57,97,18" />
+      <scope id="1535634584395109434" at="99,81,101,18" />
+      <scope id="8423122693117697691" at="17,54,20,23" />
+      <scope id="8423122693117697628" at="89,0,92,0">
+        <var name="search" id="8423122693117697630" />
+      </scope>
+      <scope id="8423122693117697637" at="92,0,95,0">
+        <var name="searches" id="8423122693117697639" />
+      </scope>
+      <scope id="8423122693117697704" at="22,0,26,0">
+        <var name="gson" id="8423122693117697712" />
+        <var name="reasonPhrase" id="8423122693117697710" />
+        <var name="responseBody" id="8423122693117697706" />
+        <var name="statusCode" id="8423122693117697708" />
+      </scope>
+      <scope id="8423122693117697725" at="26,0,30,0" />
+      <scope id="8423122693117697852" at="65,0,69,0" />
+      <scope id="8423122693117697861" at="69,0,73,0" />
+      <scope id="8423122693117697648" at="95,0,99,0">
+        <var name="search" id="8423122693117697649" />
+      </scope>
+      <scope id="8423122693117697659" at="99,0,103,0">
+        <var name="searches" id="8423122693117697660" />
+      </scope>
+      <scope id="8423122693117697672" at="103,0,107,0" />
+      <scope id="8423122693117697687" at="17,0,22,0">
+        <var name="builder" id="8423122693117697689" />
+      </scope>
+      <scope id="8423122693117697815" at="54,36,60,9" />
+      <scope id="8423122693117697743" at="39,36,47,67" />
+      <scope id="8423122693117697847" at="53,34,61,7" />
+      <scope id="8423122693117697741" at="38,43,48,5">
+        <var name="search" id="8423122693117697786" />
+      </scope>
+      <scope id="8423122693117697880" at="74,37,85,104">
+        <var name="rhs" id="8423122693117697905" />
+      </scope>
+      <scope id="8423122693117697799" at="51,64,63,14">
+        <var name="searchParameter" id="8423122693117697800" />
+      </scope>
+      <scope id="8423122693117697794" at="51,0,65,0">
+        <var name="parameter" id="8423122693117697797" />
+        <var name="search" id="8423122693117697795" />
+      </scope>
+      <scope id="8423122693117697876" at="73,0,87,0">
+        <var name="obj" id="8423122693117697878" />
+      </scope>
+      <scope id="8423122693117697736" at="31,36,49,25">
+        <var name="sb" id="8423122693117697737" />
+      </scope>
+      <scope id="8423122693117697732" at="30,0,51,0">
+        <var name="gson" id="8423122693117697734" />
+      </scope>
+      <unit id="8423122693117697616" at="87,0,108,0" name="io.searchbox.core.MultiSearch$Builder" />
+      <unit id="8496368874152528665" at="14,0,109,0" name="io.searchbox.core.MultiSearch" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152528803">
+    <file name="Doc.java">
+      <node id="8423122693117716956" at="13,0,14,0" concept="4" trace="index" />
+      <node id="8423122693117716960" at="14,0,15,0" concept="4" trace="type" />
+      <node id="8423122693117716964" at="15,0,16,0" concept="4" trace="id" />
+      <node id="8423122693117716968" at="16,0,17,0" concept="4" trace="routing" />
+      <node id="8423122693117716972" at="17,0,18,0" concept="4" trace="source" />
+      <node id="8423122693117716976" at="18,0,19,0" concept="4" trace="fields" />
+      <node id="8423122693118152108" at="19,39,20,26" concept="14" />
+      <node id="8423122693117717011" at="31,37,32,93" concept="15" />
+      <node id="8423122693117717019" at="34,34,35,90" concept="15" />
+      <node id="8423122693117717020" at="36,5,37,23" concept="3" />
+      <node id="8423122693117717026" at="37,23,38,21" concept="3" />
+      <node id="8423122693117717032" at="38,21,39,17" concept="3" />
+      <node id="8423122693117717042" at="41,28,42,17" concept="10" />
+      <node id="8423122693117717048" at="44,27,45,16" concept="10" />
+      <node id="8423122693117717054" at="47,25,48,14" concept="10" />
+      <node id="8423122693117717060" at="50,41,51,18" concept="10" />
+      <node id="8423122693117717070" at="57,52,58,31" concept="3" />
+      <node id="8423122693117717084" at="64,38,65,22" concept="3" />
+      <node id="8423122693117717094" at="67,42,68,27" concept="3" />
+      <node id="8423122693117717104" at="70,30,71,19" concept="10" />
+      <node id="8423122693117717112" at="81,40,82,25" concept="3" />
+      <node id="8423122693117717123" at="84,29,85,18" concept="10" />
+      <node id="8423122693117717130" at="87,41,88,69" concept="9" />
+      <node id="8423122693117717137" at="88,69,89,32" concept="3" />
+      <node id="8423122693117717146" at="90,39,91,32" concept="3" />
+      <node id="8423122693117717150" at="92,5,93,26" concept="3" />
+      <node id="8423122693117717159" at="94,30,95,35" concept="3" />
+      <node id="8423122693117717168" at="97,42,98,38" concept="3" />
+      <node id="8423122693117717178" at="100,25,101,36" concept="3" />
+      <node id="8423122693117717182" at="102,5,103,18" concept="10" />
+      <node id="8423122693117716983" at="19,0,22,0" concept="2" trace="Doc#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117717004" at="30,52,33,5" concept="7" />
+      <node id="8423122693117717012" at="33,5,36,5" concept="7" />
+      <node id="8423122693117717040" at="41,0,44,0" concept="8" trace="getIndex#()Ljava/lang/String;" />
+      <node id="8423122693117717046" at="44,0,47,0" concept="8" trace="getType#()Ljava/lang/String;" />
+      <node id="8423122693117717052" at="47,0,50,0" concept="8" trace="getId#()Ljava/lang/String;" />
+      <node id="8423122693117717058" at="50,0,53,0" concept="8" trace="getFields#()Ljava/util/Collection;" />
+      <node id="8423122693117717065" at="57,0,60,0" concept="8" trace="addFields#(Ljava/util/Collection;)V" />
+      <node id="8423122693117717080" at="64,0,67,0" concept="8" trace="addField#(Ljava/lang/String;)V" />
+      <node id="8423122693117717090" at="67,0,70,0" concept="8" trace="setRouting#(Ljava/lang/String;)V" />
+      <node id="8423122693117717102" at="70,0,73,0" concept="8" trace="getRouting#()Ljava/lang/String;" />
+      <node id="8423122693117717108" at="81,0,84,0" concept="8" trace="setSource#(Ljava/lang/Object;)V" />
+      <node id="8423122693117717121" at="84,0,87,0" concept="8" trace="getSource#()Ljava/lang/Object;" />
+      <node id="8423122693117717141" at="89,32,92,5" concept="7" />
+      <node id="8423122693117717154" at="93,26,96,5" concept="7" />
+      <node id="8423122693117717163" at="96,5,99,5" concept="7" />
+      <node id="8423122693117717172" at="99,5,102,5" concept="7" />
+      <node id="8423122693117716995" at="30,0,41,0" concept="2" trace="Doc#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117717127" at="87,0,105,0" concept="8" trace="toMap#()Ljava/util/Map;" />
+      <scope id="8423122693117716989" at="19,39,20,26" />
+      <scope id="8423122693117717008" at="31,37,32,93" />
+      <scope id="8423122693117717016" at="34,34,35,90" />
+      <scope id="8423122693117717041" at="41,28,42,17" />
+      <scope id="8423122693117717047" at="44,27,45,16" />
+      <scope id="8423122693117717053" at="47,25,48,14" />
+      <scope id="8423122693117717059" at="50,41,51,18" />
+      <scope id="8423122693117717069" at="57,52,58,31" />
+      <scope id="8423122693117717083" at="64,38,65,22" />
+      <scope id="8423122693117717093" at="67,42,68,27" />
+      <scope id="8423122693117717103" at="70,30,71,19" />
+      <scope id="8423122693117717111" at="81,40,82,25" />
+      <scope id="8423122693117717122" at="84,29,85,18" />
+      <scope id="8423122693117717145" at="90,39,91,32" />
+      <scope id="8423122693117717158" at="94,30,95,35" />
+      <scope id="8423122693117717167" at="97,42,98,38" />
+      <scope id="8423122693117717177" at="100,25,101,36" />
+      <scope id="8423122693117716983" at="19,0,22,0">
+        <var name="id" id="8423122693117716987" />
+        <var name="index" id="8423122693117716985" />
+      </scope>
+      <scope id="8423122693117717040" at="41,0,44,0" />
+      <scope id="8423122693117717046" at="44,0,47,0" />
+      <scope id="8423122693117717052" at="47,0,50,0" />
+      <scope id="8423122693117717058" at="50,0,53,0" />
+      <scope id="8423122693117717065" at="57,0,60,0">
+        <var name="fields" id="8423122693117717066" />
+      </scope>
+      <scope id="8423122693117717080" at="64,0,67,0">
+        <var name="field" id="8423122693117717081" />
+      </scope>
+      <scope id="8423122693117717090" at="67,0,70,0">
+        <var name="routing" id="8423122693117717091" />
+      </scope>
+      <scope id="8423122693117717102" at="70,0,73,0" />
+      <scope id="8423122693117717108" at="81,0,84,0">
+        <var name="source" id="8423122693117717109" />
+      </scope>
+      <scope id="8423122693117717121" at="84,0,87,0" />
+      <scope id="8423122693117717003" at="30,52,39,17" />
+      <scope id="8423122693117716995" at="30,0,41,0">
+        <var name="id" id="8423122693117717001" />
+        <var name="index" id="8423122693117716997" />
+        <var name="type" id="8423122693117716999" />
+      </scope>
+      <scope id="8423122693117717128" at="87,41,103,18">
+        <var name="retval" id="8423122693117717129" />
+      </scope>
+      <scope id="8423122693117717127" at="87,0,105,0" />
+      <unit id="8496368874152528803" at="11,0,106,0" name="io.searchbox.core.Doc" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152528920">
+    <file name="Update.java">
+      <node id="8423122693118153178" at="14,44,15,19" concept="13" />
+      <node id="8423122693117721294" at="15,19,16,35" concept="3" />
+      <node id="8423122693117721300" at="16,35,17,23" concept="3" />
+      <node id="8423122693117721309" at="20,37,21,20" concept="10" />
+      <node id="8423122693117721316" at="24,31,25,41" concept="10" />
+      <node id="8423122693117721325" at="28,37,29,18" concept="10" />
+      <node id="8423122693117721332" at="32,35,33,16" concept="10" />
+      <node id="8423122693117721339" at="36,25,37,76" concept="10" />
+      <node id="8423122693117721359" at="41,22,42,19" concept="10" />
+      <node id="8423122693117721367" at="44,22,45,18" concept="10" />
+      <node id="8423122693117721375" at="47,39,48,19" concept="10" />
+      <node id="8423122693117721377" at="49,5,50,73" concept="10" />
+      <node id="8423122693117721244" at="53,0,54,0" concept="4" trace="payload" />
+      <node id="8423122693117721253" at="54,36,55,29" concept="3" />
+      <node id="8423122693117721262" at="57,27,58,30" concept="10" />
+      <node id="8423122693118153237" at="62,57,63,21" concept="13" />
+      <node id="8423122693117721277" at="63,21,64,53" concept="3" />
+      <node id="8423122693117721353" at="40,37,43,5" concept="7" />
+      <node id="8423122693117721361" at="43,5,46,5" concept="7" />
+      <node id="8423122693117721369" at="46,5,49,5" concept="7" />
+      <node id="8423122693117721248" at="54,0,57,0" concept="2" trace="Builder#(Ljava/lang/Object;)V" />
+      <node id="8423122693117721260" at="57,0,60,0" concept="8" trace="build#()Lio/searchbox/core/Update;" />
+      <node id="8423122693117721306" at="19,0,23,0" concept="8" trace="getBulkMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117721313" at="23,0,27,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117721322" at="27,0,31,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117721329" at="31,0,35,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117721336" at="35,0,39,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117721270" at="62,0,66,0" concept="2" trace="VersionBuilder#(Ljava/lang/Object;Ljava/lang/Long;)V" />
+      <node id="8423122693117721289" at="14,0,19,0" concept="2" trace="Update#(Lio/searchbox/core/Update/Builder;)V" />
+      <node id="8423122693117721348" at="39,0,52,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117721308" at="20,37,21,20" />
+      <scope id="8423122693117721315" at="24,31,25,41" />
+      <scope id="8423122693117721324" at="28,37,29,18" />
+      <scope id="8423122693117721331" at="32,35,33,16" />
+      <scope id="8423122693117721338" at="36,25,37,76" />
+      <scope id="8423122693117721358" at="41,22,42,19" />
+      <scope id="8423122693117721366" at="44,22,45,18" />
+      <scope id="8423122693117721374" at="47,39,48,19" />
+      <scope id="1535634584395367363" at="54,36,55,29" />
+      <scope id="1535634584395364073" at="57,27,58,30" />
+      <scope id="1535634584395370940" at="62,57,64,53" />
+      <scope id="8423122693117721293" at="14,44,17,23" />
+      <scope id="8423122693117721248" at="54,0,57,0">
+        <var name="payload" id="8423122693117721250" />
+      </scope>
+      <scope id="8423122693117721260" at="57,0,60,0" />
+      <scope id="8423122693117721306" at="19,0,23,0" />
+      <scope id="8423122693117721313" at="23,0,27,0" />
+      <scope id="8423122693117721322" at="27,0,31,0" />
+      <scope id="8423122693117721329" at="31,0,35,0" />
+      <scope id="8423122693117721336" at="35,0,39,0" />
+      <scope id="8423122693117721270" at="62,0,66,0">
+        <var name="payload" id="8423122693117721272" />
+        <var name="version" id="8423122693117721274" />
+      </scope>
+      <scope id="8423122693117721289" at="14,0,19,0">
+        <var name="builder" id="8423122693117721291" />
+      </scope>
+      <scope id="8423122693117721352" at="40,37,50,73" />
+      <scope id="8423122693117721348" at="39,0,52,0">
+        <var name="obj" id="8423122693117721350" />
+      </scope>
+      <unit id="8423122693117721267" at="61,0,67,0" name="io.searchbox.core.Update$VersionBuilder" />
+      <unit id="8423122693117721239" at="52,0,61,0" name="io.searchbox.core.Update$Builder" />
+      <unit id="8496368874152528920" at="12,0,68,0" name="io.searchbox.core.Update" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152528989">
+    <file name="Percolate.java">
+      <node id="8423122693118160470" at="12,50,13,19" concept="13" />
+      <node id="8423122693117721757" at="13,19,14,35" concept="3" />
+      <node id="8423122693117721763" at="14,35,15,33" concept="3" />
+      <node id="8423122693117721769" at="15,33,16,33" concept="3" />
+      <node id="8423122693117721775" at="16,33,17,23" concept="3" />
+      <node id="8423122693117721784" at="20,37,21,18" concept="10" />
+      <node id="8423122693117721791" at="24,31,25,44" concept="10" />
+      <node id="8423122693117721800" at="28,25,29,76" concept="10" />
+      <node id="8423122693117721820" at="33,22,34,19" concept="10" />
+      <node id="8423122693117721828" at="36,22,37,18" concept="10" />
+      <node id="8423122693117721836" at="39,39,40,19" concept="10" />
+      <node id="8423122693117721838" at="41,5,42,73" concept="10" />
+      <node id="8423122693117721703" at="45,0,46,0" concept="4" trace="index" />
+      <node id="8423122693117721707" at="46,0,47,0" concept="4" trace="type" />
+      <node id="8423122693117721711" at="47,0,48,0" concept="4" trace="query" />
+      <node id="8423122693117721724" at="48,61,49,25" concept="3" />
+      <node id="8423122693117721730" at="49,25,50,23" concept="3" />
+      <node id="8423122693117721736" at="50,23,51,25" concept="3" />
+      <node id="8423122693117721746" at="54,30,55,33" concept="10" />
+      <node id="8423122693117721814" at="32,37,35,5" concept="7" />
+      <node id="8423122693117721822" at="35,5,38,5" concept="7" />
+      <node id="8423122693117721830" at="38,5,41,5" concept="7" />
+      <node id="8423122693117721781" at="19,0,23,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117721788" at="23,0,27,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117721797" at="27,0,31,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117721743" at="53,0,57,0" concept="8" trace="build#()Lio/searchbox/core/Percolate;" />
+      <node id="8423122693117721715" at="48,0,53,0" concept="2" trace="Builder#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V" />
+      <node id="8423122693117721752" at="12,0,19,0" concept="2" trace="Percolate#(Lio/searchbox/core/Percolate/Builder;)V" />
+      <node id="8423122693117721809" at="31,0,44,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117721783" at="20,37,21,18" />
+      <scope id="8423122693117721790" at="24,31,25,44" />
+      <scope id="8423122693117721799" at="28,25,29,76" />
+      <scope id="8423122693117721819" at="33,22,34,19" />
+      <scope id="8423122693117721827" at="36,22,37,18" />
+      <scope id="8423122693117721835" at="39,39,40,19" />
+      <scope id="1535634584395145741" at="54,30,55,33" />
+      <scope id="1535634584395142525" at="48,61,51,25" />
+      <scope id="8423122693117721781" at="19,0,23,0" />
+      <scope id="8423122693117721788" at="23,0,27,0" />
+      <scope id="8423122693117721797" at="27,0,31,0" />
+      <scope id="8423122693117721743" at="53,0,57,0" />
+      <scope id="8423122693117721756" at="12,50,17,23" />
+      <scope id="8423122693117721715" at="48,0,53,0">
+        <var name="index" id="8423122693117721717" />
+        <var name="query" id="8423122693117721721" />
+        <var name="type" id="8423122693117721719" />
+      </scope>
+      <scope id="8423122693117721752" at="12,0,19,0">
+        <var name="builder" id="8423122693117721754" />
+      </scope>
+      <scope id="8423122693117721813" at="32,37,42,73" />
+      <scope id="8423122693117721809" at="31,0,44,0">
+        <var name="obj" id="8423122693117721811" />
+      </scope>
+      <unit id="8423122693117721698" at="44,0,58,0" name="io.searchbox.core.Percolate$Builder" />
+      <unit id="8496368874152528989" at="10,0,59,0" name="io.searchbox.core.Percolate" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529042">
+    <file name="CatResult.java">
+      <node id="8423122693118160549" at="16,41,17,21" concept="13" />
+      <node id="8423122693118160550" at="19,31,20,16" concept="13" />
+      <node id="8423122693117672183" at="26,36,27,44" concept="9" />
+      <node id="8423122693117672201" at="28,117,29,82" concept="9" />
+      <node id="8423122693117672218" at="30,74,31,46" concept="10" />
+      <node id="8423122693117672221" at="33,5,34,28" concept="10" />
+      <node id="990910864843485441" at="36,61,37,135" concept="9" />
+      <node id="8423122693117672252" at="37,135,38,91" concept="9" />
+      <node id="8423122693117672278" at="39,63,40,62" concept="3" />
+      <node id="8423122693117672290" at="41,5,42,19" concept="9" />
+      <node id="8423122693117672297" at="43,40,44,52" concept="9" />
+      <node id="8423122693117672313" at="45,77,46,79" concept="3" />
+      <node id="8423122693117672328" at="47,7,48,15" concept="3" />
+      <node id="8423122693117672335" at="49,5,50,18" concept="10" />
+      <node id="8423122693117672164" at="16,0,19,0" concept="2" trace="CatResult#(Lio/searchbox/core/CatResult;)V" />
+      <node id="8423122693117672172" at="19,0,22,0" concept="2" trace="CatResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117672207" at="29,82,32,7" concept="7" />
+      <node id="8423122693117672265" at="38,91,41,5" concept="5" />
+      <node id="8423122693117672300" at="44,52,47,7" concept="5" />
+      <node id="8423122693117672186" at="27,44,33,5" concept="7" />
+      <node id="8423122693117672293" at="42,19,49,5" concept="6" />
+      <node id="8423122693117672180" at="26,0,36,0" concept="8" trace="getPlainText#()[[Ljava/lang/String;" />
+      <node id="8423122693117672234" at="36,0,52,0" concept="8" trace="parseResultArray#(Lcom/google/gson/JsonArray;)[[Ljava/lang/String;" />
+      <scope id="8423122693117672168" at="16,41,17,21" />
+      <scope id="8423122693117672176" at="19,31,20,16" />
+      <scope id="8423122693117672217" at="30,74,31,46" />
+      <scope id="8423122693117672277" at="39,63,40,62" />
+      <scope id="8423122693117672312" at="45,77,46,79" />
+      <scope id="8423122693117672164" at="16,0,19,0">
+        <var name="catResult" id="8423122693117672166" />
+      </scope>
+      <scope id="8423122693117672172" at="19,0,22,0">
+        <var name="gson" id="8423122693117672174" />
+      </scope>
+      <scope id="8423122693117672265" at="38,91,41,5">
+        <var name="i" id="8423122693117672266" />
+      </scope>
+      <scope id="8423122693117672300" at="44,52,47,7">
+        <var name="colId" id="8423122693117672301" />
+      </scope>
+      <scope id="8423122693117672199" at="28,117,32,7">
+        <var name="esResultRows" id="8423122693117672200" />
+      </scope>
+      <scope id="8423122693117672295" at="43,40,48,15">
+        <var name="currentObj" id="8423122693117672296" />
+      </scope>
+      <scope id="8423122693117672293" at="42,19,49,5">
+        <var name="row" id="8423122693117672331" />
+      </scope>
+      <scope id="8423122693117672181" at="26,36,34,28">
+        <var name="jsonObject" id="8423122693117672182" />
+      </scope>
+      <scope id="8423122693117672180" at="26,0,36,0" />
+      <scope id="8423122693117672237" at="36,61,50,18">
+        <var name="fieldsInFirstResponseRow" id="990910864843485442" />
+        <var name="result" id="8423122693117672251" />
+        <var name="rowNum" id="8423122693117672289" />
+      </scope>
+      <scope id="8423122693117672234" at="36,0,52,0">
+        <var name="esResponse" id="8423122693117672235" />
+      </scope>
+      <unit id="8496368874152529042" at="14,0,53,0" name="io.searchbox.core.CatResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529087">
+    <file name="SearchResult.java">
+      <node id="8423122693117685465" at="23,0,24,0" concept="12" trace="EXPLANATION_KEY" />
+      <node id="8423122693117685469" at="24,0,25,0" concept="12" trace="HIGHLIGHT_KEY" />
+      <node id="8423122693117685473" at="25,0,26,0" concept="12" trace="SORT_KEY" />
+      <node id="8423122693117685477" at="26,0,27,0" concept="12" trace="PATH_TO_TOTAL" />
+      <node id="8423122693117685485" at="27,0,28,0" concept="12" trace="PATH_TO_MAX_SCORE" />
+      <node id="8423122693118160618" at="28,50,29,24" concept="13" />
+      <node id="8423122693118160619" at="31,34,32,16" concept="13" />
+      <node id="8423122693117685517" at="36,50,37,42" concept="10" />
+      <node id="8423122693117685530" at="41,59,42,45" concept="10" />
+      <node id="8423122693117685542" at="44,73,45,47" concept="10" />
+      <node id="8423122693117685562" at="47,99,48,38" concept="9" />
+      <node id="8423122693117685568" at="48,38,49,83" concept="9" />
+      <node id="8423122693117685582" at="50,28,51,24" concept="3" />
+      <node id="8423122693117685587" at="52,5,53,15" concept="10" />
+      <node id="8423122693117685599" at="55,75,56,43" concept="10" />
+      <node id="8423122693117685619" at="58,101,59,55" concept="10" />
+      <node id="8423122693117685642" at="61,126,62,86" concept="9" />
+      <node id="8423122693117685658" at="63,29,64,32" concept="9" />
+      <node id="8423122693117685669" at="65,25,66,49" concept="9" />
+      <node id="8423122693117685677" at="66,49,67,50" concept="9" />
+      <node id="8423122693117685698" at="68,51,69,48" concept="3" />
+      <node id="8423122693117685714" at="71,33,72,82" concept="3" />
+      <node id="8423122693117685728" at="75,63,76,91" concept="3" />
+      <node id="8423122693117685737" at="77,31,78,20" concept="1" />
+      <node id="8423122693117685743" at="83,5,84,22" concept="10" />
+      <node id="8423122693117685765" at="86,143,87,38" concept="9" />
+      <node id="8423122693117685775" at="88,36,89,58" concept="9" />
+      <node id="8423122693117685779" at="89,58,90,63" concept="9" />
+      <node id="8423122693117685790" at="91,27,92,61" concept="9" />
+      <node id="8423122693117685797" at="92,61,93,59" concept="9" />
+      <node id="8423122693117685804" at="93,59,94,28" concept="9" />
+      <node id="8423122693117685818" at="95,81,96,56" concept="3" />
+      <node id="8423122693117685826" at="97,9,98,65" concept="9" />
+      <node id="8423122693117685831" at="98,65,99,105" concept="9" />
+      <node id="8423122693117685840" at="99,105,100,76" concept="9" />
+      <node id="8423122693117685847" at="100,76,101,39" concept="9" />
+      <node id="8423122693117685854" at="102,71,103,73" concept="9" />
+      <node id="8423122693117685870" at="105,39,106,71" concept="3" />
+      <node id="8423122693117685877" at="107,13,108,71" concept="3" />
+      <node id="8423122693117685891" at="111,35,112,32" concept="3" />
+      <node id="8423122693117685895" at="113,9,114,128" concept="3" />
+      <node id="8423122693117685910" at="116,5,117,15" concept="10" />
+      <node id="8423122693117685926" at="120,23,121,18" concept="10" />
+      <node id="8423122693117685929" at="122,5,123,61" concept="9" />
+      <node id="8423122693117685938" at="124,40,125,74" concept="3" />
+      <node id="8423122693117685948" at="126,5,127,18" concept="10" />
+      <node id="8423122693117685958" at="129,78,130,44" concept="9" />
+      <node id="8423122693117685971" at="131,28,132,78" concept="9" />
+      <node id="8423122693117685977" at="132,78,133,70" concept="3" />
+      <node id="8423122693117685989" at="134,65,135,57" concept="9" />
+      <node id="8423122693117685997" at="136,71,137,47" concept="3" />
+      <node id="8423122693117686006" at="138,9,139,46" concept="3" />
+      <node id="8423122693117686016" at="141,5,142,18" concept="10" />
+      <node id="8423122693117686026" at="144,29,145,25" concept="9" />
+      <node id="8423122693117686030" at="145,25,146,45" concept="9" />
+      <node id="8423122693117686038" at="147,22,148,29" concept="3" />
+      <node id="8423122693117686043" at="149,5,150,17" concept="10" />
+      <node id="8423122693117686050" at="152,30,153,26" concept="9" />
+      <node id="8423122693117686054" at="153,26,154,49" concept="9" />
+      <node id="8423122693117686062" at="155,22,156,34" concept="3" />
+      <node id="8423122693117686067" at="157,5,158,20" concept="10" />
+      <node id="8423122693117686077" at="160,48,161,30" concept="9" />
+      <node id="8423122693117686087" at="162,29,163,35" concept="9" />
+      <node id="8423122693117686097" at="165,26,166,16" concept="1" />
+      <node id="8423122693117686099" at="167,9,168,48" concept="3" />
+      <node id="8423122693117686113" at="169,7,170,19" concept="3" />
+      <node id="8423122693117686117" at="171,5,172,18" concept="10" />
+      <node id="8423122693117686124" at="174,46,175,45" concept="9" />
+      <node id="8423122693117686131" at="176,29,177,71" concept="10" />
+      <node id="8423122693117686139" at="179,41,180,97" concept="10" />
+      <node id="8423122693117686148" at="182,33,183,89" concept="10" />
+      <node id="8423122693117686154" at="184,5,185,69" concept="10" />
+      <node id="8423122693117685072" at="195,0,196,0" concept="4" trace="source" />
+      <node id="8423122693117685076" at="196,0,197,0" concept="4" trace="explanation" />
+      <node id="8423122693117685080" at="197,0,198,0" concept="4" trace="highlight" />
+      <node id="8423122693117685087" at="198,0,199,0" concept="4" trace="sort" />
+      <node id="8423122693117685092" at="199,0,200,0" concept="4" trace="index" />
+      <node id="8423122693117685096" at="200,0,201,0" concept="4" trace="type" />
+      <node id="8423122693117685100" at="201,0,202,0" concept="4" trace="score" />
+      <node id="8423122693118160871" at="202,57,203,43" concept="14" />
+      <node id="8423122693118160872" at="205,108,206,73" concept="14" />
+      <node id="8423122693118160873" at="208,164,209,96" concept="14" />
+      <node id="8423122693117685204" at="212,27,213,27" concept="3" />
+      <node id="8423122693117685212" at="214,14,215,61" concept="3" />
+      <node id="8423122693117685226" at="217,32,218,32" concept="3" />
+      <node id="8423122693117685234" at="219,14,220,76" concept="3" />
+      <node id="8423122693117685242" at="221,7,222,33" concept="3" />
+      <node id="8423122693117685248" at="222,33,223,23" concept="3" />
+      <node id="8423122693117685254" at="223,23,224,25" concept="3" />
+      <node id="8423122693117685260" at="224,25,225,23" concept="3" />
+      <node id="8423122693117685266" at="225,23,226,25" concept="3" />
+      <node id="8423122693118160874" at="228,26,229,48" concept="14" />
+      <node id="8423122693118160875" at="231,41,232,69" concept="14" />
+      <node id="8423122693118160876" at="234,97,235,67" concept="14" />
+      <node id="8423122693117685342" at="237,138,238,27" concept="3" />
+      <node id="8423122693117685348" at="238,27,239,37" concept="3" />
+      <node id="8423122693117685354" at="239,37,240,33" concept="3" />
+      <node id="8423122693117685360" at="240,33,241,23" concept="3" />
+      <node id="8423122693117685366" at="241,23,242,25" concept="3" />
+      <node id="8423122693117685372" at="242,25,243,23" concept="3" />
+      <node id="8423122693117685378" at="243,23,244,25" concept="3" />
+      <node id="8423122693117685388" at="247,27,248,114" concept="10" />
+      <node id="8423122693117685417" at="252,24,253,21" concept="10" />
+      <node id="8423122693117685425" at="255,24,256,20" concept="10" />
+      <node id="8423122693117685433" at="258,41,259,21" concept="10" />
+      <node id="8423122693117685436" at="260,7,261,52" concept="9" />
+      <node id="8423122693117685441" at="261,52,262,164" concept="10" />
+      <node id="8423122693117685210" at="214,12,216,7" concept="0" />
+      <node id="8423122693117685232" at="219,12,221,7" concept="0" />
+      <node id="8423122693117685493" at="28,0,31,0" concept="2" trace="SearchResult#(Lio/searchbox/core/SearchResult;)V" />
+      <node id="8423122693117685501" at="31,0,34,0" concept="2" trace="SearchResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117685536" at="44,0,47,0" concept="8" trace="getFirstHit#(Ljava/lang/Class;)Lio/searchbox/core/SearchResult/Hit;" />
+      <node id="8423122693117685577" at="49,83,52,5" concept="7" />
+      <node id="8423122693117685593" at="55,0,58,0" concept="8" trace="getHits#(Ljava/lang/Class;)Ljava/util/List;" />
+      <node id="8423122693117685609" at="58,0,61,0" concept="8" trace="getHits#(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;" />
+      <node id="8423122693117685683" at="67,50,70,9" concept="5" />
+      <node id="8423122693117685735" at="76,91,79,13" concept="7" />
+      <node id="8423122693117685807" at="94,28,97,9" concept="7" />
+      <node id="8423122693117685864" at="104,36,107,13" concept="7" />
+      <node id="8423122693117685885" at="110,9,113,9" concept="7" />
+      <node id="8423122693117685920" at="119,54,122,5" concept="7" />
+      <node id="8423122693117685935" at="123,61,126,5" concept="6" />
+      <node id="8423122693117685994" at="135,57,138,9" concept="6" />
+      <node id="8423122693117686034" at="146,45,149,5" concept="7" />
+      <node id="8423122693117686058" at="154,49,157,5" concept="7" />
+      <node id="8423122693117686093" at="164,37,167,9" concept="7" />
+      <node id="8423122693117686127" at="175,45,178,5" concept="7" />
+      <node id="8423122693117686136" at="178,5,181,5" concept="7" />
+      <node id="8423122693117686145" at="181,5,184,5" concept="7" />
+      <node id="8423122693117685104" at="202,0,205,0" concept="2" trace="Hit#(Ljava/lang/Class;Lcom/google/gson/JsonElement;)V" />
+      <node id="8423122693117685118" at="205,0,208,0" concept="2" trace="Hit#(Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/lang/Class;Lcom/google/gson/JsonElement;)V" />
+      <node id="8423122693117685139" at="208,0,211,0" concept="2" trace="Hit#(Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/util/Map;Ljava/util/List;)V" />
+      <node id="8423122693117685273" at="228,0,231,0" concept="2" trace="Hit#(null)V" />
+      <node id="8423122693117685284" at="231,0,234,0" concept="2" trace="Hit#(nullnull)V" />
+      <node id="8423122693117685297" at="234,0,237,0" concept="2" trace="Hit#(nullnullLjava/util/Map;Ljava/util/List;)V" />
+      <node id="8423122693117685411" at="251,39,254,7" concept="7" />
+      <node id="8423122693117685419" at="254,7,257,7" concept="7" />
+      <node id="8423122693117685427" at="257,7,260,7" concept="7" />
+      <node id="8423122693117685385" at="246,0,250,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117685509" at="34,0,39,0" concept="8" trace="getSourceAsObject#(Ljava/lang/Class;)null" />
+      <node id="8423122693117685522" at="39,0,44,0" concept="8" trace="getSourceAsObjectList#(Ljava/lang/Class;)Ljava/util/List;" />
+      <node id="8423122693117685198" at="211,205,216,7" concept="7" />
+      <node id="8423122693117685220" at="216,7,221,7" concept="7" />
+      <node id="8423122693117685725" at="74,32,80,11" concept="6" />
+      <node id="8423122693117685858" at="103,73,109,11" concept="7" />
+      <node id="8423122693117686090" at="163,35,169,7" concept="6" />
+      <node id="8423122693117685985" at="133,70,140,7" concept="6" />
+      <node id="8423122693117685551" at="47,0,55,0" concept="8" trace="getFirstHit#(Ljava/lang/Class;Ljava/lang/Class;)Lio/searchbox/core/SearchResult/Hit;" />
+      <node id="8423122693117685721" at="73,14,81,9" concept="7" />
+      <node id="8423122693117686023" at="144,0,152,0" concept="8" trace="getTotal#()Ljava/lang/Integer;" />
+      <node id="8423122693117686047" at="152,0,160,0" concept="8" trace="getMaxScore#()Ljava/lang/Float;" />
+      <node id="8423122693117685850" at="101,39,110,9" concept="6" />
+      <node id="8423122693117685321" at="237,0,246,0" concept="2" trace="Hit#(nullnullLjava/util/Map;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V" />
+      <node id="8423122693117685916" at="119,0,129,0" concept="8" trace="extractSort#(Lcom/google/gson/JsonArray;)Ljava/util/List;" />
+      <node id="8423122693117686080" at="161,30,171,5" concept="7" />
+      <node id="8423122693117685710" at="70,9,81,9" concept="7" />
+      <node id="8423122693117685964" at="130,44,141,5" concept="7" />
+      <node id="8423122693117686121" at="174,0,187,0" concept="8" trace="getAggregations#()Lio/searchbox/core/search/aggregation/MetricAggregation;" />
+      <node id="8423122693117686071" at="160,0,174,0" concept="8" trace="getPath#([Ljava/lang/String;)Lcom/google/gson/JsonElement;" />
+      <node id="8423122693117685406" at="250,0,264,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="8423122693117685953" at="129,0,144,0" concept="8" trace="extractHighlight#(Lcom/google/gson/JsonObject;)Ljava/util/Map;" />
+      <node id="8423122693117685171" at="211,0,228,0" concept="2" trace="Hit#(Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/util/Map;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V" />
+      <node id="8423122693117685662" at="64,32,82,7" concept="7" />
+      <node id="8423122693117685651" at="62,86,83,5" concept="7" />
+      <node id="8423122693117685629" at="61,0,86,0" concept="8" trace="getHits#(Ljava/lang/Class;Ljava/lang/Class;Z)Ljava/util/List;" />
+      <node id="8423122693117685783" at="90,63,115,7" concept="7" />
+      <node id="8423122693117685770" at="87,38,116,5" concept="7" />
+      <node id="8423122693117685750" at="86,0,119,0" concept="8" trace="extractHit#(Ljava/lang/Class;Ljava/lang/Class;Lcom/google/gson/JsonElement;Ljava/lang/String;)Lio/searchbox/core/SearchResult/Hit;" />
+      <scope id="8423122693117685497" at="28,50,29,24" />
+      <scope id="8423122693117685505" at="31,34,32,16" />
+      <scope id="8423122693117685516" at="36,50,37,42" />
+      <scope id="8423122693117685529" at="41,59,42,45" />
+      <scope id="8423122693117685541" at="44,73,45,47" />
+      <scope id="8423122693117685581" at="50,28,51,24" />
+      <scope id="8423122693117685598" at="55,75,56,43" />
+      <scope id="8423122693117685618" at="58,101,59,55" />
+      <scope id="8423122693117685697" at="68,51,69,48" />
+      <scope id="8423122693117685713" at="71,33,72,82" />
+      <scope id="8423122693117685738" at="77,31,78,20" />
+      <scope id="8423122693117685817" at="95,81,96,56" />
+      <scope id="8423122693117685869" at="105,39,106,71" />
+      <scope id="8423122693117685890" at="111,35,112,32" />
+      <scope id="8423122693117685925" at="120,23,121,18" />
+      <scope id="8423122693117685937" at="124,40,125,74" />
+      <scope id="8423122693117685996" at="136,71,137,47" />
+      <scope id="8423122693117686042" at="147,22,148,29" />
+      <scope id="8423122693117686066" at="155,22,156,34" />
+      <scope id="8423122693117686098" at="165,26,166,16" />
+      <scope id="8423122693117686135" at="176,29,177,71" />
+      <scope id="8423122693117686144" at="179,41,180,97" />
+      <scope id="8423122693117686153" at="182,33,183,89" />
+      <scope id="1535634584395236067" at="202,57,203,43" />
+      <scope id="1535634584395252445" at="205,108,206,73" />
+      <scope id="1535634584395239307" at="208,164,209,96" />
+      <scope id="8423122693117685203" at="212,27,213,27" />
+      <scope id="8423122693117685211" at="214,14,215,61" />
+      <scope id="8423122693117685225" at="217,32,218,32" />
+      <scope id="8423122693117685233" at="219,14,220,76" />
+      <scope id="1535634584395242560" at="228,26,229,48" />
+      <scope id="1535634584395249191" at="231,41,232,69" />
+      <scope id="1535634584395226233" at="234,97,235,67" />
+      <scope id="1535634584395232808" at="247,27,248,114" />
+      <scope id="8423122693117685416" at="252,24,253,21" />
+      <scope id="8423122693117685424" at="255,24,256,20" />
+      <scope id="8423122693117685432" at="258,41,259,21" />
+      <scope id="8423122693117685493" at="28,0,31,0">
+        <var name="searchResult" id="8423122693117685495" />
+      </scope>
+      <scope id="8423122693117685501" at="31,0,34,0">
+        <var name="gson" id="8423122693117685503" />
+      </scope>
+      <scope id="8423122693117685536" at="44,0,47,0">
+        <var name="sourceType" id="8423122693117685538" />
+      </scope>
+      <scope id="8423122693117685593" at="55,0,58,0">
+        <var name="sourceType" id="8423122693117685595" />
+      </scope>
+      <scope id="8423122693117685609" at="58,0,61,0">
+        <var name="explanationType" id="8423122693117685615" />
+        <var name="sourceType" id="8423122693117685612" />
+      </scope>
+      <scope id="8423122693117685683" at="67,50,70,9">
+        <var name="i" id="8423122693117685684" />
+      </scope>
+      <scope id="8423122693117685935" at="123,61,126,5">
+        <var name="sortValue" id="8423122693117685944" />
+      </scope>
+      <scope id="8423122693117685994" at="135,57,138,9">
+        <var name="element" id="8423122693117686000" />
+      </scope>
+      <scope id="8423122693117685104" at="202,0,205,0">
+        <var name="source" id="8423122693117685109" />
+        <var name="sourceType" id="8423122693117685106" />
+      </scope>
+      <scope id="8423122693117685118" at="205,0,208,0">
+        <var name="explanation" id="8423122693117685128" />
+        <var name="explanationType" id="8423122693117685125" />
+        <var name="source" id="8423122693117685123" />
+        <var name="sourceType" id="8423122693117685120" />
+      </scope>
+      <scope id="8423122693117685139" at="208,0,211,0">
+        <var name="explanation" id="8423122693117685149" />
+        <var name="explanationType" id="8423122693117685146" />
+        <var name="highlight" id="8423122693117685151" />
+        <var name="sort" id="8423122693117685156" />
+        <var name="source" id="8423122693117685144" />
+        <var name="sourceType" id="8423122693117685141" />
+      </scope>
+      <scope id="8423122693117685273" at="228,0,231,0">
+        <var name="source" id="8423122693117685275" />
+      </scope>
+      <scope id="8423122693117685284" at="231,0,234,0">
+        <var name="explanation" id="8423122693117685288" />
+        <var name="source" id="8423122693117685286" />
+      </scope>
+      <scope id="8423122693117685297" at="234,0,237,0">
+        <var name="explanation" id="8423122693117685301" />
+        <var name="highlight" id="8423122693117685303" />
+        <var name="sort" id="8423122693117685308" />
+        <var name="source" id="8423122693117685299" />
+      </scope>
+      <scope id="8423122693117685727" at="75,63,79,13" />
+      <scope id="8423122693117685863" at="104,36,108,71" />
+      <scope id="8423122693117686092" at="164,37,168,48" />
+      <scope id="8423122693117685385" at="246,0,250,0" />
+      <scope id="8423122693117685509" at="34,0,39,0">
+        <var name="clazz" id="8423122693117685513" />
+      </scope>
+      <scope id="8423122693117685522" at="39,0,44,0">
+        <var name="type" id="8423122693117685526" />
+      </scope>
+      <scope id="8423122693117685987" at="134,65,139,46">
+        <var name="fragments" id="8423122693117685988" />
+      </scope>
+      <scope id="8423122693117685560" at="47,99,53,15">
+        <var name="hit" id="8423122693117685561" />
+        <var name="hits" id="8423122693117685567" />
+      </scope>
+      <scope id="8423122693117685724" at="74,32,80,11" />
+      <scope id="8423122693117685725" at="74,32,80,11">
+        <var name="hitElement" id="8423122693117685739" />
+      </scope>
+      <scope id="8423122693117686024" at="144,29,150,17">
+        <var name="obj" id="8423122693117686029" />
+        <var name="total" id="8423122693117686025" />
+      </scope>
+      <scope id="8423122693117686048" at="152,30,158,20">
+        <var name="maxScore" id="8423122693117686049" />
+        <var name="obj" id="8423122693117686053" />
+      </scope>
+      <scope id="8423122693117686090" at="163,35,169,7">
+        <var name="component" id="8423122693117686109" />
+      </scope>
+      <scope id="8423122693117685852" at="102,71,109,11">
+        <var name="metaElement" id="8423122693117685853" />
+      </scope>
+      <scope id="8423122693117685985" at="133,70,140,7">
+        <var name="entry" id="8423122693117686010" />
+      </scope>
+      <scope id="1535634584395222939" at="237,138,244,25" />
+      <scope id="8423122693117685551" at="47,0,55,0">
+        <var name="explanationType" id="8423122693117685557" />
+        <var name="sourceType" id="8423122693117685554" />
+      </scope>
+      <scope id="8423122693117685919" at="119,54,127,18">
+        <var name="retval" id="8423122693117685928" />
+      </scope>
+      <scope id="8423122693117686023" at="144,0,152,0" />
+      <scope id="8423122693117686047" at="152,0,160,0" />
+      <scope id="8423122693117686085" at="162,29,170,19">
+        <var name="obj" id="8423122693117686086" />
+      </scope>
+      <scope id="8423122693117685850" at="101,39,110,9">
+        <var name="metaField" id="8423122693117685881" />
+      </scope>
+      <scope id="8423122693117685969" at="131,28,140,7">
+        <var name="highlightSet" id="8423122693117685970" />
+      </scope>
+      <scope id="8423122693117685321" at="237,0,246,0">
+        <var name="explanation" id="8423122693117685325" />
+        <var name="highlight" id="8423122693117685327" />
+        <var name="index" id="8423122693117685335" />
+        <var name="score" id="8423122693117685339" />
+        <var name="sort" id="8423122693117685332" />
+        <var name="source" id="8423122693117685323" />
+        <var name="type" id="8423122693117685337" />
+      </scope>
+      <scope id="8423122693117685916" at="119,0,129,0">
+        <var name="sort" id="8423122693117685917" />
+      </scope>
+      <scope id="8423122693117686122" at="174,46,185,69">
+        <var name="rootAggrgationName" id="8423122693117686123" />
+      </scope>
+      <scope id="1535634584395229469" at="251,39,262,164">
+        <var name="rhs" id="8423122693117685435" />
+      </scope>
+      <scope id="8423122693117686075" at="160,48,172,18">
+        <var name="retval" id="8423122693117686076" />
+      </scope>
+      <scope id="8423122693117685956" at="129,78,142,18">
+        <var name="retval" id="8423122693117685957" />
+      </scope>
+      <scope id="8423122693117686121" at="174,0,187,0" />
+      <scope id="8423122693117686071" at="160,0,174,0">
+        <var name="path" id="8423122693117686072" />
+      </scope>
+      <scope id="8423122693117685406" at="250,0,264,0">
+        <var name="obj" id="8423122693117685408" />
+      </scope>
+      <scope id="8423122693117685953" at="129,0,144,0">
+        <var name="highlight" id="8423122693117685954" />
+      </scope>
+      <scope id="1535634584395245810" at="211,205,226,25" />
+      <scope id="8423122693117685667" at="65,25,81,9">
+        <var name="obj" id="8423122693117685676" />
+        <var name="sourceKey" id="8423122693117685668" />
+      </scope>
+      <scope id="8423122693117685171" at="211,0,228,0">
+        <var name="explanation" id="8423122693117685181" />
+        <var name="explanationType" id="8423122693117685178" />
+        <var name="highlight" id="8423122693117685183" />
+        <var name="index" id="8423122693117685191" />
+        <var name="score" id="8423122693117685195" />
+        <var name="sort" id="8423122693117685188" />
+        <var name="source" id="8423122693117685176" />
+        <var name="sourceType" id="8423122693117685173" />
+        <var name="type" id="8423122693117685193" />
+      </scope>
+      <scope id="8423122693117685656" at="63,29,82,7">
+        <var name="keys" id="8423122693117685657" />
+      </scope>
+      <scope id="8423122693117685640" at="61,126,84,22">
+        <var name="sourceList" id="8423122693117685641" />
+      </scope>
+      <scope id="8423122693117685788" at="91,27,114,128">
+        <var name="clonedSource" id="8423122693117685846" />
+        <var name="explanation" id="8423122693117685825" />
+        <var name="highlight" id="8423122693117685830" />
+        <var name="index" id="8423122693117685789" />
+        <var name="score" id="8423122693117685803" />
+        <var name="sort" id="8423122693117685839" />
+        <var name="type" id="8423122693117685796" />
+      </scope>
+      <scope id="8423122693117685629" at="61,0,86,0">
+        <var name="explanationType" id="8423122693117685635" />
+        <var name="returnSingle" id="8423122693117685638" />
+        <var name="sourceType" id="8423122693117685632" />
+      </scope>
+      <scope id="8423122693117685773" at="88,36,115,7">
+        <var name="hitObject" id="8423122693117685774" />
+        <var name="source" id="8423122693117685778" />
+      </scope>
+      <scope id="8423122693117685763" at="86,143,117,15">
+        <var name="hit" id="8423122693117685764" />
+      </scope>
+      <scope id="8423122693117685750" at="86,0,119,0">
+        <var name="explanationType" id="8423122693117685756" />
+        <var name="hitElement" id="8423122693117685759" />
+        <var name="sourceKey" id="8423122693117685761" />
+        <var name="sourceType" id="8423122693117685753" />
+      </scope>
+      <unit id="8423122693117685068" at="194,0,265,0" name="io.searchbox.core.SearchResult$Hit" />
+      <unit id="8496368874152529087" at="21,0,266,0" name="io.searchbox.core.SearchResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529228">
+    <file name="Delete.java">
+      <node id="8423122693118160932" at="11,44,12,19" concept="13" />
+      <node id="8423122693117728119" at="12,19,13,23" concept="3" />
+      <node id="8423122693117728128" at="16,37,17,20" concept="10" />
+      <node id="8423122693117728135" at="20,35,21,16" concept="10" />
+      <node id="8423122693117728142" at="24,37,25,20" concept="10" />
+      <node id="8423122693117728098" at="30,31,31,18" concept="3" />
+      <node id="8423122693117728106" at="33,27,34,30" concept="10" />
+      <node id="8423122693117728093" at="30,0,33,0" concept="2" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117728104" at="33,0,36,0" concept="8" trace="build#()Lio/searchbox/core/Delete;" />
+      <node id="8423122693117728114" at="11,0,15,0" concept="2" trace="Delete#(Lio/searchbox/core/Delete/Builder;)V" />
+      <node id="8423122693117728125" at="15,0,19,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117728132" at="19,0,23,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117728139" at="23,0,27,0" concept="8" trace="getBulkMethodName#()Ljava/lang/String;" />
+      <scope id="8423122693117728127" at="16,37,17,20" />
+      <scope id="8423122693117728134" at="20,35,21,16" />
+      <scope id="8423122693117728141" at="24,37,25,20" />
+      <scope id="8496368874153846259" at="30,31,31,18" />
+      <scope id="8496368874153843215" at="33,27,34,30" />
+      <scope id="8423122693117728118" at="11,44,13,23" />
+      <scope id="8423122693117728093" at="30,0,33,0">
+        <var name="id" id="8423122693117728095" />
+      </scope>
+      <scope id="8423122693117728104" at="33,0,36,0" />
+      <scope id="8423122693117728114" at="11,0,15,0">
+        <var name="builder" id="8423122693117728116" />
+      </scope>
+      <scope id="8423122693117728125" at="15,0,19,0" />
+      <scope id="8423122693117728132" at="19,0,23,0" />
+      <scope id="8423122693117728139" at="23,0,27,0" />
+      <unit id="8423122693117728088" at="29,0,37,0" name="io.searchbox.core.Delete$Builder" />
+      <unit id="8496368874152529228" at="9,0,38,0" name="io.searchbox.core.Delete" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529273">
+    <file name="MultiSearchResult.java">
+      <node id="8423122693117704949" at="15,0,16,0" concept="12" trace="RESPONSES_KEY" />
+      <node id="8423122693117704953" at="16,0,17,0" concept="12" trace="ERROR_KEY" />
+      <node id="8423122693118160935" at="17,54,18,18" concept="13" />
+      <node id="8423122693118160936" at="20,39,21,16" concept="13" />
+      <node id="8423122693117704976" at="23,69,24,126" concept="9" />
+      <node id="8423122693117704991" at="25,62,26,74" concept="9" />
+      <node id="8423122693117704998" at="27,58,28,111" concept="3" />
+      <node id="8423122693117705006" at="30,5,31,32" concept="10" />
+      <node id="8423122693117704880" at="34,0,35,0" concept="4" trace="isError" />
+      <node id="8423122693117704884" at="35,0,36,0" concept="4" trace="errorMessage" />
+      <node id="8423122693117704888" at="36,0,37,0" concept="4" trace="searchResult" />
+      <node id="8423122693117704902" at="38,56,39,23" concept="3" />
+      <node id="8423122693117704906" at="39,23,40,78" concept="3" />
+      <node id="8423122693117704913" at="40,78,41,28" concept="3" />
+      <node id="8423122693117704919" at="42,14,43,24" concept="3" />
+      <node id="8423122693117704923" at="43,24,44,28" concept="3" />
+      <node id="8423122693117704927" at="44,28,45,46" concept="3" />
+      <node id="8423122693117704932" at="45,46,46,40" concept="3" />
+      <node id="8423122693117704935" at="46,40,47,51" concept="3" />
+      <node id="8423122693117704938" at="47,51,48,47" concept="3" />
+      <node id="8423122693117704941" at="48,47,49,58" concept="3" />
+      <node id="8423122693117704944" at="49,58,50,58" concept="3" />
+      <node id="8423122693117704957" at="17,0,20,0" concept="2" trace="MultiSearchResult#(Lio/searchbox/core/MultiSearchResult;)V" />
+      <node id="8423122693117704965" at="20,0,23,0" concept="2" trace="MultiSearchResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117704995" at="26,74,29,7" concept="6" />
+      <node id="8423122693117704981" at="24,126,30,5" concept="7" />
+      <node id="8423122693117704917" at="42,12,51,7" concept="0" />
+      <node id="8423122693117704973" at="23,0,33,0" concept="8" trace="getResponses#()Ljava/util/List;" />
+      <node id="8423122693117704897" at="37,55,51,7" concept="7" />
+      <node id="8423122693117704892" at="37,0,53,0" concept="2" trace="MultiSearchResponse#(Lcom/google/gson/JsonObject;)V" />
+      <scope id="8423122693117704961" at="17,54,18,18" />
+      <scope id="8423122693117704969" at="20,39,21,16" />
+      <scope id="8423122693117704997" at="27,58,28,111" />
+      <scope id="8423122693117704957" at="17,0,20,0">
+        <var name="source" id="8423122693117704959" />
+      </scope>
+      <scope id="8423122693117704965" at="20,0,23,0">
+        <var name="gson" id="8423122693117704967" />
+      </scope>
+      <scope id="8423122693117704995" at="26,74,29,7">
+        <var name="responseElement" id="8423122693117705002" />
+      </scope>
+      <scope id="8423122693117704901" at="38,56,41,28" />
+      <scope id="8423122693117704989" at="25,62,29,7">
+        <var name="responsesArray" id="8423122693117704990" />
+      </scope>
+      <scope id="8423122693117704974" at="23,69,31,32">
+        <var name="multiSearchResponses" id="8423122693117704975" />
+      </scope>
+      <scope id="8423122693117704918" at="42,14,50,58" />
+      <scope id="8423122693117704973" at="23,0,33,0" />
+      <scope id="1535634584395131016" at="37,55,51,7" />
+      <scope id="8423122693117704892" at="37,0,53,0">
+        <var name="jsonObject" id="8423122693117704894" />
+      </scope>
+      <unit id="8423122693117704878" at="33,0,54,0" name="io.searchbox.core.MultiSearchResult$MultiSearchResponse" />
+      <unit id="8496368874152529273" at="13,0,55,0" name="io.searchbox.core.MultiSearchResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529310">
+    <file name="CountResult.java">
+      <node id="8423122693118161038" at="11,47,12,23" concept="13" />
+      <node id="8423122693118161039" at="14,33,15,16" concept="13" />
+      <node id="8423122693117732658" at="19,50,20,42" concept="10" />
+      <node id="8423122693117732671" at="24,59,25,45" concept="10" />
+      <node id="8423122693117732680" at="27,28,28,24" concept="9" />
+      <node id="8423122693117732687" at="29,22,30,46" concept="3" />
+      <node id="8423122693117732693" at="31,5,32,17" concept="10" />
+      <node id="8423122693117732634" at="11,0,14,0" concept="2" trace="CountResult#(Lio/searchbox/core/CountResult;)V" />
+      <node id="8423122693117732642" at="14,0,17,0" concept="2" trace="CountResult#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117732683" at="28,24,31,5" concept="7" />
+      <node id="8423122693117732650" at="17,0,22,0" concept="8" trace="getSourceAsObject#(Ljava/lang/Class;)null" />
+      <node id="8423122693117732663" at="22,0,27,0" concept="8" trace="getSourceAsObjectList#(Ljava/lang/Class;)Ljava/util/List;" />
+      <node id="8423122693117732677" at="27,0,34,0" concept="8" trace="getCount#()Ljava/lang/Double;" />
+      <scope id="8423122693117732638" at="11,47,12,23" />
+      <scope id="8423122693117732646" at="14,33,15,16" />
+      <scope id="8423122693117732657" at="19,50,20,42" />
+      <scope id="8423122693117732670" at="24,59,25,45" />
+      <scope id="8423122693117732686" at="29,22,30,46" />
+      <scope id="8423122693117732634" at="11,0,14,0">
+        <var name="countResult" id="8423122693117732636" />
+      </scope>
+      <scope id="8423122693117732642" at="14,0,17,0">
+        <var name="gson" id="8423122693117732644" />
+      </scope>
+      <scope id="8423122693117732650" at="17,0,22,0">
+        <var name="clazz" id="8423122693117732654" />
+      </scope>
+      <scope id="8423122693117732663" at="22,0,27,0">
+        <var name="type" id="8423122693117732667" />
+      </scope>
+      <scope id="8423122693117732678" at="27,28,32,17">
+        <var name="count" id="8423122693117732679" />
+      </scope>
+      <scope id="8423122693117732677" at="27,0,34,0" />
+      <unit id="8496368874152529310" at="9,0,35,0" name="io.searchbox.core.CountResult" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152529363">
+    <file name="Bulk.java">
+      <node id="8423122693117720319" at="22,0,23,0" concept="12" trace="log" />
+      <node id="8423122693117720324" at="23,0,24,0" concept="4" trace="bulkableActions" />
+      <node id="8423122693118161081" at="24,40,25,19" concept="13" />
+      <node id="8423122693117720334" at="25,19,26,37" concept="3" />
+      <node id="8423122693117720338" at="26,37,27,35" concept="3" />
+      <node id="8423122693117720342" at="27,35,28,38" concept="3" />
+      <node id="8423122693117720346" at="28,38,29,23" concept="3" />
+      <node id="8423122693117720364" at="32,35,33,20" concept="10" />
+      <node id="8423122693117720368" at="34,12,35,33" concept="10" />
+      <node id="8423122693117720376" at="39,37,40,18" concept="10" />
+      <node id="8423122693117720723" at="43,36,44,75" concept="11" />
+      <node id="8423122693117720725" at="44,75,45,31" concept="11" />
+      <node id="8423122693117720727" at="45,31,46,76" concept="11" />
+      <node id="8423122693117720386" at="46,76,47,43" concept="9" />
+      <node id="8423122693117720729" at="48,51,49,45" concept="11" />
+      <node id="8423122693117720731" at="49,45,50,83" concept="11" />
+      <node id="8423122693117720393" at="50,83,51,97" concept="9" />
+      <node id="8423122693117720406" at="51,97,52,75" concept="9" />
+      <node id="8423122693117720419" at="53,51,54,45" concept="3" />
+      <node id="8423122693117720428" at="56,54,57,51" concept="3" />
+      <node id="8423122693117720437" at="59,53,60,49" concept="3" />
+      <node id="8423122693117720447" at="63,13,64,69" concept="9" />
+      <node id="8423122693117720464" at="66,37,67,82" concept="3" />
+      <node id="8423122693117720488" at="69,36,70,143" concept="15" />
+      <node id="8423122693117720494" at="73,42,74,88" concept="3" />
+      <node id="8423122693117720508" at="76,7,77,55" concept="3" />
+      <node id="8423122693117720512" at="77,55,78,100" concept="3" />
+      <node id="8423122693117720526" at="78,100,79,22" concept="3" />
+      <node id="8423122693117720733" at="79,22,80,51" concept="11" />
+      <node id="8423122693117720735" at="80,51,81,39" concept="11" />
+      <node id="8423122693117720530" at="81,39,82,43" concept="9" />
+      <node id="8423122693117720540" at="83,27,84,41" concept="3" />
+      <node id="8423122693117720545" at="84,41,85,24" concept="3" />
+      <node id="8423122693117720552" at="87,5,88,25" concept="10" />
+      <node id="8423122693117720559" at="91,35,92,16" concept="10" />
+      <node id="8423122693117720566" at="95,31,96,39" concept="10" />
+      <node id="8423122693117720583" at="99,119,100,108" concept="10" />
+      <node id="8423122693117720607" at="103,141,104,57" concept="9" />
+      <node id="8423122693117720611" at="104,57,105,39" concept="3" />
+      <node id="8423122693117720614" at="105,39,106,39" concept="3" />
+      <node id="8423122693117720617" at="106,39,107,34" concept="3" />
+      <node id="8423122693117720620" at="107,34,108,46" concept="3" />
+      <node id="8423122693117720638" at="110,74,111,35" concept="3" />
+      <node id="8423122693117720641" at="111,35,112,137" concept="3" />
+      <node id="8423122693117720644" at="112,137,113,101" concept="3" />
+      <node id="8423122693117720649" at="114,14,115,34" concept="3" />
+      <node id="8423122693117720652" at="115,34,116,52" concept="3" />
+      <node id="8423122693117720657" at="118,12,119,33" concept="3" />
+      <node id="8423122693117720737" at="119,33,120,108" concept="11" />
+      <node id="8423122693117720739" at="120,108,121,13" concept="11" />
+      <node id="8423122693117720741" at="121,13,122,89" concept="11" />
+      <node id="8423122693117720743" at="122,89,123,85" concept="11" />
+      <node id="8423122693117720666" at="124,45,125,100" concept="3" />
+      <node id="8423122693117720679" at="126,7,127,60" concept="3" />
+      <node id="8423122693117720682" at="128,5,129,18" concept="10" />
+      <node id="8423122693117720235" at="132,0,133,0" concept="4" trace="actions" />
+      <node id="8423122693117720242" at="133,0,134,0" concept="4" trace="defaultIndex" />
+      <node id="8423122693117720246" at="134,0,135,0" concept="4" trace="defaultType" />
+      <node id="8423122693117720254" at="135,59,136,39" concept="3" />
+      <node id="8423122693117720260" at="136,39,137,18" concept="10" />
+      <node id="8423122693117720268" at="139,57,140,37" concept="3" />
+      <node id="8423122693117720274" at="140,37,141,18" concept="10" />
+      <node id="8423122693117720282" at="143,58,144,31" concept="3" />
+      <node id="8423122693117720289" at="144,31,145,18" concept="10" />
+      <node id="8423122693117720299" at="147,81,148,35" concept="3" />
+      <node id="8423122693117720306" at="148,35,149,18" concept="10" />
+      <node id="8423122693117720312" at="151,25,152,28" concept="10" />
+      <node id="8423122693117720366" at="34,10,36,5" concept="0" />
+      <node id="8423122693117720414" at="52,75,55,7" concept="7" />
+      <node id="8423122693117720423" at="55,7,58,7" concept="7" />
+      <node id="8423122693117720432" at="58,7,61,7" concept="7" />
+      <node id="8423122693117720474" at="68,18,71,13" concept="7" />
+      <node id="8423122693117720647" at="114,12,117,7" concept="0" />
+      <node id="8423122693117720660" at="123,85,126,7" concept="7" />
+      <node id="8423122693117720310" at="151,0,154,0" concept="8" trace="build#()Lio/searchbox/core/Bulk;" />
+      <node id="8423122693117720373" at="38,0,42,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117720534" at="82,43,86,7" concept="7" />
+      <node id="8423122693117720556" at="90,0,94,0" concept="8" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117720563" at="94,0,98,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117720572" at="98,0,102,0" concept="8" trace="createNewElasticSearchResult#(Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/BulkResult;" />
+      <node id="8423122693117720250" at="135,0,139,0" concept="8" trace="defaultIndex#(Ljava/lang/String;)Lio/searchbox/core/Bulk/Builder;" />
+      <node id="8423122693117720264" at="139,0,143,0" concept="8" trace="defaultType#(Ljava/lang/String;)Lio/searchbox/core/Bulk/Builder;" />
+      <node id="8423122693117720278" at="143,0,147,0" concept="8" trace="addAction#(Lio/searchbox/action/BulkableAction;)Lio/searchbox/core/Bulk/Builder;" />
+      <node id="8423122693117720293" at="147,0,151,0" concept="8" trace="addAction#(Ljava/util/Collection;)Lio/searchbox/core/Bulk/Builder;" />
+      <node id="8423122693117720358" at="31,52,36,5" concept="7" />
+      <node id="8423122693117720458" at="65,31,71,13" concept="7" />
+      <node id="8423122693117720329" at="24,0,31,0" concept="2" trace="Bulk#(Lio/searchbox/core/Bulk/Builder;)V" />
+      <node id="8423122693117720352" at="31,0,38,0" concept="8" trace="getJson#(Lcom/google/gson/Gson;Ljava/lang/Object;)Ljava/lang/Object;" />
+      <node id="8423122693117720452" at="64,69,72,11" concept="7" />
+      <node id="8423122693117720628" at="109,39,117,7" concept="7" />
+      <node id="8423122693117720655" at="118,10,128,5" concept="0" />
+      <node id="8423122693117720502" at="62,60,75,9" concept="16" />
+      <node id="8423122693117720441" at="61,7,76,7" concept="6" />
+      <node id="8423122693117720623" at="108,46,128,5" concept="7" />
+      <node id="8423122693117720593" at="102,0,131,0" concept="8" trace="createNewElasticSearchResult#(Lio/searchbox/core/BulkResult;Ljava/lang/String;ILjava/lang/String;Lcom/google/gson/Gson;)Lio/searchbox/core/BulkResult;" />
+      <node id="8423122693117720389" at="47,43,87,5" concept="6" />
+      <node id="8423122693117720380" at="42,0,90,0" concept="8" trace="getData#(Lcom/google/gson/Gson;)Ljava/lang/String;" />
+      <scope id="8423122693117720363" at="32,35,33,20" />
+      <scope id="8423122693117720367" at="34,12,35,33" />
+      <scope id="8423122693117720375" at="39,37,40,18" />
+      <scope id="8423122693117720418" at="53,51,54,45" />
+      <scope id="8423122693117720427" at="56,54,57,51" />
+      <scope id="8423122693117720436" at="59,53,60,49" />
+      <scope id="8423122693117720463" at="66,37,67,82" />
+      <scope id="8423122693117720479" at="69,36,70,143" />
+      <scope id="8423122693117720503" at="73,0,74,88">
+        <var name="e" id="8423122693117720489" />
+      </scope>
+      <scope id="8423122693117720493" at="73,42,74,88" />
+      <scope id="8423122693117720558" at="91,35,92,16" />
+      <scope id="8423122693117720565" at="95,31,96,39" />
+      <scope id="8423122693117720582" at="99,119,100,108" />
+      <scope id="8423122693117720665" at="124,45,125,100" />
+      <scope id="8496368874153686031" at="151,25,152,28" />
+      <scope id="8423122693117720539" at="83,27,85,24" />
+      <scope id="8423122693117720648" at="114,14,116,52" />
+      <scope id="8496368874153689018" at="135,59,137,18" />
+      <scope id="8496368874153683027" at="139,57,141,18" />
+      <scope id="8496368874153680036" at="143,58,145,18" />
+      <scope id="8496368874153677042" at="147,81,149,18" />
+      <scope id="8423122693117720637" at="110,74,113,101" />
+      <scope id="8423122693117720310" at="151,0,154,0" />
+      <scope id="8423122693117720373" at="38,0,42,0" />
+      <scope id="8423122693117720556" at="90,0,94,0" />
+      <scope id="8423122693117720563" at="94,0,98,0" />
+      <scope id="8423122693117720572" at="98,0,102,0">
+        <var name="gson" id="8423122693117720580" />
+        <var name="reasonPhrase" id="8423122693117720578" />
+        <var name="responseBody" id="8423122693117720574" />
+        <var name="statusCode" id="8423122693117720576" />
+      </scope>
+      <scope id="8423122693117720250" at="135,0,139,0">
+        <var name="defaultIndex" id="8423122693117720251" />
+      </scope>
+      <scope id="8423122693117720264" at="139,0,143,0">
+        <var name="defaultType" id="8423122693117720265" />
+      </scope>
+      <scope id="8423122693117720278" at="143,0,147,0">
+        <var name="action" id="8423122693117720279" />
+      </scope>
+      <scope id="8423122693117720293" at="147,0,151,0">
+        <var name="actions" id="8423122693117720294" />
+      </scope>
+      <scope id="8423122693117720333" at="24,40,29,23" />
+      <scope id="8423122693117720357" at="31,52,36,5" />
+      <scope id="8423122693117720457" at="65,31,71,13" />
+      <scope id="8423122693117720329" at="24,0,31,0">
+        <var name="builder" id="8423122693117720331" />
+      </scope>
+      <scope id="8423122693117720352" at="31,0,38,0">
+        <var name="gson" id="8423122693117720353" />
+        <var name="source" id="8423122693117720355" />
+      </scope>
+      <scope id="8423122693117720627" at="109,39,117,7" />
+      <scope id="8423122693117720445" at="63,13,72,11">
+        <var name="values" id="8423122693117720446" />
+      </scope>
+      <scope id="8423122693117720656" at="118,12,127,60" />
+      <scope id="8423122693117720443" at="62,60,75,9" />
+      <scope id="8423122693117720441" at="61,7,76,7">
+        <var name="parameter" id="8423122693117720504" />
+      </scope>
+      <scope id="8423122693117720605" at="103,141,129,18">
+        <var name="jsonMap" id="8423122693117720606" />
+      </scope>
+      <scope id="8423122693117720593" at="102,0,131,0">
+        <var name="gson" id="8423122693117720603" />
+        <var name="reasonPhrase" id="8423122693117720601" />
+        <var name="responseBody" id="8423122693117720597" />
+        <var name="result" id="8423122693117720595" />
+        <var name="statusCode" id="8423122693117720599" />
+      </scope>
+      <scope id="8423122693117720391" at="48,51,86,7">
+        <var name="opDetails" id="8423122693117720405" />
+        <var name="opMap" id="8423122693117720392" />
+        <var name="source" id="8423122693117720529" />
+      </scope>
+      <scope id="8423122693117720389" at="47,43,87,5">
+        <var name="action" id="8423122693117720548" />
+      </scope>
+      <scope id="8423122693117720384" at="43,36,88,25">
+        <var name="sb" id="8423122693117720385" />
+      </scope>
+      <scope id="8423122693117720380" at="42,0,90,0">
+        <var name="gson" id="8423122693117720382" />
+      </scope>
+      <unit id="7732608842074578462" at="78,39,78,87" name="io.searchbox.core.Bulk$1" />
+      <unit id="8423122693117720230" at="131,0,155,0" name="io.searchbox.core.Bulk$Builder" />
+      <unit id="8496368874152529363" at="20,0,156,0" name="io.searchbox.core.Bulk" />
+    </file>
+  </root>
+  <root nodeRef="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)/8496368874152530472">
+    <file name="Explain.java">
+      <node id="8423122693118162479" at="12,46,13,19" concept="13" />
+      <node id="8423122693117733659" at="13,19,14,23" concept="3" />
+      <node id="8423122693117733662" at="14,23,15,33" concept="3" />
+      <node id="8423122693117733674" at="18,37,19,17" concept="10" />
+      <node id="8423122693117733681" at="22,31,23,42" concept="10" />
+      <node id="8423122693117733690" at="26,25,27,76" concept="10" />
+      <node id="8423122693117733710" at="31,22,32,19" concept="10" />
+      <node id="8423122693117733718" at="34,22,35,18" concept="10" />
+      <node id="8423122693117733726" at="37,39,38,19" concept="10" />
+      <node id="8423122693117733728" at="39,5,40,73" concept="10" />
+      <node id="8423122693117733609" at="43,0,44,0" concept="4" trace="query" />
+      <node id="8423122693117733624" at="44,72,45,24" concept="3" />
+      <node id="8423122693117733629" at="45,24,46,22" concept="3" />
+      <node id="8423122693117733634" at="46,22,47,18" concept="3" />
+      <node id="8423122693117733639" at="47,18,48,25" concept="3" />
+      <node id="8423122693117733648" at="50,28,51,31" concept="10" />
+      <node id="8423122693117733704" at="30,37,33,5" concept="7" />
+      <node id="8423122693117733712" at="33,5,36,5" concept="7" />
+      <node id="8423122693117733720" at="36,5,39,5" concept="7" />
+      <node id="8423122693117733646" at="50,0,53,0" concept="8" trace="build#()Lio/searchbox/core/Explain;" />
+      <node id="8423122693117733671" at="17,0,21,0" concept="8" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117733678" at="21,0,25,0" concept="8" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117733687" at="25,0,29,0" concept="8" trace="hashCode#()I" />
+      <node id="8423122693117733654" at="12,0,17,0" concept="2" trace="Explain#(Lio/searchbox/core/Explain/Builder;)V" />
+      <node id="8423122693117733613" at="44,0,50,0" concept="2" trace="Builder#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V" />
+      <node id="8423122693117733699" at="29,0,42,0" concept="8" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117733673" at="18,37,19,17" />
+      <scope id="8423122693117733680" at="22,31,23,42" />
+      <scope id="8423122693117733689" at="26,25,27,76" />
+      <scope id="8423122693117733709" at="31,22,32,19" />
+      <scope id="8423122693117733717" at="34,22,35,18" />
+      <scope id="8423122693117733725" at="37,39,38,19" />
+      <scope id="8496368874153871297" at="50,28,51,31" />
+      <scope id="8423122693117733658" at="12,46,15,33" />
+      <scope id="8423122693117733646" at="50,0,53,0" />
+      <scope id="8423122693117733671" at="17,0,21,0" />
+      <scope id="8423122693117733678" at="21,0,25,0" />
+      <scope id="8423122693117733687" at="25,0,29,0" />
+      <scope id="8496368874153868201" at="44,72,48,25" />
+      <scope id="8423122693117733654" at="12,0,17,0">
+        <var name="builder" id="8423122693117733656" />
+      </scope>
+      <scope id="8423122693117733613" at="44,0,50,0">
+        <var name="id" id="8423122693117733619" />
+        <var name="index" id="8423122693117733615" />
+        <var name="query" id="8423122693117733621" />
+        <var name="type" id="8423122693117733617" />
+      </scope>
+      <scope id="8423122693117733703" at="30,37,40,73" />
+      <scope id="8423122693117733699" at="29,0,42,0">
+        <var name="obj" id="8423122693117733701" />
+      </scope>
+      <unit id="8423122693117733604" at="42,0,54,0" name="io.searchbox.core.Explain$Builder" />
+      <unit id="8496368874152530472" at="10,0,55,0" name="io.searchbox.core.Explain" />
+    </file>
+  </root>
+</debug-info>
+

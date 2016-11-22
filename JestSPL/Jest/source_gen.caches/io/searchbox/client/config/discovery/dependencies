@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.config.discovery.NodeChecker" file="NodeChecker.java">
+    <classNode dependClassName="com.google.common.collect.ImmutableSet" />
+    <classNode dependClassName="com.google.common.util.concurrent.MoreExecutors" />
+    <classNode dependClassName="com.google.common.util.concurrent.Service" />
+    <classNode dependClassName="com.google.common.util.concurrent.ThreadFactoryBuilder" />
+    <classNode dependClassName="com.google.gson.JsonElement" />
+    <classNode dependClassName="com.google.gson.JsonObject" />
+    <classNode dependClassName="io.searchbox.client.JestClient" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="io.searchbox.client.config.ClientConfig" />
+    <classNode dependClassName="io.searchbox.client.config.exception.CouldNotConnectException" />
+    <classNode dependClassName="io.searchbox.cluster.NodesInfo" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="java.util.concurrent.Executors" />
+    <classNode dependClassName="java.util.concurrent.ScheduledExecutorService" />
+    <classNode dependClassName="java.util.regex.Matcher" />
+    <classNode dependClassName="java.util.regex.Pattern" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode dependClassName="org.slf4j.Logger" />
+    <classNode dependClassName="org.slf4j.LoggerFactory" />
+    <classNode extendsClassName="com.google.common.util.concurrent.AbstractScheduledService" />
+  </dependency>
+</dependenciesRoot>
+

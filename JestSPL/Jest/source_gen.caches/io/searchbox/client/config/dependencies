@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.config.ClientConfig" file="ClientConfig.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.client.config.AbstractBuilder" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Long" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="java.util.concurrent.TimeUnit" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
+  </dependency>
+  <dependency className="io.searchbox.client.config.HttpClientConfig" file="HttpClientConfig.java">
+    <classNode dependClassName="io.searchbox.client.config.AbstractBuilder" />
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.ProxySelector" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.apache.http.HttpHost" />
+    <classNode dependClassName="org.apache.http.auth.AuthScope" />
+    <classNode dependClassName="org.apache.http.auth.UsernamePasswordCredentials" />
+    <classNode dependClassName="org.apache.http.client.AuthenticationStrategy" />
+    <classNode dependClassName="org.apache.http.client.CredentialsProvider" />
+    <classNode dependClassName="org.apache.http.conn.routing.HttpRoute" />
+    <classNode dependClassName="org.apache.http.conn.routing.HttpRoutePlanner" />
+    <classNode dependClassName="org.apache.http.conn.socket.ConnectionSocketFactory" />
+    <classNode dependClassName="org.apache.http.conn.socket.LayeredConnectionSocketFactory" />
+    <classNode dependClassName="org.apache.http.conn.socket.PlainConnectionSocketFactory" />
+    <classNode dependClassName="org.apache.http.conn.ssl.SSLConnectionSocketFactory" />
+    <classNode dependClassName="org.apache.http.impl.client.BasicCredentialsProvider" />
+    <classNode dependClassName="org.apache.http.impl.conn.DefaultProxyRoutePlanner" />
+    <classNode dependClassName="org.apache.http.impl.conn.SystemDefaultRoutePlanner" />
+    <classNode dependClassName="org.apache.http.nio.conn.NoopIOSessionStrategy" />
+    <classNode dependClassName="org.apache.http.nio.conn.SchemeIOSessionStrategy" />
+    <classNode dependClassName="org.apache.http.nio.conn.ssl.SSLIOSessionStrategy" />
+    <classNode extendsClassName="io.searchbox.client.config.ClientConfig" />
+  </dependency>
+</dependenciesRoot>
+

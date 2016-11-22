@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:7827935e-715a-4aa0-9b6f-84b79fa687a6(com.searchly.jestdroid.http)/8496368874152623384">
+    <file name="HttpDeleteWithEntity.java">
+      <node id="8423122693118221031" at="11,33,12,12" concept="4" />
+      <node id="8423122693118221032" at="14,40,15,12" concept="4" />
+      <node id="8423122693117686645" at="15,12,16,16" concept="1" />
+      <node id="8423122693118221033" at="18,43,19,12" concept="4" />
+      <node id="8423122693117686655" at="19,12,20,28" concept="1" />
+      <node id="8423122693117686664" at="23,29,24,34" concept="3" />
+      <node id="8423122693117686635" at="11,0,14,0" concept="0" trace="HttpDeleteWithEntity#()V" />
+      <node id="8423122693117686640" at="14,0,18,0" concept="0" trace="HttpDeleteWithEntity#(Ljava/net/URI;)V" />
+      <node id="8423122693117686650" at="18,0,22,0" concept="0" trace="HttpDeleteWithEntity#(Ljava/lang/String;)V" />
+      <node id="8423122693117686661" at="22,0,26,0" concept="2" trace="getMethod#()Ljava/lang/String;" />
+      <scope id="8423122693117686637" at="11,33,12,12" />
+      <scope id="8423122693117686663" at="23,29,24,34" />
+      <scope id="8423122693117686644" at="14,40,16,16" />
+      <scope id="8423122693117686654" at="18,43,20,28" />
+      <scope id="8423122693117686635" at="11,0,14,0" />
+      <scope id="8423122693117686640" at="14,0,18,0">
+        <var name="uri" id="8423122693117686642" />
+      </scope>
+      <scope id="8423122693117686650" at="18,0,22,0">
+        <var name="uri" id="8423122693117686652" />
+      </scope>
+      <scope id="8423122693117686661" at="22,0,26,0" />
+      <unit id="8496368874152623384" at="9,0,27,0" name="com.searchly.jestdroid.http.HttpDeleteWithEntity" />
+    </file>
+  </root>
+  <root nodeRef="r:7827935e-715a-4aa0-9b6f-84b79fa687a6(com.searchly.jestdroid.http)/8496368874152623429">
+    <file name="HttpGetWithEntity.java">
+      <node id="8423122693118221039" at="11,30,12,12" concept="4" />
+      <node id="8423122693118221040" at="14,37,15,12" concept="4" />
+      <node id="8423122693117703963" at="15,12,16,16" concept="1" />
+      <node id="8423122693118221041" at="18,40,19,12" concept="4" />
+      <node id="8423122693117703973" at="19,12,20,28" concept="1" />
+      <node id="8423122693117703982" at="23,29,24,31" concept="3" />
+      <node id="8423122693117703953" at="11,0,14,0" concept="0" trace="HttpGetWithEntity#()V" />
+      <node id="8423122693117703958" at="14,0,18,0" concept="0" trace="HttpGetWithEntity#(Ljava/net/URI;)V" />
+      <node id="8423122693117703968" at="18,0,22,0" concept="0" trace="HttpGetWithEntity#(Ljava/lang/String;)V" />
+      <node id="8423122693117703979" at="22,0,26,0" concept="2" trace="getMethod#()Ljava/lang/String;" />
+      <scope id="8423122693117703955" at="11,30,12,12" />
+      <scope id="8423122693117703981" at="23,29,24,31" />
+      <scope id="8423122693117703962" at="14,37,16,16" />
+      <scope id="8423122693117703972" at="18,40,20,28" />
+      <scope id="8423122693117703953" at="11,0,14,0" />
+      <scope id="8423122693117703958" at="14,0,18,0">
+        <var name="uri" id="8423122693117703960" />
+      </scope>
+      <scope id="8423122693117703968" at="18,0,22,0">
+        <var name="uri" id="8423122693117703970" />
+      </scope>
+      <scope id="8423122693117703979" at="22,0,26,0" />
+      <unit id="8496368874152623429" at="9,0,27,0" name="com.searchly.jestdroid.http.HttpGetWithEntity" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:61ace63f-0235-416f-8a5d-6df548a4325e(io.searchbox.client.config.discovery)/8496368874152618564">
+    <file name="NodeChecker.java">
+      <node id="8423122693117679076" at="30,0,31,0" concept="10" trace="log" />
+      <node id="8423122693117679082" at="31,0,32,0" concept="10" trace="PUBLISH_ADDRESS_KEY" />
+      <node id="8423122693117679086" at="32,0,33,0" concept="10" trace="INETSOCKETADDRESS_PATTERN" />
+      <node id="8423122693117679091" at="33,0,34,0" concept="3" trace="action" />
+      <node id="8423122693117679095" at="34,0,35,0" concept="3" trace="client" />
+      <node id="8423122693117679099" at="35,0,36,0" concept="3" trace="scheduler" />
+      <node id="8423122693117679103" at="36,0,37,0" concept="3" trace="defaultScheme" />
+      <node id="8423122693117679107" at="37,0,38,0" concept="3" trace="bootstrapServerList" />
+      <node id="8423122693117679112" at="38,0,39,0" concept="3" trace="discoveredServerList" />
+      <node id="8423122693117679124" at="39,72,40,99" concept="2" />
+      <node id="8423122693117679135" at="40,99,41,29" concept="2" />
+      <node id="8423122693117679141" at="41,29,42,75" concept="2" />
+      <node id="8423122693117679147" at="42,75,43,166" concept="2" />
+      <node id="8423122693117679156" at="43,166,44,81" concept="2" />
+      <node id="8423122693117679169" at="47,53,48,22" concept="7" />
+      <node id="8423122693117679173" at="49,9,50,38" concept="2" />
+      <node id="8423122693117679454" at="51,45,52,61" concept="9" />
+      <node id="8423122693117679186" at="52,61,53,64" concept="2" />
+      <node id="8423122693117679190" at="53,64,54,49" concept="2" />
+      <node id="8423122693117679193" at="54,49,55,13" concept="8" />
+      <node id="8423122693117679456" at="55,13,56,80" concept="9" />
+      <node id="8423122693117679458" at="56,80,57,70" concept="9" />
+      <node id="8423122693117679196" at="58,27,59,49" concept="2" />
+      <node id="8423122693117679200" at="59,49,60,45" concept="2" />
+      <node id="8423122693117679203" at="60,45,61,13" concept="8" />
+      <node id="8423122693117679460" at="61,13,62,80" concept="9" />
+      <node id="8423122693117679462" at="62,80,63,70" concept="9" />
+      <node id="8423122693117679212" at="65,31,66,68" concept="7" />
+      <node id="8423122693117679218" at="66,68,67,50" concept="7" />
+      <node id="8423122693117679222" at="67,50,68,59" concept="7" />
+      <node id="8423122693117679238" at="70,71,71,63" concept="7" />
+      <node id="8423122693117679464" at="71,63,72,98" concept="9" />
+      <node id="8423122693117679249" at="73,46,74,71" concept="7" />
+      <node id="8423122693117679259" at="75,49,76,80" concept="7" />
+      <node id="8423122693117679267" at="77,40,78,43" concept="2" />
+      <node id="8423122693117679281" at="84,33,85,102" concept="2" />
+      <node id="8423122693117679288" at="86,7,87,39" concept="2" />
+      <node id="8423122693117679292" at="87,39,88,46" concept="2" />
+      <node id="8423122693117679297" at="89,12,90,84" concept="2" />
+      <node id="8423122693117679301" at="90,84,91,45" concept="2" />
+      <node id="8423122693117679310" at="94,72,95,47" concept="2" />
+      <node id="8423122693117679314" at="95,47,96,46" concept="2" />
+      <node id="8423122693117679321" at="97,30,98,97" concept="2" />
+      <node id="8423122693117679332" at="100,44,101,46" concept="2" />
+      <node id="8423122693117679337" at="102,12,103,45" concept="2" />
+      <node id="8423122693117679345" at="107,60,108,21" concept="8" />
+      <node id="8423122693117679353" at="111,49,112,170" concept="7" />
+      <node id="8423122693117679466" at="112,170,113,100" concept="9" />
+      <node id="8423122693117679468" at="113,100,114,97" concept="9" />
+      <node id="8423122693117679470" at="114,97,115,99" concept="9" />
+      <node id="8423122693117679472" at="115,99,116,100" concept="9" />
+      <node id="8423122693117679474" at="116,100,117,97" concept="9" />
+      <node id="129301387684138421" at="120,50,121,28" concept="2" />
+      <node id="129301387684140581" at="124,65,125,28" concept="2" />
+      <node id="8423122693117679391" at="127,39,128,20" concept="8" />
+      <node id="8423122693117679400" at="134,55,135,77" concept="7" />
+      <node id="8423122693117679408" at="136,36,137,87" concept="8" />
+      <node id="8423122693117679418" at="138,5,139,16" concept="8" />
+      <node id="8423122693117679335" at="102,10,104,5" concept="0" />
+      <node id="8423122693117679263" at="76,80,79,15" concept="5" />
+      <node id="8423122693117679277" at="83,7,86,7" concept="5" />
+      <node id="8423122693117679295" at="89,10,92,5" concept="0" />
+      <node id="8423122693117679317" at="96,46,99,5" concept="5" />
+      <node id="8423122693117679404" at="135,77,138,5" concept="5" />
+      <node id="8423122693117679342" at="106,0,110,0" concept="6" trace="scheduler#()Lcom/google/common/util/concurrent/AbstractScheduledService/Scheduler;" />
+      <node id="129301387684137065" at="119,0,123,0" concept="6" trace="terminated#(Lcom/google/common/util/concurrent/Service/State;)V" />
+      <node id="129301387684137077" at="123,0,127,0" concept="6" trace="failed#(Lcom/google/common/util/concurrent/Service/State;Ljava/lang/Throwable;)V" />
+      <node id="8423122693117679327" at="99,5,104,5" concept="5" />
+      <node id="8423122693117679253" at="74,71,80,13" concept="5" />
+      <node id="8423122693117679117" at="39,0,46,0" concept="1" trace="NodeChecker#(Lio/searchbox/client/JestClient;Lio/searchbox/client/config/ClientConfig;)V" />
+      <node id="8423122693117679395" at="134,0,141,0" concept="6" trace="getHttpAddress#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="8423122693117679243" at="72,98,81,11" concept="5" />
+      <node id="8423122693117679365" at="117,97,127,39" concept="2" />
+      <node id="8423122693117679306" at="94,0,106,0" concept="6" trace="removeNodeAndUpdateServers#(Ljava/lang/String;)V" />
+      <node id="8423122693117679234" at="69,26,82,9" concept="4" />
+      <node id="8423122693117679228" at="68,59,83,7" concept="5" />
+      <node id="8423122693117679204" at="48,22,64,5" concept="11" />
+      <node id="8423122693117679349" at="110,0,130,0" concept="6" trace="executor#()Ljava/util/concurrent/ScheduledExecutorService;" />
+      <node id="8423122693117679207" at="64,5,92,5" concept="5" />
+      <node id="8423122693117679164" at="46,0,94,0" concept="6" trace="runOneIteration#()V" />
+      <scope id="8423122693117679172" at="49,9,50,38" />
+      <scope id="8423122693117679270" at="77,40,78,43" />
+      <scope id="8423122693117679280" at="84,33,85,102" />
+      <scope id="8423122693117679320" at="97,30,98,97" />
+      <scope id="8423122693117679331" at="100,44,101,46" />
+      <scope id="8423122693117679336" at="102,12,103,45" />
+      <scope id="8423122693117679344" at="107,60,108,21" />
+      <scope id="129301387684137072" at="120,50,121,28" />
+      <scope id="129301387684137086" at="124,65,125,28" />
+      <scope id="8423122693117679407" at="136,36,137,87" />
+      <scope id="8423122693117679296" at="89,12,91,45" />
+      <scope id="8423122693117679257" at="75,49,79,15">
+        <var name="httpAddress" id="8423122693117679258" />
+      </scope>
+      <scope id="8423122693117679342" at="106,0,110,0" />
+      <scope id="129301387684137065" at="119,0,123,0">
+        <var name="from" id="129301387684137069" />
+      </scope>
+      <scope id="129301387684137077" at="123,0,127,0">
+        <var name="failure" id="129301387684137083" />
+        <var name="from" id="129301387684137081" />
+      </scope>
+      <scope id="8423122693117679123" at="39,72,44,81" />
+      <scope id="8423122693117679206" at="58,0,63,70">
+        <var name="e" id="8423122693117679181" />
+      </scope>
+      <scope id="8423122693117679195" at="58,27,63,70" />
+      <scope id="8423122693117679398" at="134,55,139,16">
+        <var name="resolvedMatcher" id="8423122693117679399" />
+      </scope>
+      <scope id="8423122693117679205" at="51,0,57,70">
+        <var name="cnce" id="8423122693117679178" />
+      </scope>
+      <scope id="8423122693117679185" at="51,45,57,70" />
+      <scope id="8423122693117679117" at="39,0,46,0">
+        <var name="clientConfig" id="8423122693117679121" />
+        <var name="jestClient" id="8423122693117679119" />
+      </scope>
+      <scope id="8423122693117679247" at="73,46,80,13">
+        <var name="addressElement" id="8423122693117679248" />
+      </scope>
+      <scope id="8423122693117679395" at="134,0,141,0">
+        <var name="httpAddress" id="8423122693117679396" />
+      </scope>
+      <scope id="8423122693117679309" at="94,72,104,5" />
+      <scope id="8423122693117679236" at="70,71,81,11">
+        <var name="host" id="8423122693117679237" />
+      </scope>
+      <scope id="8423122693117679306" at="94,0,106,0">
+        <var name="hostToRemove" id="8423122693117679307" />
+      </scope>
+      <scope id="8423122693117679233" at="69,26,82,9" />
+      <scope id="8423122693117679234" at="69,26,82,9">
+        <var name="entry" id="8423122693117679271" />
+      </scope>
+      <scope id="8423122693117679351" at="111,49,128,20">
+        <var name="executor" id="8423122693117679352" />
+      </scope>
+      <scope id="8423122693117679349" at="110,0,130,0" />
+      <scope id="8423122693117679210" at="65,31,88,46">
+        <var name="httpHosts" id="8423122693117679211" />
+        <var name="jsonMap" id="8423122693117679217" />
+        <var name="nodes" id="8423122693117679221" />
+      </scope>
+      <scope id="8423122693117679167" at="47,53,92,5">
+        <var name="result" id="8423122693117679168" />
+      </scope>
+      <scope id="8423122693117679164" at="46,0,94,0" />
+      <unit id="7732608842074527240" at="118,20,127,5" name="io.searchbox.client.config.discovery.NodeChecker$1" />
+      <unit id="8496368874152618564" at="28,0,142,0" name="io.searchbox.client.config.discovery.NodeChecker" />
+    </file>
+  </root>
+</debug-info>
+

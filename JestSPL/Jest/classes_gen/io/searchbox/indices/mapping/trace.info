@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:181cfdc9-1939-42b9-95c1-5eebf8512ca8(io.searchbox.indices.mapping)/8496368874152622761">
+    <file name="GetMapping.java">
+      <node id="8423122693118162657" at="10,52,11,19" concept="6" />
+      <node id="8423122693117720008" at="11,19,12,23" concept="1" />
+      <node id="8423122693117720017" at="15,37,16,17" concept="5" />
+      <node id="8423122693117720024" at="19,31,20,42" concept="5" />
+      <node id="8423122693117719997" at="24,31,25,34" concept="5" />
+      <node id="8423122693117720003" at="10,0,14,0" concept="0" trace="GetMapping#(Lio/searchbox/indices/mapping/GetMapping/Builder;)V" />
+      <node id="8423122693117720014" at="14,0,18,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117720021" at="18,0,22,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117719994" at="23,0,27,0" concept="4" trace="build#()Lio/searchbox/indices/mapping/GetMapping;" />
+      <scope id="8423122693117720016" at="15,37,16,17" />
+      <scope id="8423122693117720023" at="19,31,20,42" />
+      <scope id="3918785843121458295" at="24,31,25,34" />
+      <scope id="8423122693117720007" at="10,52,12,23" />
+      <scope id="8423122693117720003" at="10,0,14,0">
+        <var name="builder" id="8423122693117720005" />
+      </scope>
+      <scope id="8423122693117720014" at="14,0,18,0" />
+      <scope id="8423122693117720021" at="18,0,22,0" />
+      <scope id="8423122693117719994" at="23,0,27,0" />
+      <unit id="8423122693117719989" at="22,0,28,0" name="io.searchbox.indices.mapping.GetMapping$Builder" />
+      <unit id="8496368874152622761" at="8,0,29,0" name="io.searchbox.indices.mapping.GetMapping" />
+    </file>
+  </root>
+  <root nodeRef="r:181cfdc9-1939-42b9-95c1-5eebf8512ca8(io.searchbox.indices.mapping)/8496368874152622798">
+    <file name="DeleteMapping.java">
+      <node id="8423122693118162680" at="10,58,11,19" concept="6" />
+      <node id="8423122693117724654" at="11,19,12,35" concept="1" />
+      <node id="8423122693117724660" at="12,35,13,33" concept="1" />
+      <node id="8423122693117724666" at="13,33,14,23" concept="1" />
+      <node id="8423122693117724675" at="17,31,18,42" concept="5" />
+      <node id="8423122693117724684" at="21,37,22,20" concept="5" />
+      <node id="8423122693117724612" at="25,0,26,0" concept="2" trace="index" />
+      <node id="8423122693117724616" at="26,0,27,0" concept="2" trace="type" />
+      <node id="8423122693117724627" at="27,47,28,25" concept="1" />
+      <node id="8423122693117724633" at="28,25,29,23" concept="1" />
+      <node id="8423122693117724643" at="32,34,33,37" concept="5" />
+      <node id="8423122693117724672" at="16,0,20,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117724681" at="20,0,24,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117724620" at="27,0,31,0" concept="0" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117724640" at="31,0,35,0" concept="4" trace="build#()Lio/searchbox/indices/mapping/DeleteMapping;" />
+      <node id="8423122693117724649" at="10,0,16,0" concept="0" trace="DeleteMapping#(Lio/searchbox/indices/mapping/DeleteMapping/Builder;)V" />
+      <scope id="8423122693117724674" at="17,31,18,42" />
+      <scope id="8423122693117724683" at="21,37,22,20" />
+      <scope id="3918785843121452049" at="32,34,33,37" />
+      <scope id="3918785843121448426" at="27,47,29,23" />
+      <scope id="8423122693117724653" at="10,58,14,23" />
+      <scope id="8423122693117724672" at="16,0,20,0" />
+      <scope id="8423122693117724681" at="20,0,24,0" />
+      <scope id="8423122693117724620" at="27,0,31,0">
+        <var name="index" id="8423122693117724622" />
+        <var name="type" id="8423122693117724624" />
+      </scope>
+      <scope id="8423122693117724640" at="31,0,35,0" />
+      <scope id="8423122693117724649" at="10,0,16,0">
+        <var name="builder" id="8423122693117724651" />
+      </scope>
+      <unit id="8423122693117724607" at="24,0,36,0" name="io.searchbox.indices.mapping.DeleteMapping$Builder" />
+      <unit id="8496368874152622798" at="8,0,37,0" name="io.searchbox.indices.mapping.DeleteMapping" />
+    </file>
+  </root>
+  <root nodeRef="r:181cfdc9-1939-42b9-95c1-5eebf8512ca8(io.searchbox.indices.mapping)/8496368874152622835">
+    <file name="PutMapping.java">
+      <node id="8423122693118162741" at="12,52,13,19" concept="6" />
+      <node id="8423122693117713856" at="13,19,14,35" concept="1" />
+      <node id="8423122693117713862" at="14,35,15,33" concept="1" />
+      <node id="8423122693117713868" at="15,33,16,34" concept="1" />
+      <node id="8423122693117713874" at="16,34,17,23" concept="1" />
+      <node id="8423122693117713883" at="20,31,21,42" concept="5" />
+      <node id="8423122693117713892" at="24,37,25,17" concept="5" />
+      <node id="8423122693117713899" at="28,25,29,76" concept="5" />
+      <node id="8423122693117713919" at="33,22,34,19" concept="5" />
+      <node id="8423122693117713927" at="36,22,37,18" concept="5" />
+      <node id="8423122693117713935" at="39,39,40,19" concept="5" />
+      <node id="8423122693117713937" at="41,5,42,73" concept="5" />
+      <node id="8423122693117713802" at="45,0,46,0" concept="2" trace="index" />
+      <node id="8423122693117713806" at="46,0,47,0" concept="2" trace="type" />
+      <node id="8423122693117713810" at="47,0,48,0" concept="2" trace="source" />
+      <node id="8423122693117713823" at="48,62,49,25" concept="1" />
+      <node id="8423122693117713829" at="49,25,50,23" concept="1" />
+      <node id="8423122693117713835" at="50,23,51,27" concept="1" />
+      <node id="8423122693117713845" at="54,31,55,34" concept="5" />
+      <node id="8423122693117713913" at="32,37,35,5" concept="3" />
+      <node id="8423122693117713921" at="35,5,38,5" concept="3" />
+      <node id="8423122693117713929" at="38,5,41,5" concept="3" />
+      <node id="8423122693117713880" at="19,0,23,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117713889" at="23,0,27,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117713896" at="27,0,31,0" concept="4" trace="hashCode#()I" />
+      <node id="8423122693117713842" at="53,0,57,0" concept="4" trace="build#()Lio/searchbox/indices/mapping/PutMapping;" />
+      <node id="8423122693117713814" at="48,0,53,0" concept="0" trace="Builder#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V" />
+      <node id="8423122693117713851" at="12,0,19,0" concept="0" trace="PutMapping#(Lio/searchbox/indices/mapping/PutMapping/Builder;)V" />
+      <node id="8423122693117713908" at="31,0,44,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117713882" at="20,31,21,42" />
+      <scope id="8423122693117713891" at="24,37,25,17" />
+      <scope id="8423122693117713898" at="28,25,29,76" />
+      <scope id="8423122693117713918" at="33,22,34,19" />
+      <scope id="8423122693117713926" at="36,22,37,18" />
+      <scope id="8423122693117713934" at="39,39,40,19" />
+      <scope id="3918785843121468573" at="54,31,55,34" />
+      <scope id="3918785843121464839" at="48,62,51,27" />
+      <scope id="8423122693117713880" at="19,0,23,0" />
+      <scope id="8423122693117713889" at="23,0,27,0" />
+      <scope id="8423122693117713896" at="27,0,31,0" />
+      <scope id="8423122693117713842" at="53,0,57,0" />
+      <scope id="8423122693117713855" at="12,52,17,23" />
+      <scope id="8423122693117713814" at="48,0,53,0">
+        <var name="index" id="8423122693117713816" />
+        <var name="source" id="8423122693117713820" />
+        <var name="type" id="8423122693117713818" />
+      </scope>
+      <scope id="8423122693117713851" at="12,0,19,0">
+        <var name="builder" id="8423122693117713853" />
+      </scope>
+      <scope id="8423122693117713912" at="32,37,42,73" />
+      <scope id="8423122693117713908" at="31,0,44,0">
+        <var name="obj" id="8423122693117713910" />
+      </scope>
+      <unit id="8423122693117713797" at="44,0,58,0" name="io.searchbox.indices.mapping.PutMapping$Builder" />
+      <unit id="8496368874152622835" at="10,0,59,0" name="io.searchbox.indices.mapping.PutMapping" />
+    </file>
+  </root>
+</debug-info>
+

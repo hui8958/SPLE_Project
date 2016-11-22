@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586709">
+    <file name="UpdateSettings.java">
+      <node id="8423122693118163994" at="12,60,13,19" concept="6" />
+      <node id="8423122693117719529" at="13,19,14,23" concept="1" />
+      <node id="8423122693117719532" at="14,23,15,34" concept="1" />
+      <node id="8423122693117719543" at="17,31,18,51" concept="5" />
+      <node id="8423122693117719552" at="21,37,22,17" concept="5" />
+      <node id="8423122693117719559" at="25,25,26,76" concept="5" />
+      <node id="8423122693117719579" at="30,22,31,19" concept="5" />
+      <node id="8423122693117719587" at="33,22,34,18" concept="5" />
+      <node id="8423122693117719595" at="36,39,37,19" concept="5" />
+      <node id="8423122693117719597" at="38,5,39,73" concept="5" />
+      <node id="8423122693117719498" at="42,0,43,0" concept="2" trace="source" />
+      <node id="8423122693117719507" at="48,35,49,27" concept="1" />
+      <node id="8423122693117719518" at="52,35,53,38" concept="5" />
+      <node id="8423122693117719541" at="17,0,20,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117719573" at="29,37,32,5" concept="3" />
+      <node id="8423122693117719581" at="32,5,35,5" concept="3" />
+      <node id="8423122693117719589" at="35,5,38,5" concept="3" />
+      <node id="8423122693117719502" at="48,0,51,0" concept="0" trace="Builder#(Ljava/lang/Object;)V" />
+      <node id="8423122693117719549" at="20,0,24,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117719556" at="24,0,28,0" concept="4" trace="hashCode#()I" />
+      <node id="8423122693117719515" at="51,0,55,0" concept="4" trace="build#()Lio/searchbox/cluster/UpdateSettings;" />
+      <node id="8423122693117719524" at="12,0,17,0" concept="0" trace="UpdateSettings#(Lio/searchbox/cluster/UpdateSettings/Builder;)V" />
+      <node id="8423122693117719568" at="28,0,41,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117719542" at="17,31,18,51" />
+      <scope id="8423122693117719551" at="21,37,22,17" />
+      <scope id="8423122693117719558" at="25,25,26,76" />
+      <scope id="8423122693117719578" at="30,22,31,19" />
+      <scope id="8423122693117719586" at="33,22,34,18" />
+      <scope id="8423122693117719594" at="36,39,37,19" />
+      <scope id="8496368874153634823" at="48,35,49,27" />
+      <scope id="8496368874153637868" at="52,35,53,38" />
+      <scope id="8423122693117719528" at="12,60,15,34" />
+      <scope id="8423122693117719541" at="17,0,20,0" />
+      <scope id="8423122693117719502" at="48,0,51,0">
+        <var name="source" id="8423122693117719504" />
+      </scope>
+      <scope id="8423122693117719549" at="20,0,24,0" />
+      <scope id="8423122693117719556" at="24,0,28,0" />
+      <scope id="8423122693117719515" at="51,0,55,0" />
+      <scope id="8423122693117719524" at="12,0,17,0">
+        <var name="builder" id="8423122693117719526" />
+      </scope>
+      <scope id="8423122693117719572" at="29,37,39,73" />
+      <scope id="8423122693117719568" at="28,0,41,0">
+        <var name="obj" id="8423122693117719570" />
+      </scope>
+      <unit id="8423122693117719493" at="41,0,56,0" name="io.searchbox.cluster.UpdateSettings$Builder" />
+      <unit id="8496368874152586709" at="10,0,57,0" name="io.searchbox.cluster.UpdateSettings" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586762">
+    <file name="NodesStats.java">
+      <node id="8423122693118164281" at="10,52,11,19" concept="6" />
+      <node id="8423122693117714791" at="11,19,12,23" concept="1" />
+      <node id="8423122693117714800" at="15,31,16,60" concept="5" />
+      <node id="8423122693117714813" at="19,37,20,17" concept="5" />
+      <node id="8423122693117714820" at="23,35,24,19" concept="5" />
+      <node id="8423122693117714692" at="27,46,28,46" concept="5" />
+      <node id="8423122693117714699" at="33,45,34,45" concept="5" />
+      <node id="8423122693117714707" at="39,40,40,40" concept="5" />
+      <node id="8423122693117714715" at="45,42,46,42" concept="5" />
+      <node id="8423122693117714723" at="51,41,52,41" concept="5" />
+      <node id="8423122693117714731" at="57,45,58,45" concept="5" />
+      <node id="8423122693117714739" at="63,40,64,40" concept="5" />
+      <node id="8423122693117714747" at="69,45,70,45" concept="5" />
+      <node id="8423122693117714755" at="75,48,76,49" concept="5" />
+      <node id="8423122693117714763" at="81,47,82,47" concept="5" />
+      <node id="8423122693117714771" at="87,43,88,43" concept="5" />
+      <node id="8423122693117714780" at="91,31,92,34" concept="5" />
+      <node id="8423122693117714690" at="27,0,30,0" concept="4" trace="withSettings#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714697" at="33,0,36,0" concept="4" trace="withIndices#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714705" at="39,0,42,0" concept="4" trace="withFs#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714713" at="45,0,48,0" concept="4" trace="withHttp#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714721" at="51,0,54,0" concept="4" trace="withJvm#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714729" at="57,0,60,0" concept="4" trace="withNetwork#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714737" at="63,0,66,0" concept="4" trace="withOs#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714745" at="69,0,72,0" concept="4" trace="withProcess#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714753" at="75,0,78,0" concept="4" trace="withThreadPool#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714761" at="81,0,84,0" concept="4" trace="withTransport#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714769" at="87,0,90,0" concept="4" trace="withClear#()Lio/searchbox/cluster/NodesStats/Builder;" />
+      <node id="8423122693117714786" at="10,0,14,0" concept="0" trace="NodesStats#(Lio/searchbox/cluster/NodesStats/Builder;)V" />
+      <node id="8423122693117714797" at="14,0,18,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117714810" at="18,0,22,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117714817" at="22,0,26,0" concept="4" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117714777" at="90,0,94,0" concept="4" trace="build#()Lio/searchbox/cluster/NodesStats;" />
+      <scope id="8423122693117714799" at="15,31,16,60" />
+      <scope id="8423122693117714812" at="19,37,20,17" />
+      <scope id="8423122693117714819" at="23,35,24,19" />
+      <scope id="8496368874153581497" at="27,46,28,46" />
+      <scope id="8496368874153584422" at="33,45,34,45" />
+      <scope id="8496368874153569791" at="39,40,40,40" />
+      <scope id="8496368874153590305" at="45,42,46,42" />
+      <scope id="8496368874153596242" at="51,41,52,41" />
+      <scope id="8496368874153578566" at="57,45,58,45" />
+      <scope id="8496368874153575632" at="63,40,64,40" />
+      <scope id="8496368874153572713" at="69,45,70,45" />
+      <scope id="8496368874153563903" at="75,48,76,49" />
+      <scope id="8496368874153593302" at="81,47,82,47" />
+      <scope id="8496368874153587364" at="87,43,88,43" />
+      <scope id="8496368874153566813" at="91,31,92,34" />
+      <scope id="8423122693117714790" at="10,52,12,23" />
+      <scope id="8423122693117714690" at="27,0,30,0" />
+      <scope id="8423122693117714697" at="33,0,36,0" />
+      <scope id="8423122693117714705" at="39,0,42,0" />
+      <scope id="8423122693117714713" at="45,0,48,0" />
+      <scope id="8423122693117714721" at="51,0,54,0" />
+      <scope id="8423122693117714729" at="57,0,60,0" />
+      <scope id="8423122693117714737" at="63,0,66,0" />
+      <scope id="8423122693117714745" at="69,0,72,0" />
+      <scope id="8423122693117714753" at="75,0,78,0" />
+      <scope id="8423122693117714761" at="81,0,84,0" />
+      <scope id="8423122693117714769" at="87,0,90,0" />
+      <scope id="8423122693117714786" at="10,0,14,0">
+        <var name="builder" id="8423122693117714788" />
+      </scope>
+      <scope id="8423122693117714797" at="14,0,18,0" />
+      <scope id="8423122693117714810" at="18,0,22,0" />
+      <scope id="8423122693117714817" at="22,0,26,0" />
+      <scope id="8423122693117714777" at="90,0,94,0" />
+      <unit id="8423122693117714685" at="26,0,95,0" name="io.searchbox.cluster.NodesStats$Builder" />
+      <unit id="8496368874152586762" at="8,0,96,0" name="io.searchbox.cluster.NodesStats" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586807">
+    <file name="State.java">
+      <node id="8423122693118164635" at="10,42,11,19" concept="6" />
+      <node id="8423122693117690394" at="11,19,12,23" concept="1" />
+      <node id="8423122693117690403" at="15,31,16,48" concept="5" />
+      <node id="8423122693117690412" at="19,37,20,17" concept="5" />
+      <node id="8423122693117690315" at="26,40,27,45" concept="5" />
+      <node id="8423122693117690323" at="32,43,33,49" concept="5" />
+      <node id="8423122693117690331" at="38,38,39,43" concept="5" />
+      <node id="8423122693117690339" at="44,45,45,51" concept="5" />
+      <node id="8423122693117690347" at="50,41,51,46" concept="5" />
+      <node id="8423122693117690355" at="56,39,57,44" concept="5" />
+      <node id="8423122693117690365" at="62,48,63,44" concept="5" />
+      <node id="8423122693117690374" at="68,34,69,43" concept="5" />
+      <node id="8423122693117690383" at="72,26,73,29" concept="5" />
+      <node id="8423122693117690313" at="26,0,29,0" concept="4" trace="withVersion#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690321" at="32,0,35,0" concept="4" trace="withMasterNode#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690329" at="38,0,41,0" concept="4" trace="withNodes#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690337" at="44,0,47,0" concept="4" trace="withRoutingTable#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690345" at="50,0,53,0" concept="4" trace="withMetadata#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690353" at="56,0,59,0" concept="4" trace="withBlocks#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690361" at="62,0,65,0" concept="4" trace="indices#(Ljava/lang/String;)Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690372" at="68,0,71,0" concept="4" trace="local#()Lio/searchbox/cluster/State/Builder;" />
+      <node id="8423122693117690389" at="10,0,14,0" concept="0" trace="State#(Lio/searchbox/cluster/State/Builder;)V" />
+      <node id="8423122693117690400" at="14,0,18,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117690409" at="18,0,22,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117690380" at="71,0,75,0" concept="4" trace="build#()Lio/searchbox/cluster/State;" />
+      <scope id="8423122693117690402" at="15,31,16,48" />
+      <scope id="8423122693117690411" at="19,37,20,17" />
+      <scope id="8496368874153614804" at="26,40,27,45" />
+      <scope id="8496368874153623753" at="32,43,33,49" />
+      <scope id="8496368874153611837" at="38,38,39,43" />
+      <scope id="8496368874153608885" at="44,45,45,51" />
+      <scope id="8496368874153626732" at="50,41,51,46" />
+      <scope id="8496368874153617768" at="56,39,57,44" />
+      <scope id="8496368874153605922" at="62,48,63,44" />
+      <scope id="8496368874153620789" at="68,34,69,43" />
+      <scope id="8496368874153602977" at="72,26,73,29" />
+      <scope id="8423122693117690393" at="10,42,12,23" />
+      <scope id="8423122693117690313" at="26,0,29,0" />
+      <scope id="8423122693117690321" at="32,0,35,0" />
+      <scope id="8423122693117690329" at="38,0,41,0" />
+      <scope id="8423122693117690337" at="44,0,47,0" />
+      <scope id="8423122693117690345" at="50,0,53,0" />
+      <scope id="8423122693117690353" at="56,0,59,0" />
+      <scope id="8423122693117690361" at="62,0,65,0">
+        <var name="value" id="8423122693117690362" />
+      </scope>
+      <scope id="8423122693117690372" at="68,0,71,0" />
+      <scope id="8423122693117690389" at="10,0,14,0">
+        <var name="builder" id="8423122693117690391" />
+      </scope>
+      <scope id="8423122693117690400" at="14,0,18,0" />
+      <scope id="8423122693117690409" at="18,0,22,0" />
+      <scope id="8423122693117690380" at="71,0,75,0" />
+      <unit id="8423122693117690308" at="22,0,76,0" name="io.searchbox.cluster.State$Builder" />
+      <unit id="8496368874152586807" at="8,0,77,0" name="io.searchbox.cluster.State" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586844">
+    <file name="NodesShutdown.java">
+      <node id="8423122693118166411" at="10,58,11,19" concept="6" />
+      <node id="8423122693117714633" at="11,19,12,23" concept="1" />
+      <node id="8423122693117714642" at="15,31,16,64" concept="5" />
+      <node id="8423122693117714655" at="19,37,20,18" concept="5" />
+      <node id="8423122693117714662" at="23,35,24,19" concept="5" />
+      <node id="8423122693117714612" at="33,54,34,42" concept="5" />
+      <node id="8423122693117714622" at="37,34,38,37" concept="5" />
+      <node id="8423122693117714608" at="33,0,36,0" concept="4" trace="delay#(Ljava/lang/String;)Lio/searchbox/cluster/NodesShutdown/Builder;" />
+      <node id="8423122693117714628" at="10,0,14,0" concept="0" trace="NodesShutdown#(Lio/searchbox/cluster/NodesShutdown/Builder;)V" />
+      <node id="8423122693117714639" at="14,0,18,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117714652" at="18,0,22,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117714659" at="22,0,26,0" concept="4" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117714619" at="36,0,40,0" concept="4" trace="build#()Lio/searchbox/cluster/NodesShutdown;" />
+      <scope id="8423122693117714641" at="15,31,16,64" />
+      <scope id="8423122693117714654" at="19,37,20,18" />
+      <scope id="8423122693117714661" at="23,35,24,19" />
+      <scope id="8496368874153555530" at="33,54,34,42" />
+      <scope id="8496368874153558442" at="37,34,38,37" />
+      <scope id="8423122693117714632" at="10,58,12,23" />
+      <scope id="8423122693117714608" at="33,0,36,0">
+        <var name="value" id="8423122693117714609" />
+      </scope>
+      <scope id="8423122693117714628" at="10,0,14,0">
+        <var name="builder" id="8423122693117714630" />
+      </scope>
+      <scope id="8423122693117714639" at="14,0,18,0" />
+      <scope id="8423122693117714652" at="18,0,22,0" />
+      <scope id="8423122693117714659" at="22,0,26,0" />
+      <scope id="8423122693117714619" at="36,0,40,0" />
+      <unit id="8423122693117714603" at="26,0,41,0" name="io.searchbox.cluster.NodesShutdown$Builder" />
+      <unit id="8496368874152586844" at="8,0,42,0" name="io.searchbox.cluster.NodesShutdown" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586889">
+    <file name="GetSettings.java">
+      <node id="8423122693118166661" at="10,54,11,19" concept="6" />
+      <node id="8423122693117684832" at="11,19,12,23" concept="1" />
+      <node id="8423122693117684840" at="14,31,15,51" concept="5" />
+      <node id="8423122693117684849" at="18,37,19,17" concept="5" />
+      <node id="8423122693117684821" at="23,32,24,35" concept="5" />
+      <node id="8423122693117684838" at="14,0,17,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117684827" at="10,0,14,0" concept="0" trace="GetSettings#(Lio/searchbox/cluster/GetSettings/Builder;)V" />
+      <node id="8423122693117684846" at="17,0,21,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117684818" at="22,0,26,0" concept="4" trace="build#()Lio/searchbox/cluster/GetSettings;" />
+      <scope id="8423122693117684839" at="14,31,15,51" />
+      <scope id="8423122693117684848" at="18,37,19,17" />
+      <scope id="8496368874153493271" at="23,32,24,35" />
+      <scope id="8423122693117684831" at="10,54,12,23" />
+      <scope id="8423122693117684838" at="14,0,17,0" />
+      <scope id="8423122693117684827" at="10,0,14,0">
+        <var name="builder" id="8423122693117684829" />
+      </scope>
+      <scope id="8423122693117684846" at="17,0,21,0" />
+      <scope id="8423122693117684818" at="22,0,26,0" />
+      <unit id="8423122693117684813" at="21,0,27,0" name="io.searchbox.cluster.GetSettings$Builder" />
+      <unit id="8496368874152586889" at="8,0,28,0" name="io.searchbox.cluster.GetSettings" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586926">
+    <file name="NodesHotThreads.java">
+      <node id="8423122693118166664" at="11,62,12,19" concept="6" />
+      <node id="8423122693117731148" at="12,19,13,23" concept="1" />
+      <node id="8423122693117731157" at="16,31,17,66" concept="5" />
+      <node id="8423122693117731172" at="20,63,21,28" concept="5" />
+      <node id="8423122693117731179" at="24,37,25,17" concept="5" />
+      <node id="8423122693117731095" at="28,60,29,45" concept="5" />
+      <node id="8423122693117731105" at="34,59,35,44" concept="5" />
+      <node id="8423122693117731116" at="40,59,41,45" concept="5" />
+      <node id="8423122693117731127" at="46,55,47,41" concept="5" />
+      <node id="8423122693117731137" at="50,36,51,39" concept="5" />
+      <node id="8423122693117731091" at="28,0,31,0" concept="4" trace="settings#(Z)Lio/searchbox/cluster/NodesHotThreads/Builder;" />
+      <node id="8423122693117731101" at="34,0,37,0" concept="4" trace="threads#(Ljava/lang/Integer;)Lio/searchbox/cluster/NodesHotThreads/Builder;" />
+      <node id="8423122693117731112" at="40,0,43,0" concept="4" trace="interval#(Ljava/lang/String;)Lio/searchbox/cluster/NodesHotThreads/Builder;" />
+      <node id="8423122693117731123" at="46,0,49,0" concept="4" trace="type#(Ljava/lang/String;)Lio/searchbox/cluster/NodesHotThreads/Builder;" />
+      <node id="8423122693117731143" at="11,0,15,0" concept="0" trace="NodesHotThreads#(Lio/searchbox/cluster/NodesHotThreads/Builder;)V" />
+      <node id="8423122693117731154" at="15,0,19,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117731167" at="19,0,23,0" concept="4" trace="parseResponseBody#(Ljava/lang/String;)Lcom/google/gson/JsonObject;" />
+      <node id="8423122693117731176" at="23,0,27,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117731134" at="49,0,53,0" concept="4" trace="build#()Lio/searchbox/cluster/NodesHotThreads;" />
+      <scope id="8423122693117731156" at="16,31,17,66" />
+      <scope id="8423122693117731171" at="20,63,21,28" />
+      <scope id="8423122693117731178" at="24,37,25,17" />
+      <scope id="8496368874153510679" at="28,60,29,45" />
+      <scope id="8496368874153513553" at="34,59,35,44" />
+      <scope id="8496368874153504892" at="40,59,41,45" />
+      <scope id="8496368874153507753" at="46,55,47,41" />
+      <scope id="8496368874153516429" at="50,36,51,39" />
+      <scope id="8423122693117731147" at="11,62,13,23" />
+      <scope id="8423122693117731091" at="28,0,31,0">
+        <var name="value" id="8423122693117731092" />
+      </scope>
+      <scope id="8423122693117731101" at="34,0,37,0">
+        <var name="value" id="8423122693117731102" />
+      </scope>
+      <scope id="8423122693117731112" at="40,0,43,0">
+        <var name="value" id="8423122693117731113" />
+      </scope>
+      <scope id="8423122693117731123" at="46,0,49,0">
+        <var name="value" id="8423122693117731124" />
+      </scope>
+      <scope id="8423122693117731143" at="11,0,15,0">
+        <var name="builder" id="8423122693117731145" />
+      </scope>
+      <scope id="8423122693117731154" at="15,0,19,0" />
+      <scope id="8423122693117731167" at="19,0,23,0">
+        <var name="responseBody" id="8423122693117731169" />
+      </scope>
+      <scope id="8423122693117731176" at="23,0,27,0" />
+      <scope id="8423122693117731134" at="49,0,53,0" />
+      <unit id="8423122693117731086" at="27,0,54,0" name="io.searchbox.cluster.NodesHotThreads$Builder" />
+      <unit id="8496368874152586926" at="9,0,55,0" name="io.searchbox.cluster.NodesHotThreads" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152586971">
+    <file name="Health.java">
+      <node id="8423122693118166838" at="10,44,11,19" concept="6" />
+      <node id="8423122693117688132" at="11,19,12,23" concept="1" />
+      <node id="8423122693117688141" at="15,31,16,50" concept="5" />
+      <node id="8423122693117688150" at="19,37,20,17" concept="5" />
+      <node id="8423122693117688121" at="24,27,25,30" concept="5" />
+      <node id="8423122693117688127" at="10,0,14,0" concept="0" trace="Health#(Lio/searchbox/cluster/Health/Builder;)V" />
+      <node id="8423122693117688138" at="14,0,18,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117688147" at="18,0,22,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117688118" at="23,0,27,0" concept="4" trace="build#()Lio/searchbox/cluster/Health;" />
+      <scope id="8423122693117688140" at="15,31,16,50" />
+      <scope id="8423122693117688149" at="19,37,20,17" />
+      <scope id="8496368874153500124" at="24,27,25,30" />
+      <scope id="8423122693117688131" at="10,44,12,23" />
+      <scope id="8423122693117688127" at="10,0,14,0">
+        <var name="builder" id="8423122693117688129" />
+      </scope>
+      <scope id="8423122693117688138" at="14,0,18,0" />
+      <scope id="8423122693117688147" at="18,0,22,0" />
+      <scope id="8423122693117688118" at="23,0,27,0" />
+      <unit id="8423122693117688113" at="22,0,28,0" name="io.searchbox.cluster.Health$Builder" />
+      <unit id="8496368874152586971" at="8,0,29,0" name="io.searchbox.cluster.Health" />
+    </file>
+  </root>
+  <root nodeRef="r:158c5e92-b871-443b-8ab8-23109b9c2858(io.searchbox.cluster)/8496368874152587008">
+    <file name="NodesInfo.java">
+      <node id="8423122693118166841" at="10,50,11,19" concept="6" />
+      <node id="8423122693117696411" at="11,19,12,23" concept="1" />
+      <node id="8423122693117696419" at="14,31,15,49" concept="5" />
+      <node id="8423122693117696430" at="18,37,19,17" concept="5" />
+      <node id="8423122693117696437" at="22,35,23,19" concept="5" />
+      <node id="8423122693117696336" at="26,45,27,46" concept="5" />
+      <node id="8423122693117696343" at="29,39,30,40" concept="5" />
+      <node id="8423122693117696350" at="32,44,33,45" concept="5" />
+      <node id="8423122693117696357" at="35,40,36,41" concept="5" />
+      <node id="8423122693117696364" at="38,47,39,49" concept="5" />
+      <node id="8423122693117696371" at="41,44,42,45" concept="5" />
+      <node id="8423122693117696378" at="44,46,45,47" concept="5" />
+      <node id="8423122693117696385" at="47,41,48,42" concept="5" />
+      <node id="8423122693117696392" at="50,44,51,45" concept="5" />
+      <node id="8423122693117696400" at="54,30,55,33" concept="5" />
+      <node id="8423122693117696417" at="14,0,17,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117696334" at="26,0,29,0" concept="4" trace="withSettings#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696341" at="29,0,32,0" concept="4" trace="withOs#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696348" at="32,0,35,0" concept="4" trace="withProcess#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696355" at="35,0,38,0" concept="4" trace="withJvm#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696362" at="38,0,41,0" concept="4" trace="withThreadPool#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696369" at="41,0,44,0" concept="4" trace="withNetwork#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696376" at="44,0,47,0" concept="4" trace="withTransport#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696383" at="47,0,50,0" concept="4" trace="withHttp#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696390" at="50,0,53,0" concept="4" trace="withPlugins#()Lio/searchbox/cluster/NodesInfo/Builder;" />
+      <node id="8423122693117696406" at="10,0,14,0" concept="0" trace="NodesInfo#(Lio/searchbox/cluster/NodesInfo/Builder;)V" />
+      <node id="8423122693117696427" at="17,0,21,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117696434" at="21,0,25,0" concept="4" trace="getPathToResult#()Ljava/lang/String;" />
+      <node id="8423122693117696397" at="53,0,57,0" concept="4" trace="build#()Lio/searchbox/cluster/NodesInfo;" />
+      <scope id="8423122693117696418" at="14,31,15,49" />
+      <scope id="8423122693117696429" at="18,37,19,17" />
+      <scope id="8423122693117696436" at="22,35,23,19" />
+      <scope id="8496368874153534904" at="26,45,27,46" />
+      <scope id="8496368874153549381" at="29,39,30,40" />
+      <scope id="8496368874153537787" at="32,44,33,45" />
+      <scope id="8496368874153543582" at="35,40,36,41" />
+      <scope id="8496368874153526201" at="38,47,39,49" />
+      <scope id="8496368874153529129" at="41,44,42,45" />
+      <scope id="8496368874153532015" at="44,46,45,47" />
+      <scope id="8496368874153523324" at="47,41,48,42" />
+      <scope id="8496368874153546480" at="50,44,51,45" />
+      <scope id="8496368874153540684" at="54,30,55,33" />
+      <scope id="8423122693117696410" at="10,50,12,23" />
+      <scope id="8423122693117696417" at="14,0,17,0" />
+      <scope id="8423122693117696334" at="26,0,29,0" />
+      <scope id="8423122693117696341" at="29,0,32,0" />
+      <scope id="8423122693117696348" at="32,0,35,0" />
+      <scope id="8423122693117696355" at="35,0,38,0" />
+      <scope id="8423122693117696362" at="38,0,41,0" />
+      <scope id="8423122693117696369" at="41,0,44,0" />
+      <scope id="8423122693117696376" at="44,0,47,0" />
+      <scope id="8423122693117696383" at="47,0,50,0" />
+      <scope id="8423122693117696390" at="50,0,53,0" />
+      <scope id="8423122693117696406" at="10,0,14,0">
+        <var name="builder" id="8423122693117696408" />
+      </scope>
+      <scope id="8423122693117696427" at="17,0,21,0" />
+      <scope id="8423122693117696434" at="21,0,25,0" />
+      <scope id="8423122693117696397" at="53,0,57,0" />
+      <unit id="8423122693117696329" at="25,0,58,0" name="io.searchbox.cluster.NodesInfo$Builder" />
+      <unit id="8496368874152587008" at="8,0,59,0" name="io.searchbox.cluster.NodesInfo" />
+    </file>
+  </root>
+</debug-info>
+

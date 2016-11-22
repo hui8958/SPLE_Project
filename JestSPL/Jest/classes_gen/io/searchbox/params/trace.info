@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root nodeRef="r:0c79e51c-e5d8-49f0-9eb5-a663e02d05f3(io.searchbox.params)/8496368874152586620">
+    <file name="Parameters.java">
+      <node id="8423122693117714956" at="12,0,13,0" concept="5" trace="CALLBACK" />
+      <node id="8423122693117714960" at="13,0,14,0" concept="5" trace="RESULT_CASING" />
+      <node id="8423122693117714964" at="14,0,15,0" concept="5" trace="IGNORE_UNAVAILABLE" />
+      <node id="8423122693117714968" at="15,0,16,0" concept="5" trace="ALLOW_NO_INDICES" />
+      <node id="8423122693117714972" at="16,0,17,0" concept="5" trace="CONSISTENCY" />
+      <node id="8423122693117714976" at="17,0,18,0" concept="5" trace="PARENT" />
+      <node id="8423122693117714980" at="18,0,19,0" concept="5" trace="PERCOLATE" />
+      <node id="8423122693117714984" at="19,0,20,0" concept="5" trace="REFRESH" />
+      <node id="8423122693117714988" at="20,0,21,0" concept="5" trace="REPLICATION" />
+      <node id="8423122693117714992" at="21,0,22,0" concept="5" trace="ROUTING" />
+      <node id="8423122693117714996" at="22,0,23,0" concept="5" trace="TIMEOUT" />
+      <node id="8423122693117715000" at="23,0,24,0" concept="5" trace="VERSION" />
+      <node id="8423122693117715004" at="24,0,25,0" concept="5" trace="VERSION_TYPE" />
+      <node id="8423122693117715008" at="25,0,26,0" concept="5" trace="TTL" />
+      <node id="8423122693117715012" at="26,0,27,0" concept="5" trace="TIMESTAMP" />
+      <node id="8423122693117715016" at="27,0,28,0" concept="5" trace="OP_TYPE" />
+      <node id="8423122693117715020" at="28,0,29,0" concept="5" trace="EXPLAIN" />
+      <node id="8423122693117715024" at="29,0,30,0" concept="5" trace="SIZE" />
+      <node id="8423122693117715028" at="30,0,31,0" concept="5" trace="FROM" />
+      <node id="8423122693117715032" at="31,0,32,0" concept="5" trace="SCROLL" />
+      <node id="8423122693117715036" at="32,0,33,0" concept="5" trace="SCROLL_ID" />
+      <node id="8423122693117715040" at="33,0,34,0" concept="5" trace="SEARCH_TYPE" />
+      <node id="8423122693117715044" at="34,0,35,0" concept="5" trace="PERCOLATOR" />
+      <node id="8423122693117715048" at="35,0,36,0" concept="5" trace="RETRY_ON_CONFLICT" />
+      <node id="8423122693117715052" at="36,0,37,0" concept="5" trace="ACCEPTED_IN_BULK" />
+      <node id="8423122693117715065" at="10,0,12,0" concept="0" trace="Parameters#()V" />
+      <scope id="8423122693117715067" at="10,24,10,24" />
+      <scope id="8423122693117715065" at="10,0,12,0" />
+      <unit id="8496368874152586620" at="8,0,38,0" name="io.searchbox.params.Parameters" />
+    </file>
+  </root>
+  <root nodeRef="r:0c79e51c-e5d8-49f0-9eb5-a663e02d05f3(io.searchbox.params)/8496368874152586641">
+    <file name="SearchType.java">
+      <node id="8423122693117732828" at="8,0,9,0" concept="2" trace="value" />
+      <node id="8423122693117732837" at="9,40,10,23" concept="1" />
+      <node id="8423122693117732845" at="12,28,13,22" concept="4" />
+      <node id="8423122693117732832" at="9,0,12,0" concept="0" trace="SearchType#(Ljava/lang/String;)V" />
+      <node id="8423122693117732843" at="12,0,15,0" concept="3" trace="toString#()Ljava/lang/String;" />
+      <scope id="8423122693117732836" at="9,40,10,23" />
+      <scope id="8423122693117732844" at="12,28,13,22" />
+      <scope id="8423122693117732832" at="9,0,12,0">
+        <var name="value" id="8423122693117732834" />
+      </scope>
+      <scope id="8423122693117732843" at="12,0,15,0" />
+      <unit id="8496368874152586641" at="6,0,16,0" name="io.searchbox.params.SearchType" />
+    </file>
+  </root>
+</debug-info>
+

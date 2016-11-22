@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root nodeRef="r:29988630-d3f6-465f-8e26-5d9cb2422a10(io.searchbox.core.search.sort)/8496368874152587900">
+    <file name="Sort.java">
+      <node id="8423122693117701029" at="10,0,11,0" concept="2" trace="field" />
+      <node id="8423122693117701033" at="11,0,12,0" concept="2" trace="order" />
+      <node id="8423122693117701037" at="12,0,13,0" concept="2" trace="missing" />
+      <node id="8423122693117701041" at="13,0,14,0" concept="2" trace="unmapped" />
+      <node id="8423122693117701050" at="14,29,15,23" concept="1" />
+      <node id="8423122693117701064" at="17,49,18,23" concept="1" />
+      <node id="8423122693117701070" at="18,23,19,23" concept="1" />
+      <node id="8423122693117701081" at="25,36,26,21" concept="1" />
+      <node id="8423122693117701092" at="28,35,29,25" concept="1" />
+      <node id="8423122693117701103" at="31,38,32,65" concept="5" />
+      <node id="8423122693117701116" at="33,24,34,46" concept="1" />
+      <node id="8423122693117701126" at="36,26,37,50" concept="1" />
+      <node id="8423122693117701136" at="39,27,40,48" concept="1" />
+      <node id="8423122693117701141" at="41,5,42,64" concept="5" />
+      <node id="8423122693117701148" at="42,64,43,33" concept="1" />
+      <node id="8423122693117701152" at="43,33,44,19" concept="6" />
+      <node id="8423122693117700981" at="50,0,51,0" concept="2" trace="name" />
+      <node id="990910864841642448" at="51,31,52,15" concept="1" />
+      <node id="8423122693117700997" at="54,30,55,18" concept="6" />
+      <node id="8423122693117701009" at="62,0,63,0" concept="2" trace="name" />
+      <node id="990910864841643842" at="63,31,64,15" concept="1" />
+      <node id="8423122693117701025" at="66,30,67,18" concept="6" />
+      <node id="8423122693117701045" at="14,0,17,0" concept="0" trace="Sort#(Ljava/lang/String;)V" />
+      <node id="8423122693117701077" at="25,0,28,0" concept="4" trace="setMissing#(Ljava/lang/Object;)V" />
+      <node id="8423122693117701090" at="28,0,31,0" concept="4" trace="setIgnoreUnmapped#()V" />
+      <node id="8423122693117701110" at="32,65,35,5" concept="3" />
+      <node id="8423122693117701120" at="35,5,38,5" concept="3" />
+      <node id="8423122693117701130" at="38,5,41,5" concept="3" />
+      <node id="990910864841641456" at="51,0,54,0" concept="0" trace="Sorting#(Ljava/lang/String;)V" />
+      <node id="8423122693117700995" at="54,0,57,0" concept="4" trace="toString#()Ljava/lang/String;" />
+      <node id="990910864841643118" at="63,0,66,0" concept="0" trace="Missing#(Ljava/lang/String;)V" />
+      <node id="8423122693117701023" at="66,0,69,0" concept="4" trace="toString#()Ljava/lang/String;" />
+      <node id="8423122693117701057" at="17,0,21,0" concept="0" trace="Sort#(Ljava/lang/String;Lio/searchbox/core/search/sort/Sort/Sorting;)V" />
+      <node id="8423122693117701100" at="31,0,46,0" concept="4" trace="toMap#()Ljava/util/Map;" />
+      <scope id="8423122693117701049" at="14,29,15,23" />
+      <scope id="8423122693117701080" at="25,36,26,21" />
+      <scope id="8423122693117701091" at="28,35,29,25" />
+      <scope id="8423122693117701115" at="33,24,34,46" />
+      <scope id="8423122693117701125" at="36,26,37,50" />
+      <scope id="8423122693117701135" at="39,27,40,48" />
+      <scope id="3918785843121181458" at="51,31,52,15" />
+      <scope id="3918785843121174603" at="54,30,55,18" />
+      <scope id="3918785843121170804" at="63,31,64,15" />
+      <scope id="3918785843121178035" at="66,30,67,18" />
+      <scope id="8423122693117701063" at="17,49,19,23" />
+      <scope id="8423122693117701045" at="14,0,17,0">
+        <var name="field" id="8423122693117701047" />
+      </scope>
+      <scope id="8423122693117701077" at="25,0,28,0">
+        <var name="m" id="8423122693117701078" />
+      </scope>
+      <scope id="8423122693117701090" at="28,0,31,0" />
+      <scope id="990910864841641456" at="51,0,54,0">
+        <var name="s" id="990910864841642086" />
+      </scope>
+      <scope id="8423122693117700995" at="54,0,57,0" />
+      <scope id="990910864841643118" at="63,0,66,0">
+        <var name="s" id="990910864841643342" />
+      </scope>
+      <scope id="8423122693117701023" at="66,0,69,0" />
+      <scope id="8423122693117701057" at="17,0,21,0">
+        <var name="field" id="8423122693117701059" />
+        <var name="order" id="8423122693117701061" />
+      </scope>
+      <scope id="8423122693117701101" at="31,38,44,19">
+        <var name="innerMap" id="8423122693117701102" />
+        <var name="rootMap" id="8423122693117701140" />
+      </scope>
+      <scope id="8423122693117701100" at="31,0,46,0" />
+      <unit id="8423122693117700973" at="46,0,58,0" name="io.searchbox.core.search.sort.Sort$Sorting" />
+      <unit id="8423122693117701001" at="58,0,70,0" name="io.searchbox.core.search.sort.Sort$Missing" />
+      <unit id="8496368874152587900" at="8,0,71,0" name="io.searchbox.core.search.sort.Sort" />
+    </file>
+  </root>
+</debug-info>
+

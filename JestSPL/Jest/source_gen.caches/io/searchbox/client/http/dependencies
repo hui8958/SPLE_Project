@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.http.FailingProxy" file="FailingProxy.java">
+    <classNode dependClassName="io.netty.buffer.ByteBuf" />
+    <classNode dependClassName="io.netty.buffer.Unpooled" />
+    <classNode dependClassName="io.netty.handler.codec.http.DefaultFullHttpResponse" />
+    <classNode dependClassName="io.netty.handler.codec.http.HttpObject" />
+    <classNode dependClassName="io.netty.handler.codec.http.HttpRequest" />
+    <classNode dependClassName="io.netty.handler.codec.http.HttpResponse" />
+    <classNode dependClassName="io.netty.handler.codec.http.HttpResponseStatus" />
+    <classNode dependClassName="io.netty.handler.codec.http.HttpVersion" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.InetSocketAddress" />
+    <classNode dependClassName="java.nio.charset.Charset" />
+    <classNode dependClassName="org.littleshoot.proxy.HttpFilters" />
+    <classNode dependClassName="org.littleshoot.proxy.HttpFiltersAdapter" />
+    <classNode dependClassName="org.littleshoot.proxy.HttpFiltersSourceAdapter" />
+    <classNode dependClassName="org.littleshoot.proxy.HttpProxyServer" />
+    <classNode dependClassName="org.littleshoot.proxy.HttpProxyServerBootstrap" />
+    <classNode dependClassName="org.littleshoot.proxy.impl.DefaultHttpProxyServer" />
+  </dependency>
+  <dependency className="io.searchbox.client.http.JestHttpClient" file="JestHttpClient.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="com.google.gson.JsonSyntaxException" />
+    <classNode dependClassName="io.searchbox.action.Action" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="io.searchbox.client.JestResultHandler" />
+    <classNode dependClassName="io.searchbox.client.config.exception.CouldNotConnectException" />
+    <classNode dependClassName="io.searchbox.client.http.apache.HttpDeleteWithEntity" />
+    <classNode dependClassName="io.searchbox.client.http.apache.HttpGetWithEntity" />
+    <classNode dependClassName="java.io.IOException" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.concurrent.Future" />
+    <classNode dependClassName="org.apache.http.Header" />
+    <classNode dependClassName="org.apache.http.HttpEntityEnclosingRequest" />
+    <classNode dependClassName="org.apache.http.HttpRequest" />
+    <classNode dependClassName="org.apache.http.HttpResponse" />
+    <classNode dependClassName="org.apache.http.StatusLine" />
+    <classNode dependClassName="org.apache.http.client.entity.EntityBuilder" />
+    <classNode dependClassName="org.apache.http.client.methods.CloseableHttpResponse" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpHead" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpPost" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpPut" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpUriRequest" />
+    <classNode dependClassName="org.apache.http.client.protocol.HttpClientContext" />
+    <classNode dependClassName="org.apache.http.concurrent.FutureCallback" />
+    <classNode dependClassName="org.apache.http.conn.HttpHostConnectException" />
+    <classNode dependClassName="org.apache.http.entity.ContentType" />
+    <classNode dependClassName="org.apache.http.impl.client.CloseableHttpClient" />
+    <classNode dependClassName="org.apache.http.impl.nio.client.CloseableHttpAsyncClient" />
+    <classNode dependClassName="org.apache.http.util.EntityUtils" />
+    <classNode dependClassName="org.slf4j.Logger" />
+    <classNode dependClassName="org.slf4j.LoggerFactory" />
+    <classNode extendsClassName="io.searchbox.client.AbstractJestClient" />
+  </dependency>
+</dependenciesRoot>
+

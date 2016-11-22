@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:315c095f-6322-4a59-bad0-eb45360cfe68(io.searchbox.client.config.idle)/8423122693117674872">
+    <file name="ReapableConnectionManager.java">
+      <node id="8423122693117674874" at="8,0,9,0" concept="4" trace="closeIdleConnections#(JLjava/util/concurrent/TimeUnit;)V" />
+      <scope id="8423122693117674874" at="8,0,9,0">
+        <var name="idleTimeout" id="8423122693117674876" />
+        <var name="unit" id="8423122693117674878" />
+      </scope>
+      <unit id="8423122693117674872" at="7,0,10,0" name="io.searchbox.client.config.idle.ReapableConnectionManager" />
+    </file>
+  </root>
+  <root nodeRef="r:315c095f-6322-4a59-bad0-eb45360cfe68(io.searchbox.client.config.idle)/8496368874152618482">
+    <file name="HttpReapableConnectionManager.java">
+      <node id="8423122693117703603" at="11,0,12,0" concept="2" trace="connectionManager" />
+      <node id="8423122693117703607" at="12,0,13,0" concept="2" trace="nConnectionManager" />
+      <node id="8423122693117703627" at="14,66,15,43" concept="9" />
+      <node id="8423122693117703629" at="16,5,17,47" concept="1" />
+      <node id="8423122693117703635" at="17,47,18,49" concept="1" />
+      <node id="8423122693117703649" at="21,69,22,62" concept="1" />
+      <node id="8423122693117703653" at="22,62,23,63" concept="1" />
+      <node id="8423122693117703618" at="13,136,16,5" concept="3" />
+      <node id="8423122693117703642" at="20,0,25,0" concept="4" trace="closeIdleConnections#(JLjava/util/concurrent/TimeUnit;)V" />
+      <node id="8423122693117703611" at="13,0,20,0" concept="0" trace="HttpReapableConnectionManager#(Lorg/apache/http/conn/HttpClientConnectionManager;Lorg/apache/http/nio/conn/NHttpClientConnectionManager;)V" />
+      <scope id="8423122693117703628" at="14,66,15,43" />
+      <scope id="8423122693117703648" at="21,69,23,63" />
+      <scope id="8423122693117703617" at="13,136,18,49" />
+      <scope id="8423122693117703642" at="20,0,25,0">
+        <var name="idleTimeout" id="8423122693117703644" />
+        <var name="unit" id="8423122693117703646" />
+      </scope>
+      <scope id="8423122693117703611" at="13,0,20,0">
+        <var name="connectionManager" id="8423122693117703613" />
+        <var name="nConnectionManager" id="8423122693117703615" />
+      </scope>
+      <unit id="8496368874152618482" at="9,0,26,0" name="io.searchbox.client.config.idle.HttpReapableConnectionManager" />
+    </file>
+  </root>
+  <root nodeRef="r:315c095f-6322-4a59-bad0-eb45360cfe68(io.searchbox.client.config.idle)/8496368874152618511">
+    <file name="IdleConnectionReaper.java">
+      <node id="8423122693117727183" at="17,0,18,0" concept="8" trace="logger" />
+      <node id="8423122693117727188" at="18,0,19,0" concept="2" trace="reapableConnectionManager" />
+      <node id="8423122693117727192" at="19,0,20,0" concept="2" trace="clientConfig" />
+      <node id="8423122693117727203" at="20,111,21,63" concept="1" />
+      <node id="8423122693117727209" at="21,63,22,37" concept="1" />
+      <node id="8423122693117727220" at="25,53,26,48" concept="1" />
+      <node id="8423122693117727223" at="26,48,27,149" concept="1" />
+      <node id="8423122693117727232" at="30,60,31,170" concept="6" />
+      <node id="8423122693117727243" at="34,49,35,170" concept="5" />
+      <node id="8423122693117727300" at="35,170,36,100" concept="7" />
+      <node id="8423122693117727302" at="36,100,37,97" concept="7" />
+      <node id="8423122693117727304" at="37,97,38,99" concept="7" />
+      <node id="8423122693117727306" at="38,99,39,100" concept="7" />
+      <node id="8423122693117727308" at="39,100,40,97" concept="7" />
+      <node id="7732608842074541967" at="43,50,44,28" concept="1" />
+      <node id="7732608842074542242" at="47,65,48,28" concept="1" />
+      <node id="8423122693117727281" at="50,39,51,20" concept="6" />
+      <node id="8423122693117727196" at="20,0,24,0" concept="0" trace="IdleConnectionReaper#(Lio/searchbox/client/config/ClientConfig;Lio/searchbox/client/config/idle/ReapableConnectionManager;)V" />
+      <node id="8423122693117727229" at="29,0,33,0" concept="4" trace="scheduler#()Lcom/google/common/util/concurrent/AbstractScheduledService/Scheduler;" />
+      <node id="7732608842074541328" at="42,0,46,0" concept="4" trace="terminated#(Lcom/google/common/util/concurrent/Service/State;)V" />
+      <node id="7732608842074541340" at="46,0,50,0" concept="4" trace="failed#(Lcom/google/common/util/concurrent/Service/State;Ljava/lang/Throwable;)V" />
+      <node id="8423122693117727216" at="24,0,29,0" concept="4" trace="runOneIteration#()V" />
+      <node id="8423122693117727255" at="40,97,50,39" concept="1" />
+      <node id="8423122693117727239" at="33,0,53,0" concept="4" trace="executor#()Ljava/util/concurrent/ScheduledExecutorService;" />
+      <scope id="8423122693117727231" at="30,60,31,170" />
+      <scope id="7732608842074541335" at="43,50,44,28" />
+      <scope id="7732608842074541349" at="47,65,48,28" />
+      <scope id="8423122693117727202" at="20,111,22,37" />
+      <scope id="8423122693117727219" at="25,53,27,149" />
+      <scope id="8423122693117727196" at="20,0,24,0">
+        <var name="clientConfig" id="8423122693117727198" />
+        <var name="reapableConnectionManager" id="8423122693117727200" />
+      </scope>
+      <scope id="8423122693117727229" at="29,0,33,0" />
+      <scope id="7732608842074541328" at="42,0,46,0">
+        <var name="from" id="7732608842074541332" />
+      </scope>
+      <scope id="7732608842074541340" at="46,0,50,0">
+        <var name="failure" id="7732608842074541346" />
+        <var name="from" id="7732608842074541344" />
+      </scope>
+      <scope id="8423122693117727216" at="24,0,29,0" />
+      <scope id="8423122693117727241" at="34,49,51,20">
+        <var name="executor" id="8423122693117727242" />
+      </scope>
+      <scope id="8423122693117727239" at="33,0,53,0" />
+      <unit id="7732608842074541238" at="41,20,50,5" name="io.searchbox.client.config.idle.IdleConnectionReaper$1" />
+      <unit id="8496368874152618511" at="15,0,54,0" name="io.searchbox.client.config.idle.IdleConnectionReaper" />
+    </file>
+  </root>
+</debug-info>
+

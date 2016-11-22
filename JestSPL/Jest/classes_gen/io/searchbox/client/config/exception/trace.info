@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:19e104f8-b835-4a3c-aee4-8587aa05e271(io.searchbox.client.config.exception)/8496368874152618626">
+    <file name="CouldNotConnectException.java">
+      <node id="8423122693117693271" at="9,0,10,0" concept="2" trace="host" />
+      <node id="8423122693118026916" at="10,65,11,49" concept="6" />
+      <node id="8423122693117693282" at="11,49,12,21" concept="1" />
+      <node id="8423122693117693296" at="14,27,15,16" concept="4" />
+      <node id="8423122693117693294" at="14,0,17,0" concept="3" trace="getHost#()Ljava/lang/String;" />
+      <node id="8423122693117693275" at="10,0,14,0" concept="0" trace="CouldNotConnectException#(Ljava/lang/String;Ljava/lang/Throwable;)V" />
+      <scope id="8423122693117693295" at="14,27,15,16" />
+      <scope id="8423122693117693281" at="10,65,12,21" />
+      <scope id="8423122693117693294" at="14,0,17,0" />
+      <scope id="8423122693117693275" at="10,0,14,0">
+        <var name="cause" id="8423122693117693279" />
+        <var name="host" id="8423122693117693277" />
+      </scope>
+      <unit id="8496368874152618626" at="7,0,18,0" name="io.searchbox.client.config.exception.CouldNotConnectException" />
+    </file>
+  </root>
+  <root nodeRef="r:19e104f8-b835-4a3c-aee4-8587aa05e271(io.searchbox.client.config.exception)/8496368874152618655">
+    <file name="NoServerConfiguredException.java">
+      <node id="8423122693117727607" at="8,0,9,0" concept="5" trace="serialVersionUID" />
+      <node id="8423122693118026917" at="15,54,16,19" concept="6" />
+      <node id="8423122693117727611" at="15,0,18,0" concept="0" trace="NoServerConfiguredException#(Ljava/lang/String;)V" />
+      <scope id="8423122693117727615" at="15,54,16,19" />
+      <scope id="8423122693117727611" at="15,0,18,0">
+        <var name="message" id="8423122693117727613" />
+      </scope>
+      <unit id="8496368874152618655" at="6,0,19,0" name="io.searchbox.client.config.exception.NoServerConfiguredException" />
+    </file>
+  </root>
+</debug-info>
+

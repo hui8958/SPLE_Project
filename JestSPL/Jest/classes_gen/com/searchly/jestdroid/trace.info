@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:ff1324a4-a6cc-4e54-b314-f2106ee76c95(com.searchly.jestdroid)/8496368874152623148">
+    <file name="DroidReapableConnectionManager.java">
+      <node id="8423122693117695257" at="11,0,12,0" concept="3" trace="connectionManager" />
+      <node id="8423122693117695266" at="12,95,13,47" concept="2" />
+      <node id="8423122693117695280" at="16,69,17,62" concept="2" />
+      <node id="8423122693117695261" at="12,0,15,0" concept="1" trace="DroidReapableConnectionManager#(Lorg/apache/http/impl/conn/PoolingHttpClientConnectionManager;)V" />
+      <node id="8423122693117695273" at="15,0,19,0" concept="6" trace="closeIdleConnections#(JLjava/util/concurrent/TimeUnit;)V" />
+      <scope id="8423122693117695265" at="12,95,13,47" />
+      <scope id="8423122693117695279" at="16,69,17,62" />
+      <scope id="8423122693117695261" at="12,0,15,0">
+        <var name="connectionManager" id="8423122693117695263" />
+      </scope>
+      <scope id="8423122693117695273" at="15,0,19,0">
+        <var name="idleTimeout" id="8423122693117695275" />
+        <var name="unit" id="8423122693117695277" />
+      </scope>
+      <unit id="8496368874152623148" at="9,0,20,0" name="com.searchly.jestdroid.DroidReapableConnectionManager" />
+    </file>
+  </root>
+  <root nodeRef="r:ff1324a4-a6cc-4e54-b314-f2106ee76c95(com.searchly.jestdroid)/8496368874152623177">
+    <file name="JestDroidClient.java">
+      <node id="8423122693117679661" at="33,0,34,0" concept="10" trace="log" />
+      <node id="8423122693117679667" at="34,0,35,0" concept="3" trace="requestContentType" />
+      <node id="8423122693117679673" at="35,0,36,0" concept="3" trace="httpClient" />
+      <node id="8423122693117679687" at="37,87,38,89" concept="7" />
+      <node id="8423122693117679693" at="38,89,39,135" concept="7" />
+      <node id="8423122693117679710" at="41,86,42,73" concept="2" />
+      <node id="8423122693117679727" at="45,9,46,58" concept="7" />
+      <node id="8423122693117679731" at="46,58,47,58" concept="8" />
+      <node id="8423122693117679745" at="48,43,49,67" concept="12" />
+      <node id="8423122693117679764" at="53,132,54,103" concept="12" />
+      <node id="8423122693117679769" at="56,32,57,27" concept="2" />
+      <node id="8423122693117679782" at="59,95,60,41" concept="7" />
+      <node id="8423122693117679790" at="61,46,62,44" concept="2" />
+      <node id="8423122693117679795" at="62,44,63,63" concept="2" />
+      <node id="8423122693117679803" at="65,45,66,43" concept="2" />
+      <node id="8423122693117679808" at="66,43,67,62" concept="2" />
+      <node id="8423122693117679816" at="69,48,70,53" concept="2" />
+      <node id="8423122693117679821" at="70,53,71,65" concept="2" />
+      <node id="8423122693117679829" at="73,45,74,50" concept="2" />
+      <node id="8423122693117679834" at="74,50,75,62" concept="2" />
+      <node id="8423122693117679842" at="77,46,78,44" concept="2" />
+      <node id="8423122693117679847" at="78,44,79,63" concept="2" />
+      <node id="8423122693117679865" at="81,108,82,111" concept="7" />
+      <node id="8423122693117679878" at="83,42,84,37" concept="2" />
+      <node id="3329890555608948263" at="85,7,86,85" concept="2" />
+      <node id="8423122693117679888" at="87,5,88,26" concept="8" />
+      <node id="8423122693117679903" at="90,123,91,53" concept="7" />
+      <node id="8423122693117679906" at="91,53,92,216" concept="8" />
+      <node id="8423122693117679922" at="94,37,95,22" concept="8" />
+      <node id="8423122693117679930" at="97,52,98,33" concept="2" />
+      <node id="8423122693117679940" at="100,25,101,16" concept="8" />
+      <node id="8423122693117679948" at="103,34,104,21" concept="2" />
+      <node id="8423122693117679707" at="40,50,43,7" concept="4" />
+      <node id="8423122693117679767" at="56,0,59,0" concept="6" trace="shutdownClient#()V" />
+      <node id="8423122693117679874" at="82,111,85,7" concept="5" />
+      <node id="8423122693117679920" at="94,0,97,0" concept="6" trace="getHttpClient#()Lorg/apache/http/client/HttpClient;" />
+      <node id="8423122693117679926" at="97,0,100,0" concept="6" trace="setHttpClient#(Lorg/apache/http/client/HttpClient;)V" />
+      <node id="8423122693117679938" at="100,0,103,0" concept="6" trace="getGson#()Lcom/google/gson/Gson;" />
+      <node id="8423122693117679944" at="103,0,106,0" concept="6" trace="setGson#(Lcom/google/gson/Gson;)V" />
+      <node id="8423122693117679750" at="52,0,56,0" concept="6" trace="executeAsync#(Lio/searchbox/action/Action;Lio/searchbox/client/JestResultHandler;)V" />
+      <node id="8423122693117679837" at="76,10,80,5" concept="5" />
+      <node id="8423122693117679892" at="90,0,94,0" concept="6" trace="deserializeResponse#(Lorg/apache/http/HttpResponse;Lio/searchbox/action/Action;)null" />
+      <node id="8423122693117679700" at="39,135,44,5" concept="5" />
+      <node id="8423122693117679746" at="44,5,50,5" concept="13" />
+      <node id="8423122693117679850" at="80,5,87,5" concept="5" />
+      <node id="8423122693117679824" at="72,10,80,5" concept="5" />
+      <node id="8423122693117679811" at="68,10,80,5" concept="5" />
+      <node id="8423122693117679677" at="36,0,52,0" concept="6" trace="execute#(Lio/searchbox/action/Action;)null" />
+      <node id="8423122693117679798" at="64,10,80,5" concept="5" />
+      <node id="8423122693117679785" at="60,41,80,5" concept="5" />
+      <node id="8423122693117679773" at="59,0,90,0" concept="6" trace="constructHttpMethod#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/http/client/methods/HttpUriRequest;" />
+      <scope id="8423122693117679709" at="41,86,42,73" />
+      <scope id="8423122693117679747" at="48,0,49,67">
+        <var name="ex" id="8423122693117679735" />
+      </scope>
+      <scope id="8423122693117679739" at="48,43,49,67" />
+      <scope id="8423122693117679761" at="53,132,54,103" />
+      <scope id="8423122693117679768" at="56,32,57,27" />
+      <scope id="8423122693117679877" at="83,42,84,37" />
+      <scope id="8423122693117679921" at="94,37,95,22" />
+      <scope id="8423122693117679929" at="97,52,98,33" />
+      <scope id="8423122693117679939" at="100,25,101,16" />
+      <scope id="8423122693117679947" at="103,34,104,21" />
+      <scope id="8423122693117679725" at="45,9,47,58">
+        <var name="response" id="8423122693117679726" />
+      </scope>
+      <scope id="8423122693117679789" at="61,46,63,63" />
+      <scope id="8423122693117679802" at="65,45,67,62" />
+      <scope id="8423122693117679815" at="69,48,71,65" />
+      <scope id="8423122693117679828" at="73,45,75,62" />
+      <scope id="8423122693117679841" at="77,46,79,63" />
+      <scope id="8423122693117679901" at="90,123,92,216">
+        <var name="statusLine" id="8423122693117679902" />
+      </scope>
+      <scope id="8423122693117679706" at="40,50,43,7" />
+      <scope id="8423122693117679707" at="40,50,43,7">
+        <var name="header" id="8423122693117679716" />
+      </scope>
+      <scope id="8423122693117679767" at="56,0,59,0" />
+      <scope id="8423122693117679920" at="94,0,97,0" />
+      <scope id="8423122693117679926" at="97,0,100,0">
+        <var name="httpClient" id="8423122693117679927" />
+      </scope>
+      <scope id="8423122693117679938" at="100,0,103,0" />
+      <scope id="8423122693117679944" at="103,0,106,0">
+        <var name="gson" id="8423122693117679945" />
+      </scope>
+      <scope id="8423122693117679750" at="52,0,56,0">
+        <var name="clientRequest" id="8423122693117679754" />
+        <var name="resultHandler" id="8423122693117679757" />
+      </scope>
+      <scope id="8423122693117679892" at="90,0,94,0">
+        <var name="clientRequest" id="8423122693117679897" />
+        <var name="response" id="8423122693117679895" />
+      </scope>
+      <scope id="8423122693117679863" at="81,108,86,85">
+        <var name="entityBuilder" id="8423122693117679864" />
+      </scope>
+      <scope id="8423122693117679685" at="37,87,50,5">
+        <var name="elasticSearchRestUrl" id="8423122693117679686" />
+        <var name="request" id="8423122693117679692" />
+      </scope>
+      <scope id="8423122693117679677" at="36,0,52,0">
+        <var name="clientRequest" id="8423122693117679681" />
+      </scope>
+      <scope id="8423122693117679780" at="59,95,88,26">
+        <var name="httpUriRequest" id="8423122693117679781" />
+      </scope>
+      <scope id="8423122693117679773" at="59,0,90,0">
+        <var name="methodName" id="8423122693117679774" />
+        <var name="payload" id="8423122693117679778" />
+        <var name="url" id="8423122693117679776" />
+      </scope>
+      <unit id="8496368874152623177" at="31,0,107,0" name="com.searchly.jestdroid.JestDroidClient" />
+    </file>
+  </root>
+  <root nodeRef="r:ff1324a4-a6cc-4e54-b314-f2106ee76c95(com.searchly.jestdroid)/8496368874152623262">
+    <file name="DroidClientConfig.java">
+      <node id="8423122693117727910" at="27,0,28,0" concept="3" trace="maxTotalConnection" />
+      <node id="8423122693117727914" at="28,0,29,0" concept="3" trace="defaultMaxTotalConnectionPerRoute" />
+      <node id="8423122693117727918" at="29,0,30,0" concept="3" trace="maxTotalConnectionPerRoute" />
+      <node id="8423122693117727924" at="30,0,31,0" concept="3" trace="credentialsProvider" />
+      <node id="8423122693117727928" at="31,0,32,0" concept="3" trace="sslSocketFactory" />
+      <node id="8423122693117727932" at="32,0,33,0" concept="3" trace="plainSocketFactory" />
+      <node id="8423122693117727936" at="33,0,34,0" concept="3" trace="httpRoutePlanner" />
+      <node id="8423122693117727940" at="34,0,35,0" concept="3" trace="proxyAuthenticationStrategy" />
+      <node id="8423122693118168649" at="35,63,36,19" concept="11" />
+      <node id="8423122693117727949" at="36,19,37,57" concept="2" />
+      <node id="8423122693117727955" at="37,57,38,87" concept="2" />
+      <node id="8423122693117727961" at="38,87,39,73" concept="2" />
+      <node id="8423122693117727967" at="39,73,40,59" concept="2" />
+      <node id="8423122693117727973" at="40,59,41,57" concept="2" />
+      <node id="8423122693117727979" at="41,57,42,53" concept="2" />
+      <node id="8423122693117727985" at="42,53,43,53" concept="2" />
+      <node id="8423122693117727991" at="43,53,44,75" concept="2" />
+      <node id="8423122693117728002" at="46,66,47,38" concept="8" />
+      <node id="8423122693117728010" at="49,42,50,30" concept="8" />
+      <node id="8423122693117728016" at="52,57,53,45" concept="8" />
+      <node id="8423122693117728022" at="55,55,56,31" concept="8" />
+      <node id="8423122693117728028" at="58,63,59,28" concept="8" />
+      <node id="8423122693117728034" at="61,58,62,30" concept="8" />
+      <node id="8423122693117728040" at="64,49,65,28" concept="8" />
+      <node id="8423122693117728046" at="67,66,68,39" concept="8" />
+      <node id="8423122693117727651" at="71,0,72,0" concept="3" trace="maxTotalConnection" />
+      <node id="8423122693117727655" at="72,0,73,0" concept="3" trace="defaultMaxTotalConnectionPerRoute" />
+      <node id="8423122693117727659" at="73,0,74,0" concept="3" trace="maxTotalConnectionPerRoute" />
+      <node id="8423122693117727668" at="74,0,75,0" concept="3" trace="credentialsProvider" />
+      <node id="8423122693117727672" at="75,0,76,0" concept="3" trace="sslSocketFactory" />
+      <node id="8423122693117727677" at="76,0,77,0" concept="3" trace="plainSocketFactory" />
+      <node id="8423122693117727682" at="77,0,78,0" concept="3" trace="httpRoutePlanner" />
+      <node id="8423122693117727688" at="78,0,79,0" concept="3" trace="proxyAuthenticationStrategy" />
+      <node id="8423122693118186110" at="79,56,80,30" concept="11" />
+      <node id="8423122693117727697" at="80,30,81,68" concept="2" />
+      <node id="8423122693117727703" at="81,68,82,98" concept="2" />
+      <node id="8423122693117727709" at="82,98,83,84" concept="2" />
+      <node id="8423122693118186243" at="85,51,86,24" concept="11" />
+      <node id="8423122693118186244" at="88,38,89,23" concept="11" />
+      <node id="8423122693117727739" at="91,81,92,51" concept="2" />
+      <node id="8423122693117727745" at="92,51,93,18" concept="8" />
+      <node id="8423122693117727753" at="95,111,96,81" concept="2" />
+      <node id="8423122693117727759" at="96,81,97,18" concept="8" />
+      <node id="8423122693117727769" at="99,117,100,73" concept="2" />
+      <node id="8423122693117727776" at="100,73,101,18" concept="8" />
+      <node id="8423122693117727786" at="103,110,104,73" concept="2" />
+      <node id="8423122693117727794" at="104,73,105,18" concept="8" />
+      <node id="8423122693117727802" at="111,99,112,53" concept="2" />
+      <node id="8423122693117727808" at="112,53,113,18" concept="8" />
+      <node id="8423122693117727819" at="115,91,116,89" concept="2" />
+      <node id="8423122693117727825" at="116,89,117,114" concept="2" />
+      <node id="8423122693117727835" at="117,114,118,18" concept="8" />
+      <node id="8423122693117727843" at="124,101,125,44" concept="2" />
+      <node id="8423122693117727849" at="125,44,126,18" concept="8" />
+      <node id="8423122693117727858" at="132,96,133,46" concept="2" />
+      <node id="8423122693117727864" at="133,46,134,18" concept="8" />
+      <node id="8423122693117727873" at="136,60,137,32" concept="8" />
+      <node id="8423122693117727885" at="139,112,140,66" concept="2" />
+      <node id="8423122693117727892" at="140,66,141,69" concept="2" />
+      <node id="8423122693117727898" at="141,69,142,18" concept="8" />
+      <node id="8423122693117727904" at="144,38,145,41" concept="8" />
+      <node id="8423122693117728000" at="46,0,49,0" concept="6" trace="getMaxTotalConnectionPerRoute#()Ljava/util/Map;" />
+      <node id="8423122693117728008" at="49,0,52,0" concept="6" trace="getMaxTotalConnection#()Ljava/lang/Integer;" />
+      <node id="8423122693117728014" at="52,0,55,0" concept="6" trace="getDefaultMaxTotalConnectionPerRoute#()Ljava/lang/Integer;" />
+      <node id="8423122693117728020" at="55,0,58,0" concept="6" trace="getCredentialsProvider#()Lorg/apache/http/client/CredentialsProvider;" />
+      <node id="8423122693117728026" at="58,0,61,0" concept="6" trace="getSslSocketFactory#()Lorg/apache/http/conn/socket/LayeredConnectionSocketFactory;" />
+      <node id="8423122693117728032" at="61,0,64,0" concept="6" trace="getPlainSocketFactory#()Lorg/apache/http/conn/socket/ConnectionSocketFactory;" />
+      <node id="8423122693117728038" at="64,0,67,0" concept="6" trace="getHttpRoutePlanner#()Lorg/apache/http/conn/routing/HttpRoutePlanner;" />
+      <node id="8423122693117728044" at="67,0,70,0" concept="6" trace="getProxyAuthenticationStrategy#()Lorg/apache/http/client/AuthenticationStrategy;" />
+      <node id="8423122693117727718" at="85,0,88,0" concept="1" trace="Builder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117727727" at="88,0,91,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117727869" at="136,0,139,0" concept="6" trace="proxy#(Lorg/apache/http/HttpHost;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727902" at="144,0,147,0" concept="6" trace="build#()Lcom/searchly/jestdroid/DroidClientConfig;" />
+      <node id="8423122693117727735" at="91,0,95,0" concept="6" trace="maxTotalConnection#(I)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727749" at="95,0,99,0" concept="6" trace="defaultMaxTotalConnectionPerRoute#(I)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727763" at="99,0,103,0" concept="6" trace="maxTotalConnectionPerRoute#(Ljava/util/Map;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727780" at="103,0,107,0" concept="6" trace="maxTotalConnectionPerRoute#(Lorg/apache/http/conn/routing/HttpRoute;I)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727798" at="111,0,115,0" concept="6" trace="credentialsProvider#(Lorg/apache/http/client/CredentialsProvider;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727839" at="124,0,128,0" concept="6" trace="sslSocketFactory#(Lorg/apache/http/conn/socket/LayeredConnectionSocketFactory;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727854" at="132,0,136,0" concept="6" trace="plainSocketFactory#(Lorg/apache/http/conn/socket/ConnectionSocketFactory;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727813" at="115,0,120,0" concept="6" trace="defaultCredentials#(Ljava/lang/String;Ljava/lang/String;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727879" at="139,0,144,0" concept="6" trace="proxy#(Lorg/apache/http/HttpHost;Lorg/apache/http/client/AuthenticationStrategy;)Lcom/searchly/jestdroid/DroidClientConfig/Builder;" />
+      <node id="8423122693117727692" at="79,0,85,0" concept="1" trace="Builder#(Lcom/searchly/jestdroid/DroidClientConfig;)V" />
+      <node id="8423122693117727944" at="35,0,46,0" concept="1" trace="DroidClientConfig#(Lcom/searchly/jestdroid/DroidClientConfig/Builder;)V" />
+      <scope id="8423122693117728001" at="46,66,47,38" />
+      <scope id="8423122693117728009" at="49,42,50,30" />
+      <scope id="8423122693117728015" at="52,57,53,45" />
+      <scope id="8423122693117728021" at="55,55,56,31" />
+      <scope id="8423122693117728027" at="58,63,59,28" />
+      <scope id="8423122693117728033" at="61,58,62,30" />
+      <scope id="8423122693117728039" at="64,49,65,28" />
+      <scope id="8423122693117728045" at="67,66,68,39" />
+      <scope id="8496368874152720450" at="85,51,86,24" />
+      <scope id="8496368874152742327" at="88,38,89,23" />
+      <scope id="8496368874152747777" at="136,60,137,32" />
+      <scope id="8496368874152725858" at="144,38,145,41" />
+      <scope id="8496368874152713536" at="91,81,93,18" />
+      <scope id="8496368874152745045" at="95,111,97,18" />
+      <scope id="8496368874152739598" at="99,117,101,18" />
+      <scope id="8496368874152731358" at="103,110,105,18" />
+      <scope id="8496368874152710839" at="111,99,113,18" />
+      <scope id="8496368874152723144" at="124,101,126,18" />
+      <scope id="8496368874152734080" at="132,96,134,18" />
+      <scope id="8423122693117728000" at="46,0,49,0" />
+      <scope id="8423122693117728008" at="49,0,52,0" />
+      <scope id="8423122693117728014" at="52,0,55,0" />
+      <scope id="8423122693117728020" at="55,0,58,0" />
+      <scope id="8423122693117728026" at="58,0,61,0" />
+      <scope id="8423122693117728032" at="61,0,64,0" />
+      <scope id="8423122693117728038" at="64,0,67,0" />
+      <scope id="8423122693117728044" at="67,0,70,0" />
+      <scope id="8423122693117727718" at="85,0,88,0">
+        <var name="serverUris" id="8423122693117727720" />
+      </scope>
+      <scope id="8423122693117727727" at="88,0,91,0">
+        <var name="serverUri" id="8423122693117727729" />
+      </scope>
+      <scope id="8496368874152728616" at="115,91,118,18" />
+      <scope id="8423122693117727869" at="136,0,139,0">
+        <var name="proxy" id="8423122693117727870" />
+      </scope>
+      <scope id="8496368874152736804" at="139,112,142,18" />
+      <scope id="8423122693117727902" at="144,0,147,0" />
+      <scope id="8496368874152717712" at="79,56,83,84" />
+      <scope id="8423122693117727735" at="91,0,95,0">
+        <var name="maxTotalConnection" id="8423122693117727736" />
+      </scope>
+      <scope id="8423122693117727749" at="95,0,99,0">
+        <var name="defaultMaxTotalConnectionPerRoute" id="8423122693117727750" />
+      </scope>
+      <scope id="8423122693117727763" at="99,0,103,0">
+        <var name="maxTotalConnectionPerRoute" id="8423122693117727764" />
+      </scope>
+      <scope id="8423122693117727780" at="103,0,107,0">
+        <var name="httpRoute" id="8423122693117727781" />
+        <var name="maxTotalConnection" id="8423122693117727783" />
+      </scope>
+      <scope id="8423122693117727798" at="111,0,115,0">
+        <var name="credentialsProvider" id="8423122693117727799" />
+      </scope>
+      <scope id="8423122693117727839" at="124,0,128,0">
+        <var name="socketFactory" id="8423122693117727840" />
+      </scope>
+      <scope id="8423122693117727854" at="132,0,136,0">
+        <var name="socketFactory" id="8423122693117727855" />
+      </scope>
+      <scope id="8423122693117727813" at="115,0,120,0">
+        <var name="password" id="8423122693117727816" />
+        <var name="username" id="8423122693117727814" />
+      </scope>
+      <scope id="8423122693117727879" at="139,0,144,0">
+        <var name="proxy" id="8423122693117727880" />
+        <var name="proxyAuthenticationStrategy" id="8423122693117727882" />
+      </scope>
+      <scope id="8423122693117727692" at="79,0,85,0">
+        <var name="httpClientConfig" id="8423122693117727694" />
+      </scope>
+      <scope id="8423122693117727948" at="35,63,44,75" />
+      <scope id="8423122693117727944" at="35,0,46,0">
+        <var name="builder" id="8423122693117727946" />
+      </scope>
+      <unit id="8423122693117727646" at="70,0,148,0" name="com.searchly.jestdroid.DroidClientConfig$Builder" />
+      <unit id="8496368874152623262" at="25,0,149,0" name="com.searchly.jestdroid.DroidClientConfig" />
+    </file>
+  </root>
+  <root nodeRef="r:ff1324a4-a6cc-4e54-b314-f2106ee76c95(com.searchly.jestdroid)/8496368874152623347">
+    <file name="JestClientFactory.java">
+      <node id="8423122693117683018" at="25,0,26,0" concept="10" trace="log" />
+      <node id="8423122693117683023" at="26,0,27,0" concept="3" trace="droidClientConfig" />
+      <node id="8423122693117683030" at="27,33,28,51" concept="7" />
+      <node id="8423122693117683034" at="28,51,29,226" concept="7" />
+      <node id="8423122693117683055" at="30,36,31,63" concept="2" />
+      <node id="8423122693117683059" at="31,63,32,71" concept="7" />
+      <node id="8423122693117683062" at="32,71,33,91" concept="2" />
+      <node id="8423122693117683065" at="33,91,34,59" concept="2" />
+      <node id="8423122693117683069" at="34,59,35,68" concept="7" />
+      <node id="8423122693117683077" at="36,28,37,97" concept="7" />
+      <node id="8423122693117683082" at="37,97,38,69" concept="7" />
+      <node id="8423122693117683091" at="39,31,40,35" concept="2" />
+      <node id="8423122693117683095" at="41,9,42,94" concept="7" />
+      <node id="8423122693117683104" at="43,41,44,55" concept="2" />
+      <node id="8423122693117683108" at="45,9,46,96" concept="7" />
+      <node id="8423122693117683116" at="47,76,48,62" concept="2" />
+      <node id="8423122693117683126" at="49,9,50,51" concept="2" />
+      <node id="8423122693117683129" at="50,51,51,56" concept="2" />
+      <node id="8423122693117683284" at="51,56,52,58" concept="9" />
+      <node id="8423122693117683138" at="53,63,54,57" concept="2" />
+      <node id="8423122693117683142" at="54,57,55,124" concept="7" />
+      <node id="8423122693117683148" at="55,124,56,49" concept="2" />
+      <node id="8423122693117683151" at="56,49,57,30" concept="2" />
+      <node id="8423122693117683153" at="57,30,58,32" concept="2" />
+      <node id="8423122693117683157" at="60,14,61,82" concept="2" />
+      <node id="8423122693117683160" at="61,82,62,95" concept="2" />
+      <node id="8423122693117683164" at="63,7,64,401" concept="2" />
+      <node id="8423122693117683286" at="64,401,65,34" concept="9" />
+      <node id="8423122693117683185" at="65,34,66,46" concept="7" />
+      <node id="8423122693117683194" at="67,25,68,29" concept="2" />
+      <node id="8423122693117683197" at="69,7,70,54" concept="2" />
+      <node id="8423122693117683288" at="70,54,71,82" concept="9" />
+      <node id="8423122693117683204" at="72,51,73,46" concept="2" />
+      <node id="8423122693117683208" at="73,46,74,77" concept="7" />
+      <node id="8423122693117683213" at="74,77,75,43" concept="2" />
+      <node id="8423122693117683216" at="75,43,76,33" concept="2" />
+      <node id="8423122693117683218" at="76,33,77,35" concept="2" />
+      <node id="8423122693117683222" at="78,14,79,47" concept="2" />
+      <node id="8423122693117683227" at="81,12,82,118" concept="2" />
+      <node id="8423122693117683230" at="82,118,83,52" concept="2" />
+      <node id="8423122693117683234" at="83,52,84,66" concept="7" />
+      <node id="8423122693117683239" at="84,66,85,43" concept="2" />
+      <node id="8423122693117683242" at="85,43,86,33" concept="2" />
+      <node id="8423122693117683245" at="87,5,88,18" concept="8" />
+      <node id="8423122693117683253" at="90,73,91,47" concept="2" />
+      <node id="8423122693117683220" at="78,12,80,7" concept="0" />
+      <node id="8423122693117683085" at="38,69,41,9" concept="5" />
+      <node id="8423122693117683098" at="42,94,45,9" concept="5" />
+      <node id="8423122693117683113" at="46,96,49,9" concept="4" />
+      <node id="8423122693117683155" at="60,12,63,7" concept="0" />
+      <node id="8423122693117683188" at="66,46,69,7" concept="5" />
+      <node id="8423122693117683249" at="90,0,93,0" concept="6" trace="setDroidClientConfig#(Lcom/searchly/jestdroid/DroidClientConfig;)V" />
+      <node id="8423122693117683225" at="81,10,87,5" concept="0" />
+      <node id="8423122693117683132" at="52,58,59,9" concept="5" />
+      <node id="8423122693117683200" at="71,82,80,7" concept="5" />
+      <node id="8423122693117683072" at="35,68,63,7" concept="5" />
+      <node id="8423122693117683049" at="29,226,87,5" concept="5" />
+      <node id="8423122693117683027" at="27,0,90,0" concept="6" trace="getObject#()Lio/searchbox/client/JestClient;" />
+      <scope id="8423122693117683090" at="39,31,40,35" />
+      <scope id="8423122693117683103" at="43,41,44,55" />
+      <scope id="8423122693117683115" at="47,76,48,62" />
+      <scope id="8423122693117683193" at="67,25,68,29" />
+      <scope id="8423122693117683221" at="78,14,79,47" />
+      <scope id="8423122693117683252" at="90,73,91,47" />
+      <scope id="8423122693117683156" at="60,14,62,95" />
+      <scope id="8423122693117683113" at="46,96,49,9">
+        <var name="entry" id="8423122693117683120" />
+      </scope>
+      <scope id="8423122693117683249" at="90,0,93,0">
+        <var name="droidClientConfig" id="8423122693117683250" />
+      </scope>
+      <scope id="8423122693117683137" at="53,63,58,32">
+        <var name="reaper" id="8423122693117683141" />
+      </scope>
+      <scope id="8423122693117683203" at="72,51,77,35">
+        <var name="nodeChecker" id="8423122693117683207" />
+      </scope>
+      <scope id="8423122693117683226" at="81,12,86,33">
+        <var name="servers" id="8423122693117683233" />
+      </scope>
+      <scope id="8423122693117683075" at="36,28,59,9">
+        <var name="cm" id="8423122693117683076" />
+        <var name="defaultMaxPerRoute" id="8423122693117683094" />
+        <var name="maxPerRoute" id="8423122693117683107" />
+        <var name="maxTotal" id="8423122693117683081" />
+      </scope>
+      <scope id="8423122693117683054" at="30,36,80,7">
+        <var name="gson" id="8423122693117683184" />
+        <var name="httpClientBuilder" id="8423122693117683058" />
+        <var name="isMultiThreaded" id="8423122693117683068" />
+      </scope>
+      <scope id="8423122693117683028" at="27,33,88,18">
+        <var name="client" id="8423122693117683029" />
+        <var name="registry" id="8423122693117683033" />
+      </scope>
+      <scope id="8423122693117683027" at="27,0,90,0" />
+      <unit id="8496368874152623347" at="23,0,94,0" name="com.searchly.jestdroid.JestClientFactory" />
+    </file>
+  </root>
+</debug-info>
+

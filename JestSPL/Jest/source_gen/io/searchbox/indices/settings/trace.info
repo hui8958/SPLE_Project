@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:14d71d2a-fcd1-495f-84df-70d1098e2bc4(io.searchbox.indices.settings)/8496368874152622895">
+    <file name="IndicesSettingsAbstractAction.java">
+      <node id="8423122693118163374" at="10,75,11,19" concept="6" />
+      <node id="8423122693117728458" at="11,19,12,23" concept="1" />
+      <node id="8423122693117728467" at="15,31,16,43" concept="5" />
+      <node id="8423122693117728453" at="10,0,14,0" concept="0" trace="IndicesSettingsAbstractAction#(Lio/searchbox/action/AbstractAction/Builder;)V" />
+      <node id="8423122693117728464" at="14,0,18,0" concept="4" trace="buildURI#()Ljava/lang/String;" />
+      <scope id="8423122693117728466" at="15,31,16,43" />
+      <scope id="8423122693117728457" at="10,75,12,23" />
+      <scope id="8423122693117728453" at="10,0,14,0">
+        <var name="builder" id="8423122693117728455" />
+      </scope>
+      <scope id="8423122693117728464" at="14,0,18,0" />
+      <unit id="8496368874152622895" at="8,0,19,0" name="io.searchbox.indices.settings.IndicesSettingsAbstractAction" />
+    </file>
+  </root>
+  <root nodeRef="r:14d71d2a-fcd1-495f-84df-70d1098e2bc4(io.searchbox.indices.settings)/8496368874152622924">
+    <file name="UpdateSettings.java">
+      <node id="8423122693118163509" at="11,60,12,19" concept="6" />
+      <node id="8423122693117732261" at="12,19,13,34" concept="1" />
+      <node id="8423122693117732273" at="16,37,17,17" concept="5" />
+      <node id="8423122693117732280" at="20,25,21,76" concept="5" />
+      <node id="8423122693117732300" at="25,22,26,19" concept="5" />
+      <node id="8423122693117732308" at="28,22,29,18" concept="5" />
+      <node id="8423122693117732316" at="31,39,32,19" concept="5" />
+      <node id="8423122693117732318" at="33,5,34,73" concept="5" />
+      <node id="8423122693117732230" at="37,0,38,0" concept="2" trace="source" />
+      <node id="8423122693117732239" at="44,35,45,27" concept="1" />
+      <node id="8423122693117732250" at="48,35,49,38" concept="5" />
+      <node id="8423122693117732294" at="24,37,27,5" concept="3" />
+      <node id="8423122693117732302" at="27,5,30,5" concept="3" />
+      <node id="8423122693117732310" at="30,5,33,5" concept="3" />
+      <node id="8423122693117732234" at="44,0,47,0" concept="0" trace="Builder#(Ljava/lang/Object;)V" />
+      <node id="8423122693117732256" at="11,0,15,0" concept="0" trace="UpdateSettings#(Lio/searchbox/indices/settings/UpdateSettings/Builder;)V" />
+      <node id="8423122693117732270" at="15,0,19,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117732277" at="19,0,23,0" concept="4" trace="hashCode#()I" />
+      <node id="8423122693117732247" at="47,0,51,0" concept="4" trace="build#()Lio/searchbox/indices/settings/UpdateSettings;" />
+      <node id="8423122693117732289" at="23,0,36,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <scope id="8423122693117732272" at="16,37,17,17" />
+      <scope id="8423122693117732279" at="20,25,21,76" />
+      <scope id="8423122693117732299" at="25,22,26,19" />
+      <scope id="8423122693117732307" at="28,22,29,18" />
+      <scope id="8423122693117732315" at="31,39,32,19" />
+      <scope id="3918785843121569164" at="44,35,45,27" />
+      <scope id="3918785843121572917" at="48,35,49,38" />
+      <scope id="8423122693117732260" at="11,60,13,34" />
+      <scope id="8423122693117732234" at="44,0,47,0">
+        <var name="source" id="8423122693117732236" />
+      </scope>
+      <scope id="8423122693117732256" at="11,0,15,0">
+        <var name="builder" id="8423122693117732258" />
+      </scope>
+      <scope id="8423122693117732270" at="15,0,19,0" />
+      <scope id="8423122693117732277" at="19,0,23,0" />
+      <scope id="8423122693117732247" at="47,0,51,0" />
+      <scope id="8423122693117732293" at="24,37,34,73" />
+      <scope id="8423122693117732289" at="23,0,36,0">
+        <var name="obj" id="8423122693117732291" />
+      </scope>
+      <unit id="8423122693117732225" at="36,0,52,0" name="io.searchbox.indices.settings.UpdateSettings$Builder" />
+      <unit id="8496368874152622924" at="9,0,53,0" name="io.searchbox.indices.settings.UpdateSettings" />
+    </file>
+  </root>
+  <root nodeRef="r:14d71d2a-fcd1-495f-84df-70d1098e2bc4(io.searchbox.indices.settings)/8496368874152622969">
+    <file name="GetSettings.java">
+      <node id="8423122693118163920" at="9,54,10,19" concept="6" />
+      <node id="8423122693117712341" at="13,37,14,17" concept="5" />
+      <node id="8423122693117712313" at="18,32,19,35" concept="5" />
+      <node id="8423122693117712322" at="24,64,25,49" concept="5" />
+      <node id="8423122693117712330" at="9,0,12,0" concept="0" trace="GetSettings#(Lio/searchbox/indices/settings/GetSettings/Builder;)V" />
+      <node id="8423122693117712318" at="24,0,27,0" concept="4" trace="prefixQuery#(Ljava/lang/String;)Lio/searchbox/indices/settings/GetSettings/Builder;" />
+      <node id="8423122693117712338" at="12,0,16,0" concept="4" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117712310" at="17,0,21,0" concept="4" trace="build#()Lio/searchbox/indices/settings/GetSettings;" />
+      <scope id="8423122693117712334" at="9,54,10,19" />
+      <scope id="8423122693117712340" at="13,37,14,17" />
+      <scope id="3918785843121558981" at="18,32,19,35" />
+      <scope id="3918785843121562645" at="24,64,25,49" />
+      <scope id="8423122693117712330" at="9,0,12,0">
+        <var name="builder" id="8423122693117712332" />
+      </scope>
+      <scope id="8423122693117712318" at="24,0,27,0">
+        <var name="prefixQuery" id="8423122693117712319" />
+      </scope>
+      <scope id="8423122693117712338" at="12,0,16,0" />
+      <scope id="8423122693117712310" at="17,0,21,0" />
+      <unit id="8423122693117712305" at="16,0,28,0" name="io.searchbox.indices.settings.GetSettings$Builder" />
+      <unit id="8496368874152622969" at="7,0,29,0" name="io.searchbox.indices.settings.GetSettings" />
+    </file>
+  </root>
+</debug-info>
+

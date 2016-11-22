@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.action.AbstractAction" file="AbstractAction.java">
+    <classNode dependClassName="com.google.common.collect.LinkedHashMultimap" />
+    <classNode dependClassName="com.google.common.collect.Multimap" />
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="com.google.gson.JsonObject" />
+    <classNode dependClassName="com.google.gson.JsonParser" />
+    <classNode dependClassName="io.searchbox.action.AbstractMultiINodeActionBuilder" />
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="io.searchbox.action.AbstractMultiTypeActionBuilder" />
+    <classNode dependClassName="io.searchbox.annotations.JestId" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="io.searchbox.params.Parameters" />
+    <classNode dependClassName="java.io.UnsupportedEncodingException" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.IllegalAccessException" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.StringBuilder" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="java.lang.reflect.Field" />
+    <classNode dependClassName="java.net.URLEncoder" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashMap" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="java.util.concurrent.ConcurrentHashMap" />
+    <classNode dependClassName="java.util.concurrent.ConcurrentMap" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.ToStringBuilder" />
+    <classNode dependClassName="org.slf4j.Logger" />
+    <classNode dependClassName="org.slf4j.LoggerFactory" />
+    <classNode extendsClassName="io.searchbox.action.Action" />
+  </dependency>
+  <dependency className="io.searchbox.action.AbstractDocumentTargetedAction" file="AbstractDocumentTargetedAction.java">
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.io.UnsupportedEncodingException" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.StringBuilder" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="java.net.URLEncoder" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.action.AbstractAction" />
+    <classNode extendsClassName="io.searchbox.action.DocumentTargetedAction" />
+  </dependency>
+  <dependency className="io.searchbox.action.AbstractMultiINodeActionBuilder" file="AbstractMultiINodeActionBuilder.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Action" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedList" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.action.Builder" />
+  </dependency>
+  <dependency className="io.searchbox.action.AbstractMultiIndexActionBuilder" file="AbstractMultiIndexActionBuilder.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Action" />
+    <classNode dependClassName="io.searchbox.params.Parameters" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.action.Builder" />
+  </dependency>
+  <dependency className="io.searchbox.action.AbstractMultiTypeActionBuilder" file="AbstractMultiTypeActionBuilder.java">
+    <classNode dependClassName="io.searchbox.action.Action" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+  </dependency>
+  <dependency className="io.searchbox.action.Action" file="Action.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+  </dependency>
+  <dependency className="io.searchbox.action.BulkableAction" file="BulkableAction.java">
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode extendsClassName="io.searchbox.action.DocumentTargetedAction" />
+  </dependency>
+  <dependency className="io.searchbox.action.DocumentTargetedAction" file="DocumentTargetedAction.java">
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.Action" />
+  </dependency>
+  <dependency className="io.searchbox.action.GenericResultAbstractAction" file="GenericResultAbstractAction.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.AbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.action.GenericResultAbstractDocumentTargetedAction" file="GenericResultAbstractDocumentTargetedAction.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.client.JestResult" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.AbstractDocumentTargetedAction" />
+  </dependency>
+  <dependency className="io.searchbox.action.SingleResultAbstractDocumentTargetedAction" file="SingleResultAbstractDocumentTargetedAction.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.core.DocumentResult" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.AbstractDocumentTargetedAction" />
+  </dependency>
+</dependenciesRoot>
+

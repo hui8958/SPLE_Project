@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.snapshot.AbstractSnapshotAction" file="AbstractSnapshotAction.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="io.searchbox.snapshot.SnapshotBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.AbstractSnapshotRepositoryAction" file="AbstractSnapshotRepositoryAction.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="io.searchbox.snapshot.RepositoryBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.CreateSnapshot" file="CreateSnapshot.java">
+    <classNode dependClassName="io.searchbox.snapshot.SingleSnapshotBuilder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.CreateSnapshotRepository" file="CreateSnapshotRepository.java">
+    <classNode dependClassName="io.searchbox.snapshot.SingleRepositoryBuilder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotRepositoryAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.DeleteSnapshot" file="DeleteSnapshot.java">
+    <classNode dependClassName="io.searchbox.snapshot.SingleSnapshotBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.DeleteSnapshotRepository" file="DeleteSnapshotRepository.java">
+    <classNode dependClassName="io.searchbox.snapshot.SingleRepositoryBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotRepositoryAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.GetSnapshot" file="GetSnapshot.java">
+    <classNode dependClassName="io.searchbox.snapshot.MultipleSnapshotBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.GetSnapshotRepository" file="GetSnapshotRepository.java">
+    <classNode dependClassName="io.searchbox.snapshot.RepositoryBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.apache.commons.lang3.StringUtils" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotRepositoryAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.RestoreSnapshot" file="RestoreSnapshot.java">
+    <classNode dependClassName="io.searchbox.snapshot.SingleSnapshotBuilder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotAction" />
+  </dependency>
+  <dependency className="io.searchbox.snapshot.SnapshotStatus" file="SnapshotStatus.java">
+    <classNode dependClassName="io.searchbox.snapshot.MultipleSnapshotBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.snapshot.AbstractSnapshotAction" />
+  </dependency>
+</dependenciesRoot>
+

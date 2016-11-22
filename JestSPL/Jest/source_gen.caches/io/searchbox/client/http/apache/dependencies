@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.http.apache.HttpDeleteWithEntity" file="HttpDeleteWithEntity.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.URI" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpDelete" />
+    <classNode extendsClassName="org.apache.http.client.methods.HttpEntityEnclosingRequestBase" />
+  </dependency>
+  <dependency className="io.searchbox.client.http.apache.HttpGetWithEntity" file="HttpGetWithEntity.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.net.URI" />
+    <classNode dependClassName="org.apache.http.client.methods.HttpGet" />
+    <classNode extendsClassName="org.apache.http.client.methods.HttpEntityEnclosingRequestBase" />
+  </dependency>
+</dependenciesRoot>
+

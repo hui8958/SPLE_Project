@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:be895cf1-ccce-4b03-be8b-e4f2a2282642(io.searchbox.indices.script)/3918785843121490942">
+    <file name="ScriptLanguage.java">
+      <node id="3918785843121497162" at="14,0,15,0" concept="2" trace="pathParameterName" />
+      <node id="3918785843121498516" at="16,44,17,47" concept="1" />
+      <node id="3918785843121497749" at="16,0,19,0" concept="0" trace="ScriptLanguage#(Ljava/lang/String;)V" />
+      <scope id="3918785843121497752" at="16,44,17,47" />
+      <scope id="3918785843121497749" at="16,0,19,0">
+        <var name="pathParameterName" id="3918785843121497982" />
+      </scope>
+      <unit id="3918785843121490942" at="6,0,20,0" name="io.searchbox.indices.script.ScriptLanguage" />
+    </file>
+  </root>
+  <root nodeRef="r:be895cf1-ccce-4b03-be8b-e4f2a2282642(io.searchbox.indices.script)/8496368874152618709">
+    <file name="DeleteIndexedScript.java">
+      <node id="8423122693118232633" at="8,70,9,19" concept="7" />
+      <node id="8423122693117733334" at="9,19,10,23" concept="1" />
+      <node id="8423122693117733343" at="13,37,14,20" concept="5" />
+      <node id="8423122693118232634" at="17,39,18,24" concept="7" />
+      <node id="8423122693117733323" at="21,40,22,43" concept="5" />
+      <node id="8423122693117733312" at="17,0,20,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117733329" at="8,0,12,0" concept="0" trace="DeleteIndexedScript#(Lio/searchbox/indices/script/DeleteIndexedScript/Builder;)V" />
+      <node id="8423122693117733340" at="12,0,16,0" concept="3" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117733320" at="20,0,24,0" concept="3" trace="build#()Lio/searchbox/indices/script/DeleteIndexedScript;" />
+      <scope id="8423122693117733342" at="13,37,14,20" />
+      <scope id="3918785843121542482" at="17,39,18,24" />
+      <scope id="3918785843121538830" at="21,40,22,43" />
+      <scope id="8423122693117733333" at="8,70,10,23" />
+      <scope id="8423122693117733312" at="17,0,20,0">
+        <var name="scriptName" id="8423122693117733314" />
+      </scope>
+      <scope id="8423122693117733329" at="8,0,12,0">
+        <var name="builder" id="8423122693117733331" />
+      </scope>
+      <scope id="8423122693117733340" at="12,0,16,0" />
+      <scope id="8423122693117733320" at="20,0,24,0" />
+      <unit id="8423122693117733307" at="16,0,25,0" name="io.searchbox.indices.script.DeleteIndexedScript$Builder" />
+      <unit id="8496368874152618709" at="6,0,26,0" name="io.searchbox.indices.script.DeleteIndexedScript" />
+    </file>
+  </root>
+  <root nodeRef="r:be895cf1-ccce-4b03-be8b-e4f2a2282642(io.searchbox.indices.script)/8496368874152618738">
+    <file name="CreateIndexedScript.java">
+      <node id="8423122693118233739" at="18,70,19,19" concept="7" />
+      <node id="8423122693117688635" at="19,19,20,35" concept="1" />
+      <node id="8423122693117688641" at="20,35,21,23" concept="1" />
+      <node id="8423122693117688650" at="24,37,25,18" concept="5" />
+      <node id="8423122693117688656" at="27,33,28,22" concept="5" />
+      <node id="8423122693117688662" at="30,45,31,26" concept="5" />
+      <node id="8423122693117688521" at="34,0,35,0" concept="2" trace="payload" />
+      <node id="8423122693118233759" at="35,39,36,24" concept="7" />
+      <node id="8423122693117688536" at="39,40,40,43" concept="5" />
+      <node id="8423122693117688545" at="42,65,43,28" concept="1" />
+      <node id="8423122693117688548" at="43,28,44,18" concept="5" />
+      <node id="8423122693117688557" at="46,84,47,74" concept="5" />
+      <node id="8423122693117688571" at="49,102,50,64" concept="5" />
+      <node id="8423122693117688583" at="52,93,53,76" concept="5" />
+      <node id="8423122693117688598" at="55,111,56,84" concept="4" />
+      <node id="8423122693117688604" at="56,84,57,25" concept="1" />
+      <node id="8423122693117688607" at="57,25,58,18" concept="5" />
+      <node id="8423122693117688616" at="60,47,61,47" concept="4" />
+      <node id="8423122693117688619" at="61,47,62,47" concept="1" />
+      <node id="8423122693117688623" at="62,47,63,27" concept="1" />
+      <node id="8423122693117688654" at="27,0,30,0" concept="3" trace="getScriptName#()Ljava/lang/String;" />
+      <node id="8423122693117688660" at="30,0,33,0" concept="3" trace="getScriptLanguage#()Lio/searchbox/indices/script/ScriptLanguage;" />
+      <node id="8423122693117688525" at="35,0,38,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117688552" at="46,0,49,0" concept="3" trace="loadSource#(Ljava/io/File;)Lio/searchbox/indices/script/CreateIndexedScript/Builder;" />
+      <node id="8423122693117688564" at="49,0,52,0" concept="3" trace="loadSource#(Ljava/io/File;Ljava/nio/charset/Charset;)Lio/searchbox/indices/script/CreateIndexedScript/Builder;" />
+      <node id="8423122693117688578" at="52,0,55,0" concept="3" trace="loadSource#(Ljava/io/InputStream;)Lio/searchbox/indices/script/CreateIndexedScript/Builder;" />
+      <node id="8423122693117688647" at="23,0,27,0" concept="3" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117688533" at="38,0,42,0" concept="3" trace="build#()Lio/searchbox/indices/script/CreateIndexedScript;" />
+      <node id="8423122693117688541" at="42,0,46,0" concept="3" trace="setSource#(Ljava/lang/String;)Lio/searchbox/indices/script/CreateIndexedScript/Builder;" />
+      <node id="8423122693117688630" at="18,0,23,0" concept="0" trace="CreateIndexedScript#(Lio/searchbox/indices/script/CreateIndexedScript/Builder;)V" />
+      <node id="8423122693117688590" at="55,0,60,0" concept="3" trace="loadSource#(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Lio/searchbox/indices/script/CreateIndexedScript/Builder;" />
+      <node id="8423122693117688611" at="60,0,65,0" concept="3" trace="createPayload#(Ljava/lang/String;)V" />
+      <scope id="8423122693117688649" at="24,37,25,18" />
+      <scope id="8423122693117688655" at="27,33,28,22" />
+      <scope id="8423122693117688661" at="30,45,31,26" />
+      <scope id="3918785843121518880" at="35,39,36,24" />
+      <scope id="3918785843121526169" at="39,40,40,43" />
+      <scope id="3918785843121507695" at="46,84,47,74" />
+      <scope id="3918785843121522513" at="49,102,50,64" />
+      <scope id="3918785843121529818" at="52,93,53,76" />
+      <scope id="3918785843121533466" at="42,65,44,18" />
+      <scope id="8423122693117688634" at="18,70,21,23" />
+      <scope id="8423122693117688654" at="27,0,30,0" />
+      <scope id="8423122693117688660" at="30,0,33,0" />
+      <scope id="8423122693117688525" at="35,0,38,0">
+        <var name="scriptName" id="8423122693117688527" />
+      </scope>
+      <scope id="8423122693117688552" at="46,0,49,0">
+        <var name="srcFile" id="8423122693117688553" />
+      </scope>
+      <scope id="8423122693117688564" at="49,0,52,0">
+        <var name="encoding" id="8423122693117688567" />
+        <var name="srcFile" id="8423122693117688565" />
+      </scope>
+      <scope id="8423122693117688578" at="52,0,55,0">
+        <var name="srcStream" id="8423122693117688579" />
+      </scope>
+      <scope id="3918785843121515219" at="55,111,58,18">
+        <var name="src" id="8423122693117688597" />
+      </scope>
+      <scope id="3918785843121511325" at="60,47,63,27">
+        <var name="jsonObject" id="8423122693117688615" />
+      </scope>
+      <scope id="8423122693117688647" at="23,0,27,0" />
+      <scope id="8423122693117688533" at="38,0,42,0" />
+      <scope id="8423122693117688541" at="42,0,46,0">
+        <var name="source" id="8423122693117688542" />
+      </scope>
+      <scope id="8423122693117688630" at="18,0,23,0">
+        <var name="builder" id="8423122693117688632" />
+      </scope>
+      <scope id="8423122693117688590" at="55,0,60,0">
+        <var name="encoding" id="8423122693117688593" />
+        <var name="srcStream" id="8423122693117688591" />
+      </scope>
+      <scope id="8423122693117688611" at="60,0,65,0">
+        <var name="source" id="8423122693117688612" />
+      </scope>
+      <unit id="8423122693117688516" at="33,0,66,0" name="io.searchbox.indices.script.CreateIndexedScript$Builder" />
+      <unit id="8496368874152618738" at="16,0,67,0" name="io.searchbox.indices.script.CreateIndexedScript" />
+    </file>
+  </root>
+  <root nodeRef="r:be895cf1-ccce-4b03-be8b-e4f2a2282642(io.searchbox.indices.script)/8496368874152622327">
+    <file name="GetIndexedScript.java">
+      <node id="8423122693118242478" at="8,64,9,19" concept="7" />
+      <node id="8423122693117670589" at="9,19,10,23" concept="1" />
+      <node id="8423122693117670598" at="13,37,14,17" concept="5" />
+      <node id="8423122693118242479" at="17,39,18,24" concept="7" />
+      <node id="8423122693117670578" at="21,37,22,40" concept="5" />
+      <node id="8423122693117670567" at="17,0,20,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117670584" at="8,0,12,0" concept="0" trace="GetIndexedScript#(Lio/searchbox/indices/script/GetIndexedScript/Builder;)V" />
+      <node id="8423122693117670595" at="12,0,16,0" concept="3" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117670575" at="20,0,24,0" concept="3" trace="build#()Lio/searchbox/indices/script/GetIndexedScript;" />
+      <scope id="8423122693117670597" at="13,37,14,17" />
+      <scope id="3918785843121547460" at="17,39,18,24" />
+      <scope id="3918785843121551137" at="21,37,22,40" />
+      <scope id="8423122693117670588" at="8,64,10,23" />
+      <scope id="8423122693117670567" at="17,0,20,0">
+        <var name="scriptName" id="8423122693117670569" />
+      </scope>
+      <scope id="8423122693117670584" at="8,0,12,0">
+        <var name="builder" id="8423122693117670586" />
+      </scope>
+      <scope id="8423122693117670595" at="12,0,16,0" />
+      <scope id="8423122693117670575" at="20,0,24,0" />
+      <unit id="8423122693117670562" at="16,0,25,0" name="io.searchbox.indices.script.GetIndexedScript$Builder" />
+      <unit id="8496368874152622327" at="6,0,26,0" name="io.searchbox.indices.script.GetIndexedScript" />
+    </file>
+  </root>
+  <root nodeRef="r:be895cf1-ccce-4b03-be8b-e4f2a2282642(io.searchbox.indices.script)/8496368874152622377">
+    <file name="AbstractIndexedScript.java">
+      <node id="8423122693117708983" at="12,0,13,0" concept="2" trace="scriptName" />
+      <node id="8423122693117708987" at="13,0,14,0" concept="2" trace="scriptLanguage" />
+      <node id="8423122693118242539" at="14,74,15,19" concept="7" />
+      <node id="8423122693117708996" at="15,19,16,41" concept="1" />
+      <node id="8423122693117709002" at="16,41,17,49" concept="1" />
+      <node id="8423122693117709014" at="19,31,20,95" concept="4" />
+      <node id="8423122693117709025" at="21,9,22,72" concept="1" />
+      <node id="8423122693117709069" at="23,46,24,72" concept="6" />
+      <node id="8423122693117709071" at="24,72,25,41" concept="6" />
+      <node id="8423122693117709036" at="25,41,26,84" concept="1" />
+      <node id="8423122693117709042" at="27,5,28,20" concept="5" />
+      <node id="8423122693117709048" at="30,33,31,22" concept="5" />
+      <node id="8423122693117709054" at="33,45,34,26" concept="5" />
+      <node id="8423122693117708945" at="38,0,39,0" concept="2" trace="scriptName" />
+      <node id="8423122693117708949" at="39,0,40,0" concept="2" trace="scriptLanguage" />
+      <node id="8423122693117708959" at="40,39,41,35" concept="1" />
+      <node id="8423122693117708970" at="43,57,44,43" concept="1" />
+      <node id="8423122693117708976" at="44,43,45,22" concept="5" />
+      <node id="8423122693117709046" at="30,0,33,0" concept="3" trace="getScriptName#()Ljava/lang/String;" />
+      <node id="8423122693117709052" at="33,0,36,0" concept="3" trace="getScriptLanguage#()Lio/searchbox/indices/script/ScriptLanguage;" />
+      <node id="8423122693117708954" at="40,0,43,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117708966" at="43,0,47,0" concept="3" trace="setLanguage#(Lio/searchbox/indices/script/ScriptLanguage;)null" />
+      <node id="8423122693117708991" at="14,0,19,0" concept="0" trace="AbstractIndexedScript#(Lio/searchbox/indices/script/AbstractIndexedScript/Builder;)V" />
+      <node id="8423122693117709040" at="20,95,27,5" concept="8" />
+      <node id="8423122693117709011" at="19,0,30,0" concept="3" trace="buildURI#()Ljava/lang/String;" />
+      <scope id="8423122693117709024" at="21,9,22,72" />
+      <scope id="8423122693117709047" at="30,33,31,22" />
+      <scope id="8423122693117709053" at="33,45,34,26" />
+      <scope id="3918785843121477587" at="40,39,41,35" />
+      <scope id="3918785843121481219" at="43,57,45,22" />
+      <scope id="8423122693117708995" at="14,74,17,49" />
+      <scope id="8423122693117709041" at="23,0,26,84">
+        <var name="e" id="8423122693117709031" />
+      </scope>
+      <scope id="8423122693117709035" at="23,46,26,84" />
+      <scope id="8423122693117709046" at="30,0,33,0" />
+      <scope id="8423122693117709052" at="33,0,36,0" />
+      <scope id="8423122693117708954" at="40,0,43,0">
+        <var name="scriptName" id="8423122693117708956" />
+      </scope>
+      <scope id="8423122693117708966" at="43,0,47,0">
+        <var name="scriptLanguage" id="8423122693117708967" />
+      </scope>
+      <scope id="8423122693117708991" at="14,0,19,0">
+        <var name="builder" id="8423122693117708993" />
+      </scope>
+      <scope id="8423122693117709012" at="19,31,28,20">
+        <var name="finalUri" id="8423122693117709013" />
+      </scope>
+      <scope id="8423122693117709011" at="19,0,30,0" />
+      <unit id="8423122693117708934" at="36,0,48,0" name="io.searchbox.indices.script.AbstractIndexedScript$Builder" />
+      <unit id="8496368874152622377" at="10,0,49,0" name="io.searchbox.indices.script.AbstractIndexedScript" />
+    </file>
+  </root>
+</debug-info>
+

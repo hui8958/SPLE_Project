@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:e04685b0-c14e-4ddf-a7e6-c17a3838833e(io.searchbox.client.config)/8496368874152614203">
+    <file name="HttpClientConfig.java">
+      <node id="8423122693117676319" at="32,0,33,0" concept="2" trace="maxTotalConnection" />
+      <node id="8423122693117676323" at="33,0,34,0" concept="2" trace="defaultMaxTotalConnectionPerRoute" />
+      <node id="8423122693117676327" at="34,0,35,0" concept="2" trace="maxTotalConnectionPerRoute" />
+      <node id="8423122693117676333" at="35,0,36,0" concept="2" trace="credentialsProvider" />
+      <node id="8423122693117676337" at="36,0,37,0" concept="2" trace="sslSocketFactory" />
+      <node id="8423122693117676341" at="37,0,38,0" concept="2" trace="plainSocketFactory" />
+      <node id="8423122693117676345" at="38,0,39,0" concept="2" trace="httpRoutePlanner" />
+      <node id="8423122693117676349" at="39,0,40,0" concept="2" trace="proxyAuthenticationStrategy" />
+      <node id="8423122693117676353" at="40,0,41,0" concept="2" trace="httpIOSessionStrategy" />
+      <node id="8423122693117676357" at="41,0,42,0" concept="2" trace="httpsIOSessionStrategy" />
+      <node id="8423122693117676361" at="42,0,43,0" concept="2" trace="preemptiveAuthTargetHosts" />
+      <node id="8423122693118201166" at="43,61,44,19" concept="8" />
+      <node id="8423122693117676371" at="44,19,45,57" concept="1" />
+      <node id="8423122693117676377" at="45,57,46,87" concept="1" />
+      <node id="8423122693117676383" at="46,87,47,73" concept="1" />
+      <node id="8423122693117676389" at="47,73,48,59" concept="1" />
+      <node id="8423122693117676395" at="48,59,49,53" concept="1" />
+      <node id="8423122693117676401" at="49,53,50,57" concept="1" />
+      <node id="8423122693117676407" at="50,57,51,53" concept="1" />
+      <node id="8423122693117676413" at="51,53,52,75" concept="1" />
+      <node id="8423122693117676419" at="52,75,53,63" concept="1" />
+      <node id="8423122693117676425" at="53,63,54,65" concept="1" />
+      <node id="8423122693117676431" at="54,65,55,71" concept="1" />
+      <node id="8423122693117676442" at="57,66,58,38" concept="6" />
+      <node id="8423122693117676450" at="60,42,61,30" concept="6" />
+      <node id="8423122693117676456" at="63,57,64,45" concept="6" />
+      <node id="8423122693117676462" at="66,55,67,31" concept="6" />
+      <node id="8423122693117676468" at="69,63,70,28" concept="6" />
+      <node id="8423122693117676474" at="72,58,73,30" concept="6" />
+      <node id="8423122693117676480" at="75,49,76,28" concept="6" />
+      <node id="8423122693117676486" at="78,66,79,39" concept="6" />
+      <node id="8423122693117676492" at="81,61,82,33" concept="6" />
+      <node id="8423122693117676498" at="84,62,85,34" concept="6" />
+      <node id="8423122693117676504" at="87,55,88,37" concept="6" />
+      <node id="8423122693117675896" at="91,0,92,0" concept="2" trace="maxTotalConnection" />
+      <node id="8423122693117675900" at="92,0,93,0" concept="2" trace="defaultMaxTotalConnectionPerRoute" />
+      <node id="8423122693117675904" at="93,0,94,0" concept="2" trace="maxTotalConnectionPerRoute" />
+      <node id="8423122693117675913" at="94,0,95,0" concept="2" trace="credentialsProvider" />
+      <node id="8423122693117675917" at="95,0,96,0" concept="2" trace="sslSocketFactory" />
+      <node id="8423122693117675921" at="96,0,97,0" concept="2" trace="plainSocketFactory" />
+      <node id="8423122693117675925" at="97,0,98,0" concept="2" trace="httpRoutePlanner" />
+      <node id="8423122693117675929" at="98,0,99,0" concept="2" trace="proxyAuthenticationStrategy" />
+      <node id="8423122693117675933" at="99,0,100,0" concept="2" trace="httpIOSessionStrategy" />
+      <node id="8423122693117675937" at="100,0,101,0" concept="2" trace="httpsIOSessionStrategy" />
+      <node id="8423122693117675941" at="101,0,102,0" concept="2" trace="preemptiveAuthTargetHosts" />
+      <node id="8423122693118202125" at="102,55,103,30" concept="8" />
+      <node id="8423122693117675952" at="103,30,104,68" concept="1" />
+      <node id="8423122693117675958" at="104,68,105,98" concept="1" />
+      <node id="8423122693117675964" at="105,98,106,84" concept="1" />
+      <node id="8423122693118202174" at="108,51,109,24" concept="8" />
+      <node id="8423122693118202175" at="111,38,112,23" concept="8" />
+      <node id="8423122693117675994" at="114,80,115,51" concept="1" />
+      <node id="8423122693117676000" at="115,51,116,18" concept="6" />
+      <node id="8423122693117676008" at="118,110,119,81" concept="1" />
+      <node id="8423122693117676014" at="119,81,120,18" concept="6" />
+      <node id="8423122693117676024" at="122,116,123,73" concept="1" />
+      <node id="8423122693117676031" at="123,73,124,18" concept="6" />
+      <node id="8423122693117676041" at="126,109,127,73" concept="1" />
+      <node id="8423122693117676049" at="127,73,128,18" concept="6" />
+      <node id="8423122693117676057" at="134,98,135,53" concept="1" />
+      <node id="8423122693117676063" at="135,53,136,18" concept="6" />
+      <node id="8423122693117676074" at="138,90,139,64" concept="1" />
+      <node id="8423122693117676080" at="139,64,140,114" concept="1" />
+      <node id="8423122693117676090" at="140,114,141,18" concept="6" />
+      <node id="8423122693117676098" at="167,100,168,44" concept="1" />
+      <node id="8423122693117676104" at="168,44,169,18" concept="6" />
+      <node id="8423122693117676113" at="180,95,181,46" concept="1" />
+      <node id="8423122693117676119" at="181,46,182,18" concept="6" />
+      <node id="8423122693117676128" at="193,106,194,57" concept="1" />
+      <node id="8423122693117676134" at="194,57,195,18" concept="6" />
+      <node id="8423122693117676143" at="206,108,207,59" concept="1" />
+      <node id="8423122693117676149" at="207,59,208,18" concept="6" />
+      <node id="8423122693117676158" at="218,76,219,74" concept="6" />
+      <node id="8423122693117676176" at="231,46,232,90" concept="1" />
+      <node id="8423122693117676184" at="233,7,234,18" concept="6" />
+      <node id="8423122693117676193" at="236,59,237,32" concept="6" />
+      <node id="8423122693117676205" at="239,111,240,66" concept="1" />
+      <node id="8423122693117676212" at="240,66,241,69" concept="1" />
+      <node id="8423122693117676218" at="241,69,242,18" concept="6" />
+      <node id="8423122693117676657" at="244,37,245,89" concept="7" />
+      <node id="8423122693117676232" at="246,42,247,78" concept="1" />
+      <node id="8423122693117676246" at="249,44,250,82" concept="1" />
+      <node id="8423122693117676260" at="252,42,253,90" concept="1" />
+      <node id="8423122693117676275" at="255,47,256,68" concept="1" />
+      <node id="8423122693117676289" at="258,48,259,86" concept="1" />
+      <node id="8423122693117676301" at="261,50,262,105" concept="9" />
+      <node id="8423122693117676302" at="263,7,264,40" concept="6" />
+      <node id="8423122693117676309" at="266,59,267,83" concept="6" />
+      <node id="8423122693117676440" at="57,0,60,0" concept="4" trace="getMaxTotalConnectionPerRoute#()Ljava/util/Map;" />
+      <node id="8423122693117676448" at="60,0,63,0" concept="4" trace="getMaxTotalConnection#()Ljava/lang/Integer;" />
+      <node id="8423122693117676454" at="63,0,66,0" concept="4" trace="getDefaultMaxTotalConnectionPerRoute#()Ljava/lang/Integer;" />
+      <node id="8423122693117676460" at="66,0,69,0" concept="4" trace="getCredentialsProvider#()Lorg/apache/http/client/CredentialsProvider;" />
+      <node id="8423122693117676466" at="69,0,72,0" concept="4" trace="getSslSocketFactory#()Lorg/apache/http/conn/socket/LayeredConnectionSocketFactory;" />
+      <node id="8423122693117676472" at="72,0,75,0" concept="4" trace="getPlainSocketFactory#()Lorg/apache/http/conn/socket/ConnectionSocketFactory;" />
+      <node id="8423122693117676478" at="75,0,78,0" concept="4" trace="getHttpRoutePlanner#()Lorg/apache/http/conn/routing/HttpRoutePlanner;" />
+      <node id="8423122693117676484" at="78,0,81,0" concept="4" trace="getProxyAuthenticationStrategy#()Lorg/apache/http/client/AuthenticationStrategy;" />
+      <node id="8423122693117676490" at="81,0,84,0" concept="4" trace="getHttpIOSessionStrategy#()Lorg/apache/http/nio/conn/SchemeIOSessionStrategy;" />
+      <node id="8423122693117676496" at="84,0,87,0" concept="4" trace="getHttpsIOSessionStrategy#()Lorg/apache/http/nio/conn/SchemeIOSessionStrategy;" />
+      <node id="8423122693117676502" at="87,0,90,0" concept="4" trace="getPreemptiveAuthTargetHosts#()Ljava/util/Set;" />
+      <node id="8423122693117675973" at="108,0,111,0" concept="0" trace="Builder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117675982" at="111,0,114,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117676154" at="218,0,221,0" concept="4" trace="setPreemptiveAuth#(Lorg/apache/http/HttpHost;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676170" at="230,104,233,7" concept="3" />
+      <node id="8423122693117676189" at="236,0,239,0" concept="4" trace="proxy#(Lorg/apache/http/HttpHost;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676224" at="245,89,248,7" concept="3" />
+      <node id="8423122693117676238" at="248,7,251,7" concept="3" />
+      <node id="8423122693117676252" at="251,7,254,7" concept="3" />
+      <node id="8423122693117676267" at="254,7,257,7" concept="3" />
+      <node id="8423122693117676281" at="257,7,260,7" concept="3" />
+      <node id="8423122693117676295" at="260,7,263,7" concept="3" />
+      <node id="8423122693117676307" at="266,0,269,0" concept="4" trace="preemptiveAuthSetWithoutCredentials#()Z" />
+      <node id="8423122693117675990" at="114,0,118,0" concept="4" trace="maxTotalConnection#(I)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676004" at="118,0,122,0" concept="4" trace="defaultMaxTotalConnectionPerRoute#(I)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676018" at="122,0,126,0" concept="4" trace="maxTotalConnectionPerRoute#(Ljava/util/Map;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676035" at="126,0,130,0" concept="4" trace="maxTotalConnectionPerRoute#(Lorg/apache/http/conn/routing/HttpRoute;I)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676053" at="134,0,138,0" concept="4" trace="credentialsProvider#(Lorg/apache/http/client/CredentialsProvider;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676094" at="167,0,171,0" concept="4" trace="sslSocketFactory#(Lorg/apache/http/conn/socket/LayeredConnectionSocketFactory;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676109" at="180,0,184,0" concept="4" trace="plainSocketFactory#(Lorg/apache/http/conn/socket/ConnectionSocketFactory;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676124" at="193,0,197,0" concept="4" trace="httpIOSessionStrategy#(Lorg/apache/http/nio/conn/SchemeIOSessionStrategy;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676139" at="206,0,210,0" concept="4" trace="httpsIOSessionStrategy#(Lorg/apache/http/nio/conn/SchemeIOSessionStrategy;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676068" at="138,0,143,0" concept="4" trace="defaultCredentials#(Ljava/lang/String;Ljava/lang/String;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676199" at="239,0,244,0" concept="4" trace="proxy#(Lorg/apache/http/HttpHost;Lorg/apache/http/client/AuthenticationStrategy;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117675947" at="102,0,108,0" concept="0" trace="Builder#(Lio/searchbox/client/config/HttpClientConfig;)V" />
+      <node id="8423122693117676165" at="230,0,236,0" concept="4" trace="preemptiveAuthTargetHosts#(Ljava/util/Set;)Lio/searchbox/client/config/HttpClientConfig/Builder;" />
+      <node id="8423122693117676366" at="43,0,57,0" concept="0" trace="HttpClientConfig#(Lio/searchbox/client/config/HttpClientConfig/Builder;)V" />
+      <node id="8423122693117676222" at="244,0,266,0" concept="4" trace="build#()Lio/searchbox/client/config/HttpClientConfig;" />
+      <scope id="8423122693117676441" at="57,66,58,38" />
+      <scope id="8423122693117676449" at="60,42,61,30" />
+      <scope id="8423122693117676455" at="63,57,64,45" />
+      <scope id="8423122693117676461" at="66,55,67,31" />
+      <scope id="8423122693117676467" at="69,63,70,28" />
+      <scope id="8423122693117676473" at="72,58,73,30" />
+      <scope id="8423122693117676479" at="75,49,76,28" />
+      <scope id="8423122693117676485" at="78,66,79,39" />
+      <scope id="8423122693117676491" at="81,61,82,33" />
+      <scope id="8423122693117676497" at="84,62,85,34" />
+      <scope id="8423122693117676503" at="87,55,88,37" />
+      <scope id="8496368874153409003" at="108,51,109,24" />
+      <scope id="8496368874153369145" at="111,38,112,23" />
+      <scope id="8496368874153383227" at="218,76,219,74" />
+      <scope id="8423122693117676175" at="231,46,232,90" />
+      <scope id="8496368874153400291" at="236,59,237,32" />
+      <scope id="8423122693117676231" at="246,42,247,78" />
+      <scope id="8423122693117676245" at="249,44,250,82" />
+      <scope id="8423122693117676259" at="252,42,253,90" />
+      <scope id="8423122693117676274" at="255,47,256,68" />
+      <scope id="8423122693117676288" at="258,48,259,86" />
+      <scope id="8423122693117676298" at="261,50,262,105" />
+      <scope id="8496368874153374734" at="266,59,267,83" />
+      <scope id="8496368874153397459" at="114,80,116,18" />
+      <scope id="8496368874153360683" at="118,110,120,18" />
+      <scope id="8496368874153371927" at="122,116,124,18" />
+      <scope id="8496368874153388947" at="126,109,128,18" />
+      <scope id="8496368874153363477" at="134,98,136,18" />
+      <scope id="8496368874153377544" at="167,100,169,18" />
+      <scope id="8496368874153366333" at="180,95,182,18" />
+      <scope id="8496368874153391775" at="193,106,195,18" />
+      <scope id="8496368874153380399" at="206,108,208,18" />
+      <scope id="8423122693117676440" at="57,0,60,0" />
+      <scope id="8423122693117676448" at="60,0,63,0" />
+      <scope id="8423122693117676454" at="63,0,66,0" />
+      <scope id="8423122693117676460" at="66,0,69,0" />
+      <scope id="8423122693117676466" at="69,0,72,0" />
+      <scope id="8423122693117676472" at="72,0,75,0" />
+      <scope id="8423122693117676478" at="75,0,78,0" />
+      <scope id="8423122693117676484" at="78,0,81,0" />
+      <scope id="8423122693117676490" at="81,0,84,0" />
+      <scope id="8423122693117676496" at="84,0,87,0" />
+      <scope id="8423122693117676502" at="87,0,90,0" />
+      <scope id="8423122693117675973" at="108,0,111,0">
+        <var name="serverUris" id="8423122693117675975" />
+      </scope>
+      <scope id="8423122693117675982" at="111,0,114,0">
+        <var name="serverUri" id="8423122693117675984" />
+      </scope>
+      <scope id="8496368874153394614" at="138,90,141,18" />
+      <scope id="8423122693117676154" at="218,0,221,0">
+        <var name="targetHost" id="8423122693117676155" />
+      </scope>
+      <scope id="8423122693117676189" at="236,0,239,0">
+        <var name="proxy" id="8423122693117676190" />
+      </scope>
+      <scope id="8496368874153403119" at="239,111,242,18" />
+      <scope id="8423122693117676307" at="266,0,269,0" />
+      <scope id="8496368874153357865" at="102,55,106,84" />
+      <scope id="8423122693117675990" at="114,0,118,0">
+        <var name="maxTotalConnection" id="8423122693117675991" />
+      </scope>
+      <scope id="8423122693117676004" at="118,0,122,0">
+        <var name="defaultMaxTotalConnectionPerRoute" id="8423122693117676005" />
+      </scope>
+      <scope id="8423122693117676018" at="122,0,126,0">
+        <var name="maxTotalConnectionPerRoute" id="8423122693117676019" />
+      </scope>
+      <scope id="8423122693117676035" at="126,0,130,0">
+        <var name="httpRoute" id="8423122693117676036" />
+        <var name="maxTotalConnection" id="8423122693117676038" />
+      </scope>
+      <scope id="8423122693117676053" at="134,0,138,0">
+        <var name="credentialsProvider" id="8423122693117676054" />
+      </scope>
+      <scope id="8423122693117676094" at="167,0,171,0">
+        <var name="socketFactory" id="8423122693117676095" />
+      </scope>
+      <scope id="8423122693117676109" at="180,0,184,0">
+        <var name="socketFactory" id="8423122693117676110" />
+      </scope>
+      <scope id="8423122693117676124" at="193,0,197,0">
+        <var name="httpIOSessionStrategy" id="8423122693117676125" />
+      </scope>
+      <scope id="8423122693117676139" at="206,0,210,0">
+        <var name="httpsIOSessionStrategy" id="8423122693117676140" />
+      </scope>
+      <scope id="8496368874153386095" at="230,104,234,18" />
+      <scope id="8423122693117676068" at="138,0,143,0">
+        <var name="password" id="8423122693117676071" />
+        <var name="username" id="8423122693117676069" />
+      </scope>
+      <scope id="8423122693117676199" at="239,0,244,0">
+        <var name="proxy" id="8423122693117676200" />
+        <var name="proxyAuthenticationStrategy" id="8423122693117676202" />
+      </scope>
+      <scope id="8423122693117675947" at="102,0,108,0">
+        <var name="httpClientConfig" id="8423122693117675949" />
+      </scope>
+      <scope id="8423122693117676165" at="230,0,236,0">
+        <var name="preemptiveAuthTargetHosts" id="8423122693117676166" />
+      </scope>
+      <scope id="8423122693117676370" at="43,61,55,71" />
+      <scope id="8423122693117676366" at="43,0,57,0">
+        <var name="builder" id="8423122693117676368" />
+      </scope>
+      <scope id="8496368874153405972" at="244,37,264,40" />
+      <scope id="8423122693117676222" at="244,0,266,0" />
+      <unit id="8423122693117675891" at="90,0,270,0" name="io.searchbox.client.config.HttpClientConfig$Builder" />
+      <unit id="8496368874152614203" at="30,0,271,0" name="io.searchbox.client.config.HttpClientConfig" />
+    </file>
+  </root>
+  <root nodeRef="r:e04685b0-c14e-4ddf-a7e6-c17a3838833e(io.searchbox.client.config)/8496368874152618238">
+    <file name="ClientConfig.java">
+      <node id="8423122693117702106" at="15,0,16,0" concept="2" trace="serverList" />
+      <node id="8423122693117702111" at="16,0,17,0" concept="2" trace="isMultiThreaded" />
+      <node id="8423122693117702115" at="17,0,18,0" concept="2" trace="isDiscoveryEnabled" />
+      <node id="8423122693117702119" at="18,0,19,0" concept="2" trace="discoveryFilter" />
+      <node id="8423122693117702123" at="19,0,20,0" concept="2" trace="isRequestCompressionEnabled" />
+      <node id="8423122693117702127" at="20,0,21,0" concept="2" trace="connTimeout" />
+      <node id="8423122693117702131" at="21,0,22,0" concept="2" trace="readTimeout" />
+      <node id="8423122693117702135" at="22,0,23,0" concept="2" trace="discoveryFrequency" />
+      <node id="8423122693117702139" at="23,0,24,0" concept="2" trace="maxConnectionIdleTime" />
+      <node id="8423122693117702143" at="24,0,25,0" concept="2" trace="discoveryFrequencyTimeUnit" />
+      <node id="8423122693117702147" at="25,0,26,0" concept="2" trace="maxConnectionIdleTimeDurationTimeUnit" />
+      <node id="8423122693117702151" at="26,0,27,0" concept="2" trace="gson" />
+      <node id="8423122693117702155" at="27,0,28,0" concept="2" trace="defaultSchemeForDiscoveredNodes" />
+      <node id="8423122693117702168" at="28,61,29,41" concept="1" />
+      <node id="8423122693117702174" at="29,41,30,51" concept="1" />
+      <node id="8423122693117702180" at="30,51,31,57" concept="1" />
+      <node id="8423122693117702186" at="31,57,32,51" concept="1" />
+      <node id="8423122693117702192" at="32,51,33,75" concept="1" />
+      <node id="8423122693117702198" at="33,75,34,57" concept="1" />
+      <node id="8423122693117702204" at="34,57,35,73" concept="1" />
+      <node id="8423122693117702210" at="35,73,36,43" concept="1" />
+      <node id="8423122693117702216" at="36,43,37,43" concept="1" />
+      <node id="8423122693117702222" at="37,43,38,63" concept="1" />
+      <node id="8423122693117702228" at="38,63,39,95" concept="1" />
+      <node id="8423122693117702234" at="39,95,40,29" concept="1" />
+      <node id="8423122693117702240" at="40,29,41,83" concept="1" />
+      <node id="8423122693117702249" at="43,38,44,22" concept="6" />
+      <node id="8423122693117702256" at="46,36,47,27" concept="6" />
+      <node id="8423122693117702262" at="49,39,50,30" concept="6" />
+      <node id="8423122693117702268" at="52,38,53,27" concept="6" />
+      <node id="8423122693117702274" at="55,39,56,30" concept="6" />
+      <node id="8423122693117702280" at="58,51,59,38" concept="6" />
+      <node id="8423122693117702286" at="61,31,62,23" concept="6" />
+      <node id="8423122693117702292" at="64,31,65,23" concept="6" />
+      <node id="8423122693117702298" at="67,42,68,33" concept="6" />
+      <node id="8423122693117702304" at="70,62,71,49" concept="6" />
+      <node id="8423122693117702310" at="73,25,74,16" concept="6" />
+      <node id="8423122693117702316" at="76,54,77,43" concept="6" />
+      <node id="8423122693117702322" at="79,48,80,39" concept="6" />
+      <node id="8423122693118202885" at="83,47,84,26" concept="8" />
+      <node id="8423122693118202886" at="86,51,87,24" concept="8" />
+      <node id="8423122693118202887" at="89,38,90,23" concept="8" />
+      <node id="8423122693117701684" at="92,33,93,36" concept="6" />
+      <node id="8423122693117702329" at="97,25,98,407" concept="6" />
+      <node id="8423122693117702385" at="102,22,103,19" concept="6" />
+      <node id="8423122693117702393" at="105,22,106,18" concept="6" />
+      <node id="8423122693117702401" at="108,39,109,19" concept="6" />
+      <node id="8423122693117702404" at="110,5,111,42" concept="5" />
+      <node id="8423122693117702409" at="111,42,112,725" concept="6" />
+      <node id="8423122693117701697" at="115,0,116,0" concept="2" trace="serverList" />
+      <node id="8423122693117701704" at="116,0,117,0" concept="2" trace="isMultiThreaded" />
+      <node id="8423122693117701708" at="117,0,118,0" concept="2" trace="isDiscoveryEnabled" />
+      <node id="8423122693117701712" at="118,0,119,0" concept="2" trace="discoveryFilter" />
+      <node id="8423122693117701716" at="119,0,120,0" concept="2" trace="isRequestCompressionEnabled" />
+      <node id="8423122693117701720" at="120,0,121,0" concept="2" trace="discoveryFrequency" />
+      <node id="8423122693117701725" at="121,0,122,0" concept="2" trace="maxConnectionIdleTime" />
+      <node id="8423122693117701731" at="122,0,123,0" concept="2" trace="maxTotalConnection" />
+      <node id="8423122693117701735" at="123,0,124,0" concept="2" trace="defaultMaxTotalConnectionPerRoute" />
+      <node id="8423122693117701739" at="124,0,125,0" concept="2" trace="connTimeout" />
+      <node id="8423122693117701744" at="125,0,126,0" concept="2" trace="readTimeout" />
+      <node id="8423122693117701749" at="126,0,127,0" concept="2" trace="discoveryFrequencyTimeUnit" />
+      <node id="8423122693117701754" at="127,0,128,0" concept="2" trace="maxConnectionIdleTimeDurationTimeUnit" />
+      <node id="8423122693117701759" at="128,0,129,0" concept="2" trace="gson" />
+      <node id="8423122693117701763" at="129,0,130,0" concept="2" trace="defaultSchemeForDiscoveredNodes" />
+      <node id="8423122693117701774" at="130,59,131,41" concept="1" />
+      <node id="8423122693117701787" at="133,46,134,37" concept="1" />
+      <node id="8423122693117701800" at="136,55,137,48" concept="1" />
+      <node id="8423122693117701806" at="137,48,138,58" concept="1" />
+      <node id="8423122693117701812" at="138,58,139,64" concept="1" />
+      <node id="8423122693117701818" at="139,64,140,64" concept="1" />
+      <node id="8423122693117701824" at="140,64,141,58" concept="1" />
+      <node id="8423122693117701830" at="141,58,142,80" concept="1" />
+      <node id="8423122693117701836" at="142,80,143,50" concept="1" />
+      <node id="8423122693117701842" at="143,50,144,50" concept="1" />
+      <node id="8423122693117701848" at="144,50,145,36" concept="1" />
+      <node id="8423122693117701859" at="147,42,148,37" concept="1" />
+      <node id="8423122693117701866" at="148,37,149,22" concept="6" />
+      <node id="8423122693117701877" at="151,55,152,41" concept="1" />
+      <node id="8423122693117701884" at="152,41,153,22" concept="6" />
+      <node id="8423122693117701894" at="155,30,156,23" concept="1" />
+      <node id="8423122693117701900" at="156,23,157,22" concept="6" />
+      <node id="8423122693117701912" at="159,95,160,51" concept="1" />
+      <node id="8423122693117701918" at="160,51,161,67" concept="1" />
+      <node id="8423122693117701924" at="161,67,162,22" concept="6" />
+      <node id="8423122693117701934" at="164,59,165,51" concept="1" />
+      <node id="8423122693117701940" at="165,51,166,22" concept="6" />
+      <node id="8423122693117701950" at="168,54,169,45" concept="1" />
+      <node id="8423122693117701956" at="169,45,170,22" concept="6" />
+      <node id="8423122693117701966" at="172,53,173,45" concept="1" />
+      <node id="8423122693117701972" at="173,45,174,22" concept="6" />
+      <node id="8423122693117701982" at="180,77,181,69" concept="1" />
+      <node id="8423122693117701988" at="181,69,182,22" concept="6" />
+      <node id="8423122693117701999" at="184,43,185,37" concept="1" />
+      <node id="8423122693117702005" at="185,37,186,22" concept="6" />
+      <node id="8423122693117702015" at="188,43,189,37" concept="1" />
+      <node id="8423122693117702021" at="189,37,190,22" concept="6" />
+      <node id="8423122693117702031" at="192,57,193,51" concept="1" />
+      <node id="8423122693117702037" at="193,51,194,22" concept="6" />
+      <node id="8423122693117702047" at="196,87,197,81" concept="1" />
+      <node id="8423122693117702053" at="197,81,198,22" concept="6" />
+      <node id="8423122693117702065" at="200,99,201,44" concept="1" />
+      <node id="8423122693117702071" at="201,44,202,89" concept="1" />
+      <node id="8423122693117702077" at="202,89,203,22" concept="6" />
+      <node id="8423122693117702087" at="209,86,210,85" concept="1" />
+      <node id="8423122693117702095" at="210,85,211,22" concept="6" />
+      <node id="8423122693117702102" at="213,0,214,0" concept="4" trace="build#()null" />
+      <node id="8423122693117702247" at="43,0,46,0" concept="4" trace="getServerList#()Ljava/util/Set;" />
+      <node id="8423122693117702254" at="46,0,49,0" concept="4" trace="isMultiThreaded#()Z" />
+      <node id="8423122693117702260" at="49,0,52,0" concept="4" trace="isDiscoveryEnabled#()Z" />
+      <node id="8423122693117702266" at="52,0,55,0" concept="4" trace="getDiscoveryFilter#()Ljava/lang/String;" />
+      <node id="8423122693117702272" at="55,0,58,0" concept="4" trace="getDiscoveryFrequency#()Ljava/lang/Long;" />
+      <node id="8423122693117702278" at="58,0,61,0" concept="4" trace="getDiscoveryFrequencyTimeUnit#()Ljava/util/concurrent/TimeUnit;" />
+      <node id="8423122693117702284" at="61,0,64,0" concept="4" trace="getReadTimeout#()I" />
+      <node id="8423122693117702290" at="64,0,67,0" concept="4" trace="getConnTimeout#()I" />
+      <node id="8423122693117702296" at="67,0,70,0" concept="4" trace="getMaxConnectionIdleTime#()J" />
+      <node id="8423122693117702302" at="70,0,73,0" concept="4" trace="getMaxConnectionIdleTimeDurationTimeUnit#()Ljava/util/concurrent/TimeUnit;" />
+      <node id="8423122693117702308" at="73,0,76,0" concept="4" trace="getGson#()Lcom/google/gson/Gson;" />
+      <node id="8423122693117702314" at="76,0,79,0" concept="4" trace="getDefaultSchemeForDiscoveredNodes#()Ljava/lang/String;" />
+      <node id="8423122693117702320" at="79,0,82,0" concept="4" trace="isRequestCompressionEnabled#()Z" />
+      <node id="8423122693117701657" at="83,0,86,0" concept="0" trace="Builder#(Lio/searchbox/client/config/ClientConfig;)V" />
+      <node id="8423122693117701665" at="86,0,89,0" concept="0" trace="Builder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117701674" at="89,0,92,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117701682" at="92,0,95,0" concept="4" trace="build#()Lio/searchbox/client/config/ClientConfig;" />
+      <node id="8423122693117702379" at="101,37,104,5" concept="3" />
+      <node id="8423122693117702387" at="104,5,107,5" concept="3" />
+      <node id="8423122693117702395" at="107,5,110,5" concept="3" />
+      <node id="8423122693117701768" at="130,0,133,0" concept="0" trace="AbstractBuilder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117701782" at="133,0,136,0" concept="0" trace="AbstractBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117702326" at="96,0,100,0" concept="4" trace="hashCode#()I" />
+      <node id="8423122693117701855" at="147,0,151,0" concept="4" trace="addServer#(Ljava/lang/String;)null" />
+      <node id="8423122693117701872" at="151,0,155,0" concept="4" trace="addServer#(Ljava/util/Collection;)null" />
+      <node id="8423122693117701890" at="155,0,159,0" concept="4" trace="gson#(Lcom/google/gson/Gson;)null" />
+      <node id="8423122693117701930" at="164,0,168,0" concept="4" trace="discoveryEnabled#(Z)null" />
+      <node id="8423122693117701946" at="168,0,172,0" concept="4" trace="discoveryFilter#(Ljava/lang/String;)null" />
+      <node id="8423122693117701962" at="172,0,176,0" concept="4" trace="multiThreaded#(Z)null" />
+      <node id="8423122693117701978" at="180,0,184,0" concept="4" trace="requestCompressionEnabled#(Z)null" />
+      <node id="8423122693117701995" at="184,0,188,0" concept="4" trace="connTimeout#(I)null" />
+      <node id="8423122693117702011" at="188,0,192,0" concept="4" trace="readTimeout#(I)null" />
+      <node id="8423122693117702027" at="192,0,196,0" concept="4" trace="maxTotalConnection#(I)null" />
+      <node id="8423122693117702043" at="196,0,200,0" concept="4" trace="defaultMaxTotalConnectionPerRoute#(I)null" />
+      <node id="8423122693117702083" at="209,0,213,0" concept="4" trace="defaultSchemeForDiscoveredNodes#(Ljava/lang/String;)null" />
+      <node id="8423122693117701906" at="159,0,164,0" concept="4" trace="discoveryFrequency#(JLjava/util/concurrent/TimeUnit;)null" />
+      <node id="8423122693117702059" at="200,0,205,0" concept="4" trace="maxConnectionIdleTime#(JLjava/util/concurrent/TimeUnit;)null" />
+      <node id="8423122693117701795" at="136,0,147,0" concept="0" trace="AbstractBuilder#(Lio/searchbox/client/config/ClientConfig;)V" />
+      <node id="8423122693117702374" at="100,0,114,0" concept="4" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="8423122693117702163" at="28,0,43,0" concept="0" trace="ClientConfig#(Lio/searchbox/client/config/ClientConfig/AbstractBuilder;)V" />
+      <scope id="8423122693117702248" at="43,38,44,22" />
+      <scope id="8423122693117702255" at="46,36,47,27" />
+      <scope id="8423122693117702261" at="49,39,50,30" />
+      <scope id="8423122693117702267" at="52,38,53,27" />
+      <scope id="8423122693117702273" at="55,39,56,30" />
+      <scope id="8423122693117702279" at="58,51,59,38" />
+      <scope id="8423122693117702285" at="61,31,62,23" />
+      <scope id="8423122693117702291" at="64,31,65,23" />
+      <scope id="8423122693117702297" at="67,42,68,33" />
+      <scope id="8423122693117702303" at="70,62,71,49" />
+      <scope id="8423122693117702309" at="73,25,74,16" />
+      <scope id="8423122693117702315" at="76,54,77,43" />
+      <scope id="8423122693117702321" at="79,48,80,39" />
+      <scope id="1535634584394949395" at="83,47,84,26" />
+      <scope id="1535634584394983730" at="86,51,87,24" />
+      <scope id="1535634584394996286" at="89,38,90,23" />
+      <scope id="1535634584394993162" at="92,33,93,36" />
+      <scope id="8423122693117702328" at="97,25,98,407" />
+      <scope id="8423122693117702384" at="102,22,103,19" />
+      <scope id="8423122693117702392" at="105,22,106,18" />
+      <scope id="8423122693117702400" at="108,39,109,19" />
+      <scope id="1535634584394943224" at="130,59,131,41" />
+      <scope id="1535634584394980612" at="133,46,134,37" />
+      <scope id="8423122693117702102" at="213,0,214,0" />
+      <scope id="1535634584394974377" at="147,42,149,22" />
+      <scope id="1535634584394999407" at="151,55,153,22" />
+      <scope id="1535634584394940140" at="155,30,157,22" />
+      <scope id="1535634584394990027" at="164,59,166,22" />
+      <scope id="1535634584394977489" at="168,54,170,22" />
+      <scope id="1535634584394934316" at="172,53,174,22" />
+      <scope id="1535634584394952474" at="180,77,182,22" />
+      <scope id="1535634584394946305" at="184,43,186,22" />
+      <scope id="1535634584394955622" at="188,43,190,22" />
+      <scope id="1535634584394965055" at="192,57,194,22" />
+      <scope id="1535634584394961950" at="196,87,198,22" />
+      <scope id="1535634584395002543" at="209,86,211,22" />
+      <scope id="8423122693117702247" at="43,0,46,0" />
+      <scope id="8423122693117702254" at="46,0,49,0" />
+      <scope id="8423122693117702260" at="49,0,52,0" />
+      <scope id="8423122693117702266" at="52,0,55,0" />
+      <scope id="8423122693117702272" at="55,0,58,0" />
+      <scope id="8423122693117702278" at="58,0,61,0" />
+      <scope id="8423122693117702284" at="61,0,64,0" />
+      <scope id="8423122693117702290" at="64,0,67,0" />
+      <scope id="8423122693117702296" at="67,0,70,0" />
+      <scope id="8423122693117702302" at="70,0,73,0" />
+      <scope id="8423122693117702308" at="73,0,76,0" />
+      <scope id="8423122693117702314" at="76,0,79,0" />
+      <scope id="8423122693117702320" at="79,0,82,0" />
+      <scope id="8423122693117701657" at="83,0,86,0">
+        <var name="clientConfig" id="8423122693117701659" />
+      </scope>
+      <scope id="8423122693117701665" at="86,0,89,0">
+        <var name="serverUris" id="8423122693117701667" />
+      </scope>
+      <scope id="8423122693117701674" at="89,0,92,0">
+        <var name="serverUri" id="8423122693117701676" />
+      </scope>
+      <scope id="8423122693117701682" at="92,0,95,0" />
+      <scope id="8423122693117701768" at="130,0,133,0">
+        <var name="serverUris" id="8423122693117701770" />
+      </scope>
+      <scope id="8423122693117701782" at="133,0,136,0">
+        <var name="serverUri" id="8423122693117701784" />
+      </scope>
+      <scope id="1535634584394986839" at="159,95,162,22" />
+      <scope id="1535634584394968156" at="200,99,203,22" />
+      <scope id="8423122693117702326" at="96,0,100,0" />
+      <scope id="8423122693117701855" at="147,0,151,0">
+        <var name="serverUri" id="8423122693117701856" />
+      </scope>
+      <scope id="8423122693117701872" at="151,0,155,0">
+        <var name="serverUris" id="8423122693117701873" />
+      </scope>
+      <scope id="8423122693117701890" at="155,0,159,0">
+        <var name="gson" id="8423122693117701891" />
+      </scope>
+      <scope id="8423122693117701930" at="164,0,168,0">
+        <var name="isDiscoveryEnabled" id="8423122693117701931" />
+      </scope>
+      <scope id="8423122693117701946" at="168,0,172,0">
+        <var name="discoveryFilter" id="8423122693117701947" />
+      </scope>
+      <scope id="8423122693117701962" at="172,0,176,0">
+        <var name="isMultiThreaded" id="8423122693117701963" />
+      </scope>
+      <scope id="8423122693117701978" at="180,0,184,0">
+        <var name="isRequestCompressionEnabled" id="8423122693117701979" />
+      </scope>
+      <scope id="8423122693117701995" at="184,0,188,0">
+        <var name="connTimeout" id="8423122693117701996" />
+      </scope>
+      <scope id="8423122693117702011" at="188,0,192,0">
+        <var name="readTimeout" id="8423122693117702012" />
+      </scope>
+      <scope id="8423122693117702027" at="192,0,196,0">
+        <var name="maxTotalConnection" id="8423122693117702028" />
+      </scope>
+      <scope id="8423122693117702043" at="196,0,200,0">
+        <var name="defaultMaxTotalConnectionPerRoute" id="8423122693117702044" />
+      </scope>
+      <scope id="8423122693117702083" at="209,0,213,0">
+        <var name="defaultSchemeForDiscoveredNodes" id="8423122693117702084" />
+      </scope>
+      <scope id="8423122693117701906" at="159,0,164,0">
+        <var name="discoveryFrequency" id="8423122693117701907" />
+        <var name="discoveryFrequencyTimeUnit" id="8423122693117701909" />
+      </scope>
+      <scope id="8423122693117702059" at="200,0,205,0">
+        <var name="duration" id="8423122693117702060" />
+        <var name="maxConnectionIdleTimeDurationTimeUnit" id="8423122693117702062" />
+      </scope>
+      <scope id="1535634584394958722" at="136,55,145,36" />
+      <scope id="8423122693117702378" at="101,37,112,725">
+        <var name="rhs" id="8423122693117702403" />
+      </scope>
+      <scope id="8423122693117701795" at="136,0,147,0">
+        <var name="clientConfig" id="8423122693117701797" />
+      </scope>
+      <scope id="8423122693117702167" at="28,61,41,83" />
+      <scope id="8423122693117702374" at="100,0,114,0">
+        <var name="obj" id="8423122693117702376" />
+      </scope>
+      <scope id="8423122693117702163" at="28,0,43,0">
+        <var name="builder" id="8423122693117702165" />
+      </scope>
+      <unit id="8423122693117701652" at="82,0,96,0" name="io.searchbox.client.config.ClientConfig$Builder" />
+      <unit id="8423122693117701689" at="114,0,215,0" name="io.searchbox.client.config.ClientConfig$AbstractBuilder" />
+      <unit id="8496368874152618238" at="13,0,216,0" name="io.searchbox.client.config.ClientConfig" />
+    </file>
+  </root>
+</debug-info>
+

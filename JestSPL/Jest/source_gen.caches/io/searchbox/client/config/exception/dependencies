@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.config.exception.CouldNotConnectException" file="CouldNotConnectException.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode extendsClassName="java.io.IOException" />
+  </dependency>
+  <dependency className="io.searchbox.client.config.exception.NoServerConfiguredException" file="NoServerConfiguredException.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="java.lang.RuntimeException" />
+  </dependency>
+</dependenciesRoot>
+

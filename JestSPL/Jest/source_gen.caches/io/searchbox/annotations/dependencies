@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.annotations.JestId" file="JestId.java">
+    <classNode dependClassName="java.lang.annotation.ElementType" />
+    <classNode dependClassName="java.lang.annotation.Retention" />
+    <classNode dependClassName="java.lang.annotation.RetentionPolicy" />
+    <classNode dependClassName="java.lang.annotation.Target" />
+  </dependency>
+  <dependency className="io.searchbox.annotations.JestVersion" file="JestVersion.java">
+    <classNode dependClassName="java.lang.annotation.ElementType" />
+    <classNode dependClassName="java.lang.annotation.Retention" />
+    <classNode dependClassName="java.lang.annotation.RetentionPolicy" />
+    <classNode dependClassName="java.lang.annotation.Target" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.indices.settings.GetSettings" file="GetSettings.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.indices.settings.IndicesSettingsAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.settings.IndicesSettingsAbstractAction" file="IndicesSettingsAbstractAction.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.settings.UpdateSettings" file="UpdateSettings.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
+    <classNode extendsClassName="io.searchbox.indices.settings.IndicesSettingsAbstractAction" />
+  </dependency>
+</dependenciesRoot>
+

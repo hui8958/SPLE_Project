@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.indices.script.AbstractIndexedScript" file="AbstractIndexedScript.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="io.searchbox.indices.script.ScriptLanguage" />
+    <classNode dependClassName="java.io.UnsupportedEncodingException" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="java.net.URLEncoder" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.script.CreateIndexedScript" file="CreateIndexedScript.java">
+    <classNode dependClassName="com.google.common.io.CharStreams" />
+    <classNode dependClassName="com.google.gson.JsonElement" />
+    <classNode dependClassName="com.google.gson.JsonObject" />
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.indices.script.Builder" />
+    <classNode dependClassName="io.searchbox.indices.script.ScriptLanguage" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.io.FileInputStream" />
+    <classNode dependClassName="java.io.IOException" />
+    <classNode dependClassName="java.io.InputStream" />
+    <classNode dependClassName="java.io.InputStreamReader" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.nio.charset.Charset" />
+    <classNode extendsClassName="io.searchbox.indices.script.AbstractIndexedScript" />
+  </dependency>
+  <dependency className="io.searchbox.indices.script.DeleteIndexedScript" file="DeleteIndexedScript.java">
+    <classNode dependClassName="io.searchbox.indices.script.Builder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.indices.script.AbstractIndexedScript" />
+  </dependency>
+  <dependency className="io.searchbox.indices.script.GetIndexedScript" file="GetIndexedScript.java">
+    <classNode dependClassName="io.searchbox.indices.script.Builder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.indices.script.AbstractIndexedScript" />
+  </dependency>
+  <dependency className="io.searchbox.indices.script.ScriptLanguage" file="ScriptLanguage.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+</dependenciesRoot>
+

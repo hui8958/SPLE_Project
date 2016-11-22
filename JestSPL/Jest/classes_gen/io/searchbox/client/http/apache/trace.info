@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:004947e6-e7c9-489e-b1fd-a0a1d79b2399(io.searchbox.client.http.apache)/8496368874152618391">
+    <file name="HttpGetWithEntity.java">
+      <node id="8423122693118203505" at="11,30,12,12" concept="4" />
+      <node id="8423122693118203506" at="14,37,15,12" concept="4" />
+      <node id="8423122693117700200" at="15,12,16,16" concept="1" />
+      <node id="8423122693118203507" at="18,40,19,12" concept="4" />
+      <node id="8423122693117700210" at="19,12,20,28" concept="1" />
+      <node id="8423122693117700219" at="23,29,24,31" concept="3" />
+      <node id="8423122693117700190" at="11,0,14,0" concept="0" trace="HttpGetWithEntity#()V" />
+      <node id="8423122693117700195" at="14,0,18,0" concept="0" trace="HttpGetWithEntity#(Ljava/net/URI;)V" />
+      <node id="8423122693117700205" at="18,0,22,0" concept="0" trace="HttpGetWithEntity#(Ljava/lang/String;)V" />
+      <node id="8423122693117700216" at="22,0,26,0" concept="2" trace="getMethod#()Ljava/lang/String;" />
+      <scope id="8423122693117700192" at="11,30,12,12" />
+      <scope id="8423122693117700218" at="23,29,24,31" />
+      <scope id="8423122693117700199" at="14,37,16,16" />
+      <scope id="8423122693117700209" at="18,40,20,28" />
+      <scope id="8423122693117700190" at="11,0,14,0" />
+      <scope id="8423122693117700195" at="14,0,18,0">
+        <var name="uri" id="8423122693117700197" />
+      </scope>
+      <scope id="8423122693117700205" at="18,0,22,0">
+        <var name="uri" id="8423122693117700207" />
+      </scope>
+      <scope id="8423122693117700216" at="22,0,26,0" />
+      <unit id="8496368874152618391" at="9,0,27,0" name="io.searchbox.client.http.apache.HttpGetWithEntity" />
+    </file>
+  </root>
+  <root nodeRef="r:004947e6-e7c9-489e-b1fd-a0a1d79b2399(io.searchbox.client.http.apache)/8496368874152618436">
+    <file name="HttpDeleteWithEntity.java">
+      <node id="8423122693118203513" at="11,33,12,12" concept="4" />
+      <node id="8423122693118203514" at="14,40,15,12" concept="4" />
+      <node id="8423122693117714065" at="15,12,16,16" concept="1" />
+      <node id="8423122693118203515" at="18,43,19,12" concept="4" />
+      <node id="8423122693117714075" at="19,12,20,28" concept="1" />
+      <node id="8423122693117714084" at="23,29,24,34" concept="3" />
+      <node id="8423122693117714055" at="11,0,14,0" concept="0" trace="HttpDeleteWithEntity#()V" />
+      <node id="8423122693117714060" at="14,0,18,0" concept="0" trace="HttpDeleteWithEntity#(Ljava/net/URI;)V" />
+      <node id="8423122693117714070" at="18,0,22,0" concept="0" trace="HttpDeleteWithEntity#(Ljava/lang/String;)V" />
+      <node id="8423122693117714081" at="22,0,26,0" concept="2" trace="getMethod#()Ljava/lang/String;" />
+      <scope id="8423122693117714057" at="11,33,12,12" />
+      <scope id="8423122693117714083" at="23,29,24,34" />
+      <scope id="8423122693117714064" at="14,40,16,16" />
+      <scope id="8423122693117714074" at="18,43,20,28" />
+      <scope id="8423122693117714055" at="11,0,14,0" />
+      <scope id="8423122693117714060" at="14,0,18,0">
+        <var name="uri" id="8423122693117714062" />
+      </scope>
+      <scope id="8423122693117714070" at="18,0,22,0">
+        <var name="uri" id="8423122693117714072" />
+      </scope>
+      <scope id="8423122693117714081" at="22,0,26,0" />
+      <unit id="8496368874152618436" at="9,0,27,0" name="io.searchbox.client.http.apache.HttpDeleteWithEntity" />
+    </file>
+  </root>
+</debug-info>
+

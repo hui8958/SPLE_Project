@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.client.config.idle.HttpReapableConnectionManager" file="HttpReapableConnectionManager.java">
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.util.concurrent.TimeUnit" />
+    <classNode dependClassName="org.apache.http.conn.HttpClientConnectionManager" />
+    <classNode dependClassName="org.apache.http.nio.conn.NHttpClientConnectionManager" />
+    <classNode extendsClassName="io.searchbox.client.config.idle.ReapableConnectionManager" />
+  </dependency>
+  <dependency className="io.searchbox.client.config.idle.IdleConnectionReaper" file="IdleConnectionReaper.java">
+    <classNode dependClassName="com.google.common.util.concurrent.MoreExecutors" />
+    <classNode dependClassName="com.google.common.util.concurrent.Service" />
+    <classNode dependClassName="com.google.common.util.concurrent.ThreadFactoryBuilder" />
+    <classNode dependClassName="io.searchbox.client.config.ClientConfig" />
+    <classNode dependClassName="io.searchbox.client.config.idle.ReapableConnectionManager" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Throwable" />
+    <classNode dependClassName="java.util.concurrent.Executors" />
+    <classNode dependClassName="java.util.concurrent.ScheduledExecutorService" />
+    <classNode dependClassName="org.slf4j.Logger" />
+    <classNode dependClassName="org.slf4j.LoggerFactory" />
+    <classNode extendsClassName="com.google.common.util.concurrent.AbstractScheduledService" />
+  </dependency>
+  <dependency className="io.searchbox.client.config.idle.ReapableConnectionManager" file="ReapableConnectionManager.java">
+    <classNode dependClassName="java.util.concurrent.TimeUnit" />
+  </dependency>
+</dependenciesRoot>
+

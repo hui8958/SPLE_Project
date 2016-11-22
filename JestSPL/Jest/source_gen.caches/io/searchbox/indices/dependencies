@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.indices.Analyze" file="Analyze.java">
+    <classNode dependClassName="com.google.gson.Gson" />
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.ClearCache" file="ClearCache.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.CloseIndex" file="CloseIndex.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.CreateIndex" file="CreateIndex.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
+    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.DeleteIndex" file="DeleteIndex.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.Flush" file="Flush.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.IndicesExists" file="IndicesExists.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.OpenIndex" file="OpenIndex.java">
+    <classNode dependClassName="io.searchbox.action.AbstractAction" />
+    <classNode dependClassName="io.searchbox.action.Builder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.Optimize" file="Optimize.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Number" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.Refresh" file="Refresh.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.Segments" file="Segments.java" />
+  <dependency className="io.searchbox.indices.Snapshot" file="Snapshot.java" />
+  <dependency className="io.searchbox.indices.Stats" file="Stats.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+  <dependency className="io.searchbox.indices.Templates" file="Templates.java" />
+</dependenciesRoot>
+

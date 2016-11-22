@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:568c64c7-5400-4076-9628-0a823d920ca4(io.searchbox.indices.type)/8496368874152618677">
+    <file name="TypeExist.java">
+      <node id="8423122693118166844" at="10,50,11,19" concept="4" />
+      <node id="8423122693117674064" at="11,19,12,23" concept="1" />
+      <node id="8423122693117674073" at="15,37,16,18" concept="3" />
+      <node id="8423122693117674046" at="19,34,20,22" concept="1" />
+      <node id="8423122693117674053" at="23,30,24,33" concept="3" />
+      <node id="8423122693117674041" at="19,0,22,0" concept="0" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117674059" at="10,0,14,0" concept="0" trace="TypeExist#(Lio/searchbox/indices/type/TypeExist/Builder;)V" />
+      <node id="8423122693117674070" at="14,0,18,0" concept="2" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117674050" at="22,0,26,0" concept="2" trace="build#()Lio/searchbox/indices/type/TypeExist;" />
+      <scope id="8423122693117674072" at="15,37,16,18" />
+      <scope id="3918785843121618568" at="19,34,20,22" />
+      <scope id="3918785843121614817" at="23,30,24,33" />
+      <scope id="8423122693117674063" at="10,50,12,23" />
+      <scope id="8423122693117674041" at="19,0,22,0">
+        <var name="index" id="8423122693117674043" />
+      </scope>
+      <scope id="8423122693117674059" at="10,0,14,0">
+        <var name="builder" id="8423122693117674061" />
+      </scope>
+      <scope id="8423122693117674070" at="14,0,18,0" />
+      <scope id="8423122693117674050" at="22,0,26,0" />
+      <unit id="8423122693117674036" at="18,0,27,0" name="io.searchbox.indices.type.TypeExist$Builder" />
+      <unit id="8496368874152618677" at="8,0,28,0" name="io.searchbox.indices.type.TypeExist" />
+    </file>
+  </root>
+</debug-info>
+

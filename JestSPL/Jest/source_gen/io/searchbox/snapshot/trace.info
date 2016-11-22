@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587549">
+    <file name="GetSnapshot.java">
+      <node id="8423122693118162820" at="8,54,9,19" concept="7" />
+      <node id="8423122693117722730" at="12,37,13,17" concept="6" />
+      <node id="8423122693118162821" at="16,39,17,24" concept="7" />
+      <node id="8423122693117722713" at="20,32,21,35" concept="6" />
+      <node id="8423122693117722719" at="8,0,11,0" concept="1" trace="GetSnapshot#(Lio/searchbox/snapshot/GetSnapshot/Builder;)V" />
+      <node id="8423122693117722702" at="16,0,19,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117722727" at="11,0,15,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117722710" at="19,0,23,0" concept="5" trace="build#()Lio/searchbox/snapshot/GetSnapshot;" />
+      <scope id="8423122693117722723" at="8,54,9,19" />
+      <scope id="8423122693117722729" at="12,37,13,17" />
+      <scope id="3918785843121725114" at="16,39,17,24" />
+      <scope id="3918785843121728882" at="20,32,21,35" />
+      <scope id="8423122693117722719" at="8,0,11,0">
+        <var name="builder" id="8423122693117722721" />
+      </scope>
+      <scope id="8423122693117722702" at="16,0,19,0">
+        <var name="repository" id="8423122693117722704" />
+      </scope>
+      <scope id="8423122693117722727" at="11,0,15,0" />
+      <scope id="8423122693117722710" at="19,0,23,0" />
+      <unit id="8423122693117722697" at="15,0,24,0" name="io.searchbox.snapshot.GetSnapshot$Builder" />
+      <unit id="8496368874152587549" at="6,0,25,0" name="io.searchbox.snapshot.GetSnapshot" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587578">
+    <file name="SnapshotStatus.java">
+      <node id="8423122693118162878" at="8,60,9,19" concept="7" />
+      <node id="8423122693117719969" at="12,31,13,41" concept="6" />
+      <node id="8423122693117719978" at="16,37,17,17" concept="6" />
+      <node id="8423122693118162879" at="20,39,21,24" concept="7" />
+      <node id="8423122693117719952" at="24,35,25,38" concept="6" />
+      <node id="8423122693117719958" at="8,0,11,0" concept="1" trace="SnapshotStatus#(Lio/searchbox/snapshot/SnapshotStatus/Builder;)V" />
+      <node id="8423122693117719941" at="20,0,23,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117719966" at="11,0,15,0" concept="5" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117719975" at="15,0,19,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117719949" at="23,0,27,0" concept="5" trace="build#()Lio/searchbox/snapshot/SnapshotStatus;" />
+      <scope id="8423122693117719962" at="8,60,9,19" />
+      <scope id="8423122693117719968" at="12,31,13,41" />
+      <scope id="8423122693117719977" at="16,37,17,17" />
+      <scope id="3918785843121779562" at="20,39,21,24" />
+      <scope id="3918785843121775751" at="24,35,25,38" />
+      <scope id="8423122693117719958" at="8,0,11,0">
+        <var name="builder" id="8423122693117719960" />
+      </scope>
+      <scope id="8423122693117719941" at="20,0,23,0">
+        <var name="repository" id="8423122693117719943" />
+      </scope>
+      <scope id="8423122693117719966" at="11,0,15,0" />
+      <scope id="8423122693117719975" at="15,0,19,0" />
+      <scope id="8423122693117719949" at="23,0,27,0" />
+      <unit id="8423122693117719936" at="19,0,28,0" name="io.searchbox.snapshot.SnapshotStatus$Builder" />
+      <unit id="8496368874152587578" at="6,0,29,0" name="io.searchbox.snapshot.SnapshotStatus" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587615">
+    <file name="DeleteSnapshotRepository.java">
+      <node id="8423122693118162882" at="8,80,9,19" concept="7" />
+      <node id="8423122693117686521" at="12,37,13,20" concept="6" />
+      <node id="8423122693118162883" at="16,39,17,24" concept="7" />
+      <node id="8423122693117686504" at="20,45,21,48" concept="6" />
+      <node id="8423122693117686510" at="8,0,11,0" concept="1" trace="DeleteSnapshotRepository#(Lio/searchbox/snapshot/DeleteSnapshotRepository/Builder;)V" />
+      <node id="8423122693117686493" at="16,0,19,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117686518" at="11,0,15,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117686501" at="19,0,23,0" concept="5" trace="build#()Lio/searchbox/snapshot/DeleteSnapshotRepository;" />
+      <scope id="8423122693117686514" at="8,80,9,19" />
+      <scope id="8423122693117686520" at="12,37,13,20" />
+      <scope id="3918785843121720309" at="16,39,17,24" />
+      <scope id="3918785843121716537" at="20,45,21,48" />
+      <scope id="8423122693117686510" at="8,0,11,0">
+        <var name="builder" id="8423122693117686512" />
+      </scope>
+      <scope id="8423122693117686493" at="16,0,19,0">
+        <var name="repository" id="8423122693117686495" />
+      </scope>
+      <scope id="8423122693117686518" at="11,0,15,0" />
+      <scope id="8423122693117686501" at="19,0,23,0" />
+      <unit id="8423122693117686488" at="15,0,24,0" name="io.searchbox.snapshot.DeleteSnapshotRepository$Builder" />
+      <unit id="8496368874152587615" at="6,0,25,0" name="io.searchbox.snapshot.DeleteSnapshotRepository" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587644">
+    <file name="AbstractSnapshotRepositoryAction.java">
+      <node id="8423122693117705068" at="10,0,11,0" concept="3" trace="repositories" />
+      <node id="8423122693118162886" at="11,106,12,19" concept="7" />
+      <node id="8423122693117705077" at="12,19,13,50" concept="2" />
+      <node id="8423122693117705083" at="13,50,14,23" concept="2" />
+      <node id="8423122693117705092" at="17,31,18,59" concept="6" />
+      <node id="8423122693117705033" at="21,0,22,0" concept="5" trace="getRepositories#()Ljava/lang/String;" />
+      <node id="8423122693117705045" at="24,0,25,0" concept="3" trace="repository" />
+      <node id="8423122693117705054" at="25,55,26,35" concept="2" />
+      <node id="8423122693117705063" at="28,40,29,24" concept="6" />
+      <node id="8423122693117705049" at="25,0,28,0" concept="1" trace="SingleRepositoryBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117705061" at="28,0,31,0" concept="5" trace="getRepositories#()Ljava/lang/String;" />
+      <node id="8423122693117705089" at="16,0,20,0" concept="5" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117705072" at="11,0,16,0" concept="1" trace="AbstractSnapshotRepositoryAction#(Lio/searchbox/snapshot/AbstractSnapshotRepositoryAction/RepositoryBuilder;)V" />
+      <scope id="8423122693117705091" at="17,31,18,59" />
+      <scope id="8423122693117705033" at="21,0,22,0" />
+      <scope id="3918785843121668122" at="25,55,26,35" />
+      <scope id="3918785843121664390" at="28,40,29,24" />
+      <scope id="8423122693117705076" at="11,106,14,23" />
+      <scope id="8423122693117705049" at="25,0,28,0">
+        <var name="repository" id="8423122693117705051" />
+      </scope>
+      <scope id="8423122693117705061" at="28,0,31,0" />
+      <scope id="8423122693117705089" at="16,0,20,0" />
+      <scope id="8423122693117705072" at="11,0,16,0">
+        <var name="builder" id="8423122693117705074" />
+      </scope>
+      <unit id="8423122693117705025" at="20,0,23,0" name="io.searchbox.snapshot.AbstractSnapshotRepositoryAction$RepositoryBuilder" />
+      <unit id="8423122693117705037" at="23,0,32,0" name="io.searchbox.snapshot.AbstractSnapshotRepositoryAction$SingleRepositoryBuilder" />
+      <unit id="8496368874152587644" at="8,0,33,0" name="io.searchbox.snapshot.AbstractSnapshotRepositoryAction" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587673">
+    <file name="CreateSnapshotRepository.java">
+      <node id="8423122693118162923" at="8,80,9,19" concept="7" />
+      <node id="8423122693117707745" at="9,19,10,36" concept="2" />
+      <node id="8423122693117707757" at="13,37,14,17" concept="6" />
+      <node id="8423122693117707695" at="17,0,18,0" concept="3" trace="settings" />
+      <node id="8423122693118162943" at="18,39,19,24" concept="7" />
+      <node id="8423122693117707711" at="21,71,22,31" concept="2" />
+      <node id="8423122693117707717" at="22,31,23,18" concept="6" />
+      <node id="8423122693117707725" at="25,68,26,44" concept="6" />
+      <node id="8423122693117707734" at="29,45,30,48" concept="6" />
+      <node id="8423122693117707699" at="18,0,21,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117707721" at="25,0,28,0" concept="5" trace="verify#(Z)Lio/searchbox/snapshot/CreateSnapshotRepository/Builder;" />
+      <node id="8423122693117707740" at="8,0,12,0" concept="1" trace="CreateSnapshotRepository#(Lio/searchbox/snapshot/CreateSnapshotRepository/Builder;)V" />
+      <node id="8423122693117707754" at="12,0,16,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117707707" at="21,0,25,0" concept="5" trace="settings#(Ljava/lang/Object;)Lio/searchbox/snapshot/CreateSnapshotRepository/Builder;" />
+      <node id="8423122693117707731" at="28,0,32,0" concept="5" trace="build#()Lio/searchbox/snapshot/CreateSnapshotRepository;" />
+      <scope id="8423122693117707756" at="13,37,14,17" />
+      <scope id="3918785843121698296" at="18,39,19,24" />
+      <scope id="3918785843121702106" at="25,68,26,44" />
+      <scope id="3918785843121694533" at="29,45,30,48" />
+      <scope id="8423122693117707744" at="8,80,10,36" />
+      <scope id="3918785843121690697" at="21,71,23,18" />
+      <scope id="8423122693117707699" at="18,0,21,0">
+        <var name="repository" id="8423122693117707701" />
+      </scope>
+      <scope id="8423122693117707721" at="25,0,28,0">
+        <var name="verify" id="8423122693117707722" />
+      </scope>
+      <scope id="8423122693117707740" at="8,0,12,0">
+        <var name="builder" id="8423122693117707742" />
+      </scope>
+      <scope id="8423122693117707754" at="12,0,16,0" />
+      <scope id="8423122693117707707" at="21,0,25,0">
+        <var name="settings" id="8423122693117707708" />
+      </scope>
+      <scope id="8423122693117707731" at="28,0,32,0" />
+      <unit id="8423122693117707690" at="16,0,33,0" name="io.searchbox.snapshot.CreateSnapshotRepository$Builder" />
+      <unit id="8496368874152587673" at="6,0,34,0" name="io.searchbox.snapshot.CreateSnapshotRepository" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587702">
+    <file name="CreateSnapshot.java">
+      <node id="8423122693118163043" at="8,60,9,19" concept="7" />
+      <node id="8423122693117710462" at="9,19,10,36" concept="2" />
+      <node id="8423122693117710474" at="13,37,14,17" concept="6" />
+      <node id="8423122693117710409" at="17,0,18,0" concept="3" trace="settings" />
+      <node id="8423122693118163063" at="18,56,19,34" concept="7" />
+      <node id="8423122693117710428" at="21,61,22,31" concept="2" />
+      <node id="8423122693117710434" at="22,31,23,18" concept="6" />
+      <node id="8423122693117710442" at="25,80,26,68" concept="6" />
+      <node id="8423122693117710451" at="29,35,30,38" concept="6" />
+      <node id="8423122693117710413" at="18,0,21,0" concept="1" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117710438" at="25,0,28,0" concept="5" trace="waitForCompletion#(Z)Lio/searchbox/snapshot/CreateSnapshot/Builder;" />
+      <node id="8423122693117710457" at="8,0,12,0" concept="1" trace="CreateSnapshot#(Lio/searchbox/snapshot/CreateSnapshot/Builder;)V" />
+      <node id="8423122693117710471" at="12,0,16,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117710424" at="21,0,25,0" concept="5" trace="settings#(Ljava/lang/Object;)Lio/searchbox/snapshot/CreateSnapshot/Builder;" />
+      <node id="8423122693117710448" at="28,0,32,0" concept="5" trace="build#()Lio/searchbox/snapshot/CreateSnapshot;" />
+      <scope id="8423122693117710473" at="13,37,14,17" />
+      <scope id="3918785843121677735" at="18,56,19,34" />
+      <scope id="3918785843121673917" at="25,80,26,68" />
+      <scope id="3918785843121681484" at="29,35,30,38" />
+      <scope id="8423122693117710461" at="8,60,10,36" />
+      <scope id="3918785843121685232" at="21,61,23,18" />
+      <scope id="8423122693117710413" at="18,0,21,0">
+        <var name="repository" id="8423122693117710415" />
+        <var name="snapshot" id="8423122693117710417" />
+      </scope>
+      <scope id="8423122693117710438" at="25,0,28,0">
+        <var name="waitForCompletion" id="8423122693117710439" />
+      </scope>
+      <scope id="8423122693117710457" at="8,0,12,0">
+        <var name="builder" id="8423122693117710459" />
+      </scope>
+      <scope id="8423122693117710471" at="12,0,16,0" />
+      <scope id="8423122693117710424" at="21,0,25,0">
+        <var name="settings" id="8423122693117710425" />
+      </scope>
+      <scope id="8423122693117710448" at="28,0,32,0" />
+      <unit id="8423122693117710404" at="16,0,33,0" name="io.searchbox.snapshot.CreateSnapshot$Builder" />
+      <unit id="8496368874152587702" at="6,0,34,0" name="io.searchbox.snapshot.CreateSnapshot" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587731">
+    <file name="DeleteSnapshot.java">
+      <node id="8423122693118163066" at="8,60,9,19" concept="7" />
+      <node id="8423122693117732136" at="12,37,13,20" concept="6" />
+      <node id="8423122693118163067" at="16,56,17,34" concept="7" />
+      <node id="8423122693117732119" at="20,35,21,38" concept="6" />
+      <node id="8423122693117732125" at="8,0,11,0" concept="1" trace="DeleteSnapshot#(Lio/searchbox/snapshot/DeleteSnapshot/Builder;)V" />
+      <node id="8423122693117732105" at="16,0,19,0" concept="1" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117732133" at="11,0,15,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117732116" at="19,0,23,0" concept="5" trace="build#()Lio/searchbox/snapshot/DeleteSnapshot;" />
+      <scope id="8423122693117732129" at="8,60,9,19" />
+      <scope id="8423122693117732135" at="12,37,13,20" />
+      <scope id="3918785843121711144" at="16,56,17,34" />
+      <scope id="3918785843121707384" at="20,35,21,38" />
+      <scope id="8423122693117732125" at="8,0,11,0">
+        <var name="builder" id="8423122693117732127" />
+      </scope>
+      <scope id="8423122693117732105" at="16,0,19,0">
+        <var name="repository" id="8423122693117732107" />
+        <var name="snapshot" id="8423122693117732109" />
+      </scope>
+      <scope id="8423122693117732133" at="11,0,15,0" />
+      <scope id="8423122693117732116" at="19,0,23,0" />
+      <unit id="8423122693117732100" at="15,0,24,0" name="io.searchbox.snapshot.DeleteSnapshot$Builder" />
+      <unit id="8496368874152587731" at="6,0,25,0" name="io.searchbox.snapshot.DeleteSnapshot" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587760">
+    <file name="RestoreSnapshot.java">
+      <node id="8423122693118163070" at="8,62,9,19" concept="7" />
+      <node id="8423122693117693358" at="9,19,10,36" concept="2" />
+      <node id="8423122693117693370" at="13,31,14,42" concept="6" />
+      <node id="8423122693117693379" at="17,37,18,18" concept="6" />
+      <node id="8423122693117693315" at="21,0,22,0" concept="3" trace="settings" />
+      <node id="8423122693118163090" at="22,56,23,34" concept="7" />
+      <node id="8423122693117693334" at="25,62,26,31" concept="2" />
+      <node id="8423122693117693340" at="26,31,27,18" concept="6" />
+      <node id="8423122693117693347" at="30,36,31,39" concept="6" />
+      <node id="8423122693117693319" at="22,0,25,0" concept="1" trace="Builder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117693353" at="8,0,12,0" concept="1" trace="RestoreSnapshot#(Lio/searchbox/snapshot/RestoreSnapshot/Builder;)V" />
+      <node id="8423122693117693367" at="12,0,16,0" concept="5" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117693376" at="16,0,20,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117693330" at="25,0,29,0" concept="5" trace="settings#(Ljava/lang/Object;)Lio/searchbox/snapshot/RestoreSnapshot/Builder;" />
+      <node id="8423122693117693344" at="29,0,33,0" concept="5" trace="build#()Lio/searchbox/snapshot/RestoreSnapshot;" />
+      <scope id="8423122693117693369" at="13,31,14,42" />
+      <scope id="8423122693117693378" at="17,37,18,18" />
+      <scope id="3918785843121770593" at="22,56,23,34" />
+      <scope id="3918785843121766782" at="30,36,31,39" />
+      <scope id="8423122693117693357" at="8,62,10,36" />
+      <scope id="3918785843121762880" at="25,62,27,18" />
+      <scope id="8423122693117693319" at="22,0,25,0">
+        <var name="repository" id="8423122693117693321" />
+        <var name="snapshot" id="8423122693117693323" />
+      </scope>
+      <scope id="8423122693117693353" at="8,0,12,0">
+        <var name="builder" id="8423122693117693355" />
+      </scope>
+      <scope id="8423122693117693367" at="12,0,16,0" />
+      <scope id="8423122693117693376" at="16,0,20,0" />
+      <scope id="8423122693117693330" at="25,0,29,0">
+        <var name="settings" id="8423122693117693331" />
+      </scope>
+      <scope id="8423122693117693344" at="29,0,33,0" />
+      <unit id="8423122693117693310" at="20,0,34,0" name="io.searchbox.snapshot.RestoreSnapshot$Builder" />
+      <unit id="8496368874152587760" at="6,0,35,0" name="io.searchbox.snapshot.RestoreSnapshot" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587797">
+    <file name="AbstractSnapshotAction.java">
+      <node id="8423122693117680131" at="14,0,15,0" concept="3" trace="repository" />
+      <node id="8423122693117680135" at="15,0,16,0" concept="3" trace="snapshots" />
+      <node id="8423122693118163105" at="16,84,17,19" concept="7" />
+      <node id="8423122693117680144" at="17,19,18,41" concept="2" />
+      <node id="8423122693117680150" at="18,41,19,44" concept="2" />
+      <node id="8423122693117680156" at="19,44,20,23" concept="2" />
+      <node id="8423122693117680165" at="23,31,24,75" concept="6" />
+      <node id="8423122693117679996" at="27,0,28,0" concept="3" trace="repository" />
+      <node id="8423122693117680005" at="28,50,29,35" concept="2" />
+      <node id="8423122693117680012" at="31,0,32,0" concept="5" trace="getSnapshots#()Ljava/lang/String;" />
+      <node id="8423122693117680024" at="34,0,35,0" concept="3" trace="snapshot" />
+      <node id="8423122693118163144" at="35,70,36,24" concept="7" />
+      <node id="8423122693117680035" at="36,24,37,31" concept="2" />
+      <node id="8423122693117680047" at="40,37,41,22" concept="6" />
+      <node id="8423122693117680062" at="46,0,47,0" concept="3" trace="snapshots" />
+      <node id="8423122693118163147" at="47,55,48,24" concept="7" />
+      <node id="8423122693117680083" at="50,66,51,39" concept="2" />
+      <node id="8423122693117680090" at="51,39,52,22" concept="6" />
+      <node id="8423122693117680100" at="54,43,55,35" concept="2" />
+      <node id="8423122693117680107" at="55,35,56,22" concept="6" />
+      <node id="8423122693117680120" at="60,32,61,22" concept="6" />
+      <node id="8423122693117680124" at="62,14,63,48" concept="6" />
+      <node id="8423122693117680122" at="62,12,64,7" concept="0" />
+      <node id="8423122693117680000" at="28,0,31,0" concept="1" trace="SnapshotBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117680069" at="47,0,50,0" concept="1" trace="MultipleSnapshotBuilder#(Ljava/lang/String;)V" />
+      <node id="8423122693117680162" at="22,0,26,0" concept="5" trace="buildURI#()Ljava/lang/String;" />
+      <node id="8423122693117680028" at="35,0,39,0" concept="1" trace="SingleSnapshotBuilder#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="8423122693117680044" at="39,0,43,0" concept="5" trace="getSnapshots#()Ljava/lang/String;" />
+      <node id="8423122693117680077" at="50,0,54,0" concept="5" trace="addSnapshot#(Ljava/util/Collection;)null" />
+      <node id="8423122693117680096" at="54,0,58,0" concept="5" trace="addSnapshot#(Ljava/lang/String;)null" />
+      <node id="8423122693117680116" at="59,37,64,7" concept="4" />
+      <node id="8423122693117680139" at="16,0,22,0" concept="1" trace="AbstractSnapshotAction#(Lio/searchbox/snapshot/AbstractSnapshotAction/SnapshotBuilder;)V" />
+      <node id="8423122693117680113" at="58,0,66,0" concept="5" trace="getSnapshots#()Ljava/lang/String;" />
+      <scope id="8423122693117680164" at="23,31,24,75" />
+      <scope id="3918785843121644275" at="28,50,29,35" />
+      <scope id="8423122693117680012" at="31,0,32,0" />
+      <scope id="3918785843121625614" at="40,37,41,22" />
+      <scope id="3918785843121640558" at="47,55,48,24" />
+      <scope id="8423122693117680119" at="60,32,61,22" />
+      <scope id="8423122693117680123" at="62,14,63,48" />
+      <scope id="3918785843121629319" at="35,70,37,31" />
+      <scope id="3918785843121648003" at="50,66,52,22" />
+      <scope id="3918785843121633039" at="54,43,56,22" />
+      <scope id="8423122693117680000" at="28,0,31,0">
+        <var name="repository" id="8423122693117680002" />
+      </scope>
+      <scope id="8423122693117680069" at="47,0,50,0">
+        <var name="repository" id="8423122693117680071" />
+      </scope>
+      <scope id="8423122693117680143" at="16,84,20,23" />
+      <scope id="8423122693117680162" at="22,0,26,0" />
+      <scope id="8423122693117680028" at="35,0,39,0">
+        <var name="repository" id="8423122693117680030" />
+        <var name="snapshot" id="8423122693117680032" />
+      </scope>
+      <scope id="8423122693117680044" at="39,0,43,0" />
+      <scope id="8423122693117680077" at="50,0,54,0">
+        <var name="snapshots" id="8423122693117680078" />
+      </scope>
+      <scope id="8423122693117680096" at="54,0,58,0">
+        <var name="snapshot" id="8423122693117680097" />
+      </scope>
+      <scope id="3918785843121636822" at="59,37,64,7" />
+      <scope id="8423122693117680139" at="16,0,22,0">
+        <var name="builder" id="8423122693117680141" />
+      </scope>
+      <scope id="8423122693117680113" at="58,0,66,0" />
+      <unit id="8423122693117679988" at="26,0,33,0" name="io.searchbox.snapshot.AbstractSnapshotAction$SnapshotBuilder" />
+      <unit id="8423122693117680016" at="33,0,44,0" name="io.searchbox.snapshot.AbstractSnapshotAction$SingleSnapshotBuilder" />
+      <unit id="8423122693117680051" at="44,0,67,0" name="io.searchbox.snapshot.AbstractSnapshotAction$MultipleSnapshotBuilder" />
+      <unit id="8496368874152587797" at="12,0,68,0" name="io.searchbox.snapshot.AbstractSnapshotAction" />
+    </file>
+  </root>
+  <root nodeRef="r:36deaef6-aeab-4b6e-9915-72965491700a(io.searchbox.snapshot)/8496368874152587826">
+    <file name="GetSnapshotRepository.java">
+      <node id="8423122693118163257" at="12,74,13,19" concept="7" />
+      <node id="8423122693117715838" at="16,37,17,17" concept="6" />
+      <node id="8423122693117715745" at="20,0,21,0" concept="3" trace="repositories" />
+      <node id="8423122693117715761" at="23,39,24,40" concept="2" />
+      <node id="8423122693117715776" at="26,63,27,45" concept="2" />
+      <node id="8423122693117715790" at="29,99,30,45" concept="2" />
+      <node id="8423122693117715797" at="30,45,31,18" concept="6" />
+      <node id="8423122693117715804" at="34,42,35,45" concept="6" />
+      <node id="8423122693117715816" at="39,35,40,22" concept="6" />
+      <node id="8423122693117715820" at="41,14,42,51" concept="6" />
+      <node id="8423122693117715752" at="21,0,23,0" concept="1" trace="Builder#()V" />
+      <node id="8423122693117715818" at="41,12,43,7" concept="0" />
+      <node id="8423122693117715827" at="12,0,15,0" concept="1" trace="GetSnapshotRepository#(Lio/searchbox/snapshot/GetSnapshotRepository/Builder;)V" />
+      <node id="8423122693117715756" at="23,0,26,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
+      <node id="8423122693117715769" at="26,0,29,0" concept="1" trace="Builder#(Ljava/util/Collection;)V" />
+      <node id="8423122693117715835" at="15,0,19,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
+      <node id="8423122693117715784" at="29,0,33,0" concept="5" trace="addRepository#(Ljava/util/Collection;)Lio/searchbox/snapshot/GetSnapshotRepository/Builder;" />
+      <node id="8423122693117715801" at="33,0,37,0" concept="5" trace="build#()Lio/searchbox/snapshot/GetSnapshotRepository;" />
+      <node id="8423122693117715812" at="38,40,43,7" concept="4" />
+      <node id="8423122693117715809" at="37,0,45,0" concept="5" trace="getRepositories#()Ljava/lang/String;" />
+      <scope id="3918785843121739395" at="21,22,21,22" />
+      <scope id="8423122693117715831" at="12,74,13,19" />
+      <scope id="8423122693117715837" at="16,37,17,17" />
+      <scope id="3918785843121746974" at="23,39,24,40" />
+      <scope id="3918785843121750833" at="26,63,27,45" />
+      <scope id="3918785843121754629" at="34,42,35,45" />
+      <scope id="8423122693117715815" at="39,35,40,22" />
+      <scope id="8423122693117715819" at="41,14,42,51" />
+      <scope id="8423122693117715752" at="21,0,23,0" />
+      <scope id="3918785843121743180" at="29,99,31,18" />
+      <scope id="8423122693117715827" at="12,0,15,0">
+        <var name="builder" id="8423122693117715829" />
+      </scope>
+      <scope id="8423122693117715756" at="23,0,26,0">
+        <var name="repository" id="8423122693117715758" />
+      </scope>
+      <scope id="8423122693117715769" at="26,0,29,0">
+        <var name="repositories" id="8423122693117715771" />
+      </scope>
+      <scope id="8423122693117715835" at="15,0,19,0" />
+      <scope id="8423122693117715784" at="29,0,33,0">
+        <var name="repositories" id="8423122693117715785" />
+      </scope>
+      <scope id="8423122693117715801" at="33,0,37,0" />
+      <scope id="3918785843121735090" at="38,40,43,7" />
+      <scope id="8423122693117715809" at="37,0,45,0" />
+      <unit id="8423122693117715740" at="19,0,46,0" name="io.searchbox.snapshot.GetSnapshotRepository$Builder" />
+      <unit id="8496368874152587826" at="10,0,47,0" name="io.searchbox.snapshot.GetSnapshotRepository" />
+    </file>
+  </root>
+</debug-info>
+

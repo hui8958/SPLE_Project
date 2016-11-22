@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root nodeRef="r:1b2b719e-d673-4245-98dd-ef3cfe4cda7d(io.searchbox.annotations)/8423122693117688497">
+    <file name="JestId.java">
+      <unit id="8423122693117688497" at="13,0,17,0" name="io.searchbox.annotations.JestId" />
+    </file>
+  </root>
+  <root nodeRef="r:1b2b719e-d673-4245-98dd-ef3cfe4cda7d(io.searchbox.annotations)/8423122693117692477">
+    <file name="JestVersion.java">
+      <unit id="8423122693117692477" at="13,0,17,0" name="io.searchbox.annotations.JestVersion" />
+    </file>
+  </root>
+</debug-info>
+

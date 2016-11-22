@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="io.searchbox.indices.type.TypeExist" file="TypeExist.java">
+    <classNode dependClassName="io.searchbox.action.AbstractMultiTypeActionBuilder" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
+  </dependency>
+</dependenciesRoot>
+
