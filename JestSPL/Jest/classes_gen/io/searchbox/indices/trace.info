@@ -444,44 +444,6 @@
       <unit id="8496368874152587355" at="9,0,66,0" name="io.searchbox.indices.Stats" />
     </file>
   </root>
-  <root nodeRef="r:68ccbaa2-a8f9-414a-9381-49b846efba3d(io.searchbox.indices)/8496368874152587392">
-    <file name="DeleteIndex.java">
-      <node id="8423122693117992512" at="10,54,11,19" concept="8" />
-      <node id="8423122693117700693" at="11,19,12,30" concept="2" />
-      <node id="8423122693117700697" at="12,30,13,28" concept="2" />
-      <node id="8423122693117700701" at="13,28,14,23" concept="2" />
-      <node id="8423122693117700710" at="17,37,18,20" concept="7" />
-      <node id="8423122693117700645" at="21,0,22,0" concept="3" trace="index" />
-      <node id="8423122693117700649" at="22,0,23,0" concept="3" trace="type" />
-      <node id="8423122693117700658" at="23,34,24,25" concept="2" />
-      <node id="8423122693117700669" at="26,50,27,23" concept="2" />
-      <node id="8423122693117700675" at="27,23,28,18" concept="7" />
-      <node id="8423122693117700682" at="31,32,32,35" concept="7" />
-      <node id="8423122693117700653" at="23,0,26,0" concept="1" trace="Builder#(Ljava/lang/String;)V" />
-      <node id="8423122693117700707" at="16,0,20,0" concept="5" trace="getRestMethodName#()Ljava/lang/String;" />
-      <node id="8423122693117700665" at="26,0,30,0" concept="5" trace="type#(Ljava/lang/String;)Lio/searchbox/indices/DeleteIndex/Builder;" />
-      <node id="8423122693117700679" at="30,0,34,0" concept="5" trace="build#()Lio/searchbox/indices/DeleteIndex;" />
-      <node id="8423122693117700688" at="10,0,16,0" concept="1" trace="DeleteIndex#(Lio/searchbox/indices/DeleteIndex/Builder;)V" />
-      <scope id="8423122693117700709" at="17,37,18,20" />
-      <scope id="3918785843121275265" at="23,34,24,25" />
-      <scope id="3918785843121268093" at="31,32,32,35" />
-      <scope id="3918785843121271755" at="26,50,28,18" />
-      <scope id="8423122693117700653" at="23,0,26,0">
-        <var name="index" id="8423122693117700655" />
-      </scope>
-      <scope id="8423122693117700692" at="10,54,14,23" />
-      <scope id="8423122693117700707" at="16,0,20,0" />
-      <scope id="8423122693117700665" at="26,0,30,0">
-        <var name="type" id="8423122693117700666" />
-      </scope>
-      <scope id="8423122693117700679" at="30,0,34,0" />
-      <scope id="8423122693117700688" at="10,0,16,0">
-        <var name="builder" id="8423122693117700690" />
-      </scope>
-      <unit id="8423122693117700640" at="20,0,35,0" name="io.searchbox.indices.DeleteIndex$Builder" />
-      <unit id="8496368874152587392" at="8,0,36,0" name="io.searchbox.indices.DeleteIndex" />
-    </file>
-  </root>
   <root nodeRef="r:68ccbaa2-a8f9-414a-9381-49b846efba3d(io.searchbox.indices)/8496368874152587421">
     <file name="Flush.java">
       <node id="8423122693117992553" at="10,42,11,19" concept="8" />

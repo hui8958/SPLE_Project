@@ -7,6 +7,7 @@ import io.searchbox.action.AbstractAction;
 
 public class DeleteIndex extends GenericResultAbstractAction {
 
+
   protected DeleteIndex(DeleteIndex.Builder builder) {
     super(builder);
     indexName = builder.index;
