@@ -17,6 +17,236 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+  <root nodeRef="r:51721a43-bbd1-4edc-af1d-75408a5d4a04(io.searchbox.client)/1909280250382606223">
+    <file name="GUI.java">
+      <node id="1909280250382615924" at="15,0,16,0" concept="4" trace="mainFrame" />
+      <node id="1909280250382616912" at="16,0,17,0" concept="4" trace="headerLabel" />
+      <node id="1909280250382617432" at="17,0,18,0" concept="4" trace="statusLabel" />
+      <node id="1909280250382618265" at="18,0,19,0" concept="4" trace="controlPanel" />
+      <node id="1909280250382618713" at="19,0,20,0" concept="4" trace="msglabel" />
+      <node id="1909280250382659921" at="22,42,23,0" concept="12" />
+      <node id="1909280250382670818" at="26,29,27,50" concept="3" />
+      <node id="1909280250382674745" at="27,50,28,32" concept="3" />
+      <node id="1909280250382685919" at="28,32,29,46" concept="3" />
+      <node id="1909280250382714268" at="33,7,34,48" concept="3" />
+      <node id="1909280250382719255" at="34,48,35,48" concept="3" />
+      <node id="1909280250382722651" at="35,48,36,0" concept="12" />
+      <node id="1909280250382723883" at="36,0,37,34" concept="3" />
+      <node id="1909280250382729658" at="37,34,38,86" concept="3" />
+      <node id="1909280250382734455" at="38,86,39,0" concept="12" />
+      <node id="1909280250382736356" at="39,0,40,32" concept="3" />
+      <node id="1909280250382745437" at="40,32,41,45" concept="3" />
+      <node id="1909280250382754982" at="41,45,42,31" concept="3" />
+      <node id="1909280250382758820" at="42,31,43,32" concept="3" />
+      <node id="1909280250382763109" at="43,32,44,31" concept="3" />
+      <node id="1909280250382768724" at="44,31,45,31" concept="3" />
+      <node id="1909280250382743693" at="45,31,46,0" concept="12" />
+      <node id="1909280250382781907" at="48,33,49,55" concept="3" />
+      <node id="1909280250382786708" at="49,55,50,32" concept="9" />
+      <node id="1909280250382796780" at="50,32,51,39" concept="3" />
+      <node id="1909280250382799796" at="51,39,52,38" concept="3" />
+      <node id="1909280250382807506" at="52,38,53,24" concept="3" />
+      <node id="1909280250382809912" at="53,24,54,0" concept="12" />
+      <node id="1909280250382811279" at="54,0,55,28" concept="3" />
+      <node id="1909280250382815964" at="55,28,56,31" concept="3" />
+      <node id="1909280250382710200" at="31,0,33,0" concept="8" trace="windowClosing#(Ljava/awt/event/WindowEvent;)V" />
+      <node id="1909280250382625942" at="22,0,25,0" concept="14" trace="main#([Ljava/lang/String;)V" />
+      <node id="1909280250382697559" at="29,46,33,7" concept="3" />
+      <node id="1909280250382775871" at="48,0,58,0" concept="8" trace="showJPanelDemo#()V" />
+      <node id="1909280250382660621" at="26,0,48,0" concept="8" trace="prepareGUI#()V" />
+      <scope id="1909280250382710203" at="31,58,31,58" />
+      <scope id="1909280250382625948" at="22,42,23,0" />
+      <scope id="1909280250382710200" at="31,0,33,0">
+        <var name="windowEvent" id="1909280250382710676" />
+      </scope>
+      <scope id="1909280250382625942" at="22,0,25,0">
+        <var name="args" id="1909280250382625943" />
+      </scope>
+      <scope id="1909280250382775874" at="48,33,56,31">
+        <var name="panel" id="1909280250382786709" />
+      </scope>
+      <scope id="1909280250382775871" at="48,0,58,0" />
+      <scope id="1909280250382660624" at="26,29,46,0" />
+      <scope id="1909280250382660621" at="26,0,48,0" />
+      <unit id="1909280250382707759" at="30,36,33,5" name="io.searchbox.client.GUI$1" />
+      <unit id="1909280250382606223" at="14,0,59,0" name="io.searchbox.client.GUI" />
+    </file>
+  </root>
+  <root nodeRef="r:51721a43-bbd1-4edc-af1d-75408a5d4a04(io.searchbox.client)/1909280250382838071">
+    <file name="MainGui.java">
+      <node id="1909280250382848938" at="20,20,21,40" concept="9" />
+      <node id="1909280250382854854" at="21,40,22,57" concept="9" />
+      <node id="1909280250382936086" at="22,57,23,53" concept="9" />
+      <node id="1909280250382936311" at="23,53,24,58" concept="9" />
+      <node id="1909280250382939301" at="24,58,25,46" concept="3" />
+      <node id="1909280250382948320" at="25,46,26,41" concept="3" />
+      <node id="8212065446544097856" at="26,41,27,47" concept="3" />
+      <node id="1909280250382944925" at="27,47,28,28" concept="3" />
+      <node id="1909280250382962448" at="28,28,29,36" concept="3" />
+      <node id="1909280250382979025" at="29,36,30,13" concept="3" />
+      <node id="8212065446544293820" at="33,50,34,24" concept="10" />
+      <node id="1909280250382861507" at="37,49,38,35" concept="9" />
+      <node id="1909280250382876780" at="38,35,39,66" concept="3" />
+      <node id="8212065446543772692" at="39,66,40,0" concept="12" />
+      <node id="1909280250382865145" at="40,0,41,44" concept="9" />
+      <node id="8212065446543773595" at="41,44,42,42" concept="9" />
+      <node id="8212065446543774034" at="42,42,43,0" concept="12" />
+      <node id="8212065446543774879" at="43,0,44,51" concept="9" />
+      <node id="8212065446543775799" at="44,51,45,40" concept="9" />
+      <node id="8212065446543775369" at="45,40,46,0" concept="12" />
+      <node id="8212065446543779576" at="46,0,47,34" concept="9" />
+      <node id="8212065446543793061" at="47,34,48,43" concept="9" />
+      <node id="8212065446543799647" at="48,43,49,43" concept="9" />
+      <node id="8212065446543800577" at="49,43,50,43" concept="9" />
+      <node id="8212065446543805726" at="50,43,51,40" concept="3" />
+      <node id="8212065446543823642" at="51,40,52,24" concept="3" />
+      <node id="8212065446543827675" at="52,24,53,24" concept="3" />
+      <node id="8212065446543828237" at="53,24,54,24" concept="3" />
+      <node id="8212065446543827205" at="54,24,55,0" concept="12" />
+      <node id="8212065446543800167" at="55,0,56,0" concept="12" />
+      <node id="8212065446543831509" at="56,0,57,43" concept="9" />
+      <node id="8212065446543832561" at="57,43,58,39" concept="9" />
+      <node id="8212065446543833081" at="58,39,59,0" concept="12" />
+      <node id="8212065446543832074" at="59,0,60,0" concept="12" />
+      <node id="8212065446543837842" at="60,0,61,33" concept="9" />
+      <node id="8212065446543852440" at="61,33,62,43" concept="3" />
+      <node id="8212065446543862887" at="62,43,63,0" concept="12" />
+      <node id="8212065446543868530" at="63,0,64,31" concept="9" />
+      <node id="8212065446543880148" at="64,31,65,58" concept="3" />
+      <node id="8212065446543891945" at="65,58,66,0" concept="12" />
+      <node id="8212065446543874274" at="66,0,67,57" concept="9" />
+      <node id="8212065446543932121" at="67,57,68,0" concept="12" />
+      <node id="8212065446543895626" at="68,0,69,40" concept="9" />
+      <node id="8212065446543900445" at="69,40,70,61" concept="3" />
+      <node id="8212065446543910135" at="70,61,71,55" concept="9" />
+      <node id="8212065446543910769" at="71,55,72,52" concept="9" />
+      <node id="8212065446543915490" at="72,52,73,42" concept="3" />
+      <node id="8212065446543925863" at="73,42,74,35" concept="3" />
+      <node id="5376230992323925431" at="74,35,75,0" concept="12" />
+      <node id="5376230992323926875" at="75,0,76,0" concept="12" />
+      <node id="8212065446544023861" at="76,0,77,0" concept="12" />
+      <node id="8212065446544022688" at="77,0,78,40" concept="9" />
+      <node id="8212065446544022693" at="78,40,79,61" concept="3" />
+      <node id="8212065446544022699" at="79,61,80,55" concept="9" />
+      <node id="8212065446544022705" at="80,55,81,60" concept="9" />
+      <node id="8212065446544022710" at="81,60,82,42" concept="3" />
+      <node id="8212065446544022715" at="82,42,83,35" concept="3" />
+      <node id="8212065446543931547" at="83,35,84,0" concept="12" />
+      <node id="8212065446543834790" at="84,0,85,0" concept="12" />
+      <node id="8212065446543834068" at="85,0,86,0" concept="12" />
+      <node id="8212065446544005668" at="86,0,87,29" concept="3" />
+      <node id="8212065446544016263" at="87,29,88,28" concept="3" />
+      <node id="8212065446544026727" at="88,28,89,28" concept="3" />
+      <node id="8212065446543770778" at="89,28,90,0" concept="12" />
+      <node id="8212065446544045760" at="90,0,91,0" concept="12" />
+      <node id="8212065446544047642" at="91,0,92,0" concept="12" />
+      <node id="8212065446544047643" at="92,0,93,32" concept="9" />
+      <node id="8212065446544047648" at="93,32,94,60" concept="3" />
+      <node id="8212065446544047659" at="94,60,95,49" concept="9" />
+      <node id="8212065446544047683" at="95,49,96,43" concept="9" />
+      <node id="8212065446544046412" at="96,43,97,0" concept="12" />
+      <node id="8212065446544054341" at="97,0,98,31" concept="3" />
+      <node id="8212065446544059435" at="98,31,99,24" concept="3" />
+      <node id="8212065446544046953" at="99,24,100,0" concept="12" />
+      <node id="8212065446543748983" at="100,0,101,0" concept="12" />
+      <node id="8212065446543749017" at="101,0,102,0" concept="12" />
+      <node id="8212065446544040727" at="102,0,103,21" concept="3" />
+      <node id="8212065446544066828" at="103,21,104,22" concept="3" />
+      <node id="1909280250382887708" at="104,22,105,29" concept="3" />
+      <node id="8212065446543940031" at="105,29,106,26" concept="3" />
+      <node id="8212065446543947242" at="106,26,107,30" concept="3" />
+      <node id="8212065446543956499" at="107,30,108,26" concept="3" />
+      <node id="8212065446543966998" at="108,26,109,26" concept="3" />
+      <node id="8212065446543977510" at="109,26,110,30" concept="3" />
+      <node id="8212065446543988019" at="110,30,111,25" concept="3" />
+      <node id="8212065446543998575" at="111,25,112,25" concept="3" />
+      <node id="1909280250382890278" at="112,25,113,20" concept="10" />
+      <node id="1909280250382885873" at="113,20,114,0" concept="12" />
+      <node id="1909280250383554904" at="118,45,119,0" concept="12" />
+      <node id="1909280250382998582" at="119,0,120,35" concept="9" />
+      <node id="1909280250382998587" at="120,35,121,45" concept="9" />
+      <node id="1909280250383060551" at="121,45,122,46" concept="9" />
+      <node id="1909280250383012779" at="122,46,123,42" concept="9" />
+      <node id="1909280250383077804" at="123,42,124,42" concept="9" />
+      <node id="1909280250383190873" at="124,42,125,0" concept="12" />
+      <node id="1909280250382998598" at="125,0,126,66" concept="3" />
+      <node id="1909280250382998606" at="126,66,127,29" concept="3" />
+      <node id="1909280250383557263" at="127,29,128,0" concept="12" />
+      <node id="1909280250383038667" at="128,0,129,26" concept="3" />
+      <node id="1909280250383063939" at="129,26,130,30" concept="3" />
+      <node id="1909280250383099991" at="130,30,131,28" concept="3" />
+      <node id="1909280250383070779" at="131,28,132,0" concept="12" />
+      <node id="1909280250382998611" at="132,0,133,20" concept="10" />
+      <node id="1909280250382896529" at="136,42,137,56" concept="9" />
+      <node id="1909280250383283031" at="139,48,140,23" concept="3" />
+      <node id="1909280250382915500" at="142,7,143,46" concept="3" />
+      <node id="1909280250382925848" at="143,46,144,28" concept="3" />
+      <node id="1909280250382930185" at="144,28,145,27" concept="3" />
+      <node id="1909280250382993458" at="145,27,146,42" concept="3" />
+      <node id="8212065446544258587" at="33,0,36,0" concept="8" trace="createInnerGetDocumentPanel#()Ljavax/swing/JPanel;" />
+      <node id="1909280250382910912" at="139,0,142,0" concept="8" trace="windowClosing#(Ljava/awt/event/WindowEvent;)V" />
+      <node id="1909280250382902507" at="137,56,142,7" concept="3" />
+      <node id="1909280250382843273" at="20,0,32,0" concept="2" trace="MainGui#()V" />
+      <node id="1909280250382891278" at="136,0,148,0" concept="14" trace="main#([Ljava/lang/String;)V" />
+      <node id="1909280250382998578" at="118,0,135,0" concept="8" trace="createInnerSearchPanel#()Ljavax/swing/JPanel;" />
+      <node id="1909280250382856690" at="37,0,116,0" concept="8" trace="createInnerManipliatePanel#()Ljavax/swing/JPanel;" />
+      <scope id="8212065446544283113" at="33,50,34,24" />
+      <scope id="1909280250382910915" at="139,48,140,23" />
+      <scope id="8212065446544258587" at="33,0,36,0" />
+      <scope id="1909280250382910912" at="139,0,142,0">
+        <var name="e" id="1909280250382911470" />
+      </scope>
+      <scope id="1909280250382843276" at="20,20,30,13">
+        <var name="jplInnerPanel1" id="1909280250382854855" />
+        <var name="jplInnerPanel2" id="1909280250382936087" />
+        <var name="jplInnerPanel3" id="1909280250382936312" />
+        <var name="jtb" id="1909280250382848939" />
+      </scope>
+      <scope id="1909280250382891374" at="136,42,146,42">
+        <var name="frame" id="1909280250382896530" />
+      </scope>
+      <scope id="1909280250382843273" at="20,0,32,0" />
+      <scope id="1909280250382891278" at="136,0,148,0">
+        <var name="args" id="1909280250382891282" />
+      </scope>
+      <scope id="1909280250382998579" at="118,45,133,20">
+        <var name="jlbDisplay" id="1909280250382998588" />
+        <var name="jlbDisplay2" id="1909280250383060552" />
+        <var name="jplPanel" id="1909280250382998583" />
+        <var name="jtaResult" id="1909280250383077805" />
+        <var name="jtfName" id="1909280250383012780" />
+      </scope>
+      <scope id="1909280250382998578" at="118,0,135,0" />
+      <scope id="1909280250382856693" at="37,49,114,0">
+        <var name="auth" id="8212065446543868531" />
+        <var name="buttom" id="8212065446543837843" />
+        <var name="buttons" id="8212065446543779577" />
+        <var name="create" id="8212065446543793062" />
+        <var name="delete" id="8212065446543800578" />
+        <var name="jlbDisplay" id="1909280250382865146" />
+        <var name="jlbDisplay2" id="8212065446543774880" />
+        <var name="jlbDisplay3" id="8212065446543831510" />
+        <var name="jlbDisplayPassword" id="8212065446544022700" />
+        <var name="jlbDisplayUsername" id="8212065446543910136" />
+        <var name="jlbProxyDisplay" id="8212065446544047660" />
+        <var name="jlbauthDisplay" id="8212065446543874275" />
+        <var name="jplPanel" id="1909280250382861508" />
+        <var name="jtaJSON" id="8212065446543775800" />
+        <var name="jtaLOG" id="8212065446543832562" />
+        <var name="jtfName" id="8212065446543773596" />
+        <var name="jtfPassword" id="8212065446544022706" />
+        <var name="jtfProxy" id="8212065446544047684" />
+        <var name="jtfUserName" id="8212065446543910770" />
+        <var name="passwordPanel" id="8212065446544022689" />
+        <var name="proxy" id="8212065446544047644" />
+        <var name="update" id="8212065446543799648" />
+        <var name="usernamePanel" id="8212065446543895627" />
+      </scope>
+      <scope id="1909280250382856690" at="37,0,116,0" />
+      <unit id="1909280250382909952" at="138,32,142,5" name="io.searchbox.client.MainGui$1" />
+      <unit id="1909280250382838071" at="19,0,149,0" name="io.searchbox.client.MainGui" />
+    </file>
+  </root>
   <root nodeRef="r:51721a43-bbd1-4edc-af1d-75408a5d4a04(io.searchbox.client)/5017415965786393468">
     <file name="Main.java">
       <node id="2598617800094754183" at="11,42,12,35" concept="11" />
@@ -28,7 +258,7 @@
       <node id="2598617800094758816" at="18,42,19,0" concept="12" />
       <node id="2598617800093684209" at="19,0,20,66" concept="3" />
       <node id="2598617800093693826" at="20,66,21,42" concept="3" />
-      <node id="2598617800094759205" at="21,42,22,0" concept="12" />
+      <node id="4019364036426951312" at="21,42,22,0" concept="12" />
       <node id="2598617800093657812" at="23,29,24,50" concept="3" />
       <node id="2598617800093638927" at="15,44,25,5" concept="16" />
       <node id="5017415965786496993" at="11,0,27,0" concept="14" trace="main#([Ljava/lang/String;)V" />
