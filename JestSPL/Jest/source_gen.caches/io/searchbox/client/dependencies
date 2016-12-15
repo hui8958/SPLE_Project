@@ -20,17 +20,6 @@
     <classNode dependClassName="org.slf4j.LoggerFactory" />
     <classNode extendsClassName="io.searchbox.client.JestClient" />
   </dependency>
-  <dependency className="io.searchbox.client.GUI" file="GUI.java">
-    <classNode dependClassName="java.awt.Color" />
-    <classNode dependClassName="java.awt.FlowLayout" />
-    <classNode dependClassName="java.awt.GridLayout" />
-    <classNode dependClassName="java.awt.event.WindowAdapter" />
-    <classNode dependClassName="java.awt.event.WindowEvent" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JFrame" />
-    <classNode dependClassName="javax.swing.JLabel" />
-    <classNode dependClassName="javax.swing.JPanel" />
-  </dependency>
   <dependency className="io.searchbox.client.JestClient" file="JestClient.java">
     <classNode dependClassName="io.searchbox.action.Action" />
     <classNode dependClassName="io.searchbox.client.JestResult" />
@@ -121,21 +110,12 @@
   <dependency className="io.searchbox.client.JestResultHandler" file="JestResultHandler.java">
     <classNode dependClassName="java.lang.Exception" />
   </dependency>
-  <dependency className="io.searchbox.client.Main" file="Main.java">
-    <classNode dependClassName="io.searchbox.client.JestClient" />
-    <classNode dependClassName="io.searchbox.client.JestClientFactory" />
-    <classNode dependClassName="io.searchbox.client.config.HttpClientConfig" />
-    <classNode dependClassName="io.searchbox.indices.CreateIndex" />
-    <classNode dependClassName="io.searchbox.indices.DeleteIndex" />
-    <classNode dependClassName="java.io.IOException" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-  </dependency>
   <dependency className="io.searchbox.client.MainGui" file="MainGui.java">
     <classNode dependClassName="io.searchbox.client.JestClient" />
     <classNode dependClassName="io.searchbox.client.JestClientFactory" />
     <classNode dependClassName="io.searchbox.client.config.HttpClientConfig" />
-    <classNode dependClassName="io.searchbox.indices.CreateIndex" />
+    <classNode dependClassName="io.searchbox.core.Search" />
+    <classNode dependClassName="io.searchbox.core.SearchResult" />
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.FlowLayout" />
     <classNode dependClassName="java.awt.GridLayout" />
@@ -150,10 +130,11 @@
     <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
     <classNode dependClassName="javax.swing.JLabel" />
-    <classNode dependClassName="javax.swing.JPasswordField" />
     <classNode dependClassName="javax.swing.JTabbedPane" />
     <classNode dependClassName="javax.swing.JTextArea" />
     <classNode dependClassName="javax.swing.JTextField" />
+    <classNode dependClassName="org.elasticsearch.index.query.QueryBuilders" />
+    <classNode dependClassName="org.elasticsearch.search.builder.SearchSourceBuilder" />
     <classNode extendsClassName="javax.swing.JPanel" />
   </dependency>
 </dependenciesRoot>

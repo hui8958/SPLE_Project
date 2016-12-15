@@ -6,18 +6,20 @@ import javax.swing.JPanel;
 import io.searchbox.client.config.HttpClientConfig;
 import javax.swing.JTabbedPane;
 import java.awt.GridLayout;
-import javax.swing.BoxLayout;
 import javax.swing.JLabel;
+import javax.swing.JTextArea;
 import java.awt.FlowLayout;
 import javax.swing.JTextField;
 import java.awt.Dimension;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import io.searchbox.indices.CreateIndex;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import io.searchbox.core.Search;
+import io.searchbox.core.SearchResult;
 import java.io.IOException;
-import javax.swing.JTextArea;
-import javax.swing.JPasswordField;
+import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -25,7 +27,6 @@ import java.awt.event.WindowEvent;
 public class MainGui extends JPanel {
 
   private JestClientFactory factory;
-
   private JestClient client;
 
   public MainGui() {
@@ -34,12 +35,13 @@ public class MainGui extends JPanel {
     client = factory.getObject();
 
     JTabbedPane jtb = new JTabbedPane();
-    JPanel jplInnerPanel1 = createInnerManipliatePanel();
+
+
     JPanel jplInnerPanel2 = createInnerSearchPanel();
-    JPanel jplInnerPanel3 = createInnerGetDocumentPanel();
-    jtb.addTab("Maniplulate", jplInnerPanel1);
     jtb.addTab("Search", jplInnerPanel2);
-    jtb.addTab("Get Document", jplInnerPanel3);
+
+
+
     jtb.setSelectedIndex(0);
     setLayout(new GridLayout(1, 1));
     add(jtb);
@@ -47,154 +49,62 @@ public class MainGui extends JPanel {
 
   }
 
-  protected JPanel createInnerGetDocumentPanel() {
-    return new JPanel();
-  }
 
-  protected JPanel createInnerManipliatePanel() {
-    JPanel jplPanel = new JPanel();
-    jplPanel.setLayout(new BoxLayout(jplPanel, BoxLayout.Y_AXIS));
-
-
-    JLabel jlbDisplay = new JLabel("Index");
-    JPanel JPindex = new JPanel();
-    JPindex.setLayout(new FlowLayout());
-
-
-    JTextField jtfName = new JTextField();
-    jtfName.setPreferredSize(new Dimension(500, 25));
-    JButton create = new JButton("Create");
-
-    create.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent p0) {
-        System.out.println("press create");
-
-        try {
-          client.execute(new CreateIndex.Builder(jtfName.getText()).build());
-
-          System.out.println("create!!");
-        } catch (IOException E) {
-          System.out.println("Ooops");
-        }
-
-      }
-    });
-
-    JPindex.add(jtfName);
-    JPindex.add(create);
-
-
-    JLabel jlbDisplay2 = new JLabel("JSON String");
-    JTextArea jtaJSON = new JTextArea();
-
-    JPanel buttons = new JPanel();
-    JButton update = new JButton("Update");
-    JButton delete = new JButton("Delete");
-
-
-    update.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent p0) {
-        System.out.println("press update");
-      }
-    });
-
-    delete.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent p0) {
-        System.out.println("press delete");
-      }
-    });
-
-
-
-
-
-
-
-
-    buttons.setLayout(new FlowLayout());
-    buttons.add(update);
-    buttons.add(delete);
-
-
-    JLabel jlbDisplay3 = new JLabel("Log");
-    JTextArea jtaLOG = new JTextArea();
-
-
-    JPanel buttom = new JPanel();
-    buttom.setLayout(new GridLayout(1, 2));
-
-    JPanel auth = new JPanel();
-    auth.setLayout(new BoxLayout(auth, BoxLayout.Y_AXIS));
-
-    JLabel jlbauthDisplay = new JLabel("Authentication");
-
-    JPanel usernamePanel = new JPanel();
-    usernamePanel.setLayout(new FlowLayout(FlowLayout.LEFT));
-    JLabel jlbDisplayUsername = new JLabel("Username");
-    JTextField jtfUserName = new JTextField("", 10);
-    usernamePanel.add(jlbDisplayUsername);
-    usernamePanel.add(jtfUserName);
-
-
-
-    JPanel passwordPanel = new JPanel();
-    passwordPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
-    JLabel jlbDisplayPassword = new JLabel("Password");
-    JPasswordField jtfPassword = new JPasswordField("", 10);
-    passwordPanel.add(jlbDisplayPassword);
-    passwordPanel.add(jtfPassword);
-
-
-
-    auth.add(jlbauthDisplay);
-    auth.add(usernamePanel);
-    auth.add(passwordPanel);
-
-
-
-    JPanel proxy = new JPanel();
-    proxy.setLayout(new BoxLayout(proxy, BoxLayout.Y_AXIS));
-    JLabel jlbProxyDisplay = new JLabel("Proxy");
-    JTextField jtfProxy = new JTextField();
-
-    proxy.add(jlbProxyDisplay);
-    proxy.add(jtfProxy);
-
-
-
-    buttom.add(auth);
-    buttom.add(proxy);
-    jplPanel.add(jlbDisplay);
-    jplPanel.add(JPindex);
-    jplPanel.add(jlbDisplay2);
-    jplPanel.add(jtaJSON);
-    jplPanel.add(buttons);
-    jplPanel.add(jlbDisplay3);
-    jplPanel.add(jtaLOG);
-    jplPanel.add(buttom);
-    return jplPanel;
-
-  }
   protected JPanel createInnerSearchPanel() {
 
     JPanel jplPanel = new JPanel();
     JLabel jlbDisplay = new JLabel("Search");
     JLabel jlbDisplay2 = new JLabel("Result");
-    JTextField jtfName = new JTextField();
     JTextArea jtaResult = new JTextArea();
+    JPanel JPindex = new JPanel();
+    JPindex.setLayout(new FlowLayout());
+
+
+    JTextField jtfDocName = new JTextField();
+    jtfDocName.setPreferredSize(new Dimension(500, 25));
+    JButton searchBtn = new JButton("Search");
+
+    searchBtn.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent p0) {
+
+        try {
+          SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+          searchSourceBuilder.query(QueryBuilders.matchQuery(jtfDocName.getText(), "wanzi"));
+
+          Search search = new Search.Builder(searchSourceBuilder.toString()).build();
+          SearchResult result = client.execute(search);
+          jtaResult.setText(result.getSourceAsString());
+
+
+
+          System.out.println("Search document!!");
+        } catch (IOException E) {
+          System.out.println("Error in search document");
+        }
+
+      }
+    });
+
+
+    JPindex.add(jtfDocName);
+    JPindex.add(searchBtn);
+
 
     jplPanel.setLayout(new BoxLayout(jplPanel, BoxLayout.Y_AXIS));
     jplPanel.add(jlbDisplay);
 
-    jplPanel.add(jtfName);
+    jplPanel.add(JPindex);
     jplPanel.add(jlbDisplay2);
     jplPanel.add(jtaResult);
 
     return jplPanel;
+
+
+
   }
 
   public static void main(String[] args) {
-    JFrame frame = new JFrame("TabbedPane Source Demo");
+    JFrame frame = new JFrame("Jest");
     frame.addWindowListener(new WindowAdapter() {
       public void windowClosing(WindowEvent e) {
         System.exit(0);

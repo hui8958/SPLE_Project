@@ -27,23 +27,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
   </dependency>
-  <dependency className="io.searchbox.indices.CreateIndex" file="CreateIndex.java">
-    <classNode dependClassName="io.searchbox.action.AbstractAction" />
-    <classNode dependClassName="io.searchbox.action.Builder" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.apache.commons.lang3.builder.EqualsBuilder" />
-    <classNode dependClassName="org.apache.commons.lang3.builder.HashCodeBuilder" />
-    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
-  </dependency>
-  <dependency className="io.searchbox.indices.DeleteIndex" file="DeleteIndex.java">
-    <classNode dependClassName="io.searchbox.action.AbstractAction" />
-    <classNode dependClassName="io.searchbox.action.Builder" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="io.searchbox.action.GenericResultAbstractAction" />
-  </dependency>
   <dependency className="io.searchbox.indices.Flush" file="Flush.java">
     <classNode dependClassName="io.searchbox.action.AbstractMultiIndexActionBuilder" />
     <classNode dependClassName="java.lang.Override" />
