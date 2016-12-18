@@ -6,20 +6,22 @@ import javax.swing.JPanel;
 import io.searchbox.client.config.HttpClientConfig;
 import javax.swing.JTabbedPane;
 import java.awt.GridLayout;
-import javax.swing.JLabel;
+import javax.swing.BoxLayout;
 import javax.swing.JTextArea;
+import javax.swing.JLabel;
 import java.awt.FlowLayout;
 import javax.swing.JTextField;
 import java.awt.Dimension;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import io.searchbox.indices.CreateIndex;
+import java.io.IOException;
+import io.searchbox.core.Index;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import io.searchbox.core.Search;
 import io.searchbox.core.SearchResult;
-import java.io.IOException;
-import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -36,6 +38,8 @@ public class MainGui extends JPanel {
 
     JTabbedPane jtb = new JTabbedPane();
 
+    JPanel jplInnerPanel1 = createInnerManipliatePanel();
+    jtb.addTab("Maniplulate", jplInnerPanel1);
 
     JPanel jplInnerPanel2 = createInnerSearchPanel();
     jtb.addTab("Search", jplInnerPanel2);
@@ -50,6 +54,95 @@ public class MainGui extends JPanel {
   }
 
 
+  protected JPanel createInnerManipliatePanel() {
+    JPanel jplPanel = new JPanel();
+    jplPanel.setLayout(new BoxLayout(jplPanel, BoxLayout.Y_AXIS));
+    JTextArea jtaLOG = new JTextArea();
+
+
+    JLabel jlbDisplay = new JLabel("Index");
+    JPanel JPindex = new JPanel();
+    JPindex.setLayout(new FlowLayout());
+
+
+    JTextField jtfName = new JTextField();
+    jtfName.setPreferredSize(new Dimension(500, 25));
+    JButton createIndex = new JButton("Create Index");
+
+    createIndex.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent p0) {
+        try {
+          client.execute(new CreateIndex.Builder(jtfName.getText()).build());
+          jtaLOG.append("Create Index: " + jtfName.getText() + "\n");
+
+        } catch (IOException E) {
+          System.out.println("Ooops");
+          jtaLOG.append("Error in Create Index: " + jtfName.getText() + "\n");
+
+        }
+
+      }
+    });
+
+    JPindex.add(jtfName);
+    JPindex.add(createIndex);
+
+
+
+    JLabel jlbDisplay2 = new JLabel("JSON String");
+    JTextArea jtaJSON = new JTextArea();
+
+
+    JPanel buttons = new JPanel();
+
+    JButton create = new JButton("Create");
+    create.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent p0) {
+        System.out.println("press create button");
+        try {
+          String source = jtaJSON.getText();
+          Index index = new Index.Builder(source).index(jtfName.getText()).type("users").id("1").build();
+          client.execute(index);
+          System.out.println(source);
+          System.out.println(jtfName.getText());
+          jtaLOG.append("Create document: " + source + "\n");
+        } catch (IOException E) {
+          jtaLOG.append("Error in Create document!\n");
+
+        }
+      }
+    });
+
+
+
+
+
+    buttons.setLayout(new FlowLayout());
+    buttons.add(create);
+
+
+    JLabel jlbDisplay3 = new JLabel("Log");
+
+
+    JPanel buttom = new JPanel();
+    buttom.setLayout(new GridLayout(1, 2));
+
+
+
+
+
+    jplPanel.add(jlbDisplay);
+    jplPanel.add(JPindex);
+
+    jplPanel.add(jlbDisplay2);
+    jplPanel.add(jtaJSON);
+    jplPanel.add(buttons);
+    jplPanel.add(jlbDisplay3);
+    jplPanel.add(jtaLOG);
+    jplPanel.add(buttom);
+    return jplPanel;
+
+  }
   protected JPanel createInnerSearchPanel() {
 
     JPanel jplPanel = new JPanel();

@@ -114,8 +114,10 @@
     <classNode dependClassName="io.searchbox.client.JestClient" />
     <classNode dependClassName="io.searchbox.client.JestClientFactory" />
     <classNode dependClassName="io.searchbox.client.config.HttpClientConfig" />
+    <classNode dependClassName="io.searchbox.core.Index" />
     <classNode dependClassName="io.searchbox.core.Search" />
     <classNode dependClassName="io.searchbox.core.SearchResult" />
+    <classNode dependClassName="io.searchbox.indices.CreateIndex" />
     <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.FlowLayout" />
     <classNode dependClassName="java.awt.GridLayout" />
